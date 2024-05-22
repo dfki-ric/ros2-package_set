@@ -5964,3445 +5964,3445 @@ utilrb:
         '20.04': utilrb
 acado_vendor:
     ubuntu:
-        '20.04': ros-foxy-acado-vendor
+        '20.04': ros-galactic-acado-vendor
 ackermann_msgs:
     ubuntu:
-        '20.04': ros-foxy-ackermann-msgs
+        '20.04': ros-galactic-ackermann-msgs
 ament_cmake:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake
+        '20.04': ros-galactic-ament-cmake
 ament_cmake_auto:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-auto
+        '20.04': ros-galactic-ament-cmake-auto
 ament_cmake_core:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-core
+        '20.04': ros-galactic-ament-cmake-core
 ament_cmake_export_definitions:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-export-definitions
+        '20.04': ros-galactic-ament-cmake-export-definitions
 ament_cmake_export_dependencies:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-export-dependencies
+        '20.04': ros-galactic-ament-cmake-export-dependencies
 ament_cmake_export_include_directories:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-export-include-directories
+        '20.04': ros-galactic-ament-cmake-export-include-directories
 ament_cmake_export_interfaces:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-export-interfaces
+        '20.04': ros-galactic-ament-cmake-export-interfaces
 ament_cmake_export_libraries:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-export-libraries
+        '20.04': ros-galactic-ament-cmake-export-libraries
 ament_cmake_export_link_flags:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-export-link-flags
+        '20.04': ros-galactic-ament-cmake-export-link-flags
 ament_cmake_export_targets:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-export-targets
+        '20.04': ros-galactic-ament-cmake-export-targets
 ament_cmake_gmock:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-gmock
+        '20.04': ros-galactic-ament-cmake-gmock
 ament_cmake_google_benchmark:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-google-benchmark
+        '20.04': ros-galactic-ament-cmake-google-benchmark
 ament_cmake_gtest:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-gtest
+        '20.04': ros-galactic-ament-cmake-gtest
 ament_cmake_include_directories:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-include-directories
+        '20.04': ros-galactic-ament-cmake-include-directories
 ament_cmake_libraries:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-libraries
+        '20.04': ros-galactic-ament-cmake-libraries
 ament_cmake_nose:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-nose
+        '20.04': ros-galactic-ament-cmake-nose
 ament_cmake_pytest:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-pytest
+        '20.04': ros-galactic-ament-cmake-pytest
 ament_cmake_python:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-python
+        '20.04': ros-galactic-ament-cmake-python
 ament_cmake_target_dependencies:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-target-dependencies
+        '20.04': ros-galactic-ament-cmake-target-dependencies
 ament_cmake_test:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-test
+        '20.04': ros-galactic-ament-cmake-test
 ament_cmake_version:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-version
+        '20.04': ros-galactic-ament-cmake-version
 ament_cmake_catch2:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-catch2
+        '20.04': ros-galactic-ament-cmake-catch2
 ament_cmake_ros:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-ros
+        '20.04': ros-galactic-ament-cmake-ros
 domain_coordinator:
     ubuntu:
-        '20.04': ros-foxy-domain-coordinator
+        '20.04': ros-galactic-domain-coordinator
 ament_download:
     ubuntu:
-        '20.04': ros-foxy-ament-download
+        '20.04': ros-galactic-ament-download
 ament_index_cpp:
     ubuntu:
-        '20.04': ros-foxy-ament-index-cpp
+        '20.04': ros-galactic-ament-index-cpp
 ament_index_python:
     ubuntu:
-        '20.04': ros-foxy-ament-index-python
+        '20.04': ros-galactic-ament-index-python
 ament_clang_format:
     ubuntu:
-        '20.04': ros-foxy-ament-clang-format
+        '20.04': ros-galactic-ament-clang-format
 ament_clang_tidy:
     ubuntu:
-        '20.04': ros-foxy-ament-clang-tidy
+        '20.04': ros-galactic-ament-clang-tidy
 ament_cmake_clang_format:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-clang-format
+        '20.04': ros-galactic-ament-cmake-clang-format
 ament_cmake_clang_tidy:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-clang-tidy
+        '20.04': ros-galactic-ament-cmake-clang-tidy
 ament_cmake_copyright:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-copyright
+        '20.04': ros-galactic-ament-cmake-copyright
 ament_cmake_cppcheck:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-cppcheck
+        '20.04': ros-galactic-ament-cmake-cppcheck
 ament_cmake_cpplint:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-cpplint
+        '20.04': ros-galactic-ament-cmake-cpplint
 ament_cmake_flake8:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-flake8
+        '20.04': ros-galactic-ament-cmake-flake8
 ament_cmake_lint_cmake:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-lint-cmake
+        '20.04': ros-galactic-ament-cmake-lint-cmake
 ament_cmake_mypy:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-mypy
+        '20.04': ros-galactic-ament-cmake-mypy
 ament_cmake_pclint:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-pclint
+        '20.04': ros-galactic-ament-cmake-pclint
 ament_cmake_pep257:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-pep257
+        '20.04': ros-galactic-ament-cmake-pep257
 ament_cmake_pycodestyle:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-pycodestyle
+        '20.04': ros-galactic-ament-cmake-pycodestyle
 ament_cmake_pyflakes:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-pyflakes
+        '20.04': ros-galactic-ament-cmake-pyflakes
 ament_cmake_uncrustify:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-uncrustify
+        '20.04': ros-galactic-ament-cmake-uncrustify
 ament_cmake_xmllint:
     ubuntu:
-        '20.04': ros-foxy-ament-cmake-xmllint
+        '20.04': ros-galactic-ament-cmake-xmllint
 ament_copyright:
     ubuntu:
-        '20.04': ros-foxy-ament-copyright
+        '20.04': ros-galactic-ament-copyright
 ament_cppcheck:
     ubuntu:
-        '20.04': ros-foxy-ament-cppcheck
+        '20.04': ros-galactic-ament-cppcheck
 ament_cpplint:
     ubuntu:
-        '20.04': ros-foxy-ament-cpplint
+        '20.04': ros-galactic-ament-cpplint
 ament_flake8:
     ubuntu:
-        '20.04': ros-foxy-ament-flake8
+        '20.04': ros-galactic-ament-flake8
 ament_lint:
     ubuntu:
-        '20.04': ros-foxy-ament-lint
+        '20.04': ros-galactic-ament-lint
 ament_lint_auto:
     ubuntu:
-        '20.04': ros-foxy-ament-lint-auto
+        '20.04': ros-galactic-ament-lint-auto
 ament_lint_cmake:
     ubuntu:
-        '20.04': ros-foxy-ament-lint-cmake
+        '20.04': ros-galactic-ament-lint-cmake
 ament_lint_common:
     ubuntu:
-        '20.04': ros-foxy-ament-lint-common
+        '20.04': ros-galactic-ament-lint-common
 ament_mypy:
     ubuntu:
-        '20.04': ros-foxy-ament-mypy
+        '20.04': ros-galactic-ament-mypy
 ament_pclint:
     ubuntu:
-        '20.04': ros-foxy-ament-pclint
+        '20.04': ros-galactic-ament-pclint
 ament_pep257:
     ubuntu:
-        '20.04': ros-foxy-ament-pep257
+        '20.04': ros-galactic-ament-pep257
 ament_pycodestyle:
     ubuntu:
-        '20.04': ros-foxy-ament-pycodestyle
+        '20.04': ros-galactic-ament-pycodestyle
 ament_pyflakes:
     ubuntu:
-        '20.04': ros-foxy-ament-pyflakes
+        '20.04': ros-galactic-ament-pyflakes
 ament_uncrustify:
     ubuntu:
-        '20.04': ros-foxy-ament-uncrustify
+        '20.04': ros-galactic-ament-uncrustify
 ament_xmllint:
     ubuntu:
-        '20.04': ros-foxy-ament-xmllint
+        '20.04': ros-galactic-ament-xmllint
 ament_nodl:
     ubuntu:
-        '20.04': ros-foxy-ament-nodl
+        '20.04': ros-galactic-ament-nodl
 ament_package:
     ubuntu:
-        '20.04': ros-foxy-ament-package
+        '20.04': ros-galactic-ament-package
 angles:
     ubuntu:
-        '20.04': ros-foxy-angles
+        '20.04': ros-galactic-angles
 vrxperience_bridge:
     ubuntu:
-        '20.04': ros-foxy-vrxperience-bridge
+        '20.04': ros-galactic-vrxperience-bridge
 vrxperience_msgs:
     ubuntu:
-        '20.04': ros-foxy-vrxperience-msgs
+        '20.04': ros-galactic-vrxperience-msgs
 apex_containers:
     ubuntu:
-        '20.04': ros-foxy-apex-containers
+        '20.04': ros-galactic-apex-containers
 apex_test_tools:
     ubuntu:
-        '20.04': ros-foxy-apex-test-tools
+        '20.04': ros-galactic-apex-test-tools
 test_apex_test_tools:
     ubuntu:
-        '20.04': ros-foxy-test-apex-test-tools
+        '20.04': ros-galactic-test-apex-test-tools
 apriltag:
     ubuntu:
-        '20.04': ros-foxy-apriltag
+        '20.04': ros-galactic-apriltag
 aruco_opencv:
     ubuntu:
-        '20.04': ros-foxy-aruco-opencv
+        '20.04': ros-galactic-aruco-opencv
 aruco_opencv_msgs:
     ubuntu:
-        '20.04': ros-foxy-aruco-opencv-msgs
+        '20.04': ros-galactic-aruco-opencv-msgs
 delphi_esr_msgs:
     ubuntu:
-        '20.04': ros-foxy-delphi-esr-msgs
+        '20.04': ros-galactic-delphi-esr-msgs
 delphi_mrr_msgs:
     ubuntu:
-        '20.04': ros-foxy-delphi-mrr-msgs
+        '20.04': ros-galactic-delphi-mrr-msgs
 delphi_srr_msgs:
     ubuntu:
-        '20.04': ros-foxy-delphi-srr-msgs
+        '20.04': ros-galactic-delphi-srr-msgs
 derived_object_msgs:
     ubuntu:
-        '20.04': ros-foxy-derived-object-msgs
+        '20.04': ros-galactic-derived-object-msgs
 ibeo_msgs:
     ubuntu:
-        '20.04': ros-foxy-ibeo-msgs
+        '20.04': ros-galactic-ibeo-msgs
 kartech_linear_actuator_msgs:
     ubuntu:
-        '20.04': ros-foxy-kartech-linear-actuator-msgs
+        '20.04': ros-galactic-kartech-linear-actuator-msgs
 mobileye_560_660_msgs:
     ubuntu:
-        '20.04': ros-foxy-mobileye-560-660-msgs
+        '20.04': ros-galactic-mobileye-560-660-msgs
 neobotix_usboard_msgs:
     ubuntu:
-        '20.04': ros-foxy-neobotix-usboard-msgs
+        '20.04': ros-galactic-neobotix-usboard-msgs
 async_web_server_cpp:
     ubuntu:
-        '20.04': ros-foxy-async-web-server-cpp
+        '20.04': ros-galactic-async-web-server-cpp
 automotive_autonomy_msgs:
     ubuntu:
-        '20.04': ros-foxy-automotive-autonomy-msgs
+        '20.04': ros-galactic-automotive-autonomy-msgs
 automotive_navigation_msgs:
     ubuntu:
-        '20.04': ros-foxy-automotive-navigation-msgs
+        '20.04': ros-galactic-automotive-navigation-msgs
 automotive_platform_msgs:
     ubuntu:
-        '20.04': ros-foxy-automotive-platform-msgs
+        '20.04': ros-galactic-automotive-platform-msgs
 autoware_auto_msgs:
     ubuntu:
-        '20.04': ros-foxy-autoware-auto-msgs
+        '20.04': ros-galactic-autoware-auto-msgs
 avt_vimba_camera:
     ubuntu:
-        '20.04': ros-foxy-avt-vimba-camera
+        '20.04': ros-galactic-avt-vimba-camera
 aws_robomaker_small_warehouse_world:
     ubuntu:
-        '20.04': ros-foxy-aws-robomaker-small-warehouse-world
+        '20.04': ros-galactic-aws-robomaker-small-warehouse-world
 backward_ros:
     ubuntu:
-        '20.04': ros-foxy-backward-ros
+        '20.04': ros-galactic-backward-ros
 behaviortree_cpp_v3:
     ubuntu:
-        '20.04': ros-foxy-behaviortree-cpp-v3
+        '20.04': ros-galactic-behaviortree-cpp-v3
 bno055:
     ubuntu:
-        '20.04': ros-foxy-bno055
+        '20.04': ros-galactic-bno055
 bond:
     ubuntu:
-        '20.04': ros-foxy-bond
+        '20.04': ros-galactic-bond
 bond_core:
     ubuntu:
-        '20.04': ros-foxy-bond-core
+        '20.04': ros-galactic-bond-core
 bondcpp:
     ubuntu:
-        '20.04': ros-foxy-bondcpp
+        '20.04': ros-galactic-bondcpp
 smclib:
     ubuntu:
-        '20.04': ros-foxy-smclib
+        '20.04': ros-galactic-smclib
 test_bond:
     ubuntu:
-        '20.04': ros-foxy-test-bond
+        '20.04': ros-galactic-test-bond
 boost_geometry_util:
     ubuntu:
-        '20.04': ros-foxy-boost-geometry-util
+        '20.04': ros-galactic-boost-geometry-util
 carla_msgs:
     ubuntu:
-        '20.04': ros-foxy-carla-msgs
+        '20.04': ros-galactic-carla-msgs
 cartographer:
     ubuntu:
-        '20.04': ros-foxy-cartographer
+        '20.04': ros-galactic-cartographer
 cartographer_ros:
     ubuntu:
-        '20.04': ros-foxy-cartographer-ros
+        '20.04': ros-galactic-cartographer-ros
 cartographer_ros_msgs:
     ubuntu:
-        '20.04': ros-foxy-cartographer-ros-msgs
+        '20.04': ros-galactic-cartographer-ros-msgs
 casadi_vendor:
     ubuntu:
-        '20.04': ros-foxy-casadi-vendor
+        '20.04': ros-galactic-casadi-vendor
 cascade_lifecycle_msgs:
     ubuntu:
-        '20.04': ros-foxy-cascade-lifecycle-msgs
+        '20.04': ros-galactic-cascade-lifecycle-msgs
 rclcpp_cascade_lifecycle:
     ubuntu:
-        '20.04': ros-foxy-rclcpp-cascade-lifecycle
+        '20.04': ros-galactic-rclcpp-cascade-lifecycle
 class_loader:
     ubuntu:
-        '20.04': ros-foxy-class-loader
+        '20.04': ros-galactic-class-loader
 clober_bringup:
     ubuntu:
-        '20.04': ros-foxy-clober-bringup
+        '20.04': ros-galactic-clober-bringup
 clober_description:
     ubuntu:
-        '20.04': ros-foxy-clober-description
+        '20.04': ros-galactic-clober-description
 clober_navigation:
     ubuntu:
-        '20.04': ros-foxy-clober-navigation
+        '20.04': ros-galactic-clober-navigation
 clober_serial:
     ubuntu:
-        '20.04': ros-foxy-clober-serial
+        '20.04': ros-galactic-clober-serial
 clober_simulation:
     ubuntu:
-        '20.04': ros-foxy-clober-simulation
+        '20.04': ros-galactic-clober-simulation
 clober_slam:
     ubuntu:
-        '20.04': ros-foxy-clober-slam
+        '20.04': ros-galactic-clober-slam
 clober_msgs:
     ubuntu:
-        '20.04': ros-foxy-clober-msgs
+        '20.04': ros-galactic-clober-msgs
 clpe_ros:
     ubuntu:
-        '20.04': ros-foxy-clpe-ros
+        '20.04': ros-galactic-clpe-ros
 clpe_ros_msgs:
     ubuntu:
-        '20.04': ros-foxy-clpe-ros-msgs
+        '20.04': ros-galactic-clpe-ros-msgs
 clpe:
     ubuntu:
-        '20.04': ros-foxy-clpe
+        '20.04': ros-galactic-clpe
 color_names:
     ubuntu:
-        '20.04': ros-foxy-color-names
+        '20.04': ros-galactic-color-names
 color_util:
     ubuntu:
-        '20.04': ros-foxy-color-util
+        '20.04': ros-galactic-color-util
 actionlib_msgs:
     ubuntu:
-        '20.04': ros-foxy-actionlib-msgs
+        '20.04': ros-galactic-actionlib-msgs
 common_interfaces:
     ubuntu:
-        '20.04': ros-foxy-common-interfaces
+        '20.04': ros-galactic-common-interfaces
 diagnostic_msgs:
     ubuntu:
-        '20.04': ros-foxy-diagnostic-msgs
+        '20.04': ros-galactic-diagnostic-msgs
 geometry_msgs:
     ubuntu:
-        '20.04': ros-foxy-geometry-msgs
+        '20.04': ros-galactic-geometry-msgs
 nav_msgs:
     ubuntu:
-        '20.04': ros-foxy-nav-msgs
+        '20.04': ros-galactic-nav-msgs
 sensor_msgs:
     ubuntu:
-        '20.04': ros-foxy-sensor-msgs
+        '20.04': ros-galactic-sensor-msgs
 sensor_msgs_py:
     ubuntu:
-        '20.04': ros-foxy-sensor-msgs-py
+        '20.04': ros-galactic-sensor-msgs-py
 shape_msgs:
     ubuntu:
-        '20.04': ros-foxy-shape-msgs
+        '20.04': ros-galactic-shape-msgs
 std_msgs:
     ubuntu:
-        '20.04': ros-foxy-std-msgs
+        '20.04': ros-galactic-std-msgs
 std_srvs:
     ubuntu:
-        '20.04': ros-foxy-std-srvs
+        '20.04': ros-galactic-std-srvs
 stereo_msgs:
     ubuntu:
-        '20.04': ros-foxy-stereo-msgs
+        '20.04': ros-galactic-stereo-msgs
 trajectory_msgs:
     ubuntu:
-        '20.04': ros-foxy-trajectory-msgs
+        '20.04': ros-galactic-trajectory-msgs
 visualization_msgs:
     ubuntu:
-        '20.04': ros-foxy-visualization-msgs
+        '20.04': ros-galactic-visualization-msgs
 console_bridge_vendor:
     ubuntu:
-        '20.04': ros-foxy-console-bridge-vendor
+        '20.04': ros-galactic-console-bridge-vendor
 contracts_lite_vendor:
     ubuntu:
-        '20.04': ros-foxy-contracts-lite-vendor
+        '20.04': ros-galactic-contracts-lite-vendor
 control_box_rst:
     ubuntu:
-        '20.04': ros-foxy-control-box-rst
+        '20.04': ros-galactic-control-box-rst
 control_msgs:
     ubuntu:
-        '20.04': ros-foxy-control-msgs
+        '20.04': ros-galactic-control-msgs
 control_toolbox:
     ubuntu:
-        '20.04': ros-foxy-control-toolbox
+        '20.04': ros-galactic-control-toolbox
 crane_plus:
     ubuntu:
-        '20.04': ros-foxy-crane-plus
+        '20.04': ros-galactic-crane-plus
 crane_plus_control:
     ubuntu:
-        '20.04': ros-foxy-crane-plus-control
+        '20.04': ros-galactic-crane-plus-control
 crane_plus_description:
     ubuntu:
-        '20.04': ros-foxy-crane-plus-description
+        '20.04': ros-galactic-crane-plus-description
 crane_plus_examples:
     ubuntu:
-        '20.04': ros-foxy-crane-plus-examples
+        '20.04': ros-galactic-crane-plus-examples
 crane_plus_gazebo:
     ubuntu:
-        '20.04': ros-foxy-crane-plus-gazebo
+        '20.04': ros-galactic-crane-plus-gazebo
 crane_plus_ignition:
     ubuntu:
-        '20.04': ros-foxy-crane-plus-ignition
+        '20.04': ros-galactic-crane-plus-ignition
 crane_plus_moveit_config:
     ubuntu:
-        '20.04': ros-foxy-crane-plus-moveit-config
+        '20.04': ros-galactic-crane-plus-moveit-config
 create_bringup:
     ubuntu:
-        '20.04': ros-foxy-create-bringup
+        '20.04': ros-galactic-create-bringup
 create_description:
     ubuntu:
-        '20.04': ros-foxy-create-description
+        '20.04': ros-galactic-create-description
 create_driver:
     ubuntu:
-        '20.04': ros-foxy-create-driver
+        '20.04': ros-galactic-create-driver
 create_msgs:
     ubuntu:
-        '20.04': ros-foxy-create-msgs
+        '20.04': ros-galactic-create-msgs
 create_robot:
     ubuntu:
-        '20.04': ros-foxy-create-robot
+        '20.04': ros-galactic-create-robot
 cyclonedds:
     ubuntu:
-        '20.04': ros-foxy-cyclonedds
+        '20.04': ros-galactic-cyclonedds
 dataspeed_can:
     ubuntu:
-        '20.04': ros-foxy-dataspeed-can
+        '20.04': ros-galactic-dataspeed-can
 dataspeed_can_msg_filters:
     ubuntu:
-        '20.04': ros-foxy-dataspeed-can-msg-filters
+        '20.04': ros-galactic-dataspeed-can-msg-filters
 dataspeed_can_usb:
     ubuntu:
-        '20.04': ros-foxy-dataspeed-can-usb
+        '20.04': ros-galactic-dataspeed-can-usb
 dataspeed_dbw_common:
     ubuntu:
-        '20.04': ros-foxy-dataspeed-dbw-common
+        '20.04': ros-galactic-dataspeed-dbw-common
 dataspeed_dbw_gateway:
     ubuntu:
-        '20.04': ros-foxy-dataspeed-dbw-gateway
+        '20.04': ros-galactic-dataspeed-dbw-gateway
 dataspeed_dbw_msgs:
     ubuntu:
-        '20.04': ros-foxy-dataspeed-dbw-msgs
+        '20.04': ros-galactic-dataspeed-dbw-msgs
 dataspeed_ulc:
     ubuntu:
-        '20.04': ros-foxy-dataspeed-ulc
+        '20.04': ros-galactic-dataspeed-ulc
 dataspeed_ulc_can:
     ubuntu:
-        '20.04': ros-foxy-dataspeed-ulc-can
+        '20.04': ros-galactic-dataspeed-ulc-can
 dataspeed_ulc_msgs:
     ubuntu:
-        '20.04': ros-foxy-dataspeed-ulc-msgs
+        '20.04': ros-galactic-dataspeed-ulc-msgs
 dbw_fca:
     ubuntu:
-        '20.04': ros-foxy-dbw-fca
+        '20.04': ros-galactic-dbw-fca
 dbw_fca_can:
     ubuntu:
-        '20.04': ros-foxy-dbw-fca-can
+        '20.04': ros-galactic-dbw-fca-can
 dbw_fca_description:
     ubuntu:
-        '20.04': ros-foxy-dbw-fca-description
+        '20.04': ros-galactic-dbw-fca-description
 dbw_fca_joystick_demo:
     ubuntu:
-        '20.04': ros-foxy-dbw-fca-joystick-demo
+        '20.04': ros-galactic-dbw-fca-joystick-demo
 dbw_fca_msgs:
     ubuntu:
-        '20.04': ros-foxy-dbw-fca-msgs
+        '20.04': ros-galactic-dbw-fca-msgs
 dbw_ford:
     ubuntu:
-        '20.04': ros-foxy-dbw-ford
+        '20.04': ros-galactic-dbw-ford
 dbw_ford_can:
     ubuntu:
-        '20.04': ros-foxy-dbw-ford-can
+        '20.04': ros-galactic-dbw-ford-can
 dbw_ford_description:
     ubuntu:
-        '20.04': ros-foxy-dbw-ford-description
+        '20.04': ros-galactic-dbw-ford-description
 dbw_ford_joystick_demo:
     ubuntu:
-        '20.04': ros-foxy-dbw-ford-joystick-demo
+        '20.04': ros-galactic-dbw-ford-joystick-demo
 dbw_ford_msgs:
     ubuntu:
-        '20.04': ros-foxy-dbw-ford-msgs
+        '20.04': ros-galactic-dbw-ford-msgs
 dbw_polaris:
     ubuntu:
-        '20.04': ros-foxy-dbw-polaris
+        '20.04': ros-galactic-dbw-polaris
 dbw_polaris_can:
     ubuntu:
-        '20.04': ros-foxy-dbw-polaris-can
+        '20.04': ros-galactic-dbw-polaris-can
 dbw_polaris_description:
     ubuntu:
-        '20.04': ros-foxy-dbw-polaris-description
+        '20.04': ros-galactic-dbw-polaris-description
 dbw_polaris_joystick_demo:
     ubuntu:
-        '20.04': ros-foxy-dbw-polaris-joystick-demo
+        '20.04': ros-galactic-dbw-polaris-joystick-demo
 dbw_polaris_msgs:
     ubuntu:
-        '20.04': ros-foxy-dbw-polaris-msgs
+        '20.04': ros-galactic-dbw-polaris-msgs
 action_tutorials_cpp:
     ubuntu:
-        '20.04': ros-foxy-action-tutorials-cpp
+        '20.04': ros-galactic-action-tutorials-cpp
 action_tutorials_interfaces:
     ubuntu:
-        '20.04': ros-foxy-action-tutorials-interfaces
+        '20.04': ros-galactic-action-tutorials-interfaces
 action_tutorials_py:
     ubuntu:
-        '20.04': ros-foxy-action-tutorials-py
+        '20.04': ros-galactic-action-tutorials-py
 composition:
     ubuntu:
-        '20.04': ros-foxy-composition
+        '20.04': ros-galactic-composition
 demo_nodes_cpp:
     ubuntu:
-        '20.04': ros-foxy-demo-nodes-cpp
+        '20.04': ros-galactic-demo-nodes-cpp
 demo_nodes_cpp_native:
     ubuntu:
-        '20.04': ros-foxy-demo-nodes-cpp-native
+        '20.04': ros-galactic-demo-nodes-cpp-native
 demo_nodes_py:
     ubuntu:
-        '20.04': ros-foxy-demo-nodes-py
+        '20.04': ros-galactic-demo-nodes-py
 dummy_map_server:
     ubuntu:
-        '20.04': ros-foxy-dummy-map-server
+        '20.04': ros-galactic-dummy-map-server
 dummy_robot_bringup:
     ubuntu:
-        '20.04': ros-foxy-dummy-robot-bringup
+        '20.04': ros-galactic-dummy-robot-bringup
 dummy_sensors:
     ubuntu:
-        '20.04': ros-foxy-dummy-sensors
+        '20.04': ros-galactic-dummy-sensors
 image_tools:
     ubuntu:
-        '20.04': ros-foxy-image-tools
+        '20.04': ros-galactic-image-tools
 intra_process_demo:
     ubuntu:
-        '20.04': ros-foxy-intra-process-demo
+        '20.04': ros-galactic-intra-process-demo
 lifecycle:
     ubuntu:
-        '20.04': ros-foxy-lifecycle
+        '20.04': ros-galactic-lifecycle
 logging_demo:
     ubuntu:
-        '20.04': ros-foxy-logging-demo
+        '20.04': ros-galactic-logging-demo
 pendulum_control:
     ubuntu:
-        '20.04': ros-foxy-pendulum-control
+        '20.04': ros-galactic-pendulum-control
 pendulum_msgs:
     ubuntu:
-        '20.04': ros-foxy-pendulum-msgs
+        '20.04': ros-galactic-pendulum-msgs
 quality_of_service_demo_cpp:
     ubuntu:
-        '20.04': ros-foxy-quality-of-service-demo-cpp
+        '20.04': ros-galactic-quality-of-service-demo-cpp
 quality_of_service_demo_py:
     ubuntu:
-        '20.04': ros-foxy-quality-of-service-demo-py
+        '20.04': ros-galactic-quality-of-service-demo-py
 topic_monitor:
     ubuntu:
-        '20.04': ros-foxy-topic-monitor
+        '20.04': ros-galactic-topic-monitor
 depthai:
     ubuntu:
-        '20.04': ros-foxy-depthai
+        '20.04': ros-galactic-depthai
 depthai-ros:
     ubuntu:
-        '20.04': ros-foxy-depthai-ros
+        '20.04': ros-galactic-depthai-ros
 depthai_bridge:
     ubuntu:
-        '20.04': ros-foxy-depthai-bridge
+        '20.04': ros-galactic-depthai-bridge
 depthai_descriptions:
     ubuntu:
-        '20.04': ros-foxy-depthai-descriptions
+        '20.04': ros-galactic-depthai-descriptions
 depthai_examples:
     ubuntu:
-        '20.04': ros-foxy-depthai-examples
+        '20.04': ros-galactic-depthai-examples
 depthai_filters:
     ubuntu:
-        '20.04': ros-foxy-depthai-filters
+        '20.04': ros-galactic-depthai-filters
 depthai_ros_driver:
     ubuntu:
-        '20.04': ros-foxy-depthai-ros-driver
+        '20.04': ros-galactic-depthai-ros-driver
 depthai_ros_msgs:
     ubuntu:
-        '20.04': ros-foxy-depthai-ros-msgs
+        '20.04': ros-galactic-depthai-ros-msgs
 depthimage_to_laserscan:
     ubuntu:
-        '20.04': ros-foxy-depthimage-to-laserscan
+        '20.04': ros-galactic-depthimage-to-laserscan
 diagnostic_aggregator:
     ubuntu:
-        '20.04': ros-foxy-diagnostic-aggregator
+        '20.04': ros-galactic-diagnostic-aggregator
 diagnostic_common_diagnostics:
     ubuntu:
-        '20.04': ros-foxy-diagnostic-common-diagnostics
+        '20.04': ros-galactic-diagnostic-common-diagnostics
 diagnostic_updater:
     ubuntu:
-        '20.04': ros-foxy-diagnostic-updater
+        '20.04': ros-galactic-diagnostic-updater
 diagnostics:
     ubuntu:
-        '20.04': ros-foxy-diagnostics
+        '20.04': ros-galactic-diagnostics
 self_test:
     ubuntu:
-        '20.04': ros-foxy-self-test
+        '20.04': ros-galactic-self-test
 dolly:
     ubuntu:
-        '20.04': ros-foxy-dolly
+        '20.04': ros-galactic-dolly
 dolly_follow:
     ubuntu:
-        '20.04': ros-foxy-dolly-follow
+        '20.04': ros-galactic-dolly-follow
 dolly_gazebo:
     ubuntu:
-        '20.04': ros-foxy-dolly-gazebo
+        '20.04': ros-galactic-dolly-gazebo
 dolly_ignition:
     ubuntu:
-        '20.04': ros-foxy-dolly-ignition
+        '20.04': ros-galactic-dolly-ignition
 common2:
     ubuntu:
-        '20.04': ros-foxy-common2
+        '20.04': ros-galactic-common2
 dsr_control2:
     ubuntu:
-        '20.04': ros-foxy-dsr-control2
+        '20.04': ros-galactic-dsr-control2
 dsr_description2:
     ubuntu:
-        '20.04': ros-foxy-dsr-description2
+        '20.04': ros-galactic-dsr-description2
 dsr_example2_py:
     ubuntu:
-        '20.04': ros-foxy-dsr-example2-py
+        '20.04': ros-galactic-dsr-example2-py
 dsr_launcher2:
     ubuntu:
-        '20.04': ros-foxy-dsr-launcher2
+        '20.04': ros-galactic-dsr-launcher2
 dsr_msgs2:
     ubuntu:
-        '20.04': ros-foxy-dsr-msgs2
+        '20.04': ros-galactic-dsr-msgs2
 dynamic-graph:
     ubuntu:
-        '20.04': ros-foxy-dynamic-graph
+        '20.04': ros-galactic-dynamic-graph
 dynamixel_hardware_interface:
     ubuntu:
-        '20.04': ros-foxy-dynamixel-hardware-interface
+        '20.04': ros-galactic-dynamixel-hardware-interface
 dynamixel_sdk:
     ubuntu:
-        '20.04': ros-foxy-dynamixel-sdk
+        '20.04': ros-galactic-dynamixel-sdk
 dynamixel_sdk_custom_interfaces:
     ubuntu:
-        '20.04': ros-foxy-dynamixel-sdk-custom-interfaces
+        '20.04': ros-galactic-dynamixel-sdk-custom-interfaces
 dynamixel_sdk_examples:
     ubuntu:
-        '20.04': ros-foxy-dynamixel-sdk-examples
+        '20.04': ros-galactic-dynamixel-sdk-examples
 dynamixel_workbench:
     ubuntu:
-        '20.04': ros-foxy-dynamixel-workbench
+        '20.04': ros-galactic-dynamixel-workbench
 dynamixel_workbench_toolbox:
     ubuntu:
-        '20.04': ros-foxy-dynamixel-workbench-toolbox
+        '20.04': ros-galactic-dynamixel-workbench-toolbox
 dynamixel_workbench_msgs:
     ubuntu:
-        '20.04': ros-foxy-dynamixel-workbench-msgs
+        '20.04': ros-galactic-dynamixel-workbench-msgs
 ecl_command_line:
     ubuntu:
-        '20.04': ros-foxy-ecl-command-line
+        '20.04': ros-galactic-ecl-command-line
 ecl_concepts:
     ubuntu:
-        '20.04': ros-foxy-ecl-concepts
+        '20.04': ros-galactic-ecl-concepts
 ecl_containers:
     ubuntu:
-        '20.04': ros-foxy-ecl-containers
+        '20.04': ros-galactic-ecl-containers
 ecl_converters:
     ubuntu:
-        '20.04': ros-foxy-ecl-converters
+        '20.04': ros-galactic-ecl-converters
 ecl_core:
     ubuntu:
-        '20.04': ros-foxy-ecl-core
+        '20.04': ros-galactic-ecl-core
 ecl_core_apps:
     ubuntu:
-        '20.04': ros-foxy-ecl-core-apps
+        '20.04': ros-galactic-ecl-core-apps
 ecl_devices:
     ubuntu:
-        '20.04': ros-foxy-ecl-devices
+        '20.04': ros-galactic-ecl-devices
 ecl_eigen:
     ubuntu:
-        '20.04': ros-foxy-ecl-eigen
+        '20.04': ros-galactic-ecl-eigen
 ecl_exceptions:
     ubuntu:
-        '20.04': ros-foxy-ecl-exceptions
+        '20.04': ros-galactic-ecl-exceptions
 ecl_filesystem:
     ubuntu:
-        '20.04': ros-foxy-ecl-filesystem
+        '20.04': ros-galactic-ecl-filesystem
 ecl_formatters:
     ubuntu:
-        '20.04': ros-foxy-ecl-formatters
+        '20.04': ros-galactic-ecl-formatters
 ecl_geometry:
     ubuntu:
-        '20.04': ros-foxy-ecl-geometry
+        '20.04': ros-galactic-ecl-geometry
 ecl_ipc:
     ubuntu:
-        '20.04': ros-foxy-ecl-ipc
+        '20.04': ros-galactic-ecl-ipc
 ecl_linear_algebra:
     ubuntu:
-        '20.04': ros-foxy-ecl-linear-algebra
+        '20.04': ros-galactic-ecl-linear-algebra
 ecl_manipulators:
     ubuntu:
-        '20.04': ros-foxy-ecl-manipulators
+        '20.04': ros-galactic-ecl-manipulators
 ecl_math:
     ubuntu:
-        '20.04': ros-foxy-ecl-math
+        '20.04': ros-galactic-ecl-math
 ecl_mobile_robot:
     ubuntu:
-        '20.04': ros-foxy-ecl-mobile-robot
+        '20.04': ros-galactic-ecl-mobile-robot
 ecl_mpl:
     ubuntu:
-        '20.04': ros-foxy-ecl-mpl
+        '20.04': ros-galactic-ecl-mpl
 ecl_sigslots:
     ubuntu:
-        '20.04': ros-foxy-ecl-sigslots
+        '20.04': ros-galactic-ecl-sigslots
 ecl_statistics:
     ubuntu:
-        '20.04': ros-foxy-ecl-statistics
+        '20.04': ros-galactic-ecl-statistics
 ecl_streams:
     ubuntu:
-        '20.04': ros-foxy-ecl-streams
+        '20.04': ros-galactic-ecl-streams
 ecl_threads:
     ubuntu:
-        '20.04': ros-foxy-ecl-threads
+        '20.04': ros-galactic-ecl-threads
 ecl_time:
     ubuntu:
-        '20.04': ros-foxy-ecl-time
+        '20.04': ros-galactic-ecl-time
 ecl_type_traits:
     ubuntu:
-        '20.04': ros-foxy-ecl-type-traits
+        '20.04': ros-galactic-ecl-type-traits
 ecl_utilities:
     ubuntu:
-        '20.04': ros-foxy-ecl-utilities
+        '20.04': ros-galactic-ecl-utilities
 ecl_config:
     ubuntu:
-        '20.04': ros-foxy-ecl-config
+        '20.04': ros-galactic-ecl-config
 ecl_console:
     ubuntu:
-        '20.04': ros-foxy-ecl-console
+        '20.04': ros-galactic-ecl-console
 ecl_converters_lite:
     ubuntu:
-        '20.04': ros-foxy-ecl-converters-lite
+        '20.04': ros-galactic-ecl-converters-lite
 ecl_errors:
     ubuntu:
-        '20.04': ros-foxy-ecl-errors
+        '20.04': ros-galactic-ecl-errors
 ecl_io:
     ubuntu:
-        '20.04': ros-foxy-ecl-io
+        '20.04': ros-galactic-ecl-io
 ecl_lite:
     ubuntu:
-        '20.04': ros-foxy-ecl-lite
+        '20.04': ros-galactic-ecl-lite
 ecl_sigslots_lite:
     ubuntu:
-        '20.04': ros-foxy-ecl-sigslots-lite
+        '20.04': ros-galactic-ecl-sigslots-lite
 ecl_time_lite:
     ubuntu:
-        '20.04': ros-foxy-ecl-time-lite
+        '20.04': ros-galactic-ecl-time-lite
 ecl_build:
     ubuntu:
-        '20.04': ros-foxy-ecl-build
+        '20.04': ros-galactic-ecl-build
 ecl_license:
     ubuntu:
-        '20.04': ros-foxy-ecl-license
+        '20.04': ros-galactic-ecl-license
 ecl_tools:
     ubuntu:
-        '20.04': ros-foxy-ecl-tools
+        '20.04': ros-galactic-ecl-tools
 eigen3_cmake_module:
     ubuntu:
-        '20.04': ros-foxy-eigen3-cmake-module
+        '20.04': ros-galactic-eigen3-cmake-module
 eigen_stl_containers:
     ubuntu:
-        '20.04': ros-foxy-eigen-stl-containers
+        '20.04': ros-galactic-eigen-stl-containers
 eigenpy:
     ubuntu:
-        '20.04': ros-foxy-eigenpy
+        '20.04': ros-galactic-eigenpy
 eiquadprog:
     ubuntu:
-        '20.04': ros-foxy-eiquadprog
+        '20.04': ros-galactic-eiquadprog
 embree_vendor:
     ubuntu:
-        '20.04': ros-foxy-embree-vendor
+        '20.04': ros-galactic-embree-vendor
 end_effector:
     ubuntu:
-        '20.04': ros-foxy-end-effector
+        '20.04': ros-galactic-end-effector
 espeak_interfaces:
     ubuntu:
-        '20.04': ros-foxy-espeak-interfaces
+        '20.04': ros-galactic-espeak-interfaces
 espeak_ros:
     ubuntu:
-        '20.04': ros-foxy-espeak-ros
+        '20.04': ros-galactic-espeak-ros
 example_interfaces:
     ubuntu:
-        '20.04': ros-foxy-example-interfaces
+        '20.04': ros-galactic-example-interfaces
 examples_rclcpp_minimal_action_client:
     ubuntu:
-        '20.04': ros-foxy-examples-rclcpp-minimal-action-client
+        '20.04': ros-galactic-examples-rclcpp-minimal-action-client
 examples_rclcpp_minimal_action_server:
     ubuntu:
-        '20.04': ros-foxy-examples-rclcpp-minimal-action-server
+        '20.04': ros-galactic-examples-rclcpp-minimal-action-server
 examples_rclcpp_minimal_client:
     ubuntu:
-        '20.04': ros-foxy-examples-rclcpp-minimal-client
+        '20.04': ros-galactic-examples-rclcpp-minimal-client
 examples_rclcpp_minimal_composition:
     ubuntu:
-        '20.04': ros-foxy-examples-rclcpp-minimal-composition
+        '20.04': ros-galactic-examples-rclcpp-minimal-composition
 examples_rclcpp_minimal_publisher:
     ubuntu:
-        '20.04': ros-foxy-examples-rclcpp-minimal-publisher
+        '20.04': ros-galactic-examples-rclcpp-minimal-publisher
 examples_rclcpp_minimal_service:
     ubuntu:
-        '20.04': ros-foxy-examples-rclcpp-minimal-service
+        '20.04': ros-galactic-examples-rclcpp-minimal-service
 examples_rclcpp_minimal_subscriber:
     ubuntu:
-        '20.04': ros-foxy-examples-rclcpp-minimal-subscriber
+        '20.04': ros-galactic-examples-rclcpp-minimal-subscriber
 examples_rclcpp_minimal_timer:
     ubuntu:
-        '20.04': ros-foxy-examples-rclcpp-minimal-timer
+        '20.04': ros-galactic-examples-rclcpp-minimal-timer
 examples_rclcpp_multithreaded_executor:
     ubuntu:
-        '20.04': ros-foxy-examples-rclcpp-multithreaded-executor
+        '20.04': ros-galactic-examples-rclcpp-multithreaded-executor
 examples_rclpy_executors:
     ubuntu:
-        '20.04': ros-foxy-examples-rclpy-executors
+        '20.04': ros-galactic-examples-rclpy-executors
 examples_rclpy_minimal_action_client:
     ubuntu:
-        '20.04': ros-foxy-examples-rclpy-minimal-action-client
+        '20.04': ros-galactic-examples-rclpy-minimal-action-client
 examples_rclpy_minimal_action_server:
     ubuntu:
-        '20.04': ros-foxy-examples-rclpy-minimal-action-server
+        '20.04': ros-galactic-examples-rclpy-minimal-action-server
 examples_rclpy_minimal_client:
     ubuntu:
-        '20.04': ros-foxy-examples-rclpy-minimal-client
+        '20.04': ros-galactic-examples-rclpy-minimal-client
 examples_rclpy_minimal_publisher:
     ubuntu:
-        '20.04': ros-foxy-examples-rclpy-minimal-publisher
+        '20.04': ros-galactic-examples-rclpy-minimal-publisher
 examples_rclpy_minimal_service:
     ubuntu:
-        '20.04': ros-foxy-examples-rclpy-minimal-service
+        '20.04': ros-galactic-examples-rclpy-minimal-service
 examples_rclpy_minimal_subscriber:
     ubuntu:
-        '20.04': ros-foxy-examples-rclpy-minimal-subscriber
+        '20.04': ros-galactic-examples-rclpy-minimal-subscriber
 fastcdr:
     ubuntu:
-        '20.04': ros-foxy-fastcdr
+        '20.04': ros-galactic-fastcdr
 fastrtps:
     ubuntu:
-        '20.04': ros-foxy-fastrtps
+        '20.04': ros-galactic-fastrtps
 filters:
     ubuntu:
-        '20.04': ros-foxy-filters
+        '20.04': ros-galactic-filters
 find_object_2d:
     ubuntu:
-        '20.04': ros-foxy-find-object-2d
+        '20.04': ros-galactic-find-object-2d
 fluent_rviz:
     ubuntu:
-        '20.04': ros-foxy-fluent-rviz
+        '20.04': ros-galactic-fluent-rviz
 fmi_adapter:
     ubuntu:
-        '20.04': ros-foxy-fmi-adapter
+        '20.04': ros-galactic-fmi-adapter
 fmi_adapter_examples:
     ubuntu:
-        '20.04': ros-foxy-fmi-adapter-examples
+        '20.04': ros-galactic-fmi-adapter-examples
 fmilibrary_vendor:
     ubuntu:
-        '20.04': ros-foxy-fmilibrary-vendor
+        '20.04': ros-galactic-fmilibrary-vendor
 foonathan_memory_vendor:
     ubuntu:
-        '20.04': ros-foxy-foonathan-memory-vendor
+        '20.04': ros-galactic-foonathan-memory-vendor
 four_wheel_steering_msgs:
     ubuntu:
-        '20.04': ros-foxy-four-wheel-steering-msgs
+        '20.04': ros-galactic-four-wheel-steering-msgs
 foxglove_msgs:
     ubuntu:
-        '20.04': ros-foxy-foxglove-msgs
+        '20.04': ros-galactic-foxglove-msgs
 gazebo_ros2_control:
     ubuntu:
-        '20.04': ros-foxy-gazebo-ros2-control
+        '20.04': ros-galactic-gazebo-ros2-control
 gazebo_ros2_control_demos:
     ubuntu:
-        '20.04': ros-foxy-gazebo-ros2-control-demos
+        '20.04': ros-galactic-gazebo-ros2-control-demos
 gazebo_dev:
     ubuntu:
-        '20.04': ros-foxy-gazebo-dev
+        '20.04': ros-galactic-gazebo-dev
 gazebo_msgs:
     ubuntu:
-        '20.04': ros-foxy-gazebo-msgs
+        '20.04': ros-galactic-gazebo-msgs
 gazebo_plugins:
     ubuntu:
-        '20.04': ros-foxy-gazebo-plugins
+        '20.04': ros-galactic-gazebo-plugins
 gazebo_ros:
     ubuntu:
-        '20.04': ros-foxy-gazebo-ros
+        '20.04': ros-galactic-gazebo-ros
 gazebo_ros_pkgs:
     ubuntu:
-        '20.04': ros-foxy-gazebo-ros-pkgs
+        '20.04': ros-galactic-gazebo-ros-pkgs
 gc_spl_2022:
     ubuntu:
-        '20.04': ros-foxy-gc-spl-2022
+        '20.04': ros-galactic-gc-spl-2022
 rcgcd_spl_14:
     ubuntu:
-        '20.04': ros-foxy-rcgcd-spl-14
+        '20.04': ros-galactic-rcgcd-spl-14
 rcgcd_spl_14_conversion:
     ubuntu:
-        '20.04': ros-foxy-rcgcd-spl-14-conversion
+        '20.04': ros-galactic-rcgcd-spl-14-conversion
 rcgcrd_spl_4:
     ubuntu:
-        '20.04': ros-foxy-rcgcrd-spl-4
+        '20.04': ros-galactic-rcgcrd-spl-4
 rcgcrd_spl_4_conversion:
     ubuntu:
-        '20.04': ros-foxy-rcgcrd-spl-4-conversion
+        '20.04': ros-galactic-rcgcrd-spl-4-conversion
 geodesy:
     ubuntu:
-        '20.04': ros-foxy-geodesy
+        '20.04': ros-galactic-geodesy
 geographic_info:
     ubuntu:
-        '20.04': ros-foxy-geographic-info
+        '20.04': ros-galactic-geographic-info
 geographic_msgs:
     ubuntu:
-        '20.04': ros-foxy-geographic-msgs
+        '20.04': ros-galactic-geographic-msgs
 geometric_shapes:
     ubuntu:
-        '20.04': ros-foxy-geometric-shapes
+        '20.04': ros-galactic-geometric-shapes
 examples_tf2_py:
     ubuntu:
-        '20.04': ros-foxy-examples-tf2-py
+        '20.04': ros-galactic-examples-tf2-py
 geometry2:
     ubuntu:
-        '20.04': ros-foxy-geometry2
+        '20.04': ros-galactic-geometry2
 tf2:
     ubuntu:
-        '20.04': ros-foxy-tf2
+        '20.04': ros-galactic-tf2
 tf2_bullet:
     ubuntu:
-        '20.04': ros-foxy-tf2-bullet
+        '20.04': ros-galactic-tf2-bullet
 tf2_eigen:
     ubuntu:
-        '20.04': ros-foxy-tf2-eigen
+        '20.04': ros-galactic-tf2-eigen
 tf2_eigen_kdl:
     ubuntu:
-        '20.04': ros-foxy-tf2-eigen-kdl
+        '20.04': ros-galactic-tf2-eigen-kdl
 tf2_geometry_msgs:
     ubuntu:
-        '20.04': ros-foxy-tf2-geometry-msgs
+        '20.04': ros-galactic-tf2-geometry-msgs
 tf2_kdl:
     ubuntu:
-        '20.04': ros-foxy-tf2-kdl
+        '20.04': ros-galactic-tf2-kdl
 tf2_msgs:
     ubuntu:
-        '20.04': ros-foxy-tf2-msgs
+        '20.04': ros-galactic-tf2-msgs
 tf2_py:
     ubuntu:
-        '20.04': ros-foxy-tf2-py
+        '20.04': ros-galactic-tf2-py
 tf2_ros:
     ubuntu:
-        '20.04': ros-foxy-tf2-ros
+        '20.04': ros-galactic-tf2-ros
 tf2_sensor_msgs:
     ubuntu:
-        '20.04': ros-foxy-tf2-sensor-msgs
+        '20.04': ros-galactic-tf2-sensor-msgs
 tf2_tools:
     ubuntu:
-        '20.04': ros-foxy-tf2-tools
+        '20.04': ros-galactic-tf2-tools
 geometry_tutorials:
     ubuntu:
-        '20.04': ros-foxy-geometry-tutorials
+        '20.04': ros-galactic-geometry-tutorials
 turtle_tf2_cpp:
     ubuntu:
-        '20.04': ros-foxy-turtle-tf2-cpp
+        '20.04': ros-galactic-turtle-tf2-cpp
 turtle_tf2_py:
     ubuntu:
-        '20.04': ros-foxy-turtle-tf2-py
+        '20.04': ros-galactic-turtle-tf2-py
 google_benchmark_vendor:
     ubuntu:
-        '20.04': ros-foxy-google-benchmark-vendor
+        '20.04': ros-galactic-google-benchmark-vendor
 gmock_vendor:
     ubuntu:
-        '20.04': ros-foxy-gmock-vendor
+        '20.04': ros-galactic-gmock-vendor
 gtest_vendor:
     ubuntu:
-        '20.04': ros-foxy-gtest-vendor
+        '20.04': ros-galactic-gtest-vendor
 gps_msgs:
     ubuntu:
-        '20.04': ros-foxy-gps-msgs
+        '20.04': ros-galactic-gps-msgs
 gps_tools:
     ubuntu:
-        '20.04': ros-foxy-gps-tools
+        '20.04': ros-galactic-gps-tools
 gps_umd:
     ubuntu:
-        '20.04': ros-foxy-gps-umd
+        '20.04': ros-galactic-gps-umd
 gpsd_client:
     ubuntu:
-        '20.04': ros-foxy-gpsd-client
+        '20.04': ros-galactic-gpsd-client
 graph_msgs:
     ubuntu:
-        '20.04': ros-foxy-graph-msgs
+        '20.04': ros-galactic-graph-msgs
 grasping_msgs:
     ubuntu:
-        '20.04': ros-foxy-grasping-msgs
+        '20.04': ros-galactic-grasping-msgs
 grbl_msgs:
     ubuntu:
-        '20.04': ros-foxy-grbl-msgs
+        '20.04': ros-galactic-grbl-msgs
 grbl_ros:
     ubuntu:
-        '20.04': ros-foxy-grbl-ros
+        '20.04': ros-galactic-grbl-ros
 grepros:
     ubuntu:
-        '20.04': ros-foxy-grepros
+        '20.04': ros-galactic-grepros
 gscam:
     ubuntu:
-        '20.04': ros-foxy-gscam
+        '20.04': ros-galactic-gscam
 gtsam:
     ubuntu:
-        '20.04': ros-foxy-gtsam
+        '20.04': ros-galactic-gtsam
 hls_lfcd_lds_driver:
     ubuntu:
-        '20.04': ros-foxy-hls-lfcd-lds-driver
+        '20.04': ros-galactic-hls-lfcd-lds-driver
 hpp-fcl:
     ubuntu:
-        '20.04': ros-foxy-hpp-fcl
+        '20.04': ros-galactic-hpp-fcl
 husky_base:
     ubuntu:
-        '20.04': ros-foxy-husky-base
+        '20.04': ros-galactic-husky-base
 husky_bringup:
     ubuntu:
-        '20.04': ros-foxy-husky-bringup
+        '20.04': ros-galactic-husky-bringup
 husky_control:
     ubuntu:
-        '20.04': ros-foxy-husky-control
+        '20.04': ros-galactic-husky-control
 husky_description:
     ubuntu:
-        '20.04': ros-foxy-husky-description
+        '20.04': ros-galactic-husky-description
 husky_desktop:
     ubuntu:
-        '20.04': ros-foxy-husky-desktop
+        '20.04': ros-galactic-husky-desktop
 husky_gazebo:
     ubuntu:
-        '20.04': ros-foxy-husky-gazebo
+        '20.04': ros-galactic-husky-gazebo
 husky_msgs:
     ubuntu:
-        '20.04': ros-foxy-husky-msgs
+        '20.04': ros-galactic-husky-msgs
 husky_robot:
     ubuntu:
-        '20.04': ros-foxy-husky-robot
+        '20.04': ros-galactic-husky-robot
 husky_simulator:
     ubuntu:
-        '20.04': ros-foxy-husky-simulator
+        '20.04': ros-galactic-husky-simulator
 husky_viz:
     ubuntu:
-        '20.04': ros-foxy-husky-viz
+        '20.04': ros-galactic-husky-viz
 ifm3d_core:
     ubuntu:
-        '20.04': ros-foxy-ifm3d-core
+        '20.04': ros-galactic-ifm3d-core
 ifopt:
     ubuntu:
-        '20.04': ros-foxy-ifopt
+        '20.04': ros-galactic-ifopt
 ign_ros2_control:
     ubuntu:
-        '20.04': ros-foxy-ign-ros2-control
+        '20.04': ros-galactic-ign-ros2-control
 ign_ros2_control_demos:
     ubuntu:
-        '20.04': ros-foxy-ign-ros2-control-demos
+        '20.04': ros-galactic-ign-ros2-control-demos
 camera_calibration_parsers:
     ubuntu:
-        '20.04': ros-foxy-camera-calibration-parsers
+        '20.04': ros-galactic-camera-calibration-parsers
 camera_info_manager:
     ubuntu:
-        '20.04': ros-foxy-camera-info-manager
+        '20.04': ros-galactic-camera-info-manager
 image_common:
     ubuntu:
-        '20.04': ros-foxy-image-common
+        '20.04': ros-galactic-image-common
 image_transport:
     ubuntu:
-        '20.04': ros-foxy-image-transport
+        '20.04': ros-galactic-image-transport
 camera_calibration:
     ubuntu:
-        '20.04': ros-foxy-camera-calibration
+        '20.04': ros-galactic-camera-calibration
 depth_image_proc:
     ubuntu:
-        '20.04': ros-foxy-depth-image-proc
+        '20.04': ros-galactic-depth-image-proc
 image_pipeline:
     ubuntu:
-        '20.04': ros-foxy-image-pipeline
+        '20.04': ros-galactic-image-pipeline
 image_proc:
     ubuntu:
-        '20.04': ros-foxy-image-proc
+        '20.04': ros-galactic-image-proc
 image_publisher:
     ubuntu:
-        '20.04': ros-foxy-image-publisher
+        '20.04': ros-galactic-image-publisher
 image_rotate:
     ubuntu:
-        '20.04': ros-foxy-image-rotate
+        '20.04': ros-galactic-image-rotate
 image_view:
     ubuntu:
-        '20.04': ros-foxy-image-view
+        '20.04': ros-galactic-image-view
 stereo_image_proc:
     ubuntu:
-        '20.04': ros-foxy-stereo-image-proc
+        '20.04': ros-galactic-stereo-image-proc
 tracetools_image_pipeline:
     ubuntu:
-        '20.04': ros-foxy-tracetools-image-pipeline
+        '20.04': ros-galactic-tracetools-image-pipeline
 compressed_depth_image_transport:
     ubuntu:
-        '20.04': ros-foxy-compressed-depth-image-transport
+        '20.04': ros-galactic-compressed-depth-image-transport
 compressed_image_transport:
     ubuntu:
-        '20.04': ros-foxy-compressed-image-transport
+        '20.04': ros-galactic-compressed-image-transport
 image_transport_plugins:
     ubuntu:
-        '20.04': ros-foxy-image-transport-plugins
+        '20.04': ros-galactic-image-transport-plugins
 theora_image_transport:
     ubuntu:
-        '20.04': ros-foxy-theora-image-transport
+        '20.04': ros-galactic-theora-image-transport
 imu_complementary_filter:
     ubuntu:
-        '20.04': ros-foxy-imu-complementary-filter
+        '20.04': ros-galactic-imu-complementary-filter
 imu_filter_madgwick:
     ubuntu:
-        '20.04': ros-foxy-imu-filter-madgwick
+        '20.04': ros-galactic-imu-filter-madgwick
 imu_tools:
     ubuntu:
-        '20.04': ros-foxy-imu-tools
+        '20.04': ros-galactic-imu-tools
 rviz_imu_plugin:
     ubuntu:
-        '20.04': ros-foxy-rviz-imu-plugin
+        '20.04': ros-galactic-rviz-imu-plugin
 interactive_marker_twist_server:
     ubuntu:
-        '20.04': ros-foxy-interactive-marker-twist-server
+        '20.04': ros-galactic-interactive-marker-twist-server
 interactive_markers:
     ubuntu:
-        '20.04': ros-foxy-interactive-markers
+        '20.04': ros-galactic-interactive-markers
 jackal_control:
     ubuntu:
-        '20.04': ros-foxy-jackal-control
+        '20.04': ros-galactic-jackal-control
 jackal_description:
     ubuntu:
-        '20.04': ros-foxy-jackal-description
+        '20.04': ros-galactic-jackal-description
 jackal_msgs:
     ubuntu:
-        '20.04': ros-foxy-jackal-msgs
+        '20.04': ros-galactic-jackal-msgs
 jackal_navigation:
     ubuntu:
-        '20.04': ros-foxy-jackal-navigation
+        '20.04': ros-galactic-jackal-navigation
 jackal_gazebo:
     ubuntu:
-        '20.04': ros-foxy-jackal-gazebo
+        '20.04': ros-galactic-jackal-gazebo
 jackal_simulator:
     ubuntu:
-        '20.04': ros-foxy-jackal-simulator
+        '20.04': ros-galactic-jackal-simulator
 joint_state_publisher:
     ubuntu:
-        '20.04': ros-foxy-joint-state-publisher
+        '20.04': ros-galactic-joint-state-publisher
 joint_state_publisher_gui:
     ubuntu:
-        '20.04': ros-foxy-joint-state-publisher-gui
+        '20.04': ros-galactic-joint-state-publisher-gui
 joy_tester:
     ubuntu:
-        '20.04': ros-foxy-joy-tester
+        '20.04': ros-galactic-joy-tester
 joy:
     ubuntu:
-        '20.04': ros-foxy-joy
+        '20.04': ros-galactic-joy
 joy_linux:
     ubuntu:
-        '20.04': ros-foxy-joy-linux
+        '20.04': ros-galactic-joy-linux
 sdl2_vendor:
     ubuntu:
-        '20.04': ros-foxy-sdl2-vendor
+        '20.04': ros-galactic-sdl2-vendor
 spacenav:
     ubuntu:
-        '20.04': ros-foxy-spacenav
+        '20.04': ros-galactic-spacenav
 wiimote:
     ubuntu:
-        '20.04': ros-foxy-wiimote
+        '20.04': ros-galactic-wiimote
 wiimote_msgs:
     ubuntu:
-        '20.04': ros-foxy-wiimote-msgs
+        '20.04': ros-galactic-wiimote-msgs
 kdl_parser:
     ubuntu:
-        '20.04': ros-foxy-kdl-parser
+        '20.04': ros-galactic-kdl-parser
 kobuki_core:
     ubuntu:
-        '20.04': ros-foxy-kobuki-core
+        '20.04': ros-galactic-kobuki-core
 kobuki_firmware:
     ubuntu:
-        '20.04': ros-foxy-kobuki-firmware
+        '20.04': ros-galactic-kobuki-firmware
 kobuki_ftdi:
     ubuntu:
-        '20.04': ros-foxy-kobuki-ftdi
+        '20.04': ros-galactic-kobuki-ftdi
 kobuki_ros_interfaces:
     ubuntu:
-        '20.04': ros-foxy-kobuki-ros-interfaces
+        '20.04': ros-galactic-kobuki-ros-interfaces
 kobuki_velocity_smoother:
     ubuntu:
-        '20.04': ros-foxy-kobuki-velocity-smoother
+        '20.04': ros-galactic-kobuki-velocity-smoother
 lanelet2:
     ubuntu:
-        '20.04': ros-foxy-lanelet2
+        '20.04': ros-galactic-lanelet2
 lanelet2_core:
     ubuntu:
-        '20.04': ros-foxy-lanelet2-core
+        '20.04': ros-galactic-lanelet2-core
 lanelet2_examples:
     ubuntu:
-        '20.04': ros-foxy-lanelet2-examples
+        '20.04': ros-galactic-lanelet2-examples
 lanelet2_io:
     ubuntu:
-        '20.04': ros-foxy-lanelet2-io
+        '20.04': ros-galactic-lanelet2-io
 lanelet2_maps:
     ubuntu:
-        '20.04': ros-foxy-lanelet2-maps
+        '20.04': ros-galactic-lanelet2-maps
 lanelet2_matching:
     ubuntu:
-        '20.04': ros-foxy-lanelet2-matching
+        '20.04': ros-galactic-lanelet2-matching
 lanelet2_projection:
     ubuntu:
-        '20.04': ros-foxy-lanelet2-projection
+        '20.04': ros-galactic-lanelet2-projection
 lanelet2_python:
     ubuntu:
-        '20.04': ros-foxy-lanelet2-python
+        '20.04': ros-galactic-lanelet2-python
 lanelet2_routing:
     ubuntu:
-        '20.04': ros-foxy-lanelet2-routing
+        '20.04': ros-galactic-lanelet2-routing
 lanelet2_traffic_rules:
     ubuntu:
-        '20.04': ros-foxy-lanelet2-traffic-rules
+        '20.04': ros-galactic-lanelet2-traffic-rules
 lanelet2_validation:
     ubuntu:
-        '20.04': ros-foxy-lanelet2-validation
+        '20.04': ros-galactic-lanelet2-validation
 laser_filters:
     ubuntu:
-        '20.04': ros-foxy-laser-filters
+        '20.04': ros-galactic-laser-filters
 laser_geometry:
     ubuntu:
-        '20.04': ros-foxy-laser-geometry
+        '20.04': ros-galactic-laser-geometry
 laser_proc:
     ubuntu:
-        '20.04': ros-foxy-laser-proc
+        '20.04': ros-galactic-laser-proc
 launch:
     ubuntu:
-        '20.04': ros-foxy-launch
+        '20.04': ros-galactic-launch
 launch_testing:
     ubuntu:
-        '20.04': ros-foxy-launch-testing
+        '20.04': ros-galactic-launch-testing
 launch_testing_ament_cmake:
     ubuntu:
-        '20.04': ros-foxy-launch-testing-ament-cmake
+        '20.04': ros-galactic-launch-testing-ament-cmake
 launch_xml:
     ubuntu:
-        '20.04': ros-foxy-launch-xml
+        '20.04': ros-galactic-launch-xml
 launch_yaml:
     ubuntu:
-        '20.04': ros-foxy-launch-yaml
+        '20.04': ros-galactic-launch-yaml
 launch_pal:
     ubuntu:
-        '20.04': ros-foxy-launch-pal
+        '20.04': ros-galactic-launch-pal
 launch_param_builder:
     ubuntu:
-        '20.04': ros-foxy-launch-param-builder
+        '20.04': ros-galactic-launch-param-builder
 launch_ros:
     ubuntu:
-        '20.04': ros-foxy-launch-ros
+        '20.04': ros-galactic-launch-ros
 launch_testing_ros:
     ubuntu:
-        '20.04': ros-foxy-launch-testing-ros
+        '20.04': ros-galactic-launch-testing-ros
 ros2launch:
     ubuntu:
-        '20.04': ros-foxy-ros2launch
+        '20.04': ros-galactic-ros2launch
 leo:
     ubuntu:
-        '20.04': ros-foxy-leo
+        '20.04': ros-galactic-leo
 leo_description:
     ubuntu:
-        '20.04': ros-foxy-leo-description
+        '20.04': ros-galactic-leo-description
 leo_msgs:
     ubuntu:
-        '20.04': ros-foxy-leo-msgs
+        '20.04': ros-galactic-leo-msgs
 leo_teleop:
     ubuntu:
-        '20.04': ros-foxy-leo-teleop
+        '20.04': ros-galactic-leo-teleop
 leo_desktop:
     ubuntu:
-        '20.04': ros-foxy-leo-desktop
+        '20.04': ros-galactic-leo-desktop
 leo_viz:
     ubuntu:
-        '20.04': ros-foxy-leo-viz
+        '20.04': ros-galactic-leo-viz
 lgsvl_msgs:
     ubuntu:
-        '20.04': ros-foxy-lgsvl-msgs
+        '20.04': ros-galactic-lgsvl-msgs
 libcreate:
     ubuntu:
-        '20.04': ros-foxy-libcreate
+        '20.04': ros-galactic-libcreate
 libfranka:
     ubuntu:
-        '20.04': ros-foxy-libfranka
+        '20.04': ros-galactic-libfranka
 libg2o:
     ubuntu:
-        '20.04': ros-foxy-libg2o
+        '20.04': ros-galactic-libg2o
 libnabo:
     ubuntu:
-        '20.04': ros-foxy-libnabo
+        '20.04': ros-galactic-libnabo
 libpointmatcher:
     ubuntu:
-        '20.04': ros-foxy-libpointmatcher
+        '20.04': ros-galactic-libpointmatcher
 librealsense2:
     ubuntu:
-        '20.04': ros-foxy-librealsense2
+        '20.04': ros-galactic-librealsense2
 libstatistics_collector:
     ubuntu:
-        '20.04': ros-foxy-libstatistics-collector
+        '20.04': ros-galactic-libstatistics-collector
 libyaml_vendor:
     ubuntu:
-        '20.04': ros-foxy-libyaml-vendor
+        '20.04': ros-galactic-libyaml-vendor
 bosch_locator_bridge:
     ubuntu:
-        '20.04': ros-foxy-bosch-locator-bridge
+        '20.04': ros-galactic-bosch-locator-bridge
 lsc_ros2_driver:
     ubuntu:
-        '20.04': ros-foxy-lsc-ros2-driver
+        '20.04': ros-galactic-lsc-ros2-driver
 lua_vendor:
     ubuntu:
-        '20.04': ros-foxy-lua-vendor
+        '20.04': ros-galactic-lua-vendor
 lusb:
     ubuntu:
-        '20.04': ros-foxy-lusb
+        '20.04': ros-galactic-lusb
 maliput:
     ubuntu:
-        '20.04': ros-foxy-maliput
+        '20.04': ros-galactic-maliput
 maliput_dragway:
     ubuntu:
-        '20.04': ros-foxy-maliput-dragway
+        '20.04': ros-galactic-maliput-dragway
 maliput_drake:
     ubuntu:
-        '20.04': ros-foxy-maliput-drake
+        '20.04': ros-galactic-maliput-drake
 maliput_full:
     ubuntu:
-        '20.04': ros-foxy-maliput-full
+        '20.04': ros-galactic-maliput-full
 maliput_integration:
     ubuntu:
-        '20.04': ros-foxy-maliput-integration
+        '20.04': ros-galactic-maliput-integration
 maliput_malidrive:
     ubuntu:
-        '20.04': ros-foxy-maliput-malidrive
+        '20.04': ros-galactic-maliput-malidrive
 maliput_multilane:
     ubuntu:
-        '20.04': ros-foxy-maliput-multilane
+        '20.04': ros-galactic-maliput-multilane
 maliput_object:
     ubuntu:
-        '20.04': ros-foxy-maliput-object
+        '20.04': ros-galactic-maliput-object
 maliput_object_py:
     ubuntu:
-        '20.04': ros-foxy-maliput-object-py
+        '20.04': ros-galactic-maliput-object-py
 maliput_osm:
     ubuntu:
-        '20.04': ros-foxy-maliput-osm
+        '20.04': ros-galactic-maliput-osm
 maliput_py:
     ubuntu:
-        '20.04': ros-foxy-maliput-py
+        '20.04': ros-galactic-maliput-py
 maliput_ros:
     ubuntu:
-        '20.04': ros-foxy-maliput-ros
+        '20.04': ros-galactic-maliput-ros
 maliput_ros_interfaces:
     ubuntu:
-        '20.04': ros-foxy-maliput-ros-interfaces
+        '20.04': ros-galactic-maliput-ros-interfaces
 maliput_ros_translation:
     ubuntu:
-        '20.04': ros-foxy-maliput-ros-translation
+        '20.04': ros-galactic-maliput-ros-translation
 maliput_sparse:
     ubuntu:
-        '20.04': ros-foxy-maliput-sparse
+        '20.04': ros-galactic-maliput-sparse
 maliput_viz:
     ubuntu:
-        '20.04': ros-foxy-maliput-viz
+        '20.04': ros-galactic-maliput-viz
 map_transformer:
     ubuntu:
-        '20.04': ros-foxy-map-transformer
+        '20.04': ros-galactic-map-transformer
 mapviz:
     ubuntu:
-        '20.04': ros-foxy-mapviz
+        '20.04': ros-galactic-mapviz
 mapviz_interfaces:
     ubuntu:
-        '20.04': ros-foxy-mapviz-interfaces
+        '20.04': ros-galactic-mapviz-interfaces
 mapviz_plugins:
     ubuntu:
-        '20.04': ros-foxy-mapviz-plugins
+        '20.04': ros-galactic-mapviz-plugins
 multires_image:
     ubuntu:
-        '20.04': ros-foxy-multires-image
+        '20.04': ros-galactic-multires-image
 tile_map:
     ubuntu:
-        '20.04': ros-foxy-tile-map
+        '20.04': ros-galactic-tile-map
 marker_msgs:
     ubuntu:
-        '20.04': ros-foxy-marker-msgs
+        '20.04': ros-galactic-marker-msgs
 swri_console_util:
     ubuntu:
-        '20.04': ros-foxy-swri-console-util
+        '20.04': ros-galactic-swri-console-util
 swri_dbw_interface:
     ubuntu:
-        '20.04': ros-foxy-swri-dbw-interface
+        '20.04': ros-galactic-swri-dbw-interface
 swri_geometry_util:
     ubuntu:
-        '20.04': ros-foxy-swri-geometry-util
+        '20.04': ros-galactic-swri-geometry-util
 swri_image_util:
     ubuntu:
-        '20.04': ros-foxy-swri-image-util
+        '20.04': ros-galactic-swri-image-util
 swri_math_util:
     ubuntu:
-        '20.04': ros-foxy-swri-math-util
+        '20.04': ros-galactic-swri-math-util
 swri_opencv_util:
     ubuntu:
-        '20.04': ros-foxy-swri-opencv-util
+        '20.04': ros-galactic-swri-opencv-util
 swri_prefix_tools:
     ubuntu:
-        '20.04': ros-foxy-swri-prefix-tools
+        '20.04': ros-galactic-swri-prefix-tools
 swri_roscpp:
     ubuntu:
-        '20.04': ros-foxy-swri-roscpp
+        '20.04': ros-galactic-swri-roscpp
 swri_route_util:
     ubuntu:
-        '20.04': ros-foxy-swri-route-util
+        '20.04': ros-galactic-swri-route-util
 swri_serial_util:
     ubuntu:
-        '20.04': ros-foxy-swri-serial-util
+        '20.04': ros-galactic-swri-serial-util
 swri_system_util:
     ubuntu:
-        '20.04': ros-foxy-swri-system-util
+        '20.04': ros-galactic-swri-system-util
 swri_transform_util:
     ubuntu:
-        '20.04': ros-foxy-swri-transform-util
+        '20.04': ros-galactic-swri-transform-util
 marti_can_msgs:
     ubuntu:
-        '20.04': ros-foxy-marti-can-msgs
+        '20.04': ros-galactic-marti-can-msgs
 marti_common_msgs:
     ubuntu:
-        '20.04': ros-foxy-marti-common-msgs
+        '20.04': ros-galactic-marti-common-msgs
 marti_dbw_msgs:
     ubuntu:
-        '20.04': ros-foxy-marti-dbw-msgs
+        '20.04': ros-galactic-marti-dbw-msgs
 marti_introspection_msgs:
     ubuntu:
-        '20.04': ros-foxy-marti-introspection-msgs
+        '20.04': ros-galactic-marti-introspection-msgs
 marti_nav_msgs:
     ubuntu:
-        '20.04': ros-foxy-marti-nav-msgs
+        '20.04': ros-galactic-marti-nav-msgs
 marti_perception_msgs:
     ubuntu:
-        '20.04': ros-foxy-marti-perception-msgs
+        '20.04': ros-galactic-marti-perception-msgs
 marti_sensor_msgs:
     ubuntu:
-        '20.04': ros-foxy-marti-sensor-msgs
+        '20.04': ros-galactic-marti-sensor-msgs
 marti_status_msgs:
     ubuntu:
-        '20.04': ros-foxy-marti-status-msgs
+        '20.04': ros-galactic-marti-status-msgs
 marti_visualization_msgs:
     ubuntu:
-        '20.04': ros-foxy-marti-visualization-msgs
+        '20.04': ros-galactic-marti-visualization-msgs
 mavlink:
     ubuntu:
-        '20.04': ros-foxy-mavlink
+        '20.04': ros-galactic-mavlink
 libmavconn:
     ubuntu:
-        '20.04': ros-foxy-libmavconn
+        '20.04': ros-galactic-libmavconn
 mavros:
     ubuntu:
-        '20.04': ros-foxy-mavros
+        '20.04': ros-galactic-mavros
 mavros_extras:
     ubuntu:
-        '20.04': ros-foxy-mavros-extras
+        '20.04': ros-galactic-mavros-extras
 mavros_msgs:
     ubuntu:
-        '20.04': ros-foxy-mavros-msgs
+        '20.04': ros-galactic-mavros-msgs
 menge_vendor:
     ubuntu:
-        '20.04': ros-foxy-menge-vendor
+        '20.04': ros-galactic-menge-vendor
 message_filters:
     ubuntu:
-        '20.04': ros-foxy-message-filters
+        '20.04': ros-galactic-message-filters
 micro_ros_diagnostic_bridge:
     ubuntu:
-        '20.04': ros-foxy-micro-ros-diagnostic-bridge
+        '20.04': ros-galactic-micro-ros-diagnostic-bridge
 micro_ros_diagnostic_msgs:
     ubuntu:
-        '20.04': ros-foxy-micro-ros-diagnostic-msgs
+        '20.04': ros-galactic-micro-ros-diagnostic-msgs
 micro_ros_msgs:
     ubuntu:
-        '20.04': ros-foxy-micro-ros-msgs
+        '20.04': ros-galactic-micro-ros-msgs
 microstrain_inertial_driver:
     ubuntu:
-        '20.04': ros-foxy-microstrain-inertial-driver
+        '20.04': ros-galactic-microstrain-inertial-driver
 microstrain_inertial_examples:
     ubuntu:
-        '20.04': ros-foxy-microstrain-inertial-examples
+        '20.04': ros-galactic-microstrain-inertial-examples
 microstrain_inertial_msgs:
     ubuntu:
-        '20.04': ros-foxy-microstrain-inertial-msgs
+        '20.04': ros-galactic-microstrain-inertial-msgs
 microstrain_inertial_rqt:
     ubuntu:
-        '20.04': ros-foxy-microstrain-inertial-rqt
+        '20.04': ros-galactic-microstrain-inertial-rqt
 mimick_vendor:
     ubuntu:
-        '20.04': ros-foxy-mimick-vendor
+        '20.04': ros-galactic-mimick-vendor
 mocap_msgs:
     ubuntu:
-        '20.04': ros-foxy-mocap-msgs
+        '20.04': ros-galactic-mocap-msgs
 chomp_motion_planner:
     ubuntu:
-        '20.04': ros-foxy-chomp-motion-planner
+        '20.04': ros-galactic-chomp-motion-planner
 moveit:
     ubuntu:
-        '20.04': ros-foxy-moveit
+        '20.04': ros-galactic-moveit
 moveit_chomp_optimizer_adapter:
     ubuntu:
-        '20.04': ros-foxy-moveit-chomp-optimizer-adapter
+        '20.04': ros-galactic-moveit-chomp-optimizer-adapter
 moveit_common:
     ubuntu:
-        '20.04': ros-foxy-moveit-common
+        '20.04': ros-galactic-moveit-common
 moveit_core:
     ubuntu:
-        '20.04': ros-foxy-moveit-core
+        '20.04': ros-galactic-moveit-core
 moveit_kinematics:
     ubuntu:
-        '20.04': ros-foxy-moveit-kinematics
+        '20.04': ros-galactic-moveit-kinematics
 moveit_planners:
     ubuntu:
-        '20.04': ros-foxy-moveit-planners
+        '20.04': ros-galactic-moveit-planners
 moveit_planners_chomp:
     ubuntu:
-        '20.04': ros-foxy-moveit-planners-chomp
+        '20.04': ros-galactic-moveit-planners-chomp
 moveit_planners_ompl:
     ubuntu:
-        '20.04': ros-foxy-moveit-planners-ompl
+        '20.04': ros-galactic-moveit-planners-ompl
 moveit_plugins:
     ubuntu:
-        '20.04': ros-foxy-moveit-plugins
+        '20.04': ros-galactic-moveit-plugins
 moveit_ros:
     ubuntu:
-        '20.04': ros-foxy-moveit-ros
+        '20.04': ros-galactic-moveit-ros
 moveit_ros_benchmarks:
     ubuntu:
-        '20.04': ros-foxy-moveit-ros-benchmarks
+        '20.04': ros-galactic-moveit-ros-benchmarks
 moveit_ros_move_group:
     ubuntu:
-        '20.04': ros-foxy-moveit-ros-move-group
+        '20.04': ros-galactic-moveit-ros-move-group
 moveit_ros_occupancy_map_monitor:
     ubuntu:
-        '20.04': ros-foxy-moveit-ros-occupancy-map-monitor
+        '20.04': ros-galactic-moveit-ros-occupancy-map-monitor
 moveit_ros_perception:
     ubuntu:
-        '20.04': ros-foxy-moveit-ros-perception
+        '20.04': ros-galactic-moveit-ros-perception
 moveit_ros_planning:
     ubuntu:
-        '20.04': ros-foxy-moveit-ros-planning
+        '20.04': ros-galactic-moveit-ros-planning
 moveit_ros_planning_interface:
     ubuntu:
-        '20.04': ros-foxy-moveit-ros-planning-interface
+        '20.04': ros-galactic-moveit-ros-planning-interface
 moveit_ros_robot_interaction:
     ubuntu:
-        '20.04': ros-foxy-moveit-ros-robot-interaction
+        '20.04': ros-galactic-moveit-ros-robot-interaction
 moveit_ros_visualization:
     ubuntu:
-        '20.04': ros-foxy-moveit-ros-visualization
+        '20.04': ros-galactic-moveit-ros-visualization
 moveit_ros_warehouse:
     ubuntu:
-        '20.04': ros-foxy-moveit-ros-warehouse
+        '20.04': ros-galactic-moveit-ros-warehouse
 moveit_runtime:
     ubuntu:
-        '20.04': ros-foxy-moveit-runtime
+        '20.04': ros-galactic-moveit-runtime
 moveit_servo:
     ubuntu:
-        '20.04': ros-foxy-moveit-servo
+        '20.04': ros-galactic-moveit-servo
 moveit_simple_controller_manager:
     ubuntu:
-        '20.04': ros-foxy-moveit-simple-controller-manager
+        '20.04': ros-galactic-moveit-simple-controller-manager
 run_move_group:
     ubuntu:
-        '20.04': ros-foxy-run-move-group
+        '20.04': ros-galactic-run-move-group
 run_moveit_cpp:
     ubuntu:
-        '20.04': ros-foxy-run-moveit-cpp
+        '20.04': ros-galactic-run-moveit-cpp
 run_ompl_constrained_planning:
     ubuntu:
-        '20.04': ros-foxy-run-ompl-constrained-planning
+        '20.04': ros-galactic-run-ompl-constrained-planning
 moveit_msgs:
     ubuntu:
-        '20.04': ros-foxy-moveit-msgs
+        '20.04': ros-galactic-moveit-msgs
 moveit_resources:
     ubuntu:
-        '20.04': ros-foxy-moveit-resources
+        '20.04': ros-galactic-moveit-resources
 moveit_resources_fanuc_description:
     ubuntu:
-        '20.04': ros-foxy-moveit-resources-fanuc-description
+        '20.04': ros-galactic-moveit-resources-fanuc-description
 moveit_resources_fanuc_moveit_config:
     ubuntu:
-        '20.04': ros-foxy-moveit-resources-fanuc-moveit-config
+        '20.04': ros-galactic-moveit-resources-fanuc-moveit-config
 moveit_resources_panda_description:
     ubuntu:
-        '20.04': ros-foxy-moveit-resources-panda-description
+        '20.04': ros-galactic-moveit-resources-panda-description
 moveit_resources_panda_moveit_config:
     ubuntu:
-        '20.04': ros-foxy-moveit-resources-panda-moveit-config
+        '20.04': ros-galactic-moveit-resources-panda-moveit-config
 moveit_resources_pr2_description:
     ubuntu:
-        '20.04': ros-foxy-moveit-resources-pr2-description
+        '20.04': ros-galactic-moveit-resources-pr2-description
 mppic:
     ubuntu:
-        '20.04': ros-foxy-mppic
+        '20.04': ros-galactic-mppic
 mrpt2:
     ubuntu:
-        '20.04': ros-foxy-mrpt2
+        '20.04': ros-galactic-mrpt2
 mrpt_msgs:
     ubuntu:
-        '20.04': ros-foxy-mrpt-msgs
+        '20.04': ros-galactic-mrpt-msgs
 mrt_cmake_modules:
     ubuntu:
-        '20.04': ros-foxy-mrt-cmake-modules
+        '20.04': ros-galactic-mrt-cmake-modules
 mvsim:
     ubuntu:
-        '20.04': ros-foxy-mvsim
+        '20.04': ros-galactic-mvsim
 naoqi_bridge_msgs:
     ubuntu:
-        '20.04': ros-foxy-naoqi-bridge-msgs
+        '20.04': ros-galactic-naoqi-bridge-msgs
 naoqi_driver:
     ubuntu:
-        '20.04': ros-foxy-naoqi-driver
+        '20.04': ros-galactic-naoqi-driver
 naoqi_libqi:
     ubuntu:
-        '20.04': ros-foxy-naoqi-libqi
+        '20.04': ros-galactic-naoqi-libqi
 naoqi_libqicore:
     ubuntu:
-        '20.04': ros-foxy-naoqi-libqicore
+        '20.04': ros-galactic-naoqi-libqicore
 costmap_queue:
     ubuntu:
-        '20.04': ros-foxy-costmap-queue
+        '20.04': ros-galactic-costmap-queue
 dwb_core:
     ubuntu:
-        '20.04': ros-foxy-dwb-core
+        '20.04': ros-galactic-dwb-core
 dwb_critics:
     ubuntu:
-        '20.04': ros-foxy-dwb-critics
+        '20.04': ros-galactic-dwb-critics
 dwb_msgs:
     ubuntu:
-        '20.04': ros-foxy-dwb-msgs
+        '20.04': ros-galactic-dwb-msgs
 dwb_plugins:
     ubuntu:
-        '20.04': ros-foxy-dwb-plugins
+        '20.04': ros-galactic-dwb-plugins
 nav2_amcl:
     ubuntu:
-        '20.04': ros-foxy-nav2-amcl
+        '20.04': ros-galactic-nav2-amcl
 nav2_behavior_tree:
     ubuntu:
-        '20.04': ros-foxy-nav2-behavior-tree
+        '20.04': ros-galactic-nav2-behavior-tree
 nav2_bringup:
     ubuntu:
-        '20.04': ros-foxy-nav2-bringup
+        '20.04': ros-galactic-nav2-bringup
 nav2_bt_navigator:
     ubuntu:
-        '20.04': ros-foxy-nav2-bt-navigator
+        '20.04': ros-galactic-nav2-bt-navigator
 nav2_common:
     ubuntu:
-        '20.04': ros-foxy-nav2-common
+        '20.04': ros-galactic-nav2-common
 nav2_controller:
     ubuntu:
-        '20.04': ros-foxy-nav2-controller
+        '20.04': ros-galactic-nav2-controller
 nav2_core:
     ubuntu:
-        '20.04': ros-foxy-nav2-core
+        '20.04': ros-galactic-nav2-core
 nav2_costmap_2d:
     ubuntu:
-        '20.04': ros-foxy-nav2-costmap-2d
+        '20.04': ros-galactic-nav2-costmap-2d
 nav2_dwb_controller:
     ubuntu:
-        '20.04': ros-foxy-nav2-dwb-controller
+        '20.04': ros-galactic-nav2-dwb-controller
 nav2_gazebo_spawner:
     ubuntu:
-        '20.04': ros-foxy-nav2-gazebo-spawner
+        '20.04': ros-galactic-nav2-gazebo-spawner
 nav2_lifecycle_manager:
     ubuntu:
-        '20.04': ros-foxy-nav2-lifecycle-manager
+        '20.04': ros-galactic-nav2-lifecycle-manager
 nav2_map_server:
     ubuntu:
-        '20.04': ros-foxy-nav2-map-server
+        '20.04': ros-galactic-nav2-map-server
 nav2_msgs:
     ubuntu:
-        '20.04': ros-foxy-nav2-msgs
+        '20.04': ros-galactic-nav2-msgs
 nav2_navfn_planner:
     ubuntu:
-        '20.04': ros-foxy-nav2-navfn-planner
+        '20.04': ros-galactic-nav2-navfn-planner
 nav2_planner:
     ubuntu:
-        '20.04': ros-foxy-nav2-planner
+        '20.04': ros-galactic-nav2-planner
 nav2_recoveries:
     ubuntu:
-        '20.04': ros-foxy-nav2-recoveries
+        '20.04': ros-galactic-nav2-recoveries
 nav2_regulated_pure_pursuit_controller:
     ubuntu:
-        '20.04': ros-foxy-nav2-regulated-pure-pursuit-controller
+        '20.04': ros-galactic-nav2-regulated-pure-pursuit-controller
 nav2_rviz_plugins:
     ubuntu:
-        '20.04': ros-foxy-nav2-rviz-plugins
+        '20.04': ros-galactic-nav2-rviz-plugins
 nav2_system_tests:
     ubuntu:
-        '20.04': ros-foxy-nav2-system-tests
+        '20.04': ros-galactic-nav2-system-tests
 nav2_util:
     ubuntu:
-        '20.04': ros-foxy-nav2-util
+        '20.04': ros-galactic-nav2-util
 nav2_voxel_grid:
     ubuntu:
-        '20.04': ros-foxy-nav2-voxel-grid
+        '20.04': ros-galactic-nav2-voxel-grid
 nav2_waypoint_follower:
     ubuntu:
-        '20.04': ros-foxy-nav2-waypoint-follower
+        '20.04': ros-galactic-nav2-waypoint-follower
 nav_2d_msgs:
     ubuntu:
-        '20.04': ros-foxy-nav-2d-msgs
+        '20.04': ros-galactic-nav-2d-msgs
 nav_2d_utils:
     ubuntu:
-        '20.04': ros-foxy-nav-2d-utils
+        '20.04': ros-galactic-nav-2d-utils
 navigation2:
     ubuntu:
-        '20.04': ros-foxy-navigation2
+        '20.04': ros-galactic-navigation2
 smac_planner:
     ubuntu:
-        '20.04': ros-foxy-smac-planner
+        '20.04': ros-galactic-smac-planner
 map_msgs:
     ubuntu:
-        '20.04': ros-foxy-map-msgs
+        '20.04': ros-galactic-map-msgs
 move_base_msgs:
     ubuntu:
-        '20.04': ros-foxy-move-base-msgs
+        '20.04': ros-galactic-move-base-msgs
 nerian_stereo:
     ubuntu:
-        '20.04': ros-foxy-nerian-stereo
+        '20.04': ros-galactic-nerian-stereo
 nmea_hardware_interface:
     ubuntu:
-        '20.04': ros-foxy-nmea-hardware-interface
+        '20.04': ros-galactic-nmea-hardware-interface
 nmea_msgs:
     ubuntu:
-        '20.04': ros-foxy-nmea-msgs
+        '20.04': ros-galactic-nmea-msgs
 nodl_python:
     ubuntu:
-        '20.04': ros-foxy-nodl-python
+        '20.04': ros-galactic-nodl-python
 ros2nodl:
     ubuntu:
-        '20.04': ros-foxy-ros2nodl
+        '20.04': ros-galactic-ros2nodl
 nonpersistent_voxel_layer:
     ubuntu:
-        '20.04': ros-foxy-nonpersistent-voxel-layer
+        '20.04': ros-galactic-nonpersistent-voxel-layer
 novatel_gps_driver:
     ubuntu:
-        '20.04': ros-foxy-novatel-gps-driver
+        '20.04': ros-galactic-novatel-gps-driver
 novatel_gps_msgs:
     ubuntu:
-        '20.04': ros-foxy-novatel-gps-msgs
+        '20.04': ros-galactic-novatel-gps-msgs
 ntpd_driver:
     ubuntu:
-        '20.04': ros-foxy-ntpd-driver
+        '20.04': ros-galactic-ntpd-driver
 ntrip_client:
     ubuntu:
-        '20.04': ros-foxy-ntrip-client
+        '20.04': ros-galactic-ntrip-client
 object_msgs:
     ubuntu:
-        '20.04': ros-foxy-object-msgs
+        '20.04': ros-galactic-object-msgs
 object_recognition_msgs:
     ubuntu:
-        '20.04': ros-foxy-object-recognition-msgs
+        '20.04': ros-galactic-object-recognition-msgs
 dynamic_edt_3d:
     ubuntu:
-        '20.04': ros-foxy-dynamic-edt-3d
+        '20.04': ros-galactic-dynamic-edt-3d
 octomap:
     ubuntu:
-        '20.04': ros-foxy-octomap
+        '20.04': ros-galactic-octomap
 octovis:
     ubuntu:
-        '20.04': ros-foxy-octovis
+        '20.04': ros-galactic-octovis
 octomap_mapping:
     ubuntu:
-        '20.04': ros-foxy-octomap-mapping
+        '20.04': ros-galactic-octomap-mapping
 octomap_server:
     ubuntu:
-        '20.04': ros-foxy-octomap-server
+        '20.04': ros-galactic-octomap-server
 octomap_msgs:
     ubuntu:
-        '20.04': ros-foxy-octomap-msgs
+        '20.04': ros-galactic-octomap-msgs
 octomap_ros:
     ubuntu:
-        '20.04': ros-foxy-octomap-ros
+        '20.04': ros-galactic-octomap-ros
 octomap_rviz_plugins:
     ubuntu:
-        '20.04': ros-foxy-octomap-rviz-plugins
+        '20.04': ros-galactic-octomap-rviz-plugins
 odom_to_tf_ros2:
     ubuntu:
-        '20.04': ros-foxy-odom-to-tf-ros2
+        '20.04': ros-galactic-odom-to-tf-ros2
 ompl:
     ubuntu:
-        '20.04': ros-foxy-ompl
+        '20.04': ros-galactic-ompl
 openzen_driver:
     ubuntu:
-        '20.04': ros-foxy-openzen-driver
+        '20.04': ros-galactic-openzen-driver
 oroca_rqt_command:
     ubuntu:
-        '20.04': ros-foxy-oroca-rqt-command
+        '20.04': ros-galactic-oroca-rqt-command
 orocos_kdl:
     ubuntu:
-        '20.04': ros-foxy-orocos-kdl
+        '20.04': ros-galactic-orocos-kdl
 osqp_vendor:
     ubuntu:
-        '20.04': ros-foxy-osqp-vendor
+        '20.04': ros-galactic-osqp-vendor
 osrf_pycommon:
     ubuntu:
-        '20.04': ros-foxy-osrf-pycommon
+        '20.04': ros-galactic-osrf-pycommon
 osrf_testing_tools_cpp:
     ubuntu:
-        '20.04': ros-foxy-osrf-testing-tools-cpp
+        '20.04': ros-galactic-osrf-testing-tools-cpp
 ouxt_common:
     ubuntu:
-        '20.04': ros-foxy-ouxt-common
+        '20.04': ros-galactic-ouxt-common
 ouxt_lint_common:
     ubuntu:
-        '20.04': ros-foxy-ouxt-lint-common
+        '20.04': ros-galactic-ouxt-lint-common
 paho-mqtt-c:
     ubuntu:
-        '20.04': ros-foxy-paho-mqtt-c
+        '20.04': ros-galactic-paho-mqtt-c
 pal_gazebo_worlds:
     ubuntu:
-        '20.04': ros-foxy-pal-gazebo-worlds
+        '20.04': ros-galactic-pal-gazebo-worlds
 pal_statistics:
     ubuntu:
-        '20.04': ros-foxy-pal-statistics
+        '20.04': ros-galactic-pal-statistics
 pal_statistics_msgs:
     ubuntu:
-        '20.04': ros-foxy-pal-statistics-msgs
+        '20.04': ros-galactic-pal-statistics-msgs
 pcl_msgs:
     ubuntu:
-        '20.04': ros-foxy-pcl-msgs
+        '20.04': ros-galactic-pcl-msgs
 pepper_meshes:
     ubuntu:
-        '20.04': ros-foxy-pepper-meshes
+        '20.04': ros-galactic-pepper-meshes
 pcl_conversions:
     ubuntu:
-        '20.04': ros-foxy-pcl-conversions
+        '20.04': ros-galactic-pcl-conversions
 pcl_ros:
     ubuntu:
-        '20.04': ros-foxy-pcl-ros
+        '20.04': ros-galactic-pcl-ros
 perception_pcl:
     ubuntu:
-        '20.04': ros-foxy-perception-pcl
+        '20.04': ros-galactic-perception-pcl
 performance_test:
     ubuntu:
-        '20.04': ros-foxy-performance-test
+        '20.04': ros-galactic-performance-test
 performance_test_fixture:
     ubuntu:
-        '20.04': ros-foxy-performance-test-fixture
+        '20.04': ros-galactic-performance-test-fixture
 libphidget22:
     ubuntu:
-        '20.04': ros-foxy-libphidget22
+        '20.04': ros-galactic-libphidget22
 phidgets_accelerometer:
     ubuntu:
-        '20.04': ros-foxy-phidgets-accelerometer
+        '20.04': ros-galactic-phidgets-accelerometer
 phidgets_analog_inputs:
     ubuntu:
-        '20.04': ros-foxy-phidgets-analog-inputs
+        '20.04': ros-galactic-phidgets-analog-inputs
 phidgets_api:
     ubuntu:
-        '20.04': ros-foxy-phidgets-api
+        '20.04': ros-galactic-phidgets-api
 phidgets_digital_inputs:
     ubuntu:
-        '20.04': ros-foxy-phidgets-digital-inputs
+        '20.04': ros-galactic-phidgets-digital-inputs
 phidgets_digital_outputs:
     ubuntu:
-        '20.04': ros-foxy-phidgets-digital-outputs
+        '20.04': ros-galactic-phidgets-digital-outputs
 phidgets_drivers:
     ubuntu:
-        '20.04': ros-foxy-phidgets-drivers
+        '20.04': ros-galactic-phidgets-drivers
 phidgets_gyroscope:
     ubuntu:
-        '20.04': ros-foxy-phidgets-gyroscope
+        '20.04': ros-galactic-phidgets-gyroscope
 phidgets_high_speed_encoder:
     ubuntu:
-        '20.04': ros-foxy-phidgets-high-speed-encoder
+        '20.04': ros-galactic-phidgets-high-speed-encoder
 phidgets_ik:
     ubuntu:
-        '20.04': ros-foxy-phidgets-ik
+        '20.04': ros-galactic-phidgets-ik
 phidgets_magnetometer:
     ubuntu:
-        '20.04': ros-foxy-phidgets-magnetometer
+        '20.04': ros-galactic-phidgets-magnetometer
 phidgets_motors:
     ubuntu:
-        '20.04': ros-foxy-phidgets-motors
+        '20.04': ros-galactic-phidgets-motors
 phidgets_msgs:
     ubuntu:
-        '20.04': ros-foxy-phidgets-msgs
+        '20.04': ros-galactic-phidgets-msgs
 phidgets_spatial:
     ubuntu:
-        '20.04': ros-foxy-phidgets-spatial
+        '20.04': ros-galactic-phidgets-spatial
 phidgets_temperature:
     ubuntu:
-        '20.04': ros-foxy-phidgets-temperature
+        '20.04': ros-galactic-phidgets-temperature
 picknik_ament_copyright:
     ubuntu:
-        '20.04': ros-foxy-picknik-ament-copyright
+        '20.04': ros-galactic-picknik-ament-copyright
 pinocchio:
     ubuntu:
-        '20.04': ros-foxy-pinocchio
+        '20.04': ros-galactic-pinocchio
 plotjuggler:
     ubuntu:
-        '20.04': ros-foxy-plotjuggler
+        '20.04': ros-galactic-plotjuggler
 plotjuggler_msgs:
     ubuntu:
-        '20.04': ros-foxy-plotjuggler-msgs
+        '20.04': ros-galactic-plotjuggler-msgs
 plotjuggler_ros:
     ubuntu:
-        '20.04': ros-foxy-plotjuggler-ros
+        '20.04': ros-galactic-plotjuggler-ros
 pluginlib:
     ubuntu:
-        '20.04': ros-foxy-pluginlib
+        '20.04': ros-galactic-pluginlib
 pmb2_2dnav:
     ubuntu:
-        '20.04': ros-foxy-pmb2-2dnav
+        '20.04': ros-galactic-pmb2-2dnav
 pmb2_maps:
     ubuntu:
-        '20.04': ros-foxy-pmb2-maps
+        '20.04': ros-galactic-pmb2-maps
 pmb2_navigation:
     ubuntu:
-        '20.04': ros-foxy-pmb2-navigation
+        '20.04': ros-galactic-pmb2-navigation
 pmb2_bringup:
     ubuntu:
-        '20.04': ros-foxy-pmb2-bringup
+        '20.04': ros-galactic-pmb2-bringup
 pmb2_controller_configuration:
     ubuntu:
-        '20.04': ros-foxy-pmb2-controller-configuration
+        '20.04': ros-galactic-pmb2-controller-configuration
 pmb2_description:
     ubuntu:
-        '20.04': ros-foxy-pmb2-description
+        '20.04': ros-galactic-pmb2-description
 pmb2_robot:
     ubuntu:
-        '20.04': ros-foxy-pmb2-robot
+        '20.04': ros-galactic-pmb2-robot
 pmb2_2dnav_gazebo:
     ubuntu:
-        '20.04': ros-foxy-pmb2-2dnav-gazebo
+        '20.04': ros-galactic-pmb2-2dnav-gazebo
 pmb2_gazebo:
     ubuntu:
-        '20.04': ros-foxy-pmb2-gazebo
+        '20.04': ros-galactic-pmb2-gazebo
 pmb2_simulation:
     ubuntu:
-        '20.04': ros-foxy-pmb2-simulation
+        '20.04': ros-galactic-pmb2-simulation
 point_cloud_msg_wrapper:
     ubuntu:
-        '20.04': ros-foxy-point-cloud-msg-wrapper
+        '20.04': ros-galactic-point-cloud-msg-wrapper
 pointcloud_to_laserscan:
     ubuntu:
-        '20.04': ros-foxy-pointcloud-to-laserscan
+        '20.04': ros-galactic-pointcloud-to-laserscan
 polygon_demos:
     ubuntu:
-        '20.04': ros-foxy-polygon-demos
+        '20.04': ros-galactic-polygon-demos
 polygon_msgs:
     ubuntu:
-        '20.04': ros-foxy-polygon-msgs
+        '20.04': ros-galactic-polygon-msgs
 polygon_rviz_plugins:
     ubuntu:
-        '20.04': ros-foxy-polygon-rviz-plugins
+        '20.04': ros-galactic-polygon-rviz-plugins
 polygon_utils:
     ubuntu:
-        '20.04': ros-foxy-polygon-utils
+        '20.04': ros-galactic-polygon-utils
 popf:
     ubuntu:
-        '20.04': ros-foxy-popf
+        '20.04': ros-galactic-popf
 pose_cov_ops:
     ubuntu:
-        '20.04': ros-foxy-pose-cov-ops
+        '20.04': ros-galactic-pose-cov-ops
 psen_scan_v2:
     ubuntu:
-        '20.04': ros-foxy-psen-scan-v2
+        '20.04': ros-galactic-psen-scan-v2
 py_trees:
     ubuntu:
-        '20.04': ros-foxy-py-trees
+        '20.04': ros-galactic-py-trees
 py_trees_js:
     ubuntu:
-        '20.04': ros-foxy-py-trees-js
+        '20.04': ros-galactic-py-trees-js
 py_trees_ros:
     ubuntu:
-        '20.04': ros-foxy-py-trees-ros
+        '20.04': ros-galactic-py-trees-ros
 py_trees_ros_interfaces:
     ubuntu:
-        '20.04': ros-foxy-py-trees-ros-interfaces
+        '20.04': ros-galactic-py-trees-ros-interfaces
 py_trees_ros_tutorials:
     ubuntu:
-        '20.04': ros-foxy-py-trees-ros-tutorials
+        '20.04': ros-galactic-py-trees-ros-tutorials
 py_trees_ros_viewer:
     ubuntu:
-        '20.04': ros-foxy-py-trees-ros-viewer
+        '20.04': ros-galactic-py-trees-ros-viewer
 pybind11_vendor:
     ubuntu:
-        '20.04': ros-foxy-pybind11-vendor
+        '20.04': ros-galactic-pybind11-vendor
 python_cmake_module:
     ubuntu:
-        '20.04': ros-foxy-python-cmake-module
+        '20.04': ros-galactic-python-cmake-module
 python_qt_binding:
     ubuntu:
-        '20.04': ros-foxy-python-qt-binding
+        '20.04': ros-galactic-python-qt-binding
 qpoases_vendor:
     ubuntu:
-        '20.04': ros-foxy-qpoases-vendor
+        '20.04': ros-galactic-qpoases-vendor
 qt_advanced_docking:
     ubuntu:
-        '20.04': ros-foxy-qt-advanced-docking
+        '20.04': ros-galactic-qt-advanced-docking
 qt_dotgraph:
     ubuntu:
-        '20.04': ros-foxy-qt-dotgraph
+        '20.04': ros-galactic-qt-dotgraph
 qt_gui:
     ubuntu:
-        '20.04': ros-foxy-qt-gui
+        '20.04': ros-galactic-qt-gui
 qt_gui_app:
     ubuntu:
-        '20.04': ros-foxy-qt-gui-app
+        '20.04': ros-galactic-qt-gui-app
 qt_gui_core:
     ubuntu:
-        '20.04': ros-foxy-qt-gui-core
+        '20.04': ros-galactic-qt-gui-core
 qt_gui_cpp:
     ubuntu:
-        '20.04': ros-foxy-qt-gui-cpp
+        '20.04': ros-galactic-qt-gui-cpp
 qt_gui_py_common:
     ubuntu:
-        '20.04': ros-foxy-qt-gui-py-common
+        '20.04': ros-galactic-qt-gui-py-common
 quaternion_operation:
     ubuntu:
-        '20.04': ros-foxy-quaternion-operation
+        '20.04': ros-galactic-quaternion-operation
 r2r_spl_7:
     ubuntu:
-        '20.04': ros-foxy-r2r-spl-7
+        '20.04': ros-galactic-r2r-spl-7
 splsm_7:
     ubuntu:
-        '20.04': ros-foxy-splsm-7
+        '20.04': ros-galactic-splsm-7
 splsm_7_conversion:
     ubuntu:
-        '20.04': ros-foxy-splsm-7-conversion
+        '20.04': ros-galactic-splsm-7-conversion
 radar_msgs:
     ubuntu:
-        '20.04': ros-foxy-radar-msgs
+        '20.04': ros-galactic-radar-msgs
 random_numbers:
     ubuntu:
-        '20.04': ros-foxy-random-numbers
+        '20.04': ros-galactic-random-numbers
 can_dbc_parser:
     ubuntu:
-        '20.04': ros-foxy-can-dbc-parser
+        '20.04': ros-galactic-can-dbc-parser
 raptor_dbw_can:
     ubuntu:
-        '20.04': ros-foxy-raptor-dbw-can
+        '20.04': ros-galactic-raptor-dbw-can
 raptor_dbw_joystick:
     ubuntu:
-        '20.04': ros-foxy-raptor-dbw-joystick
+        '20.04': ros-galactic-raptor-dbw-joystick
 raptor_dbw_msgs:
     ubuntu:
-        '20.04': ros-foxy-raptor-dbw-msgs
+        '20.04': ros-galactic-raptor-dbw-msgs
 raptor_pdu:
     ubuntu:
-        '20.04': ros-foxy-raptor-pdu
+        '20.04': ros-galactic-raptor-pdu
 raptor_pdu_msgs:
     ubuntu:
-        '20.04': ros-foxy-raptor-pdu-msgs
+        '20.04': ros-galactic-raptor-pdu-msgs
 raspimouse:
     ubuntu:
-        '20.04': ros-foxy-raspimouse
+        '20.04': ros-galactic-raspimouse
 raspimouse_msgs:
     ubuntu:
-        '20.04': ros-foxy-raspimouse-msgs
+        '20.04': ros-galactic-raspimouse-msgs
 raspimouse_description:
     ubuntu:
-        '20.04': ros-foxy-raspimouse-description
+        '20.04': ros-galactic-raspimouse-description
 raspimouse_ros2_examples:
     ubuntu:
-        '20.04': ros-foxy-raspimouse-ros2-examples
+        '20.04': ros-galactic-raspimouse-ros2-examples
 raspimouse_navigation:
     ubuntu:
-        '20.04': ros-foxy-raspimouse-navigation
+        '20.04': ros-galactic-raspimouse-navigation
 raspimouse_slam:
     ubuntu:
-        '20.04': ros-foxy-raspimouse-slam
+        '20.04': ros-galactic-raspimouse-slam
 raspimouse_slam_navigation:
     ubuntu:
-        '20.04': ros-foxy-raspimouse-slam-navigation
+        '20.04': ros-galactic-raspimouse-slam-navigation
 rc_common_msgs:
     ubuntu:
-        '20.04': ros-foxy-rc-common-msgs
+        '20.04': ros-galactic-rc-common-msgs
 rc_dynamics_api:
     ubuntu:
-        '20.04': ros-foxy-rc-dynamics-api
+        '20.04': ros-galactic-rc-dynamics-api
 rc_genicam_api:
     ubuntu:
-        '20.04': ros-foxy-rc-genicam-api
+        '20.04': ros-galactic-rc-genicam-api
 rc_genicam_driver:
     ubuntu:
-        '20.04': ros-foxy-rc-genicam-driver
+        '20.04': ros-galactic-rc-genicam-driver
 rc_reason_clients:
     ubuntu:
-        '20.04': ros-foxy-rc-reason-clients
+        '20.04': ros-galactic-rc-reason-clients
 rc_reason_msgs:
     ubuntu:
-        '20.04': ros-foxy-rc-reason-msgs
+        '20.04': ros-galactic-rc-reason-msgs
 rcdiscover:
     ubuntu:
-        '20.04': ros-foxy-rcdiscover
+        '20.04': ros-galactic-rcdiscover
 rcl:
     ubuntu:
-        '20.04': ros-foxy-rcl
+        '20.04': ros-galactic-rcl
 rcl_action:
     ubuntu:
-        '20.04': ros-foxy-rcl-action
+        '20.04': ros-galactic-rcl-action
 rcl_lifecycle:
     ubuntu:
-        '20.04': ros-foxy-rcl-lifecycle
+        '20.04': ros-galactic-rcl-lifecycle
 rcl_yaml_param_parser:
     ubuntu:
-        '20.04': ros-foxy-rcl-yaml-param-parser
+        '20.04': ros-galactic-rcl-yaml-param-parser
 action_msgs:
     ubuntu:
-        '20.04': ros-foxy-action-msgs
+        '20.04': ros-galactic-action-msgs
 builtin_interfaces:
     ubuntu:
-        '20.04': ros-foxy-builtin-interfaces
+        '20.04': ros-galactic-builtin-interfaces
 composition_interfaces:
     ubuntu:
-        '20.04': ros-foxy-composition-interfaces
+        '20.04': ros-galactic-composition-interfaces
 lifecycle_msgs:
     ubuntu:
-        '20.04': ros-foxy-lifecycle-msgs
+        '20.04': ros-galactic-lifecycle-msgs
 rcl_interfaces:
     ubuntu:
-        '20.04': ros-foxy-rcl-interfaces
+        '20.04': ros-galactic-rcl-interfaces
 rosgraph_msgs:
     ubuntu:
-        '20.04': ros-foxy-rosgraph-msgs
+        '20.04': ros-galactic-rosgraph-msgs
 statistics_msgs:
     ubuntu:
-        '20.04': ros-foxy-statistics-msgs
+        '20.04': ros-galactic-statistics-msgs
 test_msgs:
     ubuntu:
-        '20.04': ros-foxy-test-msgs
+        '20.04': ros-galactic-test-msgs
 rcl_logging_log4cxx:
     ubuntu:
-        '20.04': ros-foxy-rcl-logging-log4cxx
+        '20.04': ros-galactic-rcl-logging-log4cxx
 rcl_logging_noop:
     ubuntu:
-        '20.04': ros-foxy-rcl-logging-noop
+        '20.04': ros-galactic-rcl-logging-noop
 rcl_logging_spdlog:
     ubuntu:
-        '20.04': ros-foxy-rcl-logging-spdlog
+        '20.04': ros-galactic-rcl-logging-spdlog
 rclc:
     ubuntu:
-        '20.04': ros-foxy-rclc
+        '20.04': ros-galactic-rclc
 rclc_examples:
     ubuntu:
-        '20.04': ros-foxy-rclc-examples
+        '20.04': ros-galactic-rclc-examples
 rclc_lifecycle:
     ubuntu:
-        '20.04': ros-foxy-rclc-lifecycle
+        '20.04': ros-galactic-rclc-lifecycle
 rclc_parameter:
     ubuntu:
-        '20.04': ros-foxy-rclc-parameter
+        '20.04': ros-galactic-rclc-parameter
 rclcpp:
     ubuntu:
-        '20.04': ros-foxy-rclcpp
+        '20.04': ros-galactic-rclcpp
 rclcpp_action:
     ubuntu:
-        '20.04': ros-foxy-rclcpp-action
+        '20.04': ros-galactic-rclcpp-action
 rclcpp_components:
     ubuntu:
-        '20.04': ros-foxy-rclcpp-components
+        '20.04': ros-galactic-rclcpp-components
 rclcpp_lifecycle:
     ubuntu:
-        '20.04': ros-foxy-rclcpp-lifecycle
+        '20.04': ros-galactic-rclcpp-lifecycle
 rclpy:
     ubuntu:
-        '20.04': ros-foxy-rclpy
+        '20.04': ros-galactic-rclpy
 rcpputils:
     ubuntu:
-        '20.04': ros-foxy-rcpputils
+        '20.04': ros-galactic-rcpputils
 rcutils:
     ubuntu:
-        '20.04': ros-foxy-rcutils
+        '20.04': ros-galactic-rcutils
 realsense2_camera:
     ubuntu:
-        '20.04': ros-foxy-realsense2-camera
+        '20.04': ros-galactic-realsense2-camera
 realsense2_camera_msgs:
     ubuntu:
-        '20.04': ros-foxy-realsense2-camera-msgs
+        '20.04': ros-galactic-realsense2-camera-msgs
 realsense2_description:
     ubuntu:
-        '20.04': ros-foxy-realsense2-description
+        '20.04': ros-galactic-realsense2-description
 realsense_hardware_interface:
     ubuntu:
-        '20.04': ros-foxy-realsense-hardware-interface
+        '20.04': ros-galactic-realsense-hardware-interface
 rttest:
     ubuntu:
-        '20.04': ros-foxy-rttest
+        '20.04': ros-galactic-rttest
 tlsf_cpp:
     ubuntu:
-        '20.04': ros-foxy-tlsf-cpp
+        '20.04': ros-galactic-tlsf-cpp
 realtime_tools:
     ubuntu:
-        '20.04': ros-foxy-realtime-tools
+        '20.04': ros-galactic-realtime-tools
 libcurl_vendor:
     ubuntu:
-        '20.04': ros-foxy-libcurl-vendor
+        '20.04': ros-galactic-libcurl-vendor
 resource_retriever:
     ubuntu:
-        '20.04': ros-foxy-resource-retriever
+        '20.04': ros-galactic-resource-retriever
 rmf_battery:
     ubuntu:
-        '20.04': ros-foxy-rmf-battery
+        '20.04': ros-galactic-rmf-battery
 rmf_building_map_msgs:
     ubuntu:
-        '20.04': ros-foxy-rmf-building-map-msgs
+        '20.04': ros-galactic-rmf-building-map-msgs
 rmf_cmake_uncrustify:
     ubuntu:
-        '20.04': ros-foxy-rmf-cmake-uncrustify
+        '20.04': ros-galactic-rmf-cmake-uncrustify
 rmf_demos:
     ubuntu:
-        '20.04': ros-foxy-rmf-demos
+        '20.04': ros-galactic-rmf-demos
 rmf_demos_assets:
     ubuntu:
-        '20.04': ros-foxy-rmf-demos-assets
+        '20.04': ros-galactic-rmf-demos-assets
 rmf_demos_dashboard_resources:
     ubuntu:
-        '20.04': ros-foxy-rmf-demos-dashboard-resources
+        '20.04': ros-galactic-rmf-demos-dashboard-resources
 rmf_demos_gz:
     ubuntu:
-        '20.04': ros-foxy-rmf-demos-gz
+        '20.04': ros-galactic-rmf-demos-gz
 rmf_demos_ign:
     ubuntu:
-        '20.04': ros-foxy-rmf-demos-ign
+        '20.04': ros-galactic-rmf-demos-ign
 rmf_demos_maps:
     ubuntu:
-        '20.04': ros-foxy-rmf-demos-maps
+        '20.04': ros-galactic-rmf-demos-maps
 rmf_demos_panel:
     ubuntu:
-        '20.04': ros-foxy-rmf-demos-panel
+        '20.04': ros-galactic-rmf-demos-panel
 rmf_demos_tasks:
     ubuntu:
-        '20.04': ros-foxy-rmf-demos-tasks
+        '20.04': ros-galactic-rmf-demos-tasks
 rmf_charger_msgs:
     ubuntu:
-        '20.04': ros-foxy-rmf-charger-msgs
+        '20.04': ros-galactic-rmf-charger-msgs
 rmf_dispenser_msgs:
     ubuntu:
-        '20.04': ros-foxy-rmf-dispenser-msgs
+        '20.04': ros-galactic-rmf-dispenser-msgs
 rmf_door_msgs:
     ubuntu:
-        '20.04': ros-foxy-rmf-door-msgs
+        '20.04': ros-galactic-rmf-door-msgs
 rmf_fleet_msgs:
     ubuntu:
-        '20.04': ros-foxy-rmf-fleet-msgs
+        '20.04': ros-galactic-rmf-fleet-msgs
 rmf_ingestor_msgs:
     ubuntu:
-        '20.04': ros-foxy-rmf-ingestor-msgs
+        '20.04': ros-galactic-rmf-ingestor-msgs
 rmf_lift_msgs:
     ubuntu:
-        '20.04': ros-foxy-rmf-lift-msgs
+        '20.04': ros-galactic-rmf-lift-msgs
 rmf_task_msgs:
     ubuntu:
-        '20.04': ros-foxy-rmf-task-msgs
+        '20.04': ros-galactic-rmf-task-msgs
 rmf_traffic_msgs:
     ubuntu:
-        '20.04': ros-foxy-rmf-traffic-msgs
+        '20.04': ros-galactic-rmf-traffic-msgs
 rmf_workcell_msgs:
     ubuntu:
-        '20.04': ros-foxy-rmf-workcell-msgs
+        '20.04': ros-galactic-rmf-workcell-msgs
 rmf_fleet_adapter:
     ubuntu:
-        '20.04': ros-foxy-rmf-fleet-adapter
+        '20.04': ros-galactic-rmf-fleet-adapter
 rmf_fleet_adapter_python:
     ubuntu:
-        '20.04': ros-foxy-rmf-fleet-adapter-python
+        '20.04': ros-galactic-rmf-fleet-adapter-python
 rmf_task_ros2:
     ubuntu:
-        '20.04': ros-foxy-rmf-task-ros2
+        '20.04': ros-galactic-rmf-task-ros2
 rmf_traffic_ros2:
     ubuntu:
-        '20.04': ros-foxy-rmf-traffic-ros2
+        '20.04': ros-galactic-rmf-traffic-ros2
 rmf_building_sim_common:
     ubuntu:
-        '20.04': ros-foxy-rmf-building-sim-common
+        '20.04': ros-galactic-rmf-building-sim-common
 rmf_building_sim_gazebo_plugins:
     ubuntu:
-        '20.04': ros-foxy-rmf-building-sim-gazebo-plugins
+        '20.04': ros-galactic-rmf-building-sim-gazebo-plugins
 rmf_building_sim_ignition_plugins:
     ubuntu:
-        '20.04': ros-foxy-rmf-building-sim-ignition-plugins
+        '20.04': ros-galactic-rmf-building-sim-ignition-plugins
 rmf_robot_sim_common:
     ubuntu:
-        '20.04': ros-foxy-rmf-robot-sim-common
+        '20.04': ros-galactic-rmf-robot-sim-common
 rmf_robot_sim_gazebo_plugins:
     ubuntu:
-        '20.04': ros-foxy-rmf-robot-sim-gazebo-plugins
+        '20.04': ros-galactic-rmf-robot-sim-gazebo-plugins
 rmf_robot_sim_ignition_plugins:
     ubuntu:
-        '20.04': ros-foxy-rmf-robot-sim-ignition-plugins
+        '20.04': ros-galactic-rmf-robot-sim-ignition-plugins
 rmf_task:
     ubuntu:
-        '20.04': ros-foxy-rmf-task
+        '20.04': ros-galactic-rmf-task
 rmf_traffic:
     ubuntu:
-        '20.04': ros-foxy-rmf-traffic
+        '20.04': ros-galactic-rmf-traffic
 rmf_building_map_tools:
     ubuntu:
-        '20.04': ros-foxy-rmf-building-map-tools
+        '20.04': ros-galactic-rmf-building-map-tools
 rmf_traffic_editor:
     ubuntu:
-        '20.04': ros-foxy-rmf-traffic-editor
+        '20.04': ros-galactic-rmf-traffic-editor
 rmf_traffic_editor_assets:
     ubuntu:
-        '20.04': ros-foxy-rmf-traffic-editor-assets
+        '20.04': ros-galactic-rmf-traffic-editor-assets
 rmf_traffic_editor_test_maps:
     ubuntu:
-        '20.04': ros-foxy-rmf-traffic-editor-test-maps
+        '20.04': ros-galactic-rmf-traffic-editor-test-maps
 rmf_utils:
     ubuntu:
-        '20.04': ros-foxy-rmf-utils
+        '20.04': ros-galactic-rmf-utils
 rmf_visualization:
     ubuntu:
-        '20.04': ros-foxy-rmf-visualization
+        '20.04': ros-galactic-rmf-visualization
 rmf_visualization_building_systems:
     ubuntu:
-        '20.04': ros-foxy-rmf-visualization-building-systems
+        '20.04': ros-galactic-rmf-visualization-building-systems
 rmf_visualization_fleet_states:
     ubuntu:
-        '20.04': ros-foxy-rmf-visualization-fleet-states
+        '20.04': ros-galactic-rmf-visualization-fleet-states
 rmf_visualization_rviz2_plugins:
     ubuntu:
-        '20.04': ros-foxy-rmf-visualization-rviz2-plugins
+        '20.04': ros-galactic-rmf-visualization-rviz2-plugins
 rmf_visualization_schedule:
     ubuntu:
-        '20.04': ros-foxy-rmf-visualization-schedule
+        '20.04': ros-galactic-rmf-visualization-schedule
 rmf_visualization_msgs:
     ubuntu:
-        '20.04': ros-foxy-rmf-visualization-msgs
+        '20.04': ros-galactic-rmf-visualization-msgs
 rmw:
     ubuntu:
-        '20.04': ros-foxy-rmw
+        '20.04': ros-galactic-rmw
 rmw_implementation_cmake:
     ubuntu:
-        '20.04': ros-foxy-rmw-implementation-cmake
+        '20.04': ros-galactic-rmw-implementation-cmake
 rmw_connext_cpp:
     ubuntu:
-        '20.04': ros-foxy-rmw-connext-cpp
+        '20.04': ros-galactic-rmw-connext-cpp
 rmw_connext_shared_cpp:
     ubuntu:
-        '20.04': ros-foxy-rmw-connext-shared-cpp
+        '20.04': ros-galactic-rmw-connext-shared-cpp
 rmw_cyclonedds_cpp:
     ubuntu:
-        '20.04': ros-foxy-rmw-cyclonedds-cpp
+        '20.04': ros-galactic-rmw-cyclonedds-cpp
 rmw_dds_common:
     ubuntu:
-        '20.04': ros-foxy-rmw-dds-common
+        '20.04': ros-galactic-rmw-dds-common
 rmw_fastrtps_cpp:
     ubuntu:
-        '20.04': ros-foxy-rmw-fastrtps-cpp
+        '20.04': ros-galactic-rmw-fastrtps-cpp
 rmw_fastrtps_dynamic_cpp:
     ubuntu:
-        '20.04': ros-foxy-rmw-fastrtps-dynamic-cpp
+        '20.04': ros-galactic-rmw-fastrtps-dynamic-cpp
 rmw_fastrtps_shared_cpp:
     ubuntu:
-        '20.04': ros-foxy-rmw-fastrtps-shared-cpp
+        '20.04': ros-galactic-rmw-fastrtps-shared-cpp
 gurumdds_cmake_module:
     ubuntu:
-        '20.04': ros-foxy-gurumdds-cmake-module
+        '20.04': ros-galactic-gurumdds-cmake-module
 rmw_gurumdds_cpp:
     ubuntu:
-        '20.04': ros-foxy-rmw-gurumdds-cpp
+        '20.04': ros-galactic-rmw-gurumdds-cpp
 rmw_implementation:
     ubuntu:
-        '20.04': ros-foxy-rmw-implementation
+        '20.04': ros-galactic-rmw-implementation
 test_rmw_implementation:
     ubuntu:
-        '20.04': ros-foxy-test-rmw-implementation
+        '20.04': ros-galactic-test-rmw-implementation
 robot_controllers:
     ubuntu:
-        '20.04': ros-foxy-robot-controllers
+        '20.04': ros-galactic-robot-controllers
 robot_controllers_interface:
     ubuntu:
-        '20.04': ros-foxy-robot-controllers-interface
+        '20.04': ros-galactic-robot-controllers-interface
 robot_controllers_msgs:
     ubuntu:
-        '20.04': ros-foxy-robot-controllers-msgs
+        '20.04': ros-galactic-robot-controllers-msgs
 robot_localization:
     ubuntu:
-        '20.04': ros-foxy-robot-localization
+        '20.04': ros-galactic-robot-localization
 robot_state_publisher:
     ubuntu:
-        '20.04': ros-foxy-robot-state-publisher
+        '20.04': ros-galactic-robot-state-publisher
 robot_upstart:
     ubuntu:
-        '20.04': ros-foxy-robot-upstart
+        '20.04': ros-galactic-robot-upstart
 ros1_bridge:
     ubuntu:
-        '20.04': ros-foxy-ros1-bridge
+        '20.04': ros-galactic-ros1-bridge
 lgsvl_bridge:
     ubuntu:
-        '20.04': ros-foxy-lgsvl-bridge
+        '20.04': ros-galactic-lgsvl-bridge
 controller_interface:
     ubuntu:
-        '20.04': ros-foxy-controller-interface
+        '20.04': ros-galactic-controller-interface
 controller_manager:
     ubuntu:
-        '20.04': ros-foxy-controller-manager
+        '20.04': ros-galactic-controller-manager
 controller_manager_msgs:
     ubuntu:
-        '20.04': ros-foxy-controller-manager-msgs
+        '20.04': ros-galactic-controller-manager-msgs
 hardware_interface:
     ubuntu:
-        '20.04': ros-foxy-hardware-interface
+        '20.04': ros-galactic-hardware-interface
 ros2_control:
     ubuntu:
-        '20.04': ros-foxy-ros2-control
+        '20.04': ros-galactic-ros2-control
 ros2_control_test_assets:
     ubuntu:
-        '20.04': ros-foxy-ros2-control-test-assets
+        '20.04': ros-galactic-ros2-control-test-assets
 ros2controlcli:
     ubuntu:
-        '20.04': ros-foxy-ros2controlcli
+        '20.04': ros-galactic-ros2controlcli
 transmission_interface:
     ubuntu:
-        '20.04': ros-foxy-transmission-interface
+        '20.04': ros-galactic-transmission-interface
 diff_drive_controller:
     ubuntu:
-        '20.04': ros-foxy-diff-drive-controller
+        '20.04': ros-galactic-diff-drive-controller
 effort_controllers:
     ubuntu:
-        '20.04': ros-foxy-effort-controllers
+        '20.04': ros-galactic-effort-controllers
 force_torque_sensor_broadcaster:
     ubuntu:
-        '20.04': ros-foxy-force-torque-sensor-broadcaster
+        '20.04': ros-galactic-force-torque-sensor-broadcaster
 forward_command_controller:
     ubuntu:
-        '20.04': ros-foxy-forward-command-controller
+        '20.04': ros-galactic-forward-command-controller
 gripper_controllers:
     ubuntu:
-        '20.04': ros-foxy-gripper-controllers
+        '20.04': ros-galactic-gripper-controllers
 imu_sensor_broadcaster:
     ubuntu:
-        '20.04': ros-foxy-imu-sensor-broadcaster
+        '20.04': ros-galactic-imu-sensor-broadcaster
 joint_state_broadcaster:
     ubuntu:
-        '20.04': ros-foxy-joint-state-broadcaster
+        '20.04': ros-galactic-joint-state-broadcaster
 joint_state_controller:
     ubuntu:
-        '20.04': ros-foxy-joint-state-controller
+        '20.04': ros-galactic-joint-state-controller
 joint_trajectory_controller:
     ubuntu:
-        '20.04': ros-foxy-joint-trajectory-controller
+        '20.04': ros-galactic-joint-trajectory-controller
 position_controllers:
     ubuntu:
-        '20.04': ros-foxy-position-controllers
+        '20.04': ros-galactic-position-controllers
 ros2_controllers:
     ubuntu:
-        '20.04': ros-foxy-ros2-controllers
+        '20.04': ros-galactic-ros2-controllers
 tricycle_controller:
     ubuntu:
-        '20.04': ros-foxy-tricycle-controller
+        '20.04': ros-galactic-tricycle-controller
 velocity_controllers:
     ubuntu:
-        '20.04': ros-foxy-velocity-controllers
+        '20.04': ros-galactic-velocity-controllers
 realsense_examples:
     ubuntu:
-        '20.04': ros-foxy-realsense-examples
+        '20.04': ros-galactic-realsense-examples
 realsense_msgs:
     ubuntu:
-        '20.04': ros-foxy-realsense-msgs
+        '20.04': ros-galactic-realsense-msgs
 realsense_node:
     ubuntu:
-        '20.04': ros-foxy-realsense-node
+        '20.04': ros-galactic-realsense-node
 realsense_ros:
     ubuntu:
-        '20.04': ros-foxy-realsense-ros
+        '20.04': ros-galactic-realsense-ros
 ouster_msgs:
     ubuntu:
-        '20.04': ros-foxy-ouster-msgs
+        '20.04': ros-galactic-ouster-msgs
 ros2_ouster:
     ubuntu:
-        '20.04': ros-foxy-ros2-ouster
+        '20.04': ros-galactic-ros2-ouster
 plansys2_bringup:
     ubuntu:
-        '20.04': ros-foxy-plansys2-bringup
+        '20.04': ros-galactic-plansys2-bringup
 plansys2_bt_actions:
     ubuntu:
-        '20.04': ros-foxy-plansys2-bt-actions
+        '20.04': ros-galactic-plansys2-bt-actions
 plansys2_core:
     ubuntu:
-        '20.04': ros-foxy-plansys2-core
+        '20.04': ros-galactic-plansys2-core
 plansys2_domain_expert:
     ubuntu:
-        '20.04': ros-foxy-plansys2-domain-expert
+        '20.04': ros-galactic-plansys2-domain-expert
 plansys2_executor:
     ubuntu:
-        '20.04': ros-foxy-plansys2-executor
+        '20.04': ros-galactic-plansys2-executor
 plansys2_lifecycle_manager:
     ubuntu:
-        '20.04': ros-foxy-plansys2-lifecycle-manager
+        '20.04': ros-galactic-plansys2-lifecycle-manager
 plansys2_msgs:
     ubuntu:
-        '20.04': ros-foxy-plansys2-msgs
+        '20.04': ros-galactic-plansys2-msgs
 plansys2_pddl_parser:
     ubuntu:
-        '20.04': ros-foxy-plansys2-pddl-parser
+        '20.04': ros-galactic-plansys2-pddl-parser
 plansys2_planner:
     ubuntu:
-        '20.04': ros-foxy-plansys2-planner
+        '20.04': ros-galactic-plansys2-planner
 plansys2_popf_plan_solver:
     ubuntu:
-        '20.04': ros-foxy-plansys2-popf-plan-solver
+        '20.04': ros-galactic-plansys2-popf-plan-solver
 plansys2_problem_expert:
     ubuntu:
-        '20.04': ros-foxy-plansys2-problem-expert
+        '20.04': ros-galactic-plansys2-problem-expert
 plansys2_terminal:
     ubuntu:
-        '20.04': ros-foxy-plansys2-terminal
+        '20.04': ros-galactic-plansys2-terminal
 ros2_socketcan:
     ubuntu:
-        '20.04': ros-foxy-ros2-socketcan
+        '20.04': ros-galactic-ros2-socketcan
 ros2trace:
     ubuntu:
-        '20.04': ros-foxy-ros2trace
+        '20.04': ros-galactic-ros2trace
 tracetools:
     ubuntu:
-        '20.04': ros-foxy-tracetools
+        '20.04': ros-galactic-tracetools
 tracetools_launch:
     ubuntu:
-        '20.04': ros-foxy-tracetools-launch
+        '20.04': ros-galactic-tracetools-launch
 tracetools_read:
     ubuntu:
-        '20.04': ros-foxy-tracetools-read
+        '20.04': ros-galactic-tracetools-read
 tracetools_test:
     ubuntu:
-        '20.04': ros-foxy-tracetools-test
+        '20.04': ros-galactic-tracetools-test
 tracetools_trace:
     ubuntu:
-        '20.04': ros-foxy-tracetools-trace
+        '20.04': ros-galactic-tracetools-trace
 ros2action:
     ubuntu:
-        '20.04': ros-foxy-ros2action
+        '20.04': ros-galactic-ros2action
 ros2cli:
     ubuntu:
-        '20.04': ros-foxy-ros2cli
+        '20.04': ros-galactic-ros2cli
 ros2component:
     ubuntu:
-        '20.04': ros-foxy-ros2component
+        '20.04': ros-galactic-ros2component
 ros2doctor:
     ubuntu:
-        '20.04': ros-foxy-ros2doctor
+        '20.04': ros-galactic-ros2doctor
 ros2interface:
     ubuntu:
-        '20.04': ros-foxy-ros2interface
+        '20.04': ros-galactic-ros2interface
 ros2lifecycle:
     ubuntu:
-        '20.04': ros-foxy-ros2lifecycle
+        '20.04': ros-galactic-ros2lifecycle
 ros2lifecycle_test_fixtures:
     ubuntu:
-        '20.04': ros-foxy-ros2lifecycle-test-fixtures
+        '20.04': ros-galactic-ros2lifecycle-test-fixtures
 ros2multicast:
     ubuntu:
-        '20.04': ros-foxy-ros2multicast
+        '20.04': ros-galactic-ros2multicast
 ros2node:
     ubuntu:
-        '20.04': ros-foxy-ros2node
+        '20.04': ros-galactic-ros2node
 ros2param:
     ubuntu:
-        '20.04': ros-foxy-ros2param
+        '20.04': ros-galactic-ros2param
 ros2pkg:
     ubuntu:
-        '20.04': ros-foxy-ros2pkg
+        '20.04': ros-galactic-ros2pkg
 ros2run:
     ubuntu:
-        '20.04': ros-foxy-ros2run
+        '20.04': ros-galactic-ros2run
 ros2service:
     ubuntu:
-        '20.04': ros-foxy-ros2service
+        '20.04': ros-galactic-ros2service
 ros2topic:
     ubuntu:
-        '20.04': ros-foxy-ros2topic
+        '20.04': ros-galactic-ros2topic
 ros2cli_common_extensions:
     ubuntu:
-        '20.04': ros-foxy-ros2cli-common-extensions
+        '20.04': ros-galactic-ros2cli-common-extensions
 massrobotics_amr_sender:
     ubuntu:
-        '20.04': ros-foxy-massrobotics-amr-sender
+        '20.04': ros-galactic-massrobotics-amr-sender
 can_msgs:
     ubuntu:
-        '20.04': ros-foxy-can-msgs
+        '20.04': ros-galactic-can-msgs
 ros_environment:
     ubuntu:
-        '20.04': ros-foxy-ros-environment
+        '20.04': ros-galactic-ros-environment
 ros_ign:
     ubuntu:
-        '20.04': ros-foxy-ros-ign
+        '20.04': ros-galactic-ros-ign
 ros_ign_bridge:
     ubuntu:
-        '20.04': ros-foxy-ros-ign-bridge
+        '20.04': ros-galactic-ros-ign-bridge
 ros_ign_gazebo:
     ubuntu:
-        '20.04': ros-foxy-ros-ign-gazebo
+        '20.04': ros-galactic-ros-ign-gazebo
 ros_ign_gazebo_demos:
     ubuntu:
-        '20.04': ros-foxy-ros-ign-gazebo-demos
+        '20.04': ros-galactic-ros-ign-gazebo-demos
 ros_ign_image:
     ubuntu:
-        '20.04': ros-foxy-ros-ign-image
+        '20.04': ros-galactic-ros-ign-image
 ros_ign_interfaces:
     ubuntu:
-        '20.04': ros-foxy-ros-ign-interfaces
+        '20.04': ros-galactic-ros-ign-interfaces
 ros_industrial_cmake_boilerplate:
     ubuntu:
-        '20.04': ros-foxy-ros-industrial-cmake-boilerplate
+        '20.04': ros-galactic-ros-industrial-cmake-boilerplate
 ros2test:
     ubuntu:
-        '20.04': ros-foxy-ros2test
+        '20.04': ros-galactic-ros2test
 ros_testing:
     ubuntu:
-        '20.04': ros-foxy-ros-testing
+        '20.04': ros-galactic-ros-testing
 ros_workspace:
     ubuntu:
-        '20.04': ros-foxy-ros-workspace
+        '20.04': ros-galactic-ros-workspace
 rosauth:
     ubuntu:
-        '20.04': ros-foxy-rosauth
+        '20.04': ros-galactic-rosauth
 bag_recorder_nodes:
     ubuntu:
-        '20.04': ros-foxy-bag-recorder-nodes
+        '20.04': ros-galactic-bag-recorder-nodes
 ros2bag:
     ubuntu:
-        '20.04': ros-foxy-ros2bag
+        '20.04': ros-galactic-ros2bag
 rosbag2:
     ubuntu:
-        '20.04': ros-foxy-rosbag2
+        '20.04': ros-galactic-rosbag2
 rosbag2_compression:
     ubuntu:
-        '20.04': ros-foxy-rosbag2-compression
+        '20.04': ros-galactic-rosbag2-compression
 rosbag2_converter_default_plugins:
     ubuntu:
-        '20.04': ros-foxy-rosbag2-converter-default-plugins
+        '20.04': ros-galactic-rosbag2-converter-default-plugins
 rosbag2_cpp:
     ubuntu:
-        '20.04': ros-foxy-rosbag2-cpp
+        '20.04': ros-galactic-rosbag2-cpp
 rosbag2_storage:
     ubuntu:
-        '20.04': ros-foxy-rosbag2-storage
+        '20.04': ros-galactic-rosbag2-storage
 rosbag2_storage_default_plugins:
     ubuntu:
-        '20.04': ros-foxy-rosbag2-storage-default-plugins
+        '20.04': ros-galactic-rosbag2-storage-default-plugins
 rosbag2_test_common:
     ubuntu:
-        '20.04': ros-foxy-rosbag2-test-common
+        '20.04': ros-galactic-rosbag2-test-common
 rosbag2_tests:
     ubuntu:
-        '20.04': ros-foxy-rosbag2-tests
+        '20.04': ros-galactic-rosbag2-tests
 rosbag2_transport:
     ubuntu:
-        '20.04': ros-foxy-rosbag2-transport
+        '20.04': ros-galactic-rosbag2-transport
 shared_queues_vendor:
     ubuntu:
-        '20.04': ros-foxy-shared-queues-vendor
+        '20.04': ros-galactic-shared-queues-vendor
 sqlite3_vendor:
     ubuntu:
-        '20.04': ros-foxy-sqlite3-vendor
+        '20.04': ros-galactic-sqlite3-vendor
 zstd_vendor:
     ubuntu:
-        '20.04': ros-foxy-zstd-vendor
+        '20.04': ros-galactic-zstd-vendor
 ros1_rosbag_storage_vendor:
     ubuntu:
-        '20.04': ros-foxy-ros1-rosbag-storage-vendor
+        '20.04': ros-galactic-ros1-rosbag-storage-vendor
 rosbag2_bag_v2_plugins:
     ubuntu:
-        '20.04': ros-foxy-rosbag2-bag-v2-plugins
+        '20.04': ros-galactic-rosbag2-bag-v2-plugins
 mcap_vendor:
     ubuntu:
-        '20.04': ros-foxy-mcap-vendor
+        '20.04': ros-galactic-mcap-vendor
 rosbag2_storage_mcap:
     ubuntu:
-        '20.04': ros-foxy-rosbag2-storage-mcap
+        '20.04': ros-galactic-rosbag2-storage-mcap
 rosbag2_storage_mcap_testdata:
     ubuntu:
-        '20.04': ros-foxy-rosbag2-storage-mcap-testdata
+        '20.04': ros-galactic-rosbag2-storage-mcap-testdata
 rosapi:
     ubuntu:
-        '20.04': ros-foxy-rosapi
+        '20.04': ros-galactic-rosapi
 rosapi_msgs:
     ubuntu:
-        '20.04': ros-foxy-rosapi-msgs
+        '20.04': ros-galactic-rosapi-msgs
 rosbridge_library:
     ubuntu:
-        '20.04': ros-foxy-rosbridge-library
+        '20.04': ros-galactic-rosbridge-library
 rosbridge_msgs:
     ubuntu:
-        '20.04': ros-foxy-rosbridge-msgs
+        '20.04': ros-galactic-rosbridge-msgs
 rosbridge_server:
     ubuntu:
-        '20.04': ros-foxy-rosbridge-server
+        '20.04': ros-galactic-rosbridge-server
 rosbridge_suite:
     ubuntu:
-        '20.04': ros-foxy-rosbridge-suite
+        '20.04': ros-galactic-rosbridge-suite
 rosbridge_test_msgs:
     ubuntu:
-        '20.04': ros-foxy-rosbridge-test-msgs
+        '20.04': ros-galactic-rosbridge-test-msgs
 rosee_msg:
     ubuntu:
-        '20.04': ros-foxy-rosee-msg
+        '20.04': ros-galactic-rosee-msg
 rosidl_adapter:
     ubuntu:
-        '20.04': ros-foxy-rosidl-adapter
+        '20.04': ros-galactic-rosidl-adapter
 rosidl_cmake:
     ubuntu:
-        '20.04': ros-foxy-rosidl-cmake
+        '20.04': ros-galactic-rosidl-cmake
 rosidl_generator_c:
     ubuntu:
-        '20.04': ros-foxy-rosidl-generator-c
+        '20.04': ros-galactic-rosidl-generator-c
 rosidl_generator_cpp:
     ubuntu:
-        '20.04': ros-foxy-rosidl-generator-cpp
+        '20.04': ros-galactic-rosidl-generator-cpp
 rosidl_parser:
     ubuntu:
-        '20.04': ros-foxy-rosidl-parser
+        '20.04': ros-galactic-rosidl-parser
 rosidl_runtime_c:
     ubuntu:
-        '20.04': ros-foxy-rosidl-runtime-c
+        '20.04': ros-galactic-rosidl-runtime-c
 rosidl_runtime_cpp:
     ubuntu:
-        '20.04': ros-foxy-rosidl-runtime-cpp
+        '20.04': ros-galactic-rosidl-runtime-cpp
 rosidl_typesupport_interface:
     ubuntu:
-        '20.04': ros-foxy-rosidl-typesupport-interface
+        '20.04': ros-galactic-rosidl-typesupport-interface
 rosidl_typesupport_introspection_c:
     ubuntu:
-        '20.04': ros-foxy-rosidl-typesupport-introspection-c
+        '20.04': ros-galactic-rosidl-typesupport-introspection-c
 rosidl_typesupport_introspection_cpp:
     ubuntu:
-        '20.04': ros-foxy-rosidl-typesupport-introspection-cpp
+        '20.04': ros-galactic-rosidl-typesupport-introspection-cpp
 rosidl_generator_dds_idl:
     ubuntu:
-        '20.04': ros-foxy-rosidl-generator-dds-idl
+        '20.04': ros-galactic-rosidl-generator-dds-idl
 rosidl_default_generators:
     ubuntu:
-        '20.04': ros-foxy-rosidl-default-generators
+        '20.04': ros-galactic-rosidl-default-generators
 rosidl_default_runtime:
     ubuntu:
-        '20.04': ros-foxy-rosidl-default-runtime
+        '20.04': ros-galactic-rosidl-default-runtime
 rosidl_generator_py:
     ubuntu:
-        '20.04': ros-foxy-rosidl-generator-py
+        '20.04': ros-galactic-rosidl-generator-py
 rosidl_runtime_py:
     ubuntu:
-        '20.04': ros-foxy-rosidl-runtime-py
+        '20.04': ros-galactic-rosidl-runtime-py
 rosidl_typesupport_c:
     ubuntu:
-        '20.04': ros-foxy-rosidl-typesupport-c
+        '20.04': ros-galactic-rosidl-typesupport-c
 rosidl_typesupport_cpp:
     ubuntu:
-        '20.04': ros-foxy-rosidl-typesupport-cpp
+        '20.04': ros-galactic-rosidl-typesupport-cpp
 connext_cmake_module:
     ubuntu:
-        '20.04': ros-foxy-connext-cmake-module
+        '20.04': ros-galactic-connext-cmake-module
 rosidl_typesupport_connext_c:
     ubuntu:
-        '20.04': ros-foxy-rosidl-typesupport-connext-c
+        '20.04': ros-galactic-rosidl-typesupport-connext-c
 rosidl_typesupport_connext_cpp:
     ubuntu:
-        '20.04': ros-foxy-rosidl-typesupport-connext-cpp
+        '20.04': ros-galactic-rosidl-typesupport-connext-cpp
 fastrtps_cmake_module:
     ubuntu:
-        '20.04': ros-foxy-fastrtps-cmake-module
+        '20.04': ros-galactic-fastrtps-cmake-module
 rosidl_typesupport_fastrtps_c:
     ubuntu:
-        '20.04': ros-foxy-rosidl-typesupport-fastrtps-c
+        '20.04': ros-galactic-rosidl-typesupport-fastrtps-c
 rosidl_typesupport_fastrtps_cpp:
     ubuntu:
-        '20.04': ros-foxy-rosidl-typesupport-fastrtps-cpp
+        '20.04': ros-galactic-rosidl-typesupport-fastrtps-cpp
 rclpy_message_converter:
     ubuntu:
-        '20.04': ros-foxy-rclpy-message-converter
+        '20.04': ros-galactic-rclpy-message-converter
 rclpy_message_converter_msgs:
     ubuntu:
-        '20.04': ros-foxy-rclpy-message-converter-msgs
+        '20.04': ros-galactic-rclpy-message-converter-msgs
 rosxbeepy:
     ubuntu:
-        '20.04': ros-foxy-rosxbeepy
+        '20.04': ros-galactic-rosxbeepy
 rover_bringup:
     ubuntu:
-        '20.04': ros-foxy-rover-bringup
+        '20.04': ros-galactic-rover-bringup
 rover_description:
     ubuntu:
-        '20.04': ros-foxy-rover-description
+        '20.04': ros-galactic-rover-description
 rover_driver:
     ubuntu:
-        '20.04': ros-foxy-rover-driver
+        '20.04': ros-galactic-rover-driver
 rover_msgs:
     ubuntu:
-        '20.04': ros-foxy-rover-msgs
+        '20.04': ros-galactic-rover-msgs
 rover_navigation:
     ubuntu:
-        '20.04': ros-foxy-rover-navigation
+        '20.04': ros-galactic-rover-navigation
 rover_simulation:
     ubuntu:
-        '20.04': ros-foxy-rover-simulation
+        '20.04': ros-galactic-rover-simulation
 rover_teleop:
     ubuntu:
-        '20.04': ros-foxy-rover-teleop
+        '20.04': ros-galactic-rover-teleop
 roverrobotics_ros2:
     ubuntu:
-        '20.04': ros-foxy-roverrobotics-ros2
+        '20.04': ros-galactic-roverrobotics-ros2
 rplidar_ros:
     ubuntu:
-        '20.04': ros-foxy-rplidar-ros
+        '20.04': ros-galactic-rplidar-ros
 rpyutils:
     ubuntu:
-        '20.04': ros-foxy-rpyutils
+        '20.04': ros-galactic-rpyutils
 rqt:
     ubuntu:
-        '20.04': ros-foxy-rqt
+        '20.04': ros-galactic-rqt
 rqt_gui:
     ubuntu:
-        '20.04': ros-foxy-rqt-gui
+        '20.04': ros-galactic-rqt-gui
 rqt_gui_cpp:
     ubuntu:
-        '20.04': ros-foxy-rqt-gui-cpp
+        '20.04': ros-galactic-rqt-gui-cpp
 rqt_gui_py:
     ubuntu:
-        '20.04': ros-foxy-rqt-gui-py
+        '20.04': ros-galactic-rqt-gui-py
 rqt_py_common:
     ubuntu:
-        '20.04': ros-foxy-rqt-py-common
+        '20.04': ros-galactic-rqt-py-common
 rqt_action:
     ubuntu:
-        '20.04': ros-foxy-rqt-action
+        '20.04': ros-galactic-rqt-action
 rqt_common_plugins:
     ubuntu:
-        '20.04': ros-foxy-rqt-common-plugins
+        '20.04': ros-galactic-rqt-common-plugins
 rqt_console:
     ubuntu:
-        '20.04': ros-foxy-rqt-console
+        '20.04': ros-galactic-rqt-console
 rqt_graph:
     ubuntu:
-        '20.04': ros-foxy-rqt-graph
+        '20.04': ros-galactic-rqt-graph
 rqt_image_view:
     ubuntu:
-        '20.04': ros-foxy-rqt-image-view
+        '20.04': ros-galactic-rqt-image-view
 rqt_moveit:
     ubuntu:
-        '20.04': ros-foxy-rqt-moveit
+        '20.04': ros-galactic-rqt-moveit
 rqt_msg:
     ubuntu:
-        '20.04': ros-foxy-rqt-msg
+        '20.04': ros-galactic-rqt-msg
 rqt_plot:
     ubuntu:
-        '20.04': ros-foxy-rqt-plot
+        '20.04': ros-galactic-rqt-plot
 rqt_publisher:
     ubuntu:
-        '20.04': ros-foxy-rqt-publisher
+        '20.04': ros-galactic-rqt-publisher
 rqt_py_console:
     ubuntu:
-        '20.04': ros-foxy-rqt-py-console
+        '20.04': ros-galactic-rqt-py-console
 rqt_reconfigure:
     ubuntu:
-        '20.04': ros-foxy-rqt-reconfigure
+        '20.04': ros-galactic-rqt-reconfigure
 rqt_robot_dashboard:
     ubuntu:
-        '20.04': ros-foxy-rqt-robot-dashboard
+        '20.04': ros-galactic-rqt-robot-dashboard
 rqt_robot_monitor:
     ubuntu:
-        '20.04': ros-foxy-rqt-robot-monitor
+        '20.04': ros-galactic-rqt-robot-monitor
 rqt_robot_steering:
     ubuntu:
-        '20.04': ros-foxy-rqt-robot-steering
+        '20.04': ros-galactic-rqt-robot-steering
 rqt_runtime_monitor:
     ubuntu:
-        '20.04': ros-foxy-rqt-runtime-monitor
+        '20.04': ros-galactic-rqt-runtime-monitor
 rqt_service_caller:
     ubuntu:
-        '20.04': ros-foxy-rqt-service-caller
+        '20.04': ros-galactic-rqt-service-caller
 rqt_shell:
     ubuntu:
-        '20.04': ros-foxy-rqt-shell
+        '20.04': ros-galactic-rqt-shell
 rqt_srv:
     ubuntu:
-        '20.04': ros-foxy-rqt-srv
+        '20.04': ros-galactic-rqt-srv
 rqt_tf_tree:
     ubuntu:
-        '20.04': ros-foxy-rqt-tf-tree
+        '20.04': ros-galactic-rqt-tf-tree
 rqt_top:
     ubuntu:
-        '20.04': ros-foxy-rqt-top
+        '20.04': ros-galactic-rqt-top
 rqt_topic:
     ubuntu:
-        '20.04': ros-foxy-rqt-topic
+        '20.04': ros-galactic-rqt-topic
 rt_manipulators_cpp:
     ubuntu:
-        '20.04': ros-foxy-rt-manipulators-cpp
+        '20.04': ros-galactic-rt-manipulators-cpp
 rt_manipulators_examples:
     ubuntu:
-        '20.04': ros-foxy-rt-manipulators-examples
+        '20.04': ros-galactic-rt-manipulators-examples
 rt_usb_9axisimu_driver:
     ubuntu:
-        '20.04': ros-foxy-rt-usb-9axisimu-driver
+        '20.04': ros-galactic-rt-usb-9axisimu-driver
 rtabmap:
     ubuntu:
-        '20.04': ros-foxy-rtabmap
+        '20.04': ros-galactic-rtabmap
 rtabmap_conversions:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-conversions
+        '20.04': ros-galactic-rtabmap-conversions
 rtabmap_demos:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-demos
+        '20.04': ros-galactic-rtabmap-demos
 rtabmap_examples:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-examples
+        '20.04': ros-galactic-rtabmap-examples
 rtabmap_launch:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-launch
+        '20.04': ros-galactic-rtabmap-launch
 rtabmap_msgs:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-msgs
+        '20.04': ros-galactic-rtabmap-msgs
 rtabmap_odom:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-odom
+        '20.04': ros-galactic-rtabmap-odom
 rtabmap_python:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-python
+        '20.04': ros-galactic-rtabmap-python
 rtabmap_ros:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-ros
+        '20.04': ros-galactic-rtabmap-ros
 rtabmap_rviz_plugins:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-rviz-plugins
+        '20.04': ros-galactic-rtabmap-rviz-plugins
 rtabmap_slam:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-slam
+        '20.04': ros-galactic-rtabmap-slam
 rtabmap_sync:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-sync
+        '20.04': ros-galactic-rtabmap-sync
 rtabmap_util:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-util
+        '20.04': ros-galactic-rtabmap-util
 rtabmap_viz:
     ubuntu:
-        '20.04': ros-foxy-rtabmap-viz
+        '20.04': ros-galactic-rtabmap-viz
 rtcm_msgs:
     ubuntu:
-        '20.04': ros-foxy-rtcm-msgs
+        '20.04': ros-galactic-rtcm-msgs
 ruckig:
     ubuntu:
-        '20.04': ros-foxy-ruckig
+        '20.04': ros-galactic-ruckig
 rviz2:
     ubuntu:
-        '20.04': ros-foxy-rviz2
+        '20.04': ros-galactic-rviz2
 rviz_assimp_vendor:
     ubuntu:
-        '20.04': ros-foxy-rviz-assimp-vendor
+        '20.04': ros-galactic-rviz-assimp-vendor
 rviz_common:
     ubuntu:
-        '20.04': ros-foxy-rviz-common
+        '20.04': ros-galactic-rviz-common
 rviz_default_plugins:
     ubuntu:
-        '20.04': ros-foxy-rviz-default-plugins
+        '20.04': ros-galactic-rviz-default-plugins
 rviz_ogre_vendor:
     ubuntu:
-        '20.04': ros-foxy-rviz-ogre-vendor
+        '20.04': ros-galactic-rviz-ogre-vendor
 rviz_rendering:
     ubuntu:
-        '20.04': ros-foxy-rviz-rendering
+        '20.04': ros-galactic-rviz-rendering
 rviz_rendering_tests:
     ubuntu:
-        '20.04': ros-foxy-rviz-rendering-tests
+        '20.04': ros-galactic-rviz-rendering-tests
 rviz_visual_testing_framework:
     ubuntu:
-        '20.04': ros-foxy-rviz-visual-testing-framework
+        '20.04': ros-galactic-rviz-visual-testing-framework
 rviz_visual_tools:
     ubuntu:
-        '20.04': ros-foxy-rviz-visual-tools
+        '20.04': ros-galactic-rviz-visual-tools
 sbg_driver:
     ubuntu:
-        '20.04': ros-foxy-sbg-driver
+        '20.04': ros-galactic-sbg-driver
 schunk_svh_library:
     ubuntu:
-        '20.04': ros-foxy-schunk-svh-library
+        '20.04': ros-galactic-schunk-svh-library
 schunk_svh_description:
     ubuntu:
-        '20.04': ros-foxy-schunk-svh-description
+        '20.04': ros-galactic-schunk-svh-description
 schunk_svh_driver:
     ubuntu:
-        '20.04': ros-foxy-schunk-svh-driver
+        '20.04': ros-galactic-schunk-svh-driver
 schunk_svh_tests:
     ubuntu:
-        '20.04': ros-foxy-schunk-svh-tests
+        '20.04': ros-galactic-schunk-svh-tests
 septentrio_gnss_driver:
     ubuntu:
-        '20.04': ros-foxy-septentrio-gnss-driver
+        '20.04': ros-galactic-septentrio-gnss-driver
 sick_safetyscanners2:
     ubuntu:
-        '20.04': ros-foxy-sick-safetyscanners2
+        '20.04': ros-galactic-sick-safetyscanners2
 sick_safetyscanners2_interfaces:
     ubuntu:
-        '20.04': ros-foxy-sick-safetyscanners2-interfaces
+        '20.04': ros-galactic-sick-safetyscanners2-interfaces
 sick_safetyscanners_base:
     ubuntu:
-        '20.04': ros-foxy-sick-safetyscanners-base
+        '20.04': ros-galactic-sick-safetyscanners-base
 sick_scan2:
     ubuntu:
-        '20.04': ros-foxy-sick-scan2
+        '20.04': ros-galactic-sick-scan2
 simple_actions:
     ubuntu:
-        '20.04': ros-foxy-simple-actions
+        '20.04': ros-galactic-simple-actions
 simple_launch:
     ubuntu:
-        '20.04': ros-foxy-simple-launch
+        '20.04': ros-galactic-simple-launch
 slam_toolbox:
     ubuntu:
-        '20.04': ros-foxy-slam-toolbox
+        '20.04': ros-galactic-slam-toolbox
 slider_publisher:
     ubuntu:
-        '20.04': ros-foxy-slider-publisher
+        '20.04': ros-galactic-slider-publisher
 smacc2:
     ubuntu:
-        '20.04': ros-foxy-smacc2
+        '20.04': ros-galactic-smacc2
 smacc2_msgs:
     ubuntu:
-        '20.04': ros-foxy-smacc2-msgs
+        '20.04': ros-galactic-smacc2-msgs
 snowbot_operating_system:
     ubuntu:
-        '20.04': ros-foxy-snowbot-operating-system
+        '20.04': ros-galactic-snowbot-operating-system
 soccer_object_msgs:
     ubuntu:
-        '20.04': ros-foxy-soccer-object-msgs
+        '20.04': ros-galactic-soccer-object-msgs
 sol_vendor:
     ubuntu:
-        '20.04': ros-foxy-sol-vendor
+        '20.04': ros-galactic-sol-vendor
 sophus:
     ubuntu:
-        '20.04': ros-foxy-sophus
+        '20.04': ros-galactic-sophus
 spatio_temporal_voxel_layer:
     ubuntu:
-        '20.04': ros-foxy-spatio-temporal-voxel-layer
+        '20.04': ros-galactic-spatio-temporal-voxel-layer
 spdlog_vendor:
     ubuntu:
-        '20.04': ros-foxy-spdlog-vendor
+        '20.04': ros-galactic-spdlog-vendor
 srdfdom:
     ubuntu:
-        '20.04': ros-foxy-srdfdom
+        '20.04': ros-galactic-srdfdom
 sros2:
     ubuntu:
-        '20.04': ros-foxy-sros2
+        '20.04': ros-galactic-sros2
 sros2_cmake:
     ubuntu:
-        '20.04': ros-foxy-sros2-cmake
+        '20.04': ros-galactic-sros2-cmake
 stomp:
     ubuntu:
-        '20.04': ros-foxy-stomp
+        '20.04': ros-galactic-stomp
 stubborn_buddies:
     ubuntu:
-        '20.04': ros-foxy-stubborn-buddies
+        '20.04': ros-galactic-stubborn-buddies
 stubborn_buddies_msgs:
     ubuntu:
-        '20.04': ros-foxy-stubborn-buddies-msgs
+        '20.04': ros-galactic-stubborn-buddies-msgs
 swri_console:
     ubuntu:
-        '20.04': ros-foxy-swri-console
+        '20.04': ros-galactic-swri-console
 system_fingerprint:
     ubuntu:
-        '20.04': ros-foxy-system-fingerprint
+        '20.04': ros-galactic-system-fingerprint
 system_metrics_collector:
     ubuntu:
-        '20.04': ros-foxy-system-metrics-collector
+        '20.04': ros-galactic-system-metrics-collector
 launch_system_modes:
     ubuntu:
-        '20.04': ros-foxy-launch-system-modes
+        '20.04': ros-galactic-launch-system-modes
 system_modes:
     ubuntu:
-        '20.04': ros-foxy-system-modes
+        '20.04': ros-galactic-system-modes
 system_modes_examples:
     ubuntu:
-        '20.04': ros-foxy-system-modes-examples
+        '20.04': ros-galactic-system-modes-examples
 system_modes_msgs:
     ubuntu:
-        '20.04': ros-foxy-system-modes-msgs
+        '20.04': ros-galactic-system-modes-msgs
 test_launch_system_modes:
     ubuntu:
-        '20.04': ros-foxy-test-launch-system-modes
+        '20.04': ros-galactic-test-launch-system-modes
 tango_icons_vendor:
     ubuntu:
-        '20.04': ros-foxy-tango-icons-vendor
+        '20.04': ros-galactic-tango-icons-vendor
 joy_teleop:
     ubuntu:
-        '20.04': ros-foxy-joy-teleop
+        '20.04': ros-galactic-joy-teleop
 key_teleop:
     ubuntu:
-        '20.04': ros-foxy-key-teleop
+        '20.04': ros-galactic-key-teleop
 mouse_teleop:
     ubuntu:
-        '20.04': ros-foxy-mouse-teleop
+        '20.04': ros-galactic-mouse-teleop
 teleop_tools:
     ubuntu:
-        '20.04': ros-foxy-teleop-tools
+        '20.04': ros-galactic-teleop-tools
 teleop_tools_msgs:
     ubuntu:
-        '20.04': ros-foxy-teleop-tools-msgs
+        '20.04': ros-galactic-teleop-tools-msgs
 teleop_twist_joy:
     ubuntu:
-        '20.04': ros-foxy-teleop-twist-joy
+        '20.04': ros-galactic-teleop-twist-joy
 teleop_twist_keyboard:
     ubuntu:
-        '20.04': ros-foxy-teleop-twist-keyboard
+        '20.04': ros-galactic-teleop-twist-keyboard
 test_interface_files:
     ubuntu:
-        '20.04': ros-foxy-test-interface-files
+        '20.04': ros-galactic-test-interface-files
 tf_transformations:
     ubuntu:
-        '20.04': ros-foxy-tf-transformations
+        '20.04': ros-galactic-tf-transformations
 tinyxml2_vendor:
     ubuntu:
-        '20.04': ros-foxy-tinyxml2-vendor
+        '20.04': ros-galactic-tinyxml2-vendor
 tinyxml_vendor:
     ubuntu:
-        '20.04': ros-foxy-tinyxml-vendor
+        '20.04': ros-galactic-tinyxml-vendor
 tlsf:
     ubuntu:
-        '20.04': ros-foxy-tlsf
+        '20.04': ros-galactic-tlsf
 ros2trace_analysis:
     ubuntu:
-        '20.04': ros-foxy-ros2trace-analysis
+        '20.04': ros-galactic-ros2trace-analysis
 tracetools_analysis:
     ubuntu:
-        '20.04': ros-foxy-tracetools-analysis
+        '20.04': ros-galactic-tracetools-analysis
 asio_cmake_module:
     ubuntu:
-        '20.04': ros-foxy-asio-cmake-module
+        '20.04': ros-galactic-asio-cmake-module
 io_context:
     ubuntu:
-        '20.04': ros-foxy-io-context
+        '20.04': ros-galactic-io-context
 serial_driver:
     ubuntu:
-        '20.04': ros-foxy-serial-driver
+        '20.04': ros-galactic-serial-driver
 udp_driver:
     ubuntu:
-        '20.04': ros-foxy-udp-driver
+        '20.04': ros-galactic-udp-driver
 turtlebot3:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3
+        '20.04': ros-galactic-turtlebot3
 turtlebot3_bringup:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-bringup
+        '20.04': ros-galactic-turtlebot3-bringup
 turtlebot3_cartographer:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-cartographer
+        '20.04': ros-galactic-turtlebot3-cartographer
 turtlebot3_description:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-description
+        '20.04': ros-galactic-turtlebot3-description
 turtlebot3_example:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-example
+        '20.04': ros-galactic-turtlebot3-example
 turtlebot3_navigation2:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-navigation2
+        '20.04': ros-galactic-turtlebot3-navigation2
 turtlebot3_node:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-node
+        '20.04': ros-galactic-turtlebot3-node
 turtlebot3_teleop:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-teleop
+        '20.04': ros-galactic-turtlebot3-teleop
 turtlebot3_manipulation:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-manipulation
+        '20.04': ros-galactic-turtlebot3-manipulation
 turtlebot3_manipulation_bringup:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-manipulation-bringup
+        '20.04': ros-galactic-turtlebot3-manipulation-bringup
 turtlebot3_manipulation_cartographer:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-manipulation-cartographer
+        '20.04': ros-galactic-turtlebot3-manipulation-cartographer
 turtlebot3_manipulation_description:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-manipulation-description
+        '20.04': ros-galactic-turtlebot3-manipulation-description
 turtlebot3_manipulation_hardware:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-manipulation-hardware
+        '20.04': ros-galactic-turtlebot3-manipulation-hardware
 turtlebot3_manipulation_moveit_config:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-manipulation-moveit-config
+        '20.04': ros-galactic-turtlebot3-manipulation-moveit-config
 turtlebot3_manipulation_navigation2:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-manipulation-navigation2
+        '20.04': ros-galactic-turtlebot3-manipulation-navigation2
 turtlebot3_manipulation_teleop:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-manipulation-teleop
+        '20.04': ros-galactic-turtlebot3-manipulation-teleop
 turtlebot3_msgs:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-msgs
+        '20.04': ros-galactic-turtlebot3-msgs
 turtlebot3_fake_node:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-fake-node
+        '20.04': ros-galactic-turtlebot3-fake-node
 turtlebot3_gazebo:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-gazebo
+        '20.04': ros-galactic-turtlebot3-gazebo
 turtlebot3_simulations:
     ubuntu:
-        '20.04': ros-foxy-turtlebot3-simulations
+        '20.04': ros-galactic-turtlebot3-simulations
 turtlesim:
     ubuntu:
-        '20.04': ros-foxy-turtlesim
+        '20.04': ros-galactic-turtlesim
 tuw_geometry:
     ubuntu:
-        '20.04': ros-foxy-tuw-geometry
+        '20.04': ros-galactic-tuw-geometry
 tuw_airskin_msgs:
     ubuntu:
-        '20.04': ros-foxy-tuw-airskin-msgs
+        '20.04': ros-galactic-tuw-airskin-msgs
 tuw_geometry_msgs:
     ubuntu:
-        '20.04': ros-foxy-tuw-geometry-msgs
+        '20.04': ros-galactic-tuw-geometry-msgs
 tuw_msgs:
     ubuntu:
-        '20.04': ros-foxy-tuw-msgs
+        '20.04': ros-galactic-tuw-msgs
 tuw_multi_robot_msgs:
     ubuntu:
-        '20.04': ros-foxy-tuw-multi-robot-msgs
+        '20.04': ros-galactic-tuw-multi-robot-msgs
 tuw_nav_msgs:
     ubuntu:
-        '20.04': ros-foxy-tuw-nav-msgs
+        '20.04': ros-galactic-tuw-nav-msgs
 tuw_object_msgs:
     ubuntu:
-        '20.04': ros-foxy-tuw-object-msgs
+        '20.04': ros-galactic-tuw-object-msgs
 tvm_vendor:
     ubuntu:
-        '20.04': ros-foxy-tvm-vendor
+        '20.04': ros-galactic-tvm-vendor
 twist_mux:
     ubuntu:
-        '20.04': ros-foxy-twist-mux
+        '20.04': ros-galactic-twist-mux
 twist_stamper:
     ubuntu:
-        '20.04': ros-foxy-twist-stamper
+        '20.04': ros-galactic-twist-stamper
 ublox:
     ubuntu:
-        '20.04': ros-foxy-ublox
+        '20.04': ros-galactic-ublox
 ublox_gps:
     ubuntu:
-        '20.04': ros-foxy-ublox-gps
+        '20.04': ros-galactic-ublox-gps
 ublox_msgs:
     ubuntu:
-        '20.04': ros-foxy-ublox-msgs
+        '20.04': ros-galactic-ublox-msgs
 ublox_serialization:
     ubuntu:
-        '20.04': ros-foxy-ublox-serialization
+        '20.04': ros-galactic-ublox-serialization
 udp_msgs:
     ubuntu:
-        '20.04': ros-foxy-udp-msgs
+        '20.04': ros-galactic-udp-msgs
 uncrustify_vendor:
     ubuntu:
-        '20.04': ros-foxy-uncrustify-vendor
+        '20.04': ros-galactic-uncrustify-vendor
 unique_identifier_msgs:
     ubuntu:
-        '20.04': ros-foxy-unique-identifier-msgs
+        '20.04': ros-galactic-unique-identifier-msgs
 ur_client_library:
     ubuntu:
-        '20.04': ros-foxy-ur-client-library
+        '20.04': ros-galactic-ur-client-library
 ur_msgs:
     ubuntu:
-        '20.04': ros-foxy-ur-msgs
+        '20.04': ros-galactic-ur-msgs
 ur_bringup:
     ubuntu:
-        '20.04': ros-foxy-ur-bringup
+        '20.04': ros-galactic-ur-bringup
 ur_calibration:
     ubuntu:
-        '20.04': ros-foxy-ur-calibration
+        '20.04': ros-galactic-ur-calibration
 ur_controllers:
     ubuntu:
-        '20.04': ros-foxy-ur-controllers
+        '20.04': ros-galactic-ur-controllers
 ur_dashboard_msgs:
     ubuntu:
-        '20.04': ros-foxy-ur-dashboard-msgs
+        '20.04': ros-galactic-ur-dashboard-msgs
 ur_description:
     ubuntu:
-        '20.04': ros-foxy-ur-description
+        '20.04': ros-galactic-ur-description
 ur_moveit_config:
     ubuntu:
-        '20.04': ros-foxy-ur-moveit-config
+        '20.04': ros-galactic-ur-moveit-config
 ur_robot_driver:
     ubuntu:
-        '20.04': ros-foxy-ur-robot-driver
+        '20.04': ros-galactic-ur-robot-driver
 urdf:
     ubuntu:
-        '20.04': ros-foxy-urdf
+        '20.04': ros-galactic-urdf
 urdfdom_py:
     ubuntu:
-        '20.04': ros-foxy-urdfdom-py
+        '20.04': ros-galactic-urdfdom-py
 urdf_test:
     ubuntu:
-        '20.04': ros-foxy-urdf-test
+        '20.04': ros-galactic-urdf-test
 urdf_tutorial:
     ubuntu:
-        '20.04': ros-foxy-urdf-tutorial
+        '20.04': ros-galactic-urdf-tutorial
 urdfdom:
     ubuntu:
-        '20.04': ros-foxy-urdfdom
+        '20.04': ros-galactic-urdfdom
 urdfdom_headers:
     ubuntu:
-        '20.04': ros-foxy-urdfdom-headers
+        '20.04': ros-galactic-urdfdom-headers
 urg_c:
     ubuntu:
-        '20.04': ros-foxy-urg-c
+        '20.04': ros-galactic-urg-c
 urg_node:
     ubuntu:
-        '20.04': ros-foxy-urg-node
+        '20.04': ros-galactic-urg-node
 urg_node_msgs:
     ubuntu:
-        '20.04': ros-foxy-urg-node-msgs
+        '20.04': ros-galactic-urg-node-msgs
 usb_cam:
     ubuntu:
-        '20.04': ros-foxy-usb-cam
+        '20.04': ros-galactic-usb-cam
 v4l2_camera:
     ubuntu:
-        '20.04': ros-foxy-v4l2-camera
+        '20.04': ros-galactic-v4l2-camera
 desktop:
     ubuntu:
-        '20.04': ros-foxy-desktop
+        '20.04': ros-galactic-desktop
 ros_base:
     ubuntu:
-        '20.04': ros-foxy-ros-base
+        '20.04': ros-galactic-ros-base
 ros_core:
     ubuntu:
-        '20.04': ros-foxy-ros-core
+        '20.04': ros-galactic-ros-core
 velodyne:
     ubuntu:
-        '20.04': ros-foxy-velodyne
+        '20.04': ros-galactic-velodyne
 velodyne_driver:
     ubuntu:
-        '20.04': ros-foxy-velodyne-driver
+        '20.04': ros-galactic-velodyne-driver
 velodyne_laserscan:
     ubuntu:
-        '20.04': ros-foxy-velodyne-laserscan
+        '20.04': ros-galactic-velodyne-laserscan
 velodyne_msgs:
     ubuntu:
-        '20.04': ros-foxy-velodyne-msgs
+        '20.04': ros-galactic-velodyne-msgs
 velodyne_pointcloud:
     ubuntu:
-        '20.04': ros-foxy-velodyne-pointcloud
+        '20.04': ros-galactic-velodyne-pointcloud
 velodyne_description:
     ubuntu:
-        '20.04': ros-foxy-velodyne-description
+        '20.04': ros-galactic-velodyne-description
 velodyne_gazebo_plugins:
     ubuntu:
-        '20.04': ros-foxy-velodyne-gazebo-plugins
+        '20.04': ros-galactic-velodyne-gazebo-plugins
 velodyne_simulator:
     ubuntu:
-        '20.04': ros-foxy-velodyne-simulator
+        '20.04': ros-galactic-velodyne-simulator
 vesc:
     ubuntu:
-        '20.04': ros-foxy-vesc
+        '20.04': ros-galactic-vesc
 vesc_ackermann:
     ubuntu:
-        '20.04': ros-foxy-vesc-ackermann
+        '20.04': ros-galactic-vesc-ackermann
 vesc_driver:
     ubuntu:
-        '20.04': ros-foxy-vesc-driver
+        '20.04': ros-galactic-vesc-driver
 vesc_msgs:
     ubuntu:
-        '20.04': ros-foxy-vesc-msgs
+        '20.04': ros-galactic-vesc-msgs
 vision_msgs:
     ubuntu:
-        '20.04': ros-foxy-vision-msgs
+        '20.04': ros-galactic-vision-msgs
 cv_bridge:
     ubuntu:
-        '20.04': ros-foxy-cv-bridge
+        '20.04': ros-galactic-cv-bridge
 image_geometry:
     ubuntu:
-        '20.04': ros-foxy-image-geometry
+        '20.04': ros-galactic-image-geometry
 vision_opencv:
     ubuntu:
-        '20.04': ros-foxy-vision-opencv
+        '20.04': ros-galactic-vision-opencv
 visp:
     ubuntu:
-        '20.04': ros-foxy-visp
+        '20.04': ros-galactic-visp
 vrpn:
     ubuntu:
-        '20.04': ros-foxy-vrpn
+        '20.04': ros-galactic-vrpn
 vrpn_mocap:
     ubuntu:
-        '20.04': ros-foxy-vrpn-mocap
+        '20.04': ros-galactic-vrpn-mocap
 warehouse_ros:
     ubuntu:
-        '20.04': ros-foxy-warehouse-ros
+        '20.04': ros-galactic-warehouse-ros
 warehouse_ros_mongo:
     ubuntu:
-        '20.04': ros-foxy-warehouse-ros-mongo
+        '20.04': ros-galactic-warehouse-ros-mongo
 warehouse_ros_sqlite:
     ubuntu:
-        '20.04': ros-foxy-warehouse-ros-sqlite
+        '20.04': ros-galactic-warehouse-ros-sqlite
 webots_ros2:
     ubuntu:
-        '20.04': ros-foxy-webots-ros2
+        '20.04': ros-galactic-webots-ros2
 webots_ros2_control:
     ubuntu:
-        '20.04': ros-foxy-webots-ros2-control
+        '20.04': ros-galactic-webots-ros2-control
 webots_ros2_driver:
     ubuntu:
-        '20.04': ros-foxy-webots-ros2-driver
+        '20.04': ros-galactic-webots-ros2-driver
 webots_ros2_epuck:
     ubuntu:
-        '20.04': ros-foxy-webots-ros2-epuck
+        '20.04': ros-galactic-webots-ros2-epuck
 webots_ros2_importer:
     ubuntu:
-        '20.04': ros-foxy-webots-ros2-importer
+        '20.04': ros-galactic-webots-ros2-importer
 webots_ros2_mavic:
     ubuntu:
-        '20.04': ros-foxy-webots-ros2-mavic
+        '20.04': ros-galactic-webots-ros2-mavic
 webots_ros2_msgs:
     ubuntu:
-        '20.04': ros-foxy-webots-ros2-msgs
+        '20.04': ros-galactic-webots-ros2-msgs
 webots_ros2_tesla:
     ubuntu:
-        '20.04': ros-foxy-webots-ros2-tesla
+        '20.04': ros-galactic-webots-ros2-tesla
 webots_ros2_tests:
     ubuntu:
-        '20.04': ros-foxy-webots-ros2-tests
+        '20.04': ros-galactic-webots-ros2-tests
 webots_ros2_tiago:
     ubuntu:
-        '20.04': ros-foxy-webots-ros2-tiago
+        '20.04': ros-galactic-webots-ros2-tiago
 webots_ros2_turtlebot:
     ubuntu:
-        '20.04': ros-foxy-webots-ros2-turtlebot
+        '20.04': ros-galactic-webots-ros2-turtlebot
 webots_ros2_universal_robot:
     ubuntu:
-        '20.04': ros-foxy-webots-ros2-universal-robot
+        '20.04': ros-galactic-webots-ros2-universal-robot
 wireless_msgs:
     ubuntu:
-        '20.04': ros-foxy-wireless-msgs
+        '20.04': ros-galactic-wireless-msgs
 wireless_watcher:
     ubuntu:
-        '20.04': ros-foxy-wireless-watcher
+        '20.04': ros-galactic-wireless-watcher
 xacro:
     ubuntu:
-        '20.04': ros-foxy-xacro
+        '20.04': ros-galactic-xacro
 xacro_live:
     ubuntu:
-        '20.04': ros-foxy-xacro-live
+        '20.04': ros-galactic-xacro-live
 yaml_cpp_vendor:
     ubuntu:
-        '20.04': ros-foxy-yaml-cpp-vendor
+        '20.04': ros-galactic-yaml-cpp-vendor
 zmqpp_vendor:
     ubuntu:
-        '20.04': ros-foxy-zmqpp-vendor
+        '20.04': ros-galactic-zmqpp-vendor
