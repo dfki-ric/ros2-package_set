@@ -1,6 +1,6 @@
 
 require_relative "./lib/colcon_package.rb"
-require_relative "./lib/rock_import_package.rb"
+require_relative "./lib/colcon_import_package.rb"
 
 os_names, os_versions = Autoproj.workspace.operating_system
 if os_names.include?('ubuntu')

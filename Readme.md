@@ -66,3 +66,8 @@ This decribes installing for the first time, some parts can be omitted for futur
 You can update autoproj-defined packages in a single command. To do this source the src/env.sh script and call `autoproj update` when you append a package name or forlder, onthe that package AND its dependencies are updated.
 
 
+# Tips
+
+* colcon_import_packages are often using pkg-config to find dependencies. When you get the error message "A required package was not found" when building, run colcon build with `--event-handlers console_direct+` in order to see which package is not found
+
+* colcon_import_packages are beneric cmake packages using some automation to be able to be compiled with colcon, as generating package.xml and colcon.pkg files, and generating a .ps file to make pkg-config work, but in some cases, you might need to `source install/setup.bash` again so colcon can find everything.

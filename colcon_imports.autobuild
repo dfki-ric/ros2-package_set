@@ -1,0 +1,37 @@
+
+colcon_import_package "base/cmake"
+colcon_import_package "base/logging"
+colcon_import_package "base/types" do |pkg|
+    pkg.add_cmake_arg("-DBINDINGS_RUBY=OFF" )
+    pkg.add_cmake_arg("-DUSE_SISL=ON" )
+    pkg.add_cmake_arg("-DSISL_PREFIX=#{ENV['AUTOPROJ_CURRENT_ROOT']}/../install/external-sisl/" )
+    pkg.use_optional_dependency "external/sisl"
+    pkg.use_optional_dependency "gui/vizkit3d"
+end
+colcon_import_package "control/motor_controller"
+
+colcon_import_package "planning/ugv_nav4d" do |pkg| 
+    pkg.use_optional_dependency "gui/vizkit3d"
+end
+colcon_import_package "planning/sbpl"
+colcon_import_package "planning/sbpl_spline_primitives" do |pkg|
+    pkg.add_cmake_arg("-DROCK_TEST_ENABLED=OFF")
+    pkg.use_optional_dependency "gui/vizkit3d"
+end
+colcon_import_package "planning/traversability_generator3d"
+colcon_import_package "gui/vizkit3d_debug_drawings" do |pkg|
+    pkg.add_cmake_arg("-DWITH_PORTS=OFF" )
+end
+colcon_import_package "control/trajectory_follower"
+colcon_import_package "slam/maps" do |pkg| 
+    pkg.use_optional_dependency "gui/vizkit3d"
+end
+colcon_import_package "gui/vizkit3d"
+colcon_import_package "gui/osgviz"
+
+colcon_import_package "external/sisl"
+colcon_import_package "gui/osg_qt5"
+colcon_import_package "gui/qtpropertybrowser"
+colcon_import_package "base/numeric"
+colcon_import_package "base/boost_serialization"
+colcon_import_package "tools/backward-cpp"
