@@ -147,3 +147,10 @@ version_control:
 
   - tools/plugin_manager:
     github: dfki-ric/tools-plugin_manager
+
+  - tools/class_loader:
+    github: ros/class_loader
+    branch: indigo-devel
+    tag: 0.3.8
+    patches:
+        - $AUTOPROJ_SOURCE_DIR/patches/class_loader_pkgconfig.patch
