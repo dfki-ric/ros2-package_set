@@ -89,5 +89,10 @@ def colcon_import_package(name, type = :import_package, libname: name, workspace
     metapackage ros_packagename, name
 end
 
-
+def colcon_import_collection_package(checkoutDir, pkgName,type = :colcon_import_package)
+    send(type,checkoutDir + "/" + pkgName) do |pkg|
+        pkg.importdir = checkoutDir
+        yield pkg if block_given?
+    end
+end
 

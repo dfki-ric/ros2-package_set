@@ -54,39 +54,25 @@ colcon_import_package 'simulation/mars2/mars_scene_loader'
 colcon_import_package 'simulation/mars2/mars_particle_system'
 colcon_import_package 'simulation/mars2/mars_skydome'
 
-def graphics_collection_package(srcDir,type = :import_package)
-    send(type,srcDir) do |pkg|
-        pkg.importdir = "simulation/graphics_collection/"
-        yield pkg if block_given?
-    end
-end
+colcon_import_collection_package "simulation/graphics_collection", "osg_animations"
+colcon_import_collection_package "simulation/graphics_collection", "osg_frames"
+colcon_import_collection_package "simulation/graphics_collection", "osg_lines"
+colcon_import_collection_package "simulation/graphics_collection", "osg_material_manager"
+colcon_import_collection_package "simulation/graphics_collection", "osg_plot"
+colcon_import_collection_package "simulation/graphics_collection", "osg_points"
+colcon_import_collection_package "simulation/graphics_collection", "osg_terrain"
+colcon_import_collection_package "simulation/graphics_collection", "osg_text"
+colcon_import_collection_package "simulation/graphics_collection", "osg_text_factory"
 
-graphics_collection_package "simulation/graphics_collection/osg_animations"
-graphics_collection_package "simulation/graphics_collection/osg_frames"
-graphics_collection_package "simulation/graphics_collection/osg_lines"
-graphics_collection_package "simulation/graphics_collection/osg_material_manager"
-graphics_collection_package "simulation/graphics_collection/osg_plot"
-graphics_collection_package "simulation/graphics_collection/osg_points"
-graphics_collection_package "simulation/graphics_collection/osg_terrain"
-graphics_collection_package "simulation/graphics_collection/osg_text"
-graphics_collection_package "simulation/graphics_collection/osg_text_factory"
-
-def gui_collection_package(srcDir,type = :import_package)
-    send(type,srcDir) do |pkg|
-        pkg.importdir = "simulation/gui_collection/"
-        yield pkg if block_given?
-    end
-end
-
-gui_collection_package "simulation/gui_collection/cfg_manager_gui"
-gui_collection_package "simulation/gui_collection/config_map_gui"
-gui_collection_package "simulation/gui_collection/data_broker_gui"
-gui_collection_package "simulation/gui_collection/data_broker_plotter"
-gui_collection_package "simulation/gui_collection/data_broker_plotter2"
-gui_collection_package "simulation/gui_collection/gui_app"
-gui_collection_package "simulation/gui_collection/lib_manager_gui"
-gui_collection_package "simulation/gui_collection/log_console"
-gui_collection_package "simulation/gui_collection/main_gui"
+colcon_import_collection_package "simulation/gui_collection", "cfg_manager_gui"
+colcon_import_collection_package "simulation/gui_collection", "config_map_gui"
+colcon_import_collection_package "simulation/gui_collection", "data_broker_gui"
+colcon_import_collection_package "simulation/gui_collection", "data_broker_plotter"
+colcon_import_collection_package "simulation/gui_collection", "data_broker_plotter2"
+colcon_import_collection_package "simulation/gui_collection", "gui_app"
+colcon_import_collection_package "simulation/gui_collection", "lib_manager_gui"
+colcon_import_collection_package "simulation/gui_collection", "log_console"
+colcon_import_collection_package "simulation/gui_collection", "main_gui"
 
 # TODO: THESE PACKAGES SHOULD BE A PART OF MORE GENERIC PACKAGE SET
 # SINCE THEY DOES NOT HAVE RELATION TO MARS OR TO SIMULATION PACKAGE SET
