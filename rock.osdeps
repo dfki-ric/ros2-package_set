@@ -21,9 +21,9 @@ control/urdfdom_headers:
     ubuntu:
         '20.04': ros-galactic-urdfdom-headers
 
-tools/class_loader:
-    ubuntu:
-        '20.04': ros-galactic-class-loader
+#tools/class_loader:
+#    ubuntu:
+#        '20.04': ros-galactic-class-loader
 
 external/tinyxml:
     ubuntu:
