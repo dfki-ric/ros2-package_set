@@ -98,4 +98,5 @@ colcon_import_package("external/ogdf")
 colcon_import_package("simulation/ode-16")
 
 colcon_import_package("tools/plugin_manager")
+colcon_import_package("tools/class_loader")
 
