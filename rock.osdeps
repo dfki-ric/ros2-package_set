@@ -13,18 +13,6 @@ glog:
 poco:
     ubuntu: libpoco-dev
 
-control/urdfdom:
-    ubuntu:
-        '20.04': ros-galactic-urdfdom
-
-control/urdfdom_headers:
-    ubuntu:
-        '20.04': ros-galactic-urdfdom-headers
-
-tools/class_loader:
-    ubuntu:
-        '20.04': ros-galactic-class-loader
-
 external/tinyxml:
     ubuntu:
         '20.04': libtinyxml-dev

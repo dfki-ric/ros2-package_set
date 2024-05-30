@@ -33,3 +33,14 @@ boost-serialization:
     ubuntu: libboost-serialization-dev
 
 rtt: ignore
+
+# Former source packages, that are now osdeps:
+tools/class_loader:
+    osdep: class_loader
+
+control/urdfdom:
+    osdep: urdfdom
+
+control/urdfdom_headers:
+    osdep: urdfdom_headers
+
