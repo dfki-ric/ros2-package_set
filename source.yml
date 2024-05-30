@@ -85,3 +85,7 @@ version_control:
   - gazebo_ros2_control/.*:
     github: ros-controls/gazebo_ros2_control
     interactive: true # multiple packages in this repo
+
+
+  - slam/vdb_mapping:
+    github: fzi-forschungszentrum-informatik/vdb_mapping

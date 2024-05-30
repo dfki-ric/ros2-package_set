@@ -33,3 +33,9 @@ boost-serialization:
     ubuntu: libboost-serialization-dev
 
 rtt: ignore
+
+openvdb:
+    ubuntu: libopenvdb-dev
+
+tbb:
+    ubuntu: libbtbb-dev
