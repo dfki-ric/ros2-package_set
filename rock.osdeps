@@ -16,3 +16,4 @@ poco:
 external/tinyxml:
     ubuntu: libtinyxml-dev
 
+qt4: ignore
