@@ -85,7 +85,69 @@ version_control:
   - gazebo_ros2_control/.*:
     github: ros-controls/gazebo_ros2_control
     interactive: true # multiple packages in this repo
+ 
+  - simulation/mars2/.*:
+    github: mars-robot-simulation/$PACKAGE_BASENAME.git
 
+  - simulation/utils:
+    github: mars-robot-simulation/mars_utils
+
+  - simulation/data_broker:
+    github: mars-robot-simulation/data_broker
+  - simulation/cfg_manager:
+    github: mars-robot-simulation/cfg_manager
+
+  - simulation/graphics_collection.*:
+    github: mars-robot-simulation/graphics_collection
+    interactive: true    # forces single checkout even if autoprojs's parallel checkout is used
+
+  - simulation/gui_collection.*:
+    github: mars-robot-simulation/gui_collection
+    interactive: true    # forces single checkout even if autoprojs's parallel checkout is used
+
+  - bundles/mars:
+    github: mars-robot-simulation/bundle-mars
+
+  - models/environments/mars:
+    github: mars-robot-simulation/environment-mars
+
+  - tools/configmaps:
+    github: rock-simulation/configmaps
+
+  - simulation/lib_manager:
+    github: rock-simulation/lib_manager
+
+  - envire/envire_core:
+    github: envire/envire-envire_core
+
+  - envire/envire_types:
+    github: envire/envire-envire_types
+
+  - envire/envire_smurf_loader:
+    github: envire/envire-envire_smurf_loader
+
+  - external/osgQt:
+    github: rock-simulation/osgQt
+    branch: topic/Qt4
+
+  - external/ogdf:
+    github: ogdf/ogdf
+
+  - simulation/ode-16:
+      type: git
+      url: https://bitbucket.org/odedevs/ode.git
+      tag: 0.16
+      patches:
+      #WARNING, DO NOT CHANGE THE ORDER OF THE PATCHES
+        - $AUTOPROJ_SOURCE_DIR/patches/ode-0.16-lambda.patch
+        #- $AUTOPROJ_SOURCE_DIR/ode-0.12-export_joint_internals.patch
+        - $AUTOPROJ_SOURCE_DIR/patches/ode-0.16-abort.patch
+        #- $AUTOPROJ_SOURCE_DIR/ode-0.12-osx.patch
+        - $AUTOPROJ_SOURCE_DIR/patches/ode-0.16-heightfield.patch    
+
+  - tools/plugin_manager:
+    github: dfki-ric/tools-plugin_manager
 
   - slam/vdb_mapping:
     github: fzi-forschungszentrum-informatik/vdb_mapping
+

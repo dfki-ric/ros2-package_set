@@ -3,3 +3,16 @@
 
 eigen3:
     ubuntu: libeigen3-dev
+
+opencv:
+    ubuntu: libopencv-dev
+
+glog:
+    ubuntu: libgoogle-glog-dev
+
+poco:
+    ubuntu: libpoco-dev
+
+external/tinyxml:
+    ubuntu:
+        '20.04': libtinyxml-dev
