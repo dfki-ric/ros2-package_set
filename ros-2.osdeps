@@ -44,3 +44,8 @@ control/urdfdom:
 control/urdfdom_headers:
     osdep: urdfdom_headers
 
+openvdb:
+    ubuntu: libopenvdb-dev
+
+tbb:
+    ubuntu: libbtbb-dev

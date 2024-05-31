@@ -147,3 +147,7 @@ version_control:
 
   - tools/plugin_manager:
     github: dfki-ric/tools-plugin_manager
+
+  - slam/vdb_mapping:
+    github: fzi-forschungszentrum-informatik/vdb_mapping
+
