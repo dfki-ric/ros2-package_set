@@ -14,5 +14,5 @@ poco:
     ubuntu: libpoco-dev
 
 external/tinyxml:
-    ubuntu:
-        '20.04': libtinyxml-dev
+    ubuntu: libtinyxml-dev
+
