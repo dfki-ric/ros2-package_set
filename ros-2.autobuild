@@ -13,7 +13,9 @@ import_package "slam/slam3d_ros2" do |pkg|
     pkg.depends_on "slam/slam3d"
 end
 
-colcon_package "slam/vdb_mapping"
+not_on ["ubuntu", "22.04"] do
+    colcon_package "slam/vdb_mapping"
+end
 
 colcon_package "gazebo_ros2_control/gazebo_ros2_control", importdir: "gazebo_ros2_control"
 colcon_package "gazebo_ros2_control/gazebo_ros2_control_demos", importdir: "gazebo_ros2_control"
