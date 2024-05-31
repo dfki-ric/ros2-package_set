@@ -16,6 +16,7 @@ end
 not_on ["ubuntu", "22.04"] do
     colcon_package "slam/vdb_mapping"
 end
+remove_from_default 'slam/vdb_mapping'
 
 colcon_package "gazebo_ros2_control/gazebo_ros2_control", importdir: "gazebo_ros2_control"
 colcon_package "gazebo_ros2_control/gazebo_ros2_control_demos", importdir: "gazebo_ros2_control"
