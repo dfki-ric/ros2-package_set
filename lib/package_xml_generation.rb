@@ -25,11 +25,11 @@ module Ros2
                     if  depname == nil
                         depname = dep.gsub("/","-")    
                     end
-                    content = content + "    <build_depend>#{depname}</build_depend>\n"
+                    content = content + "    <depend>#{depname}</depend>\n"
                 end
 
                 pkg.optional_deps.each do |dep|
-                    content = content + "  <build_depend>#{dep.gsub("/","-")}</build_depend>\n"
+                    content = content + "  <depend>#{dep.gsub("/","-")}</depend>\n"
                 end
 
                 content += \
