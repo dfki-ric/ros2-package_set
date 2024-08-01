@@ -86,6 +86,7 @@ colcon_import_package("simulation/lib_manager")
 
 colcon_import_package("envire/envire_core") do |pkg|
     pkg.add_cmake_arg("-DROCK_TEST_ENABLED=OFF")
+    pkg.add_cmake_arg("-DPLUGIN_LIBS_FOUND=ON")
     pkg.use_optional_dependency "tools/plugin_manager"
 end
 
@@ -97,5 +98,9 @@ colcon_import_package("external/ogdf")
 
 colcon_import_package("simulation/ode-16")
 
+colcon_import_package("tools/class_loader_melodic") do |pkg|
+    pkg.depends_on "base/console_bridge"
+end
 colcon_import_package("tools/plugin_manager")
 
+colcon_import_package("base/console_bridge")
