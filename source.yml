@@ -88,7 +88,6 @@ version_control:
  
   - simulation/mars2/.*:
     github: mars-robot-simulation/$PACKAGE_BASENAME.git
-    branch: mars2_ros2
 
   - simulation/utils:
     github: mars-robot-simulation/mars_utils
@@ -120,6 +119,7 @@ version_control:
 
   - envire/envire_core:
     github: envire/envire-envire_core
+    branch: mars2_ros2
 
   - envire/envire_types:
     github: envire/envire-envire_types
