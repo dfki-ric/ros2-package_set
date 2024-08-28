@@ -119,6 +119,7 @@ version_control:
 
   - envire/envire_core:
     github: envire/envire-envire_core
+    branch: mars2_ros2
 
   - envire/envire_types:
     github: envire/envire-envire_types
@@ -145,8 +146,15 @@ version_control:
         #- $AUTOPROJ_SOURCE_DIR/ode-0.12-osx.patch
         - $AUTOPROJ_SOURCE_DIR/patches/ode-0.16-heightfield.patch    
 
+  - base/console_bridge:
+    github: rock-core/base-console_bridge
+
+  - tools/class_loader_melodic:
+    github: dfki-ric/class_loader
+
   - tools/plugin_manager:
     github: dfki-ric/tools-plugin_manager
+    branch: own_class_loader
 
   - slam/vdb_mapping:
     github: fzi-forschungszentrum-informatik/vdb_mapping
