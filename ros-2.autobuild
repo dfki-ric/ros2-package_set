@@ -20,3 +20,6 @@ remove_from_default 'slam/vdb_mapping'
 
 colcon_package "gazebo_ros2_control/gazebo_ros2_control", importdir: "gazebo_ros2_control"
 colcon_package "gazebo_ros2_control/gazebo_ros2_control_demos", importdir: "gazebo_ros2_control"
+
+remove_from_default 'gazebo_ros2_control/gazebo_ros2_control'
+remove_from_default 'gazebo_ros2_control/gazebo_ros2_control_demos'
