@@ -36,6 +36,8 @@ colcon_import_package "base/numeric"
 colcon_import_package "base/boost_serialization"
 colcon_import_package "tools/backward-cpp"
 
+colcon_import_package "interaction/libraries/robot_remote_control"
+
 ### Mars 2
 
 colcon_import_package("simulation/mars2/mars_interfaces")

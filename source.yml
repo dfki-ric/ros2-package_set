@@ -159,3 +159,5 @@ version_control:
   - slam/vdb_mapping:
     github: fzi-forschungszentrum-informatik/vdb_mapping
 
+  - interaction/libraries/robot_remote_control:
+    github: dfki-ric/robot_remote_control
