@@ -23,3 +23,5 @@ colcon_package "gazebo_ros2_control/gazebo_ros2_control_demos", importdir: "gaze
 
 remove_from_default 'gazebo_ros2_control/gazebo_ros2_control'
 remove_from_default 'gazebo_ros2_control/gazebo_ros2_control_demos'
+
+colcon_package "interaction/libraries/robot_remote_control"
