@@ -9,7 +9,7 @@ ack-grep:
         '22.04': ack-grep
 acl:
     ubuntu:
-        '22.04': acl libacl1-dev
+        '22.04': [acl, libacl1-dev]
 acpi:
     ubuntu:
         '22.04': acpi
@@ -24,7 +24,7 @@ ant:
         '22.04': ant
 antlr:
     ubuntu:
-        '22.04': antlr libantlr-dev
+        '22.04': [antlr, libantlr-dev]
 apache2:
     ubuntu:
         '22.04': apache2
@@ -36,13 +36,13 @@ apparmor:
         '22.04': apparmor
 apr:
     ubuntu:
-        '22.04': libapr1-dev libaprutil1-dev
+        '22.04': [libapr1-dev, libaprutil1-dev]
 apt-transport-https:
     ubuntu:
         '22.04': apt-transport-https
 aravis:
     ubuntu:
-        '22.04': libaravis-0.8-0 aravis-tools
+        '22.04': [libaravis-0.8-0, aravis-tools]
 aravis-dev:
     ubuntu:
         '22.04': libaravis-dev
@@ -246,7 +246,7 @@ crypto++:
         '22.04': libcrypto++-dev
 curl:
     ubuntu:
-        '22.04': libcurl4-openssl-dev curl
+        '22.04': [libcurl4-openssl-dev, curl]
 curlpp-dev:
     ubuntu:
         '22.04': libcurlpp-dev
@@ -345,22 +345,22 @@ exiv2:
         '22.04': exiv2
 f2c:
     ubuntu:
-        '22.04': f2c libf2c2 libf2c2-dev
+        '22.04': [f2c, libf2c2, libf2c2-dev]
 fakeroot:
     ubuntu:
         '22.04': fakeroot
 fcgi:
     ubuntu:
-        '22.04': libfcgi-dev libapache2-mod-fastcgi spawn-fcgi
+        '22.04': [libfcgi-dev, libapache2-mod-fastcgi, spawn-fcgi]
 festival:
     ubuntu:
-        '22.04': festival festvox-kallpc16k
+        '22.04': [festival, festvox-kallpc16k]
 festival-dev:
     ubuntu:
         '22.04': festival-dev
 ffmpeg:
     ubuntu:
-        '22.04': ffmpeg libavcodec-dev libavformat-dev libavutil-dev libswscale-dev
+        '22.04': [ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
 ffmpeg2theora:
     ubuntu:
         '22.04': ffmpeg2theora
@@ -543,7 +543,7 @@ gperf:
         '22.04': gperf
 gperftools:
     ubuntu:
-        '22.04': google-perftools libgoogle-perftools-dev
+        '22.04': [google-perftools, libgoogle-perftools-dev]
 gpg-agent:
     ubuntu:
         '22.04': gpg-agent
@@ -561,7 +561,7 @@ gradle:
         '22.04': gradle
 graphicsmagick:
     ubuntu:
-        '22.04': libgraphicsmagick++1-dev graphicsmagick-libmagick-dev-compat
+        '22.04': [libgraphicsmagick++1-dev, graphicsmagick-libmagick-dev-compat]
 graphviz:
     ubuntu:
         '22.04': graphviz
@@ -579,7 +579,7 @@ gstreamer0.10-pocketsphinx:
         '22.04': gstreamer0.10-pocketsphinx
 gstreamer1.0:
     ubuntu:
-        '22.04': gstreamer1.0-tools libgstreamer1.0-0 gir1.2-gstreamer-1.0
+        '22.04': [gstreamer1.0-tools, libgstreamer1.0-0, gir1.2-gstreamer-1.0]
 gstreamer1.0-alsa:
     ubuntu:
         '22.04': gstreamer1.0-alsa
@@ -594,10 +594,10 @@ gstreamer1.0-plugins-bad:
         '22.04': gstreamer1.0-plugins-bad
 gstreamer1.0-plugins-base:
     ubuntu:
-        '22.04': gstreamer1.0-plugins-base libgstreamer-plugins-base1.0-0 gir1.2-gst-plugins-base-1.0
+        '22.04': [gstreamer1.0-plugins-base, libgstreamer-plugins-base1.0-0, gir1.2-gst-plugins-base-1.0]
 gstreamer1.0-plugins-good:
     ubuntu:
-        '22.04': gstreamer1.0-plugins-good libgstreamer-plugins-good1.0-0
+        '22.04': [gstreamer1.0-plugins-good, libgstreamer-plugins-good1.0-0]
 gstreamer1.0-plugins-ugly:
     ubuntu:
         '22.04': gstreamer1.0-plugins-ugly
@@ -1128,7 +1128,7 @@ libffi-dev:
         '22.04': libffi-dev
 libfftw3:
     ubuntu:
-        '22.04': libfftw3-3 libfftw3-dev
+        '22.04': [libfftw3-3, libfftw3-dev]
 libfl-dev:
     ubuntu:
         '22.04': libfl-dev
@@ -1476,10 +1476,10 @@ libnewmat10-dev:
         '22.04': libnewmat10-dev
 libnl-3:
     ubuntu:
-        '22.04': libnl-3-200 libnl-genl-3-200 libnl-route-3-200
+        '22.04': [libnl-3-200, libnl-genl-3-200, libnl-route-3-200]
 libnl-3-dev:
     ubuntu:
-        '22.04': libnl-3-dev libnl-genl-3-dev libnl-route-3-dev
+        '22.04': [libnl-3-dev, libnl-genl-3-dev, libnl-route-3-dev]
 libnl-dev:
     ubuntu:
         '22.04': libnl-dev
@@ -1554,13 +1554,13 @@ libopenni2-dev:
         '22.04': libopenni2-dev
 libopenscenegraph:
     ubuntu:
-        '22.04': openscenegraph libopenscenegraph-dev
+        '22.04': [openscenegraph, libopenscenegraph-dev]
 libopenvdb:
     ubuntu:
         '22.04': libopenvdb8.1
 libopenvdb-dev:
     ubuntu:
-        '22.04': libopenvdb-dev libilmbase-dev
+        '22.04': [libopenvdb-dev, libilmbase-dev]
 liborocos-bfl:
     ubuntu:
         '22.04': liborocos-bfl0.8
@@ -1593,7 +1593,7 @@ libpcap:
         '22.04': libpcap0.8-dev
 libpcl-all:
     ubuntu:
-        '22.04': libpcl-apps1.12 libpcl-common1.12 libpcl-features1.12 libpcl-filters1.12 libpcl-io1.12 libpcl-kdtree1.12 libpcl-keypoints1.12 libpcl-ml1.12 libpcl-octree1.12 libpcl-outofcore1.12 libpcl-people1.12 libpcl-recognition1.12 libpcl-registration1.12 libpcl-sample-consensus1.12 libpcl-search1.12 libpcl-segmentation1.12 libpcl-stereo1.12 libpcl-surface1.12 libpcl-tracking1.12 libpcl-visualization1.12
+        '22.04': [libpcl-apps1.12, libpcl-common1.12, libpcl-features1.12, libpcl-filters1.12, libpcl-io1.12, libpcl-kdtree1.12, libpcl-keypoints1.12, libpcl-ml1.12, libpcl-octree1.12, libpcl-outofcore1.12, libpcl-people1.12, libpcl-recognition1.12, libpcl-registration1.12, libpcl-sample-consensus1.12, libpcl-search1.12, libpcl-segmentation1.12, libpcl-stereo1.12, libpcl-surface1.12, libpcl-tracking1.12, libpcl-visualization1.12]
 libpcl-all-dev:
     ubuntu:
         '22.04': libpcl-dev
@@ -1725,7 +1725,7 @@ libqrencode-dev:
         '22.04': libqrencode-dev
 libqt4:
     ubuntu:
-        '22.04': libqt4-dbus libqt4-network libqt4-script libqt4-test libqt4-xml libqtcore4
+        '22.04': [libqt4-dbus, libqt4-network, libqt4-script, libqt4-test, libqt4-xml, libqtcore4]
 libqt4-dev:
     ubuntu:
         '22.04': libqt4-dev
@@ -1869,7 +1869,7 @@ libspatialite:
         '22.04': libsqlite3-mod-spatialite
 libspnav-dev:
     ubuntu:
-        '22.04': libspnav-dev libx11-dev
+        '22.04': [libspnav-dev, libx11-dev]
 libsqlite3-dev:
     ubuntu:
         '22.04': libsqlite3-dev
@@ -1929,10 +1929,10 @@ libtins-dev:
         '22.04': libtins-dev
 libtool:
     ubuntu:
-        '22.04': libtool libltdl-dev libtool-bin
+        '22.04': [libtool, libltdl-dev, libtool-bin]
 libttspico:
     ubuntu:
-        '22.04': libttspico-dev libttspico-data libttspico-utils libttspico0
+        '22.04': [libttspico-dev, libttspico-data, libttspico-utils, libttspico0]
 libturbojpeg:
     ubuntu:
         '22.04': libturbojpeg0-dev
@@ -1980,7 +1980,7 @@ libv4l-dev:
         '22.04': libv4l-dev
 libvlc:
     ubuntu:
-        '22.04': libvlc5 vlc-bin
+        '22.04': [libvlc5, vlc-bin]
 libvlc-dev:
     ubuntu:
         '22.04': libvlc-dev
@@ -2292,10 +2292,10 @@ odb:
         '22.04': odb
 omniidl:
     ubuntu:
-        '22.04': omniidl omniorb-idl
+        '22.04': [omniidl, omniorb-idl]
 omniorb:
     ubuntu:
-        '22.04': omniorb omniidl omniorb-idl omniorb-nameserver libomniorb4-dev
+        '22.04': [omniorb, omniidl, omniorb-idl, omniorb-nameserver, libomniorb4-dev]
 opencl-headers:
     ubuntu:
         '22.04': opencl-headers
@@ -2304,7 +2304,7 @@ opende:
         '22.04': libode-dev
 opengl:
     ubuntu:
-        '22.04': libgl1-mesa-dev libglu1-mesa-dev
+        '22.04': [libgl1-mesa-dev, libglu1-mesa-dev]
 openjdk-6-jdk:
     ubuntu:
         '22.04': openjdk-6-jdk
@@ -2370,7 +2370,7 @@ postfix:
         '22.04': postfix
 postgresql:
     ubuntu:
-        '22.04': postgresql postgresql-contrib
+        '22.04': [postgresql, postgresql-contrib]
 postgresql-client:
     ubuntu:
         '22.04': postgresql-client
@@ -2391,7 +2391,7 @@ protobuf:
         '22.04': libprotobuf23
 protobuf-dev:
     ubuntu:
-        '22.04': libprotobuf-dev protobuf-compiler libprotoc-dev
+        '22.04': [libprotobuf-dev, protobuf-compiler, libprotoc-dev]
 ps-engine:
     ubuntu:
         '22.04': ps-engine
@@ -2832,7 +2832,7 @@ wmctrl:
         '22.04': wmctrl
 workrave:
     ubuntu:
-        '22.04': workrave workrave-data
+        '22.04': [workrave, workrave-data]
 wx-common:
     ubuntu:
         '22.04': wx-common
@@ -2922,7 +2922,7 @@ zlib:
         '22.04': zlib1g-dev
 zziplib:
     ubuntu:
-        '22.04': libzzip-0-13 libzzip-dev
+        '22.04': [libzzip-0-13, libzzip-dev]
 adafruit-ads1x15-pip:
     ubuntu:
         '22.04': Adafruit-ADS1x15
@@ -3669,7 +3669,7 @@ python-objectpath-pip:
         '22.04': objectpath
 python-omniorb:
     ubuntu:
-        '22.04': python-omniorb python-omniorb-omg omniidl-python
+        '22.04': [python-omniorb, python-omniorb-omg, omniidl-python]
 python-open3d-pip:
     ubuntu:
         '22.04': open3d-python
@@ -3900,7 +3900,7 @@ python-pytides-pip:
         '22.04': pytides
 python-pytorch-pip:
     ubuntu:
-        '22.04': torch torchvision
+        '22.04': [torch, torchvision]
 python-pytz-pip:
     ubuntu:
         '22.04': pytz
@@ -3927,7 +3927,7 @@ python-qrencode:
         '22.04': python-qrencode
 python-qt-bindings:
     ubuntu:
-        '22.04': python-pyside libpyside-dev libshiboken-dev shiboken python-qt4 python-qt4-dev python-sip-dev
+        '22.04': [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
 python-qt-bindings-gl:
     ubuntu:
         '22.04': python-qt4-gl
@@ -5262,7 +5262,7 @@ python3-pyqrcode:
         '22.04': python3-pyqrcode
 python3-pyqt5:
     ubuntu:
-        '22.04': pyqt5-dev python3-pyqt5 python3-pyqt5.qtsvg python3-sip-dev
+        '22.04': [pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-sip-dev]
 python3-pyqt5.qtquick:
     ubuntu:
         '22.04': python3-pyqt5.qtquick
@@ -5277,7 +5277,7 @@ python3-pyrr-pip:
         '22.04': pyrr
 python3-pyside2:
     ubuntu:
-        '22.04': libpyside2-dev libshiboken2-dev python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qthelp python3-pyside2.qtnetwork python3-pyside2.qtprintsupport python3-pyside2.qtsvg python3-pyside2.qttest python3-pyside2.qtwidgets python3-pyside2.qtxml shiboken2
+        '22.04': [libpyside2-dev, libshiboken2-dev, python3-pyside2.qtcore, python3-pyside2.qtgui, python3-pyside2.qthelp, python3-pyside2.qtnetwork, python3-pyside2.qtprintsupport, python3-pyside2.qtsvg, python3-pyside2.qttest, python3-pyside2.qtwidgets, python3-pyside2.qtxml, shiboken2]
 python3-pyside2.qtopengl:
     ubuntu:
         '22.04': python3-pyside2.qtopengl
@@ -5316,7 +5316,7 @@ python3-pytest-timeout:
         '22.04': python3-pytest-timeout
 python3-pytorch-pip:
     ubuntu:
-        '22.04': torch torchvision
+        '22.04': [torch, torchvision]
 python3-pytrinamic-pip:
     ubuntu:
         '22.04': pytrinamic
@@ -5334,7 +5334,7 @@ python3-qrcode:
         '22.04': python3-qrcode
 python3-qt5-bindings:
     ubuntu:
-        '22.04': libpyside2-dev libshiboken2-dev pyqt5-dev python3-pyqt5 python3-pyqt5.qtsvg python3-pyside2.qtsvg python3-sip-dev shiboken2
+        '22.04': [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-sip-dev, shiboken2]
 python3-qt5-bindings-gl:
     ubuntu:
         '22.04': python3-pyqt5.qtopengl

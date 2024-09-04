@@ -9,7 +9,7 @@ ack-grep:
         '20.04': ack-grep
 acl:
     ubuntu:
-        '20.04': acl libacl1-dev
+        '20.04': [acl, libacl1-dev]
 acpi:
     ubuntu:
         '20.04': acpi
@@ -24,7 +24,7 @@ ant:
         '20.04': ant
 antlr:
     ubuntu:
-        '20.04': antlr libantlr-dev
+        '20.04': [antlr, libantlr-dev]
 apache2:
     ubuntu:
         '20.04': apache2
@@ -36,13 +36,13 @@ apparmor:
         '20.04': apparmor
 apr:
     ubuntu:
-        '20.04': libapr1-dev libaprutil1-dev
+        '20.04': [libapr1-dev, libaprutil1-dev]
 apt-transport-https:
     ubuntu:
         '20.04': apt-transport-https
 aravis:
     ubuntu:
-        '20.04': libaravis-0.6-0 aravis-tools
+        '20.04': [libaravis-0.6-0, aravis-tools]
 aravis-dev:
     ubuntu:
         '20.04': libaravis-dev
@@ -246,7 +246,7 @@ crypto++:
         '20.04': libcrypto++-dev
 curl:
     ubuntu:
-        '20.04': libcurl4-openssl-dev curl
+        '20.04': [libcurl4-openssl-dev, curl]
 curlpp-dev:
     ubuntu:
         '20.04': libcurlpp-dev
@@ -345,22 +345,22 @@ exiv2:
         '20.04': exiv2
 f2c:
     ubuntu:
-        '20.04': f2c libf2c2 libf2c2-dev
+        '20.04': [f2c, libf2c2, libf2c2-dev]
 fakeroot:
     ubuntu:
         '20.04': fakeroot
 fcgi:
     ubuntu:
-        '20.04': libfcgi-dev libapache2-mod-fastcgi spawn-fcgi
+        '20.04': [libfcgi-dev, libapache2-mod-fastcgi, spawn-fcgi]
 festival:
     ubuntu:
-        '20.04': festival festvox-kallpc16k
+        '20.04': [festival, festvox-kallpc16k]
 festival-dev:
     ubuntu:
         '20.04': festival-dev
 ffmpeg:
     ubuntu:
-        '20.04': ffmpeg libavcodec-dev libavformat-dev libavutil-dev libswscale-dev
+        '20.04': [ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
 ffmpeg2theora:
     ubuntu:
         '20.04': ffmpeg2theora
@@ -384,7 +384,7 @@ flite:
         '20.04': flite
 fltk:
     ubuntu:
-        '20.04': fluid libfltk1.3-dev
+        '20.04': [fluid, libfltk1.3-dev]
 fluid:
     ubuntu:
         '20.04': fluid
@@ -546,7 +546,7 @@ gperf:
         '20.04': gperf
 gperftools:
     ubuntu:
-        '20.04': google-perftools libgoogle-perftools-dev
+        '20.04': [google-perftools, libgoogle-perftools-dev]
 gpg-agent:
     ubuntu:
         '20.04': gpg-agent
@@ -564,7 +564,7 @@ gradle:
         '20.04': gradle
 graphicsmagick:
     ubuntu:
-        '20.04': libgraphicsmagick++1-dev graphicsmagick-libmagick-dev-compat
+        '20.04': [libgraphicsmagick++1-dev, graphicsmagick-libmagick-dev-compat]
 graphviz:
     ubuntu:
         '20.04': graphviz
@@ -582,7 +582,7 @@ gstreamer0.10-pocketsphinx:
         '20.04': gstreamer0.10-pocketsphinx
 gstreamer1.0:
     ubuntu:
-        '20.04': gstreamer1.0-tools libgstreamer1.0-0 gir1.2-gstreamer-1.0
+        '20.04': [gstreamer1.0-tools, libgstreamer1.0-0, gir1.2-gstreamer-1.0]
 gstreamer1.0-alsa:
     ubuntu:
         '20.04': gstreamer1.0-alsa
@@ -597,10 +597,10 @@ gstreamer1.0-plugins-bad:
         '20.04': gstreamer1.0-plugins-bad
 gstreamer1.0-plugins-base:
     ubuntu:
-        '20.04': gstreamer1.0-plugins-base libgstreamer-plugins-base1.0-0 gir1.2-gst-plugins-base-1.0
+        '20.04': [gstreamer1.0-plugins-base, libgstreamer-plugins-base1.0-0, gir1.2-gst-plugins-base-1.0]
 gstreamer1.0-plugins-good:
     ubuntu:
-        '20.04': gstreamer1.0-plugins-good libgstreamer-plugins-good1.0-0
+        '20.04': [gstreamer1.0-plugins-good, libgstreamer-plugins-good1.0-0]
 gstreamer1.0-plugins-ugly:
     ubuntu:
         '20.04': gstreamer1.0-plugins-ugly
@@ -1236,7 +1236,7 @@ libffi-dev:
         '20.04': libffi-dev
 libfftw3:
     ubuntu:
-        '20.04': libfftw3-3 libfftw3-dev
+        '20.04': [libfftw3-3, libfftw3-dev]
 libfl-dev:
     ubuntu:
         '20.04': libfl-dev
@@ -1647,10 +1647,10 @@ libnewmat10-dev:
         '20.04': libnewmat10-dev
 libnl-3:
     ubuntu:
-        '20.04': libnl-3-200 libnl-genl-3-200 libnl-route-3-200
+        '20.04': [libnl-3-200, libnl-genl-3-200, libnl-route-3-200]
 libnl-3-dev:
     ubuntu:
-        '20.04': libnl-3-dev libnl-genl-3-dev libnl-route-3-dev
+        '20.04': [libnl-3-dev, libnl-genl-3-dev, libnl-route-3-dev]
 libnl-dev:
     ubuntu:
         '20.04': libnl-dev
@@ -1719,13 +1719,13 @@ libopenni2-dev:
         '20.04': libopenni2-dev
 libopenscenegraph:
     ubuntu:
-        '20.04': openscenegraph libopenscenegraph-dev
+        '20.04': [openscenegraph, libopenscenegraph-dev]
 libopenvdb:
     ubuntu:
         '20.04': libopenvdb6.2
 libopenvdb-dev:
     ubuntu:
-        '20.04': libopenvdb-dev libilmbase-dev
+        '20.04': [libopenvdb-dev, libilmbase-dev]
 liborocos-bfl:
     ubuntu:
         '20.04': liborocos-bfl0.8
@@ -1746,7 +1746,7 @@ libpcap:
         '20.04': libpcap0.8-dev
 libpcl-all:
     ubuntu:
-        '20.04': libpcl-apps1.10 libpcl-common1.10 libpcl-features1.10 libpcl-filters1.10 libpcl-io1.10 libpcl-kdtree1.10 libpcl-keypoints1.10 libpcl-ml1.10 libpcl-octree1.10 libpcl-outofcore1.10 libpcl-people1.10 libpcl-recognition1.10 libpcl-registration1.10 libpcl-sample-consensus1.10 libpcl-search1.10 libpcl-segmentation1.10 libpcl-stereo1.10 libpcl-surface1.10 libpcl-tracking1.10 libpcl-visualization1.10
+        '20.04': [libpcl-apps1.10, libpcl-common1.10, libpcl-features1.10, libpcl-filters1.10, libpcl-io1.10, libpcl-kdtree1.10, libpcl-keypoints1.10, libpcl-ml1.10, libpcl-octree1.10, libpcl-outofcore1.10, libpcl-people1.10, libpcl-recognition1.10, libpcl-registration1.10, libpcl-sample-consensus1.10, libpcl-search1.10, libpcl-segmentation1.10, libpcl-stereo1.10, libpcl-surface1.10, libpcl-tracking1.10, libpcl-visualization1.10]
 libpcl-all-dev:
     ubuntu:
         '20.04': libpcl-dev
@@ -1881,7 +1881,7 @@ libqrencode-dev:
         '20.04': libqrencode-dev
 libqt4:
     ubuntu:
-        '20.04': libqt4-dbus libqt4-network libqt4-script libqt4-test libqt4-xml libqtcore4
+        '20.04': [libqt4-dbus, libqt4-network, libqt4-script, libqt4-test, libqt4-xml, libqtcore4]
 libqt4-dev:
     ubuntu:
         '20.04': libqt4-dev
@@ -2025,7 +2025,7 @@ libspatialite:
         '20.04': libsqlite3-mod-spatialite
 libspnav-dev:
     ubuntu:
-        '20.04': libspnav-dev libx11-dev
+        '20.04': [libspnav-dev, libx11-dev]
 libsqlite3-dev:
     ubuntu:
         '20.04': libsqlite3-dev
@@ -2085,10 +2085,10 @@ libtins-dev:
         '20.04': libtins-dev
 libtool:
     ubuntu:
-        '20.04': libtool libltdl-dev libtool-bin
+        '20.04': [libtool, libltdl-dev, libtool-bin]
 libttspico:
     ubuntu:
-        '20.04': libttspico-dev libttspico-data libttspico-utils libttspico0
+        '20.04': [libttspico-dev, libttspico-data, libttspico-utils, libttspico0]
 libturbojpeg:
     ubuntu:
         '20.04': libturbojpeg0-dev
@@ -2136,7 +2136,7 @@ libv4l-dev:
         '20.04': libv4l-dev
 libvlc:
     ubuntu:
-        '20.04': libvlc5 vlc-bin
+        '20.04': [libvlc5, vlc-bin]
 libvlc-dev:
     ubuntu:
         '20.04': libvlc-dev
@@ -2451,13 +2451,13 @@ odb:
         '20.04': odb
 omniidl:
     ubuntu:
-        '20.04': omniidl omniorb-idl
+        '20.04': [omniidl, omniorb-idl]
 omniorb:
     ubuntu:
-        '20.04': omniorb omniidl omniorb-idl omniorb-nameserver libomniorb4-dev
+        '20.04': [omniorb, omniidl, omniorb-idl, omniorb-nameserver, libomniorb4-dev]
 opencascade:
     ubuntu:
-        '20.04': libocct-data-exchange-dev libocct-draw-dev
+        '20.04': [libocct-data-exchange-dev, libocct-draw-dev]
 opencl-headers:
     ubuntu:
         '20.04': opencl-headers
@@ -2466,7 +2466,7 @@ opende:
         '20.04': libode-dev
 opengl:
     ubuntu:
-        '20.04': libgl1-mesa-dev libglu1-mesa-dev
+        '20.04': [libgl1-mesa-dev, libglu1-mesa-dev]
 openjdk-6-jdk:
     ubuntu:
         '20.04': openjdk-6-jdk
@@ -2532,13 +2532,13 @@ postfix:
         '20.04': postfix
 postgresql:
     ubuntu:
-        '20.04': postgresql postgresql-contrib
+        '20.04': [postgresql, postgresql-contrib]
 postgresql-client:
     ubuntu:
         '20.04': postgresql-client
 postgresql-postgis:
     ubuntu:
-        '20.04': postgresql-12-postgis-3 postgresql-contrib postgresql-server-dev-all
+        '20.04': [postgresql-12-postgis-3, postgresql-contrib, postgresql-server-dev-all]
 potrace:
     ubuntu:
         '20.04': potrace
@@ -2556,7 +2556,7 @@ protobuf:
         '20.04': libprotobuf17
 protobuf-dev:
     ubuntu:
-        '20.04': libprotobuf-dev protobuf-compiler libprotoc-dev
+        '20.04': [libprotobuf-dev, protobuf-compiler, libprotoc-dev]
 ps-engine:
     ubuntu:
         '20.04': ps-engine
@@ -3000,7 +3000,7 @@ wmctrl:
         '20.04': wmctrl
 workrave:
     ubuntu:
-        '20.04': workrave workrave-data
+        '20.04': [workrave, workrave-data]
 wx-common:
     ubuntu:
         '20.04': wx-common
@@ -3084,7 +3084,7 @@ zlib:
         '20.04': zlib1g-dev
 zziplib:
     ubuntu:
-        '20.04': libzzip-0-13 libzzip-dev
+        '20.04': [libzzip-0-13, libzzip-dev]
 adafruit-ads1x15-pip:
     ubuntu:
         '20.04': Adafruit-ADS1x15
@@ -3846,7 +3846,7 @@ python-objectpath-pip:
         '20.04': objectpath
 python-omniorb:
     ubuntu:
-        '20.04': python-omniorb python-omniorb-omg omniidl-python
+        '20.04': [python-omniorb, python-omniorb-omg, omniidl-python]
 python-open3d-pip:
     ubuntu:
         '20.04': open3d-python
@@ -4077,7 +4077,7 @@ python-pytides-pip:
         '20.04': pytides
 python-pytorch-pip:
     ubuntu:
-        '20.04': torch torchvision
+        '20.04': [torch, torchvision]
 python-pytz-pip:
     ubuntu:
         '20.04': pytz
@@ -4104,7 +4104,7 @@ python-qrencode:
         '20.04': python-qrencode
 python-qt-bindings:
     ubuntu:
-        '20.04': python-pyside libpyside-dev libshiboken-dev shiboken python-qt4 python-qt4-dev python-sip-dev
+        '20.04': [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
 python-qt-bindings-gl:
     ubuntu:
         '20.04': python-qt4-gl
@@ -5409,7 +5409,7 @@ python3-pyqrcode:
         '20.04': python3-pyqrcode
 python3-pyqt5:
     ubuntu:
-        '20.04': pyqt5-dev python3-pyqt5 python3-pyqt5.qtsvg python3-sip-dev
+        '20.04': [pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-sip-dev]
 python3-pyqt5.qtquick:
     ubuntu:
         '20.04': python3-pyqt5.qtquick
@@ -5424,7 +5424,7 @@ python3-pyrr-pip:
         '20.04': pyrr
 python3-pyside2:
     ubuntu:
-        '20.04': libpyside2-dev libshiboken2-dev python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qthelp python3-pyside2.qtnetwork python3-pyside2.qtprintsupport python3-pyside2.qtsvg python3-pyside2.qttest python3-pyside2.qtwidgets python3-pyside2.qtxml shiboken2
+        '20.04': [libpyside2-dev, libshiboken2-dev, python3-pyside2.qtcore, python3-pyside2.qtgui, python3-pyside2.qthelp, python3-pyside2.qtnetwork, python3-pyside2.qtprintsupport, python3-pyside2.qtsvg, python3-pyside2.qttest, python3-pyside2.qtwidgets, python3-pyside2.qtxml, shiboken2]
 python3-pyside2.qtopengl:
     ubuntu:
         '20.04': python3-pyside2.qtopengl
@@ -5463,7 +5463,7 @@ python3-pytest-timeout:
         '20.04': python3-pytest-timeout
 python3-pytorch-pip:
     ubuntu:
-        '20.04': torch torchvision
+        '20.04': [torch, torchvision]
 python3-pytrinamic-pip:
     ubuntu:
         '20.04': pytrinamic
@@ -5481,7 +5481,7 @@ python3-qrcode:
         '20.04': python3-qrcode
 python3-qt5-bindings:
     ubuntu:
-        '20.04': libpyside2-dev libshiboken2-dev pyqt5-dev python3-pyqt5 python3-pyqt5.qtsvg python3-pyside2.qtsvg python3-sip-dev shiboken2
+        '20.04': [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-pyside2.qtsvg, python3-sip-dev, shiboken2]
 python3-qt5-bindings-gl:
     ubuntu:
         '20.04': python3-pyqt5.qtopengl
