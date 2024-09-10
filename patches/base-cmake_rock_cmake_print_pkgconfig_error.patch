@@ -1,0 +1,24 @@
+diff --git modules/Rock.cmake modules/Rock.cmake
+index ec01b66..d38bdef 100644
+--- modules/Rock.cmake
++++ modules/Rock.cmake
+@@ -301,6 +301,10 @@ endmacro()
+ macro (rock_find_pkgconfig VARIABLE)
+     if (NOT ${VARIABLE}_FOUND)
+         pkg_check_modules(${VARIABLE} ${ARGN})
++        if (NOT ${VARIABLE}_FOUND)
++            # still not found, this prints the package name to stderr (readable in colcon)
++            message(FATAL_ERROR "package ${VARIABLE} not found")
++        endif()
+         foreach(${VARIABLE}_lib ${${VARIABLE}_LIBRARIES})
+           set(_${VARIABLE}_lib NOTFOUND)
+           find_library(_${VARIABLE}_lib NAMES ${${VARIABLE}_lib} HINTS ${${VARIABLE}_LIBRARY_DIRS})
+@@ -405,7 +409,7 @@ macro(rock_target_definition TARGET_NAME)
+         rock_add_plain_dependency(${plain_pkg})
+     endforeach()
+     foreach (pkgconfig_pkg ${${TARGET_NAME}_DEPS_PKGCONFIG} ${${TARGET_NAME}_PUBLIC_PKGCONFIG})
+-        rock_find_pkgconfig(${pkgconfig_pkg}_PKGCONFIG REQUIRED ${pkgconfig_pkg})
++        rock_find_pkgconfig(${pkgconfig_pkg}_PKGCONFIG ${pkgconfig_pkg})
+     endforeach()
+     foreach (cmake_pkg ${${TARGET_NAME}_DEPS_CMAKE} ${${TARGET_NAME}_PUBLIC_CMAKE})
+         rock_find_cmake(${cmake_pkg} REQUIRED)

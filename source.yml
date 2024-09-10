@@ -22,6 +22,8 @@ version_control:
   - base/cmake:
     github: rock-core/base-cmake
     branch: use_stock_FindBoost
+    patches:
+      - $AUTOPROJ_SOURCE_DIR/patches/base-cmake_rock_cmake_print_pkgconfig_error.patch
 
   - base/logging:
     github: rock-core/base-logging
