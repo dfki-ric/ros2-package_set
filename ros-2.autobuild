@@ -11,6 +11,7 @@ end
 
 import_package "slam/slam3d_ros2" do |pkg|
     pkg.depends_on "slam/slam3d"
+    pkg.depends_on "ament_cmake"
 end
 
 not_on ["ubuntu", "22.04"] do
