@@ -47,16 +47,7 @@ version_control:
     github: sbpl/sbpl
   - planning/sbpl_spline_primitives:
     github: rock-planning/planning-sbpl_spline_primitives
-    branch: feature/qt5
-  - planning/traversability_generator3d:
-    dfkigit: dfki-planning/traversability_generator3d
-  - gui/vizkit3d_debug_drawings:
-    github: rock-gui/gui-vizkit3d_debug_drawings
-    branch: feature/qt5
-  - control/trajectory_follower:
-    github: rock-control/control-trajectory_follower
-    branch: feature/qt5
-    patches:
+    branch: feature/qt5ENABLE_DRAFTS
       - $AUTOPROJ_SOURCE_DIR/patches/control-trajectory_follower.patch
   - slam/maps:
     github: envire/slam-maps
@@ -162,3 +153,15 @@ version_control:
 
   - interaction/libraries/robot_remote_control:
     github: dfki-ric/robot_remote_control
+
+  - communication/libzmq:
+    github: zeromq/libzmq
+
+  - planning/traversability_generator3d:
+    github: dfki-ric/traversability_generator3d
+
+  - gui/vizkit3d_debug_drawings:
+    github: rock-core/gui-vizkit3d_debug_drawings
+
+  - control/trajectory_follower:
+    github: rock-control/trajectory_follower

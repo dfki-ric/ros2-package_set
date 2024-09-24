@@ -104,3 +104,8 @@ end
 colcon_import_package("tools/plugin_manager")
 
 colcon_import_package("base/console_bridge")
+
+colcon_import_package("communication/libzmq") do |pkg|
+    pkg.add_cmake_arg("-DENABLE_DRAFTS=ON")
+    pkg.add_cmake_arg("-DCMAKE_BUILD_TYPE=Release")
+end
