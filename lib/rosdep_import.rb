@@ -2,8 +2,9 @@ require 'yaml'
 require 'fileutils'
 require 'open-uri'
 
-# https://raw.githubusercontent.com/ros/rosdistro/refs/tags/humble/2024-09-19/rosdep/base.yaml
-# https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/base.yaml
+# Importer for rosdep definition files
+# use the import() function to save osdeps for a specific ros version, e.g. import("humble")
+
 module Ros2
     class RosdepImporter
 
@@ -114,10 +115,6 @@ module Ros2
                     import_ros_packages("rolling")
                     close()
             end
-
-
         end
-
-
     end
 end
