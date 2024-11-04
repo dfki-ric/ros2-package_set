@@ -10,6 +10,10 @@ default: "humble",
 doc: ["Which ros version should be used?"],
 options: ["humble", "jazzy", "rolling"]
 
+if (!Autoproj.config.has_value_for?("IMPORTED_ROS_OSDEPS")) then
+    Autoproj.config.set("IMPORTED_ROS_OSDEPS", "")
+end
+
 prefix = Autoproj.manifest.package_set("ros2").local_dir
 ubuntu_osdeps = prefix+"/ubuntu.osdeps"
 ros_osdeps = prefix+"/ros.osdeps"
