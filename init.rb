@@ -7,8 +7,8 @@ require_relative "./lib/rosdep_import.rb"
 Autoproj.config.declare "ROS_VERSION",
 "string",
 default: "humble",
-doc: ["Which ros version should be used?"],
-options: ["humble", "jazzy", "rolling"]
+doc: ["Which ros version should be used [humble, jazzy, rolling] ?"],
+possible_values: ["humble", "jazzy", "rolling"]
 
 if (!Autoproj.config.has_value_for?("IMPORTED_ROS_OSDEPS")) then
     Autoproj.config.set("IMPORTED_ROS_OSDEPS", "")
