@@ -114,6 +114,8 @@ module Ros2
                     import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/ruby.yaml")
                     import_ros_packages("rolling")
                     close()
+                else
+                    raise "#{rosversion} is not supported by rosdep importer (needs to be added to the import method of lib/rosdep_import.rb)"
             end
         end
     end
