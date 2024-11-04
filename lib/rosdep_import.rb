@@ -9,7 +9,9 @@ module Ros2
 
         def initialize(osdepfile, rosfile)
             @osdep_file = File.open(osdepfile, 'w')
+            @osdep_file.puts "#\n# This file is generated, do not edit!\n#"
             @rosfile = File.open(rosfile, 'w')
+            @rosfile.puts "#\n# This file is generated, do not edit!\n#"
         end
 
         def close()
