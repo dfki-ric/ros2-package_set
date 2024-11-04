@@ -94,13 +94,26 @@ module Ros2
 
         def import(rosversion)
             case rosversion
-            when "humble"
-                import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/base.yaml")
-                import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/python.yaml")
-                import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/ruby.yaml")
-                import_ros_packages("humble")
-                close()
+                when "humble"
+                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/humble/2024-09-19/rosdep/base.yaml")
+                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/humble/2024-09-19/rosdep/python.yaml")
+                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/humble/2024-09-19/rosdep/ruby.yaml")
+                    import_ros_packages("humble")
+                    close()
+                when "jazzy"
+                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/jazzy/2024-10-18/rosdep/base.yaml")
+                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/jazzy/2024-10-18/rosdep/python.yaml")
+                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/jazzy/2024-10-18/rosdep/ruby.yaml")
+                    import_ros_packages("jazzy")
+                    close()
+                when "rolling"
+                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/base.yaml")
+                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/python.yaml")
+                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/ruby.yaml")
+                    import_ros_packages("rolling")
+                    close()
             end
+
 
         end
 

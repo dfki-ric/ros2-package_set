@@ -8,15 +8,19 @@ Autoproj.config.declare "ROS_VERSION",
 "string",
 default: "humble",
 doc: ["Which ros version should be used?"],
-options: ["humble", "iron", "foxy", "rolling"]
+options: ["humble", "jazzy", "rolling"]
 
 prefix = Autoproj.manifest.package_set("ros2").local_dir
 ubuntu_osdeps = prefix+"/ubuntu.osdeps"
 ros_osdeps = prefix+"/ros.osdeps"
-if !File.exist?(ubuntu_osdeps) || !File.exist?(ros_osdeps) then
+ros_version = Autoproj.config.get("ROS_VERSION")
+imported_ros_osdeps = Autoproj.config.get("IMPORTED_ROS_OSDEPS")
+
+if !File.exist?(ubuntu_osdeps) || !File.exist?(ros_osdeps) || ros_version != imported_ros_osdeps then
     Autoproj.message "Importing rosdeps to " + prefix
     importer = Ros2::RosdepImporter.new(ubuntu_osdeps, ros_osdeps)
-    importer.import(Autoproj.config.get("ROS_VERSION"))
+    importer.import(ros_version)
+    Autoproj.config.set("IMPORTED_ROS_OSDEPS", ros_version)
 end
 
 
