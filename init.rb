@@ -9,7 +9,7 @@ require_relative "./lib/rosdep_import.rb"
 os_names, os_versions = Autoproj.workspace.operating_system
 if os_names.include?('ubuntu')
     if os_versions.include?('22.04')
-        Autoproj.config.set("ROS_VERSION", "humple")
+        Autoproj.config.set("ROS_VERSION", "humble")
     elsif os_versions.include?('24.04')
         Autoproj.config.set("ROS_VERSION", "jazzy")
     end
