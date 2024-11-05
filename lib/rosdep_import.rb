@@ -10,9 +10,9 @@ module Ros2
 
         def initialize(osdepfile, rosfile)
             @osdep_file = File.open(osdepfile, 'w')
-            @osdep_file.puts "#\n# This file is generated, do not edit!\n#"
+            @osdep_file.puts "#\n# This file is generated, do not edit!"
             @rosfile = File.open(rosfile, 'w')
-            @rosfile.puts "#\n# This file is generated, do not edit!\n#"
+            @rosfile.puts "#\n# This file is generated, do not edit!"
         end
 
         def close()
@@ -94,29 +94,14 @@ module Ros2
             end
         end
 
-        def import(rosversion)
-            case rosversion
-                when "humble"
-                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/humble/2024-09-19/rosdep/base.yaml")
-                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/humble/2024-09-19/rosdep/python.yaml")
-                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/humble/2024-09-19/rosdep/ruby.yaml")
-                    import_ros_packages("humble")
-                    close()
-                when "jazzy"
-                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/jazzy/2024-10-18/rosdep/base.yaml")
-                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/jazzy/2024-10-18/rosdep/python.yaml")
-                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/jazzy/2024-10-18/rosdep/ruby.yaml")
-                    import_ros_packages("jazzy")
-                    close()
-                when "rolling"
-                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/base.yaml")
-                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/python.yaml")
-                    import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/ruby.yaml")
-                    import_ros_packages("rolling")
-                    close()
-                else
-                    raise "#{rosversion} is not supported by rosdep importer (needs to be added to the import method of lib/rosdep_import.rb)"
-            end
+        def import(rosversion, date)
+            rostag=rosversion+"/"+date
+            @osdep_file.puts "# based on https://github.com/ros/rosdistro tag #{rostag}\n#"
+            @rosfile.puts "# based on https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/"+rosversion+"/distribution.yaml\n#"
+            import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/base.yaml")
+            import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/python.yaml")
+            import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/ruby.yaml")
+            import_ros_packages(rosversion)
         end
     end
 end
