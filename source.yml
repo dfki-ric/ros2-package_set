@@ -38,17 +38,17 @@ version_control:
     github: rock-control/control-motor_controller
 
   - planning/ugv_nav4d:
-    dfkigit: dfki-planning/ugv_nav4d
-    branch: feature/qt4-qt5
-    patches:
-      - $AUTOPROJ_SOURCE_DIR/patches/ugv_nav4d.patch
-    branch: feature/qt5
+    github: dfki-ric/ugv_nav4d
+
+  - planning/ugv_nav4d_ros2:
+    github: dfki-ric/ugv_nav4d_ros2
+
   - planning/sbpl:
     github: sbpl/sbpl
   - planning/sbpl_spline_primitives:
     github: rock-planning/planning-sbpl_spline_primitives
-    branch: feature/qt5ENABLE_DRAFTS
-      - $AUTOPROJ_SOURCE_DIR/patches/control-trajectory_follower.patch
+    # branch: feature/qt5
+    #   - $AUTOPROJ_SOURCE_DIR/patches/control-trajectory_follower.patch
   - slam/maps:
     github: envire/slam-maps
     branch: feature/qt5
@@ -161,7 +161,8 @@ version_control:
     github: dfki-ric/traversability_generator3d
 
   - gui/vizkit3d_debug_drawings:
-    github: rock-core/gui-vizkit3d_debug_drawings
+    github: rock-gui/gui-vizkit3d_debug_drawings
+    branch: feature/qt5
 
   - control/trajectory_follower:
-    github: rock-control/trajectory_follower
+    github: rock-control/control-trajectory_follower
