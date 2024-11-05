@@ -27,3 +27,5 @@ remove_from_default 'gazebo_ros2_control/gazebo_ros2_control_demos'
 
 colcon_package "interaction/libraries/robot_remote_control"
 metapackage "robot_remote_control", "interaction/libraries/robot_remote_control"
+
+colcon_package "planning/ugv_nav4d_ros2"
