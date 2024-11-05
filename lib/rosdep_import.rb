@@ -43,7 +43,11 @@ module Ros2
 
         def import_rosdep_osdeps(url)
             URI.open(url) do |f|
-                yaml = YAML.load(f);    
+                yaml = if Psych::VERSION > '4.0'
+                    YAML.load(f, aliases: true)
+                else
+                    YAML.load(f)
+                end
                 yaml.each do |depname, osdep|
                     if osdep["ubuntu"].is_a?(Array) then
                         @osdep_file.puts  depname + ":\n    ubuntu: #{osdep["ubuntu"]}\n\n"
@@ -79,7 +83,11 @@ module Ros2
         def import_ros_packages(rosversion)
             url = "https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/"+rosversion+"/distribution.yaml"
             URI.open(url) do |f|
-                yaml = YAML.load(f);    
+                yaml = if Psych::VERSION > '4.0'
+                    YAML.load(f, aliases: false)
+                else
+                    YAML.load(f)
+                end
                 yaml["repositories"].each do |depname, content|
                     if content.has_key?("release") && content["release"].has_key?("packages") then
                         content["release"]["packages"].each do |package|
