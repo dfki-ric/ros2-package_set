@@ -4,10 +4,18 @@ require_relative "./lib/colcon_import_package.rb"
 require_relative "./lib/rosdep_import.rb"
 
 # Declare optione to ask for the desired ros version
-# options must have an implementation in the import function of ./lib/rosdep_import.rb 
+# options must have an implementation in the import function of ./lib/rosdep_import.rb
+# set default based on OS
+os_names, os_versions = Autoproj.workspace.operating_system
+if os_names.include?('ubuntu')
+    if os_versions.include?('22.04')
+        Autoproj.config.set("ROS_VERSION", "humple")
+    elsif os_versions.include?('24.04')
+        Autoproj.config.set("ROS_VERSION", "jazzy")
+    end
+end
 Autoproj.config.declare "ROS_VERSION",
     "string",
-    default: "humble",
     doc: ["Which ros version should be used to import package depenencies [humble, jazzy, rolling] ?", "you can test other versions, but you need to provide a valid date tag"]
 
 
@@ -37,7 +45,6 @@ if ros_version != imported_ros_osdeps then
             Autoproj.config.set("ROS_TAG_DATE", "2024-09-26")
         else
             Autoproj.config.set("ROS_TAG_DATE", "")
-
     end
 end
 
@@ -63,6 +70,7 @@ if !File.exist?(ubuntu_osdeps) || !File.exist?(ros_osdeps) || ros_version != imp
     importer = Ros2::RosdepImporter.new(ubuntu_osdeps, ros_osdeps)
     importer.import(ros_version, ros_tag_date)
     Autoproj.config.set("IMPORTED_ROS_OSDEPS", ros_version)
+    Autoproj.config.set("IMPORTED_ROS_TAGDATE", ros_tag_date)
 end
 
 
