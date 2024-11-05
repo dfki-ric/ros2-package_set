@@ -1,13 +1,13 @@
 - ubuntu:
     - focal:
         - type: key
-          url: https://raw.githubusercontent.com/ros/rosdistro/master/ros.key
-          id: ""
+          keyserver: hkp://keyserver.ubuntu.com:80
+          id: C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
         - type: repo
           repo: deb http://packages.ros.org/ros2/ubuntu focal main
     - jammy:
         - type: key
-          url: https://raw.githubusercontent.com/ros/rosdistro/master/ros.key
-          id: ""
+          keyserver: hkp://keyserver.ubuntu.com:80
+          id: C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
         - type: repo
           repo: deb http://packages.ros.org/ros2/ubuntu jammy main
