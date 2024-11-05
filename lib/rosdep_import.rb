@@ -2,14 +2,17 @@ require 'yaml'
 require 'fileutils'
 require 'open-uri'
 
-# https://raw.githubusercontent.com/ros/rosdistro/refs/tags/humble/2024-09-19/rosdep/base.yaml
-# https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/base.yaml
+# Importer for rosdep definition files
+# use the import() function to save osdeps for a specific ros version, e.g. import("humble")
+
 module Ros2
     class RosdepImporter
 
         def initialize(osdepfile, rosfile)
             @osdep_file = File.open(osdepfile, 'w')
+            @osdep_file.puts "#\n# This file is generated, do not edit!"
             @rosfile = File.open(rosfile, 'w')
+            @rosfile.puts "#\n# This file is generated, do not edit!"
         end
 
         def close()
@@ -40,7 +43,11 @@ module Ros2
 
         def import_rosdep_osdeps(url)
             URI.open(url) do |f|
-                yaml = YAML.load(f);    
+                yaml = if Psych::VERSION > '4.0'
+                    YAML.load(f, aliases: true)
+                else
+                    YAML.load(f)
+                end
                 yaml.each do |depname, osdep|
                     if osdep["ubuntu"].is_a?(Array) then
                         @osdep_file.puts  depname + ":\n    ubuntu: #{osdep["ubuntu"]}\n\n"
@@ -76,10 +83,13 @@ module Ros2
         def import_ros_packages(rosversion)
             url = "https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/"+rosversion+"/distribution.yaml"
             URI.open(url) do |f|
-                yaml = YAML.load(f);    
+                yaml = if Psych::VERSION > '4.0'
+                    YAML.load(f, aliases: false)
+                else
+                    YAML.load(f)
+                end
                 yaml["repositories"].each do |depname, content|
                     if content.has_key?("release") && content["release"].has_key?("packages") then
-                        puts content
                         content["release"]["packages"].each do |package|
                             @rosfile.puts  package + ":"
                             @rosfile.puts "    ubuntu: ros-"+rosversion+"-"+package.gsub(/_/, '-')
@@ -92,18 +102,14 @@ module Ros2
             end
         end
 
-        def import(rosversion)
-            case rosversion
-            when "humble"
-                import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/base.yaml")
-                import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/python.yaml")
-                import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rosdep/ruby.yaml")
-                import_ros_packages("humble")
-                close()
-            end
-
+        def import(rosversion, date)
+            rostag=rosversion+"/"+date
+            @osdep_file.puts "# based on https://github.com/ros/rosdistro tag #{rostag}\n#"
+            @rosfile.puts "# based on https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/"+rosversion+"/distribution.yaml\n#"
+            import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/base.yaml")
+            import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/python.yaml")
+            import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/ruby.yaml")
+            import_ros_packages(rosversion)
         end
-
-
     end
 end
