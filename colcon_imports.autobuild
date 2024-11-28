@@ -30,7 +30,7 @@ colcon_import_package "gui/vizkit3d"
 colcon_import_package "gui/osgviz"
 
 colcon_import_package "external/sisl"
-colcon_import_package "gui/osg_qt5"
+colcon_import_package "gui/osg_qt4"
 colcon_import_package "gui/qtpropertybrowser"
 colcon_import_package "base/numeric"
 colcon_import_package "base/boost_serialization"
