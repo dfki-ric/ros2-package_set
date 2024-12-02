@@ -68,9 +68,8 @@ version_control:
     github: rock-core/gui-osgviz
   - external/sisl:
     github: SINTEF-Geometry/SISL
-  - gui/osg_qt5:
+  - gui/osg_qt4:
     github: rock-core/gui-osg_qt4
-    branch: feature/qt5
   - gui/qtpropertybrowser:
     github: abhijitkundu/QtPropertyBrowser
   - base/numeric:
