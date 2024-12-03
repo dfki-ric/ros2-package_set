@@ -39,10 +39,10 @@ tools/class_loader:
     osdep: class_loader
 
 control/urdfdom:
-    osdep: urdfdom
+    osdep: liburdfdom-dev
 
 control/urdfdom_headers:
-    osdep: urdfdom_headers
+    osdep: liburdfdom-headers-dev
 
 openvdb:
     ubuntu: libopenvdb-dev
