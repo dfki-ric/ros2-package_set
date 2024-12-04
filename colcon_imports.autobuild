@@ -87,6 +87,7 @@ colcon_import_package("simulation/lib_manager")
 colcon_import_package("envire/envire_core") do |pkg|
     pkg.add_cmake_arg("-DROCK_TEST_ENABLED=OFF")
     pkg.add_cmake_arg("-DPLUGIN_LIBS_FOUND=ON")
+    pkg.use_optional_dependency "tools/class_loader_melodic"
     pkg.use_optional_dependency "tools/plugin_manager"
 end
 
