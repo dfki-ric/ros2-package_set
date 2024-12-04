@@ -7,4 +7,4 @@
 # there defines just "slam3d".
 # To have the manually set package name occur in auto-generated package.xml files, you can define the 
 # name conversion from path to the manula package name here:
-slam/slam3d: slam3d
+#slam/slam3d: slam3d

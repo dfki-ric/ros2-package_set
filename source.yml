@@ -13,10 +13,10 @@ version_control:
   - slam/pointmatcher:
     github: skasperski/libpointmatcher
 
-  - slam/slam3d:
+  - slam3d:
     github: dfki-ric/slam3d
 
-  - slam/slam3d_ros2:
+  - slam3d_ros2:
     github: dfki-ric/slam3d_ros2
 
   - base/cmake:

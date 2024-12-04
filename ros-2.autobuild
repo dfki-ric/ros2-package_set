@@ -1,4 +1,3 @@
-import_package "slam/slam3d"
 import_package "slam/g2o" do |pkg|
     pkg.depends_on "suitesparse"
 end
@@ -9,10 +8,11 @@ import_package "slam/pointmatcher" do |pkg|
     pkg.depends_on "slam/nabo"
 end
 
-import_package "slam/slam3d_ros2" do |pkg|
-    pkg.depends_on "slam/slam3d"
-    pkg.depends_on "ament_cmake"
-end
+import_package "slam3d"
+move_package "slam3d", "slam"
+
+colcon_package "slam3d_ros2"
+move_package "slam3d_ros2", "slam"
 
 not_on ["ubuntu", "22.04"] do
     colcon_package "slam/vdb_mapping"
