@@ -4,7 +4,7 @@ module Ros2
         def initialize(ws: Autoproj.workspace)
             pkg_set_path = File.dirname(caller_locations.first.path)
             depname_overrides = File.join(pkg_set_path, '../dependency_name_overrides.yml')
-            @dependdency_name_overrides = YAML.load_file(depname_overrides)
+            @dependdency_name_overrides = YAML.load_file(depname_overrides, fallback: {})
         end
 
         def generate(pkg, dependencyname)
