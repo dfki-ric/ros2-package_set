@@ -10,11 +10,8 @@ end
 
 import_package "slam3d"
 move_package "slam3d", "slam"
-metapackage "slam/slam3d", "slam3d"
 
-colcon_package "slam3d_ros2"
-move_package "slam3d_ros2", "slam"
-metapackage "slam/slam3d_ros2", "slam3d_ros2"
+colcon_package "slam3d_ros2", move_to: "slam"
 
 not_on ["ubuntu", "22.04"] do
     colcon_package "slam/vdb_mapping"
