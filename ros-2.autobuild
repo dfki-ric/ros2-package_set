@@ -10,6 +10,7 @@ end
 
 import_package "slam3d"
 move_package "slam3d", "slam"
+metapackage "slam/slam3d", "slam3d"
 
 colcon_package "slam3d_ros2", move_to: "slam"
 
