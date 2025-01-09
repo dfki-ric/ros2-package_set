@@ -143,7 +143,9 @@ module Ros2
             rostag=getLatestTag(rosversion)
             Autoproj.message "Using tag: #{rostag} of https://github.com/ros/rosdistro to generate osdeps" 
             @osdep_file.puts "# based on https://github.com/ros/rosdistro tag #{rostag}\n#"
+            @osdep_file.puts "# If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config\n#"
             @rosfile.puts "# based on https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/"+rosversion+"/distribution.yaml\n#"
+            @rosfile.puts "# If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config\n#"
             import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/base.yaml")
             import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/python.yaml")
             import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/ruby.yaml")

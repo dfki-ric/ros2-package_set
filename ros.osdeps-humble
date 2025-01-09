@@ -2,6 +2,8 @@
 # This file is generated, do not edit!
 # based on https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/humble/distribution.yaml
 #
+# If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config
+#
 aandd_ekew_driver_py:
     ubuntu: ros-humble-aandd-ekew-driver-py
 acado_vendor:
