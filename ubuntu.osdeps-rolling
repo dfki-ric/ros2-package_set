@@ -4097,10 +4097,6 @@ pyros-setup-pip:
 pyside-tools:
     ubuntu: ["pyside-tools"]
 
-python:
-    ubuntu:
-        bionic: ["python-dev"]
-
 python-absl-py-pip:
     pip: ["absl-py"]
 
