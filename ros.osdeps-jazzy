@@ -196,6 +196,8 @@ async_web_server_cpp:
     ubuntu: ros-jazzy-async-web-server-cpp
 asyncapi_gencpp:
     ubuntu: ros-jazzy-asyncapi-gencpp
+automatika_embodied_agents:
+    ubuntu: ros-jazzy-automatika-embodied-agents
 automatika_ros_sugar:
     ubuntu: ros-jazzy-automatika-ros-sugar
 automotive_autonomy_msgs:
@@ -220,6 +222,8 @@ autoware_internal_msgs:
     ubuntu: ros-jazzy-autoware-internal-msgs
 autoware_internal_perception_msgs:
     ubuntu: ros-jazzy-autoware-internal-perception-msgs
+autoware_internal_planning_msgs:
+    ubuntu: ros-jazzy-autoware-internal-planning-msgs
 autoware_lanelet2_extension:
     ubuntu: ros-jazzy-autoware-lanelet2-extension
 autoware_lanelet2_extension_python:
@@ -244,8 +248,6 @@ autoware_v2x_msgs:
     ubuntu: ros-jazzy-autoware-v2x-msgs
 autoware_vehicle_msgs:
     ubuntu: ros-jazzy-autoware-vehicle-msgs
-autoware_utils:
-    ubuntu: ros-jazzy-autoware-utils
 avt_vimba_camera:
     ubuntu: ros-jazzy-avt-vimba-camera
 aws_robomaker_small_warehouse_world:
@@ -316,18 +318,58 @@ class_loader:
     ubuntu: ros-jazzy-class-loader
 classic_bags:
     ubuntu: ros-jazzy-classic-bags
+clearpath_bt_joy:
+    ubuntu: ros-jazzy-clearpath-bt-joy
+clearpath_common:
+    ubuntu: ros-jazzy-clearpath-common
+clearpath_control:
+    ubuntu: ros-jazzy-clearpath-control
+clearpath_customization:
+    ubuntu: ros-jazzy-clearpath-customization
+clearpath_description:
+    ubuntu: ros-jazzy-clearpath-description
+clearpath_generator_common:
+    ubuntu: ros-jazzy-clearpath-generator-common
+clearpath_manipulators:
+    ubuntu: ros-jazzy-clearpath-manipulators
+clearpath_manipulators_description:
+    ubuntu: ros-jazzy-clearpath-manipulators-description
+clearpath_mounts_description:
+    ubuntu: ros-jazzy-clearpath-mounts-description
+clearpath_platform_description:
+    ubuntu: ros-jazzy-clearpath-platform-description
+clearpath_sensors_description:
+    ubuntu: ros-jazzy-clearpath-sensors-description
+clearpath_config:
+    ubuntu: ros-jazzy-clearpath-config
+clearpath_config_live:
+    ubuntu: ros-jazzy-clearpath-config-live
+clearpath_desktop:
+    ubuntu: ros-jazzy-clearpath-desktop
+clearpath_offboard_sensors:
+    ubuntu: ros-jazzy-clearpath-offboard-sensors
+clearpath_viz:
+    ubuntu: ros-jazzy-clearpath-viz
 clearpath_motor_msgs:
     ubuntu: ros-jazzy-clearpath-motor-msgs
 clearpath_msgs:
     ubuntu: ros-jazzy-clearpath-msgs
 clearpath_platform_msgs:
     ubuntu: ros-jazzy-clearpath-platform-msgs
+clearpath_nav2_demos:
+    ubuntu: ros-jazzy-clearpath-nav2-demos
 clearpath_ros2_socketcan_interface:
     ubuntu: ros-jazzy-clearpath-ros2-socketcan-interface
 clips_vendor:
     ubuntu: ros-jazzy-clips-vendor
 coal:
     ubuntu: ros-jazzy-coal
+cob_actions:
+    ubuntu: ros-jazzy-cob-actions
+cob_msgs:
+    ubuntu: ros-jazzy-cob-msgs
+cob_srvs:
+    ubuntu: ros-jazzy-cob-srvs
 color_names:
     ubuntu: ros-jazzy-color-names
 color_util:
@@ -370,6 +412,18 @@ tcb_span:
     ubuntu: ros-jazzy-tcb-span
 tl_expected:
     ubuntu: ros-jazzy-tl-expected
+crane_plus:
+    ubuntu: ros-jazzy-crane-plus
+crane_plus_control:
+    ubuntu: ros-jazzy-crane-plus-control
+crane_plus_description:
+    ubuntu: ros-jazzy-crane-plus-description
+crane_plus_examples:
+    ubuntu: ros-jazzy-crane-plus-examples
+crane_plus_gazebo:
+    ubuntu: ros-jazzy-crane-plus-gazebo
+crane_plus_moveit_config:
+    ubuntu: ros-jazzy-crane-plus-moveit-config
 create3_coverage:
     ubuntu: ros-jazzy-create3-coverage
 create3_examples_msgs:
@@ -834,6 +888,8 @@ generate_parameter_library:
     ubuntu: ros-jazzy-generate-parameter-library
 generate_parameter_library_example:
     ubuntu: ros-jazzy-generate-parameter-library-example
+generate_parameter_library_example_external:
+    ubuntu: ros-jazzy-generate-parameter-library-example-external
 generate_parameter_library_py:
     ubuntu: ros-jazzy-generate-parameter-library-py
 generate_parameter_module_example:
@@ -984,10 +1040,16 @@ heaphook:
     ubuntu: ros-jazzy-heaphook
 hector_rviz_overlay:
     ubuntu: ros-jazzy-hector-rviz-overlay
+heightmap_spawner:
+    ubuntu: ros-jazzy-heightmap-spawner
 hls_lfcd_lds_driver:
     ubuntu: ros-jazzy-hls-lfcd-lds-driver
 hpp-fcl:
     ubuntu: ros-jazzy-hpp-fcl
+hyveos_bridge:
+    ubuntu: ros-jazzy-hyveos-bridge
+hyveos_msgs:
+    ubuntu: ros-jazzy-hyveos-msgs
 iceoryx_binding_c:
     ubuntu: ros-jazzy-iceoryx-binding-c
 iceoryx_hoofs:
@@ -1056,6 +1118,8 @@ imu_tools:
     ubuntu: ros-jazzy-imu-tools
 rviz_imu_plugin:
     ubuntu: ros-jazzy-rviz-imu-plugin
+insight_gui:
+    ubuntu: ros-jazzy-insight-gui
 interactive_marker_twist_server:
     ubuntu: ros-jazzy-interactive-marker-twist-server
 interactive_markers:
@@ -1100,6 +1164,8 @@ kobuki_velocity_smoother:
     ubuntu: ros-jazzy-kobuki-velocity-smoother
 kompass:
     ubuntu: ros-jazzy-kompass
+kompass_interfaces:
+    ubuntu: ros-jazzy-kompass-interfaces
 lanelet2:
     ubuntu: ros-jazzy-lanelet2
 lanelet2_core:
@@ -1840,6 +1906,10 @@ py_trees_ros:
     ubuntu: ros-jazzy-py-trees-ros
 py_trees_ros_interfaces:
     ubuntu: ros-jazzy-py-trees-ros-interfaces
+py_trees_ros_tutorials:
+    ubuntu: ros-jazzy-py-trees-ros-tutorials
+py_trees_ros_viewer:
+    ubuntu: ros-jazzy-py-trees-ros-viewer
 pybind11_json_vendor:
     ubuntu: ros-jazzy-pybind11-json-vendor
 pybind11_vendor:
@@ -2008,8 +2078,14 @@ rmf_battery:
     ubuntu: ros-jazzy-rmf-battery
 rmf_building_map_msgs:
     ubuntu: ros-jazzy-rmf-building-map-msgs
-rmf_demos:
-    ubuntu: ros-jazzy-rmf-demos
+rmf_demos_assets:
+    ubuntu: ros-jazzy-rmf-demos-assets
+rmf_demos_bridges:
+    ubuntu: ros-jazzy-rmf-demos-bridges
+rmf_demos_fleet_adapter:
+    ubuntu: ros-jazzy-rmf-demos-fleet-adapter
+rmf_demos_tasks:
+    ubuntu: ros-jazzy-rmf-demos-tasks
 rmf_charger_msgs:
     ubuntu: ros-jazzy-rmf-charger-msgs
 rmf_dispenser_msgs:

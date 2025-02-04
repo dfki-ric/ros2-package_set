@@ -1,6 +1,6 @@
 #
 # This file is generated, do not edit!
-# based on https://github.com/ros/rosdistro tag rolling/2025-01-02
+# based on https://github.com/ros/rosdistro tag rolling/2025-01-17
 #
 # If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config
 #
@@ -5315,10 +5315,6 @@ python-serial:
 
 python-setproctitle:
     ubuntu: ["python-setproctitle"]
-
-python-setuptools:
-    ubuntu:
-        bionic: ["python-setuptools"]
 
 python-sexpdata:
     pip: ["sexpdata"]

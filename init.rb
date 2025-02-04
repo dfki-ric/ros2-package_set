@@ -37,7 +37,7 @@ ros_version = Autoproj.config.get("ROS_DISTRO")
 prefix = Autoproj.manifest.package_set("ros2").local_dir
 ubuntu_osdeps = prefix+"/ubuntu.osdeps-"+ros_version
 ros_osdeps = prefix+"/ros.osdeps-"+ros_version
-
+osdep_blacklist = prefix+"/rosdep.blacklist.yml"
 
 
 # check if 
@@ -61,7 +61,7 @@ end
 # do import if selected version is not already imported, but if config is changed
 if !File.exist?(ubuntu_osdeps) || !File.exist?(ros_osdeps) || force_import == true then
     Autoproj.message "Importing rosdep to #{ubuntu_osdeps} and #{ros_osdeps}" 
-    importer = Ros2::RosdepImporter.new(ubuntu_osdeps, ros_osdeps)
+    importer = Ros2::RosdepImporter.new(ubuntu_osdeps, ros_osdeps, osdep_blacklist)
     importer.import(ros_version)
     Autoproj.config.set("IMPORTED_ROS_OSDEPS", ros_version)
     # Autoproj.config.set("IMPORTED_ROS_TAGDATE", ros_tag_date)

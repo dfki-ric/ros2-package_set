@@ -9,11 +9,12 @@ require 'net/http'
 module Ros2
     class RosdepImporter
 
-        def initialize(osdepfile, rosfile)
+        def initialize(osdepfile, rosfile, blacklist)
             @osdep_file = File.open(osdepfile, 'w')
             @osdep_file.puts "#\n# This file is generated, do not edit!"
             @rosfile = File.open(rosfile, 'w')
             @rosfile.puts "#\n# This file is generated, do not edit!"
+            @blacklist = YAML.load(File.read(blacklist))
         end
 
         def close()
@@ -86,32 +87,34 @@ module Ros2
                     YAML.load(f)
                 end
                 yaml.each do |depname, osdep|
-                    if osdep["ubuntu"].is_a?(Array) then
-                        @osdep_file.puts  depname + ":\n    ubuntu: #{osdep["ubuntu"]}\n\n"
-                    elsif osdep["ubuntu"].is_a?(Hash) then
-                        @osdep_file.puts  depname + ":"
-                        if (!check_pip_gem(osdep["ubuntu"])) then
-                            entry = "    ubuntu:\n"
-                            is_pip = false
-                            osdep["ubuntu"].each do |os, deps|
-                                if os == "*" then
-                                    os = "default"
-                                end
-                                if (deps == nil) then
-                                    entry += "        " + os + ": nonexistent\n"
-                                else
-                                    if (!check_pip_gem(deps)) then
-                                        entry +=  "        " + os + ": #{deps}\n"
+                    if ! @blacklist["blacklist"].include?(depname) then
+                        if osdep["ubuntu"].is_a?(Array) then
+                            @osdep_file.puts  depname + ":\n    ubuntu: #{osdep["ubuntu"]}\n\n"
+                        elsif osdep["ubuntu"].is_a?(Hash) then
+                            @osdep_file.puts  depname + ":"
+                            if (!check_pip_gem(osdep["ubuntu"])) then
+                                entry = "    ubuntu:\n"
+                                is_pip = false
+                                osdep["ubuntu"].each do |os, deps|
+                                    if os == "*" then
+                                        os = "default"
+                                    end
+                                    if (deps == nil) then
+                                        entry += "        " + os + ": nonexistent\n"
                                     else
-                                        is_pip = true
+                                        if (!check_pip_gem(deps)) then
+                                            entry +=  "        " + os + ": #{deps}\n"
+                                        else
+                                            is_pip = true
+                                        end
                                     end
                                 end
+                                if (!is_pip) then
+                                    @osdep_file.puts entry
+                                end
                             end
-                            if (!is_pip) then
-                                @osdep_file.puts entry
-                            end
+                            @osdep_file.puts
                         end
-                        @osdep_file.puts
                     end
                 end
             end

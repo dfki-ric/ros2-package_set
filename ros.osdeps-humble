@@ -294,6 +294,8 @@ neobotix_usboard_msgs:
     ubuntu: ros-humble-neobotix-usboard-msgs
 async_web_server_cpp:
     ubuntu: ros-humble-async-web-server-cpp
+automatika_embodied_agents:
+    ubuntu: ros-humble-automatika-embodied-agents
 automatika_ros_sugar:
     ubuntu: ros-humble-automatika-ros-sugar
 automotive_autonomy_msgs:
@@ -318,6 +320,8 @@ autoware_internal_msgs:
     ubuntu: ros-humble-autoware-internal-msgs
 autoware_internal_perception_msgs:
     ubuntu: ros-humble-autoware-internal-perception-msgs
+autoware_internal_planning_msgs:
+    ubuntu: ros-humble-autoware-internal-planning-msgs
 autoware_lanelet2_extension:
     ubuntu: ros-humble-autoware-lanelet2-extension
 autoware_lanelet2_extension_python:
@@ -380,6 +384,8 @@ bond_core:
     ubuntu: ros-humble-bond-core
 bondcpp:
     ubuntu: ros-humble-bondcpp
+bondpy:
+    ubuntu: ros-humble-bondpy
 smclib:
     ubuntu: ros-humble-smclib
 boost_geometry_util:
@@ -720,6 +726,10 @@ dual_laser_merger:
     ubuntu: ros-humble-dual-laser-merger
 dynamixel_hardware:
     ubuntu: ros-humble-dynamixel-hardware
+dynamixel_hardware_interface:
+    ubuntu: ros-humble-dynamixel-hardware-interface
+dynamixel_interfaces:
+    ubuntu: ros-humble-dynamixel-interfaces
 dynamixel_sdk:
     ubuntu: ros-humble-dynamixel-sdk
 dynamixel_sdk_custom_interfaces:
@@ -1018,8 +1028,30 @@ foxglove_msgs:
     ubuntu: ros-humble-foxglove-msgs
 franka_description:
     ubuntu: ros-humble-franka-description
+franka_bringup:
+    ubuntu: ros-humble-franka-bringup
+franka_example_controllers:
+    ubuntu: ros-humble-franka-example-controllers
+franka_fr3_moveit_config:
+    ubuntu: ros-humble-franka-fr3-moveit-config
+franka_gazebo_bringup:
+    ubuntu: ros-humble-franka-gazebo-bringup
+franka_gripper:
+    ubuntu: ros-humble-franka-gripper
+franka_hardware:
+    ubuntu: ros-humble-franka-hardware
+franka_ign_ros2_control:
+    ubuntu: ros-humble-franka-ign-ros2-control
+franka_msgs:
+    ubuntu: ros-humble-franka-msgs
+franka_robot_state_broadcaster:
+    ubuntu: ros-humble-franka-robot-state-broadcaster
 franka_ros2:
     ubuntu: ros-humble-franka-ros2
+franka_semantic_components:
+    ubuntu: ros-humble-franka-semantic-components
+integration_launch_testing:
+    ubuntu: ros-humble-integration-launch-testing
 game_controller_spl:
     ubuntu: ros-humble-game-controller-spl
 game_controller_spl_interfaces:
@@ -1076,6 +1108,8 @@ generate_parameter_library:
     ubuntu: ros-humble-generate-parameter-library
 generate_parameter_library_example:
     ubuntu: ros-humble-generate-parameter-library-example
+generate_parameter_library_example_external:
+    ubuntu: ros-humble-generate-parameter-library-example-external
 generate_parameter_library_py:
     ubuntu: ros-humble-generate-parameter-library-py
 generate_parameter_module_example:
@@ -1190,6 +1224,8 @@ heaphook:
     ubuntu: ros-humble-heaphook
 hebi_cpp_api:
     ubuntu: ros-humble-hebi-cpp-api
+heightmap_spawner:
+    ubuntu: ros-humble-heightmap-spawner
 hey5_description:
     ubuntu: ros-humble-hey5-description
 hls_lfcd_lds_driver:
@@ -1336,6 +1372,8 @@ kobuki_velocity_smoother:
     ubuntu: ros-humble-kobuki-velocity-smoother
 kompass:
     ubuntu: ros-humble-kompass
+kompass_interfaces:
+    ubuntu: ros-humble-kompass-interfaces
 fri_configuration_controller:
     ubuntu: ros-humble-fri-configuration-controller
 fri_state_broadcaster:
@@ -2292,6 +2330,10 @@ py_trees_ros:
     ubuntu: ros-humble-py-trees-ros
 py_trees_ros_interfaces:
     ubuntu: ros-humble-py-trees-ros-interfaces
+py_trees_ros_tutorials:
+    ubuntu: ros-humble-py-trees-ros-tutorials
+py_trees_ros_viewer:
+    ubuntu: ros-humble-py-trees-ros-viewer
 pybind11_json_vendor:
     ubuntu: ros-humble-pybind11-json-vendor
 pybind11_vendor:
@@ -3532,6 +3574,8 @@ urg_node:
     ubuntu: ros-humble-urg-node
 urg_node_msgs:
     ubuntu: ros-humble-urg-node-msgs
+urinterfaces:
+    ubuntu: ros-humble-urinterfaces
 usb_cam:
     ubuntu: ros-humble-usb-cam
 v4l2_camera:

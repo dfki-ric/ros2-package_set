@@ -1,6 +1,6 @@
 #
 # This file is generated, do not edit!
-# based on https://github.com/ros/rosdistro tag jazzy/2024-12-23
+# based on https://github.com/ros/rosdistro tag jazzy/2025-01-20
 #
 # If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config
 #
@@ -5315,10 +5315,6 @@ python-serial:
 
 python-setproctitle:
     ubuntu: ["python-setproctitle"]
-
-python-setuptools:
-    ubuntu:
-        bionic: ["python-setuptools"]
 
 python-sexpdata:
     pip: ["sexpdata"]
