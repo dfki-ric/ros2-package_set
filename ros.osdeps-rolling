@@ -198,6 +198,8 @@ async_web_server_cpp:
     ubuntu: ros-rolling-async-web-server-cpp
 asyncapi_gencpp:
     ubuntu: ros-rolling-asyncapi-gencpp
+automatika_embodied_agents:
+    ubuntu: ros-rolling-automatika-embodied-agents
 automatika_ros_sugar:
     ubuntu: ros-rolling-automatika-ros-sugar
 automotive_autonomy_msgs:
@@ -222,6 +224,8 @@ autoware_internal_msgs:
     ubuntu: ros-rolling-autoware-internal-msgs
 autoware_internal_perception_msgs:
     ubuntu: ros-rolling-autoware-internal-perception-msgs
+autoware_internal_planning_msgs:
+    ubuntu: ros-rolling-autoware-internal-planning-msgs
 autoware_lanelet2_extension:
     ubuntu: ros-rolling-autoware-lanelet2-extension
 autoware_lanelet2_extension_python:
@@ -304,6 +308,12 @@ clips_vendor:
     ubuntu: ros-rolling-clips-vendor
 coal:
     ubuntu: ros-rolling-coal
+cob_actions:
+    ubuntu: ros-rolling-cob-actions
+cob_msgs:
+    ubuntu: ros-rolling-cob-msgs
+cob_srvs:
+    ubuntu: ros-rolling-cob-srvs
 color_names:
     ubuntu: ros-rolling-color-names
 color_util:
@@ -670,6 +680,8 @@ generate_parameter_library:
     ubuntu: ros-rolling-generate-parameter-library
 generate_parameter_library_example:
     ubuntu: ros-rolling-generate-parameter-library-example
+generate_parameter_library_example_external:
+    ubuntu: ros-rolling-generate-parameter-library-example-external
 generate_parameter_library_py:
     ubuntu: ros-rolling-generate-parameter-library-py
 generate_parameter_module_example:
@@ -792,6 +804,10 @@ hls_lfcd_lds_driver:
     ubuntu: ros-rolling-hls-lfcd-lds-driver
 hpp-fcl:
     ubuntu: ros-rolling-hpp-fcl
+hyveos_bridge:
+    ubuntu: ros-rolling-hyveos-bridge
+hyveos_msgs:
+    ubuntu: ros-rolling-hyveos-msgs
 iceoryx_binding_c:
     ubuntu: ros-rolling-iceoryx-binding-c
 iceoryx_hoofs:
@@ -906,6 +922,8 @@ kobuki_velocity_smoother:
     ubuntu: ros-rolling-kobuki-velocity-smoother
 kompass:
     ubuntu: ros-rolling-kompass
+kompass_interfaces:
+    ubuntu: ros-rolling-kompass-interfaces
 lanelet2:
     ubuntu: ros-rolling-lanelet2
 lanelet2_core:
@@ -1546,6 +1564,10 @@ py_trees_ros:
     ubuntu: ros-rolling-py-trees-ros
 py_trees_ros_interfaces:
     ubuntu: ros-rolling-py-trees-ros-interfaces
+py_trees_ros_tutorials:
+    ubuntu: ros-rolling-py-trees-ros-tutorials
+py_trees_ros_viewer:
+    ubuntu: ros-rolling-py-trees-ros-viewer
 pybind11_json_vendor:
     ubuntu: ros-rolling-pybind11-json-vendor
 pybind11_vendor:
@@ -1806,6 +1828,8 @@ rmw_cyclonedds_cpp:
     ubuntu: ros-rolling-rmw-cyclonedds-cpp
 rmw_dds_common:
     ubuntu: ros-rolling-rmw-dds-common
+rmw_desert:
+    ubuntu: ros-rolling-rmw-desert
 rmw_fastrtps_cpp:
     ubuntu: ros-rolling-rmw-fastrtps-cpp
 rmw_fastrtps_dynamic_cpp:
@@ -2088,8 +2112,6 @@ rosbag2_tests:
     ubuntu: ros-rolling-rosbag2-tests
 rosbag2_transport:
     ubuntu: ros-rolling-rosbag2-transport
-shared_queues_vendor:
-    ubuntu: ros-rolling-shared-queues-vendor
 sqlite3_vendor:
     ubuntu: ros-rolling-sqlite3-vendor
 zstd_vendor:
