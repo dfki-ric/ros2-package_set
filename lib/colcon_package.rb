@@ -13,8 +13,17 @@ def colcon_package(name, type = :import_package, importdir: name, move_to: name,
         if importdir != name then
             pkg.importdir = importdir
         end
+
+        pkg.post_install do |pkg|
+            colcon_dir =  File.expand_path(workspace.root_dir + "/../")
+            pkg.progress_start "building %s with colcon in #{colcon_dir}" do
+                Autobuild::Subprocess.run(pkg, 'build', 'colcon', 'build','--event-handlers', 'console_direct+', '--packages-select', pkg.name, :working_directory => colcon_dir)
+            end
+        end
+
         yield(pkg) if block_given?
     end
+
     if name != move_to then
         move_package name, move_to
     end

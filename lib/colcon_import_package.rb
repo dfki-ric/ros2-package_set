@@ -79,6 +79,14 @@ def colcon_import_package(name, type = :import_package, libname: name, workspace
                 File.write(pkg.srcdir + "/lib/pkgconfig/init_pkg_config_path.pc", "# This files was generated to make colcon to extend the PKG_CONFIG_PATH")
             end
         end
+
+        pkg.post_install do |pkg|
+            colcon_dir =  File.expand_path(workspace.root_dir + "/../")
+            pkg.progress_start "building %s with colcon in #{colcon_dir}" do
+                Autobuild::Subprocess.run(pkg, 'build', 'colcon', 'build','--event-handlers', 'console_direct+', '--packages-select', pkg.name, :working_directory => colcon_dir)
+            end
+        end
+
         yield(pkg) if block_given?
     end
 
