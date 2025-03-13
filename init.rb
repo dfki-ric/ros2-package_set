@@ -77,4 +77,12 @@ Autoproj.workspace.osdep_suffixes << ros_version
 #     Autoproj.env_source_file ros_setup_bash
 # end
 
+Autoproj.config.declare "COLCON_USE_SYMLINK_INSTALL",
+    "boolean",
+    default: "no",
+    doc: ["Use --symlink-install for autoproj build?",
+          "In case amake is used to invoke colcon the the top level (autoproj_root/../) should --symlink-install be used?",
+          "WARNING: The initial build sould be a global, manual run of colcon build",
+          "[yes, no]"]
 
+Autoproj.config.get("COLCON_USE_SYMLINK_INSTALL")
