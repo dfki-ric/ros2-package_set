@@ -15,7 +15,7 @@ suitesparse:
 
 ros-dev-tools:
     ubuntu:
-        '20.04,22.04': ros-dev-tools
+        '20.04,22.04,24.04': ros-dev-tools
 
 google-test:      
     ubuntu: libgtest-dev

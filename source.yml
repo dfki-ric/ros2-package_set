@@ -162,6 +162,9 @@ version_control:
   - interaction/libraries/robot_remote_control:
     github: dfki-ric/robot_remote_control
 
+  - interaction/executables/.*:
+    dfkigit: interaction/executables/$PACKAGE_BASENAME
+
   - communication/libzmq:
     github: zeromq/libzmq
 
