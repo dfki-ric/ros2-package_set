@@ -3,6 +3,7 @@ name: ros2
 version_control:
   - slam/g2o:
     github: RainerKuemmerle/g2o
+    tag: 20241228_git
 
   - slam/pclomp:
     github: dfki-ric/pclomp
