@@ -12,7 +12,7 @@ version_control:
     github: ethz-asl/libnabo
 
   - slam/pointmatcher:
-    github: skasperski/libpointmatcher
+    github: norlab-ulaval/libpointmatcher
 
   - slam3d:
     github: dfki-ric/slam3d
