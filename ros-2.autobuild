@@ -12,22 +12,6 @@ end
 colcon_package "slam3d", move_to: "slam"
 colcon_package "slam3d_ros2", move_to: "slam"
 
-colcon_import_package "slam/g2o" do |pkg|
-    pkg.depends_on "suitesparse"
-end
-
-colcon_package "pclomp", move_to: "slam"
-colcon_package "nabo", move_to: "slam"
-
-colcon_package "pointmatcher", move_to: "slam" do |pkg|
-    pkg.depends_on "nabo"
-end
-
-colcon_package "slam3d", move_to: "slam"
-
-colcon_package "slam3d_ros2", move_to: "slam"
-
-
 not_on ["ubuntu", "22.04"] do
     colcon_package "slam/vdb_mapping"
 end
