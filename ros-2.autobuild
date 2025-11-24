@@ -1,17 +1,15 @@
 import_package "slam/g2o" do |pkg|
     pkg.depends_on "suitesparse"
 end
-import_package "slam/pclomp"
-import_package "slam/nabo"
 
-import_package "slam/pointmatcher" do |pkg|
-    pkg.depends_on "slam/nabo"
+colcon_package "pclomp", move_to: "slam"
+colcon_package "nabo", move_to: "slam"
+
+colcon_package "pointmatcher", move_to: "slam" do |pkg|
+    pkg.depends_on "nabo"
 end
 
-import_package "slam3d"
-move_package "slam3d", "slam"
-metapackage "slam/slam3d", "slam3d"
-
+colcon_package "slam3d", move_to: "slam"
 colcon_package "slam3d_ros2", move_to: "slam"
 
 not_on ["ubuntu", "22.04"] do

@@ -5,13 +5,13 @@ version_control:
     github: RainerKuemmerle/g2o
     tag: 20241228_git
 
-  - slam/pclomp:
+  - pclomp:
     github: dfki-ric/pclomp
 
-  - slam/nabo:
+  - nabo:
     github: ethz-asl/libnabo
 
-  - slam/pointmatcher:
+  - pointmatcher:
     github: norlab-ulaval/libpointmatcher
 
   - slam3d:
