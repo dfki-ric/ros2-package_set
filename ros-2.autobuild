@@ -9,7 +9,9 @@ colcon_package "pointmatcher", move_to: "slam" do |pkg|
     pkg.depends_on "nabo"
 end
 
-colcon_package "slam3d", move_to: "slam"
+import_package "slam3d"
+move_package "slam3d", "slam"
+
 colcon_package "slam3d_ros2", move_to: "slam"
 
 not_on ["ubuntu", "22.04"] do
