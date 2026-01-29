@@ -6,18 +6,19 @@
   <maintainer>Sebastian Kasperski/sebastian.kasperski@dfki.de</maintainer>
   <license>New BSD</license>
 
-  <depend package="slam/pcl" />
-  <depend package="slam/g2o" />
-  <depend package="slam/pclomp" optional="1" />
-  <depend package="slam/pointmatcher" optional="1" />
+  <depend package="libboost-dev" />
+  <depend package="libpcl-all" />
+  <depend package="libg2o" />
+  <depend package="pclomp" optional="1" />
+  <depend package="pointmatcher" optional="1" />
   <depend package="suitesparse" />
   <depend package="jsoncpp" />
   <depend package="flann" />
-  
+
   <keywords>
     <keyword>Mapping</keyword>
   </keywords>
- 
+
   <stage>1</stage>
   <use>multi project</use>
   <activity>active</activity>
