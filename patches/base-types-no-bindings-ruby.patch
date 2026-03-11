@@ -1,9 +1,0 @@
---- CMakeLists.txt.original	2021-06-25 11:07:58.173580960 +0000
-+++ CMakeLists.txt	2021-06-25 11:08:03.481507321 +0000
-@@ -45,4 +45,6 @@
-     endif(NOT SISL_FOUND)
- endif()
- 
-+option(BINDINGS_RUBY "set to OFF to disable building the bindings RUBY." OFF)
-+
- rock_standard_layout()

@@ -29,13 +29,7 @@ version_control:
     github: rock-core/base-logging
 
   - base/types:
-    github: pierrewillenbrockdfki/base-types.git
-    branch: feature/qt4-qt5
-    # github: rock-core/base-types
-    # branch: feature/qt5
-    patches:
-      #- $AUTOPROJ_SOURCE_DIR/patches/base-types-no-sisl.patch
-      #- $AUTOPROJ_SOURCE_DIR/patches/base-types-no-bindings-ruby.patch
+    github: rock-core/base-types
 
   - control/motor_controller:
     github: rock-control/control-motor_controller
@@ -55,16 +49,10 @@ version_control:
     # branch: feature/qt5
       # - $AUTOPROJ_SOURCE_DIR/patches/control-trajectory_follower.patch
   - slam/maps:
-    github: haider8645/slam-maps
-    branch: feature/qt4-qt5
-    # github: envire/slam-maps
-    # branch: feature/qt5
+    github: envire/slam-maps
 
   - gui/vizkit3d:
-    #github: rock-core/gui-vizkit3d
-    #branch: feature/qt5
-    github: pierrewillenbrockdfki/gui-vizkit3d
-    branch: feature/qt4-qt5
+    github: rock-core/gui-vizkit3d
   - gui/osgviz:
     github: rock-core/gui-osgviz
   - external/sisl:
@@ -170,10 +158,7 @@ version_control:
     github: dfki-ric/traversability_generator3d
 
   - gui/vizkit3d_debug_drawings:
-    github: pierrewillenbrockdfki/gui-vizkit3d_debug_drawings
-    branch: feature/qt4-qt5
-    # github: rock-gui/gui-vizkit3d_debug_drawings
-    # branch: feature/qt5
+    github: rock-gui/gui-vizkit3d_debug_drawings
 
   - control/trajectory_follower:
     github: pierrewillenbrockdfki/control-trajectory_follower
