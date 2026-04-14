@@ -29,3 +29,7 @@ colcon_package "interaction/libraries/robot_remote_control"
 metapackage "robot_remote_control", "interaction/libraries/robot_remote_control"
 
 colcon_package "planning/ugv_nav4d_ros2"
+
+colcon_package "perception/ground_segmentation"
+colcon_package "perception/ground_segmentation_ros2"
+colcon_package "navigation/nav2_ground_consistency_costmap_plugin"
