@@ -166,11 +166,11 @@ version_control:
     # github: rock-control/control-trajectory_follower
     # branch: feature/qt5
 
-  - navigation/nav2_ground_consistency_costmap_plugin:
+  - nav2_ground_consistency_costmap_plugin:
     github: dfki-ric/nav2_ground_consistency_costmap_plugin
 
-  - perception/ground_segmentation:
+  - ground_segmentation:
     github: dfki-ric/ground_segmentation
 
-  - perception/ground_segmentation_ros2:
+  - ground_segmentation_ros2:
     github: dfki-ric/ground_segmentation_ros2
