@@ -43,7 +43,7 @@ version_control:
   - planning/ugv_nav4d:
     github: dfki-ric/ugv_nav4d
 
-  - planning/ugv_nav4d_ros2:
+  - ugv_nav4d_ros2:
     github: dfki-ric/ugv_nav4d_ros2
 
   - planning/sbpl:
