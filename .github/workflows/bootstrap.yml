@@ -5,6 +5,8 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+  schedule:
+    - cron: '0 0 * * 1-5'
 
 env:
   CCACHE_DIR: ${{ github.workspace }}/.ccache
@@ -42,7 +44,7 @@ jobs:
 
     - name: Restore ccache
       id: ccache-restore
-      uses: actions/cache/restore@v4
+      uses: actions/cache/restore@v6
       with:
         path: ${{ github.workspace }}/.ccache
         key: ${{ matrix.os }}-ccache-${{ github.run_id }}
@@ -64,7 +66,7 @@ jobs:
       run: ccache -sv
     - name: Save ccache
       if: always()
-      uses: actions/cache/save@v4
+      uses: actions/cache/save@v6
       with:
         path: ${{ github.workspace }}/.ccache
         key: ${{ steps.ccache-restore.outputs.cache-primary-key }}
