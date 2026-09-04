@@ -5,6 +5,11 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+  schedule:
+    - cron: '0 0 * * 1-5'
+
+env:
+  CCACHE_DIR: ${{ github.workspace }}/.ccache
 
 jobs:
   build:
@@ -17,7 +22,7 @@ jobs:
     # - uses: actions/checkout@v4  ## no need to checkout, this is done by autoproj_bootstrap
     - name: Install dependencies
       run: |
-        sudo apt-get -y update && sudo apt-get -y install wget ruby-dev ssh git sudo build-essential libunwind-dev
+        sudo apt-get -y update && sudo apt-get -y install wget ruby-dev ssh git sudo build-essential libunwind-dev ccache
         git config --global user.name "GitHub runner" && git config --global user.email "runner@github.com"
       shell: bash
     - name: bootstrap_buildconf
@@ -36,3 +41,32 @@ jobs:
     - name: update
       run: |
         source env.sh && autoproj update --no-interactive
+
+    - name: Restore ccache
+      id: ccache-restore
+      uses: actions/cache/restore@v6
+      with:
+        path: ${{ github.workspace }}/.ccache
+        key: ${{ matrix.os }}-ccache-${{ github.run_id }}
+        restore-keys: |
+          ${{ matrix.os }}-ccache-
+
+    - name: Configure ccache
+      run: |
+          ccache --max-size=1G
+          ccache --set-config=compression=true
+
+    - name: Build
+      run: |
+          source /opt/ros/*/setup.bash
+          colcon build --cmake-args "-DCMAKE_C_COMPILER_LAUNCHER=ccache" "-DCMAKE_CXX_COMPILER_LAUNCHER=ccache" "-DCMAKE_BUILD_TYPE=Release"
+
+    - name: Show ccache stats
+      if: always()
+      run: ccache -sv
+    - name: Save ccache
+      if: always()
+      uses: actions/cache/save@v6
+      with:
+        path: ${{ github.workspace }}/.ccache
+        key: ${{ steps.ccache-restore.outputs.cache-primary-key }}
