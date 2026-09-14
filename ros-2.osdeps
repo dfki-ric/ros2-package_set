@@ -48,4 +48,4 @@ openvdb:
     ubuntu: libopenvdb-dev
 
 tbb:
-    ubuntu: libbtbb-dev
+    ubuntu: libtbb-dev
