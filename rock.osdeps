@@ -16,6 +16,12 @@ poco:
 external/tinyxml:
     ubuntu: libtinyxml-dev
 
+# Optional redis backend of slam/slam3d_databases.
+database/redis/hiredis:
+    ubuntu:
+        default: libhiredis-dev
+        "20.04": nonexistent
+
 qt4: ignore
 
 restcpp:
