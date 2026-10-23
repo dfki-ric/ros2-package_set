@@ -2,14 +2,17 @@
 
 require 'json'
 
-# hackily reopen and extend the ImporterPackage class to store cmake args for a colcon.pkg file
+# package built by colcon, stores cmake args for a colcon.pkg file
 module Autobuild
-    class ImporterPackage
+    def self.colcon(spec, &proc)
+        ColconPackage.new(spec, &proc)
+    end
+
+    class ColconPackage < ImporterPackage
         attr_accessor :optional_deps
 
-        #re-implement the original initialize of ImporterPackage + init @colcon_pkg
+        # initialized before super, which yields the package to the definition block
         def initialize(*args)
-            @exclude = []
             @colcon_pkg = Hash.new
             @optional_deps = Array.new
             super

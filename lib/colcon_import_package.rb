@@ -5,10 +5,10 @@ require_relative "colcon_common.rb"
 require_relative "package_xml_generation.rb"
 @ros2_package_xml_generator = Ros2::PackageXmlGeneration.new
 
-def colcon_import_package(name, type = :import_package, libname: name, workspace: Autoproj.workspace)
+def colcon_import_package(name, libname: name, workspace: Autoproj.workspace)
     ros_packagename = libname.gsub("/","-")
 
-    send(type, name) do |pkg|
+    package_common(:colcon, name, workspace: workspace) do |pkg|
         pkg.post_import do
             #if no package.xml exist, generate one including the dependencies
             @ros2_package_xml_generator.generate(pkg, ros_packagename)

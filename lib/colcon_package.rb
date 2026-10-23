@@ -1,7 +1,7 @@
 require_relative "colcon_common.rb"
 
-def colcon_package(name, type = :import_package, importdir: name, move_to: name, workspace: Autoproj.workspace)
-    send(type, name) do |pkg|
+def colcon_package(name, importdir: name, move_to: name, workspace: Autoproj.workspace)
+    package_common(:colcon, name, workspace: workspace) do |pkg|
         pkg.depends_on 'python3-colcon-common-extensions'
         pkg.use_package_xml = true
 
