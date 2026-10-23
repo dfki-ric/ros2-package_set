@@ -66,6 +66,41 @@ This describes installing for the first time, some parts can be omitted for futu
 You can update autoproj-defined packages in a single command. To do this source the src/env.sh script and call `autoproj update`. When you append a package name or folder, only that package AND its dependencies are updated.
 
 
+# Defining packages
+
+In addition to the standard autoproj package types, this package set provides these functions for *.autobuild files:
+
+* `colcon_package "name"` - a package that already has a package.xml (e.g. ROS 2 packages)
+  * `move_to: "folder"` checks the package out into a subfolder, `importdir: "dir"` uses a different checkout directory than the package name
+* `colcon_import_package "path/name"` - a generic cmake package without package.xml (e.g. Rock packages with a manifest.xml)
+  * colcon package names cannot contain "/", so the package is also available under the name "path-name"
+  * `libname: "name"` sets a different colcon package name (e.g. when another package refers to it by that name)
+* `colcon_import_collection_package "dir", "name"` - a colcon_import_package "dir/name" from a repository "dir" containing several packages
+
+Within the definition block (or in the overrides.rb of the buildconf), packages can be adapted further:
+
+```ruby
+colcon_import_package "base/types" do |pkg|
+    pkg.add_cmake_arg "-DUSE_SISL=ON"
+    pkg.use_optional_dependency "gui/vizkit3d"
+end
+```
+
+* `pkg.add_cmake_arg` passes an argument to cmake when the package is built by colcon
+* `pkg.use_optional_dependency` makes colcon build that package first, if it is part of the workspace (for colcon_import_packages)
+
+If a dependency is known to colcon under a different name than its autoproj package name (e.g. "slam/slam3d" vs "slam3d"), add the mapping to dependency_name_overrides.yml.
+
+
+# Configuration options
+
+These can be changed with `autoproj reconfigure`:
+
+* ROS_DISTRO - the ROS 2 distribution to generate OS dependencies for (defaults to the sourced ROS 2 environment, otherwise to the one matching the Ubuntu version)
+* ROS_OSDEP_FORCE_UPDATE - regenerate the OS dependency definitions from rosdep once
+* COLCON_USE_SYMLINK_INSTALL - call colcon with `--symlink-install` when building with autoproj
+
+
 # Tips
 
 * colcon_import_packages are often using pkg-config to find dependencies. When you get the error message "A required package was not found" when building, run colcon build with `--event-handlers console_direct+` in order to see which package is not found
