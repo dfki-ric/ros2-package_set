@@ -28,18 +28,21 @@ jobs:
         git config --global user.name "GitHub runner" && git config --global user.email "runner@github.com"
       shell: bash
     - name: bootstrap_buildconf
+      env:
+        PR_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+        PR_BRANCH: ${{ github.head_ref }}
       run: |
         wget https://rock-robotics.org/autoproj_bootstrap
         ruby autoproj_bootstrap --no-interactive git https://github.com/dfki-ric/ros2-buildconf
+        # For pull requests, take this package set from the PR branch right away: its init.rb and
+        # osdeps already apply to the configuration below (switching after it would configure
+        # with master's version, e.g. without a ROS_DISTRO default for a new Ubuntu release)
+        if [ -n "$PR_BRANCH" ]; then
+          sed -i "s|^\(\s*\)- github: dfki-ric/ros2-package_set\$|\1- github: $PR_REPO\n\1  branch: $PR_BRANCH|" autoproj/manifest
+          grep -A1 -- "- github: $PR_REPO" autoproj/manifest
+        fi
         # Check out packageset and configure variables
         . env.sh && aup --config --no-interactive
-    - name: Checkout branch of packageset
-      if: ${{ github.event_name == 'pull_request' }}
-      run: | 
-        cd autoproj/remotes/ros2
-        git config pull.rebase false
-        git remote add PR ${{ github.server_url }}/${{github.repository }}
-        git pull -X theirs PR ${{ github.ref }}
     - name: update
       run: |
         source env.sh && autoproj update --no-interactive
