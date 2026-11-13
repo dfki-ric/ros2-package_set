@@ -1,6 +1,6 @@
 #
 # This file is generated, do not edit!
-# based on https://github.com/ros/rosdistro tag rolling/2025-01-17
+# based on https://github.com/ros/rosdistro tag rolling/2026-04-28
 #
 # If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config
 #
@@ -19,6 +19,9 @@ acl:
 
 acpi:
     ubuntu: ["acpi"]
+
+adwaita-icon-theme:
+    ubuntu: ["adwaita-icon-theme"]
 
 alsa-oss:
     ubuntu: ["alsa-oss"]
@@ -175,11 +178,19 @@ catch2:
         default: ["catch2"]
         focal: nonexistent
 
+cbindgen:
+    ubuntu:
+        default: ["cbindgen"]
+        focal: nonexistent
+
 cccc:
     ubuntu: ["cccc"]
 
 cdk:
-    ubuntu: ["libcdk5"]
+    ubuntu:
+        default: ["libcdk5t64"]
+        focal: ["libcdk5nc6"]
+        jammy: ["libcdk5nc6"]
 
 cdk-dev:
     ubuntu: ["libcdk5-dev"]
@@ -288,7 +299,10 @@ cvs:
     ubuntu: ["cvs"]
 
 cwiid:
-    ubuntu: ["libcwiid1"]
+    ubuntu:
+        default: ["libcwiid1t64"]
+        focal: ["libcwiid1"]
+        jammy: ["libcwiid1"]
 
 cwiid-dev:
     ubuntu: ["libcwiid-dev"]
@@ -383,6 +397,14 @@ espeak:
 ethtool:
     ubuntu: ["ethtool"]
 
+euslisp:
+    ubuntu:
+        jammy: ["euslisp"]
+
+euslisp-dev:
+    ubuntu:
+        jammy: ["euslisp-dev"]
+
 exfat-fuse:
     ubuntu: ["exfat-fuse"]
 
@@ -475,6 +497,9 @@ ftdi-eeprom:
 
 fxload:
     ubuntu: ["fxload"]
+
+fzf:
+    ubuntu: ["fzf"]
 
 g++-10:
     ubuntu:
@@ -678,6 +703,9 @@ gstreamer1.0-gl:
 gstreamer1.0-libav:
     ubuntu: ["gstreamer1.0-libav"]
 
+gstreamer1.0-nice:
+    ubuntu: ["gstreamer1.0-nice"]
+
 gstreamer1.0-plugins-bad:
     ubuntu: ["gstreamer1.0-plugins-bad"]
 
@@ -711,6 +739,11 @@ gtk2:
 gtk3:
     ubuntu: ["libgtk-3-dev"]
 
+gtk4:
+    ubuntu:
+        default: ["libgtk-4-dev"]
+        focal: nonexistent
+
 gurumdds-2.6:
     ubuntu:
         bionic: ["gurumdds-2.6"]
@@ -730,6 +763,15 @@ gurumdds-2.8:
 gurumdds-3.0:
     ubuntu:
         jammy: ["gurumdds-3.0"]
+
+gurumdds-3.1:
+    ubuntu:
+        jammy: ["gurumdds-3.1"]
+
+gurumdds-3.2:
+    ubuntu:
+        jammy: ["gurumdds-3.2"]
+        noble: ["gurumdds-3.2"]
 
 gv:
     ubuntu: ["gv"]
@@ -1130,6 +1172,10 @@ joystick:
 jq:
     ubuntu: ["jq"]
 
+jskeus:
+    ubuntu:
+        jammy: ["jskeus"]
+
 julius-voxforge:
     ubuntu: ["julius-voxforge"]
 
@@ -1167,7 +1213,10 @@ leveldb:
     ubuntu: ["libleveldb-dev"]
 
 lib32asound2:
-    ubuntu: ["lib32asound2"]
+    ubuntu:
+        default: ["libasound2t64"]
+        focal: ["libasound2"]
+        jammy: ["libasound2"]
 
 libabsl-dev:
     ubuntu:
@@ -1177,6 +1226,14 @@ libabsl-dev:
 
 libadolc-dev:
     ubuntu: ["libadolc-dev"]
+
+libadwaita-dev:
+    ubuntu:
+        default: ["libadwaita-1-dev"]
+        focal: nonexistent
+
+libaio-dev:
+    ubuntu: ["libaio-dev"]
 
 libalglib-dev:
     ubuntu: ["libalglib-dev"]
@@ -1254,7 +1311,7 @@ libboost-chrono:
         bionic: ["libboost-chrono1.65.1"]
         focal: ["libboost-chrono1.71.0"]
         jammy: ["libboost-chrono1.74.0"]
-        noble: ["libboost-chrono1.83.0"]
+        noble: ["libboost-chrono1.83.0t64"]
 
 libboost-chrono-dev:
     ubuntu: ["libboost-chrono-dev"]
@@ -1398,6 +1455,9 @@ libboost-timer-dev:
 libbsd-dev:
     ubuntu: ["libbsd-dev"]
 
+libc++-dev:
+    ubuntu: ["libc++-dev"]
+
 libcairo2-dev:
     ubuntu: ["libcairo2-dev"]
 
@@ -1430,6 +1490,12 @@ libcegui-mk2-dev:
 
 libcereal-dev:
     ubuntu: ["libcereal-dev"]
+
+libceres:
+    ubuntu:
+        focal: nonexistent
+        jammy: ["libceres2"]
+        noble: ["libceres4t64"]
 
 libceres-dev:
     ubuntu: ["libceres-dev"]
@@ -1473,10 +1539,18 @@ libcunit-dev:
     ubuntu: ["libcunit1-dev"]
 
 libcurl:
-    ubuntu: ["libcurl4"]
+    ubuntu:
+        default: ["libcurl4t64"]
+        focal: ["libcurl4"]
+        jammy: ["libcurl4"]
 
 libcurl-dev:
     ubuntu: ["libcurl4-openssl-dev"]
+
+libcxxopts-dev:
+    ubuntu:
+        default: ["libcxxopts-dev"]
+        focal: nonexistent
 
 libdbus-dev:
     ubuntu: ["libdbus-1-dev"]
@@ -1510,6 +1584,9 @@ libdrm-dev:
 
 libdw-dev:
     ubuntu: ["libdw-dev"]
+
+libdwarf-dev:
+    ubuntu: ["libdwarf-dev"]
 
 libdxflib-dev:
     ubuntu: ["libdxflib-dev"]
@@ -1557,8 +1634,14 @@ libexiv2-dev:
 libexpat1-dev:
     ubuntu: ["libexpat1-dev"]
 
+libexpected-dev:
+    ubuntu: ["libexpected-dev"]
+
 libext2fs-dev:
     ubuntu: ["libext2fs-dev"]
+
+libfccp-dev:
+    ubuntu: ["libfccp-dev"]
 
 libfcl:
     ubuntu:
@@ -1577,6 +1660,9 @@ libfftw3:
 
 libfl-dev:
     ubuntu: ["libfl-dev"]
+
+libflac-dev:
+    ubuntu: ["libflac-dev"]
 
 libflann:
     ubuntu:
@@ -1676,6 +1762,9 @@ libgfortran3:
 libgif-dev:
     ubuntu: ["libgif-dev"]
 
+libgirepository-dev:
+    ubuntu: ["libgirepository1.0-dev"]
+
 libglew-dev:
     ubuntu: ["libglew-dev"]
 
@@ -1684,7 +1773,7 @@ libglfw3-dev:
         default: ["libglfw3-dev"]
 
 libglib-dev:
-    ubuntu: ["libglib2.0-dev"]
+    ubuntu: ["libglib2.0-dev", "libglib2.0-dev-bin"]
 
 libglm-dev:
     ubuntu: ["libglm-dev"]
@@ -1693,12 +1782,13 @@ libglui-dev:
     ubuntu: ["libglui-dev"]
 
 libglw1-mesa:
-    ubuntu: ["libglw1-mesa"]
+    ubuntu:
+        default: ["libglw1t64-mesa"]
+        focal: ["libglw1-mesa"]
+        jammy: ["libglw1-mesa"]
 
 libgmock-dev:
-    ubuntu:
-        default: ["libgmock-dev"]
-        bionic: nonexistent
+    ubuntu: ["libgmock-dev"]
 
 libgmp:
     ubuntu: ["libgmp-dev"]
@@ -1730,8 +1820,7 @@ libgrpc:
     ubuntu: ["libgrpc++-dev"]
 
 libgsl:
-    ubuntu:
-        default: ["libgsl-dev"]
+    ubuntu: ["libgsl-dev"]
 
 libgstreamer-plugins-bad1.0-dev:
     ubuntu: ["libgstreamer-plugins-bad1.0-dev"]
@@ -1759,6 +1848,9 @@ libgstrtspserver-1.0-0:
 
 libgstrtspserver-1.0-dev:
     ubuntu: ["libgstrtspserver-1.0-dev"]
+
+libgtest-dev:
+    ubuntu: ["libgtest-dev"]
 
 libgtkmm:
     ubuntu: ["libgtkmm-2.4-dev"]
@@ -1902,6 +1994,9 @@ libjchart2d-java:
 libjpeg:
     ubuntu: ["libjpeg-dev"]
 
+libjson-c-dev:
+    ubuntu: ["libjson-c-dev"]
+
 libjson-glib:
     ubuntu: ["libjson-glib-dev"]
 
@@ -1921,19 +2016,25 @@ libjsoncpp-dev:
     ubuntu: ["libjsoncpp-dev"]
 
 libjsonrpccpp-client0:
-    ubuntu: ["libjsonrpccpp-client0"]
+    ubuntu:
+        default: ["libjsonrpccpp-client0t64"]
+        focal: ["libjsonrpccpp-client0"]
+        jammy: ["libjsonrpccpp-client0"]
 
 libjsonrpccpp-common0:
-    ubuntu: ["libjsonrpccpp-common0"]
+    ubuntu:
+        default: ["libjsonrpccpp-common0t64"]
+        focal: ["libjsonrpccpp-common0"]
+        jammy: ["libjsonrpccpp-common0"]
 
 libjsonrpccpp-dev:
     ubuntu: ["libjsonrpccpp-dev"]
 
 libjsonrpccpp-server0:
-    ubuntu: ["libjsonrpccpp-server0"]
-
-libjsonrpccpp-stub0:
-    ubuntu: ["libjsonrpccpp-stub0"]
+    ubuntu:
+        default: ["libjsonrpccpp-server0t64"]
+        focal: ["libjsonrpccpp-server0"]
+        jammy: ["libjsonrpccpp-server0"]
 
 libjsonrpccpp-tools:
     ubuntu: ["libjsonrpccpp-tools"]
@@ -1973,6 +2074,12 @@ liblmdb-dev:
 liblttng-ctl-dev:
     ubuntu: ["liblttng-ctl-dev"]
 
+liblttng-ust:
+    ubuntu:
+        default: ["liblttng-ust1t64"]
+        focal: nonexistent
+        jammy: ["liblttng-ust1"]
+
 liblttng-ust-dev:
     ubuntu: ["liblttng-ust-dev"]
 
@@ -2000,6 +2107,12 @@ libmicrohttpd:
 libmlpack-dev:
     ubuntu: ["libmlpack-dev"]
 
+libmm-glib-dev:
+    ubuntu: ["libmm-glib-dev"]
+
+libmm-glib0:
+    ubuntu: ["libmm-glib0"]
+
 libmnl-dev:
     ubuntu: ["libmnl-dev"]
 
@@ -2013,7 +2126,10 @@ libmodbus5:
     ubuntu: ["libmodbus5"]
 
 libmongoc-1.0-0:
-    ubuntu: ["libmongoc-1.0-0"]
+    ubuntu:
+        default: ["libmongoc-1.0-0t64"]
+        focal: ["libmongoc-1.0-0"]
+        jammy: ["libmongoc-1.0-0"]
 
 libmongoc-dev:
     ubuntu: ["libmongoc-dev"]
@@ -2044,6 +2160,7 @@ libmysql++-dev:
 
 libmysql++3v5:
     ubuntu:
+        default: ["libmysql++3t64"]
         focal: ["libmysql++3v5"]
         jammy: ["libmysql++3v5"]
 
@@ -2063,6 +2180,12 @@ libnanopb-dev:
     ubuntu:
         default: ["libnanopb-dev"]
         bionic: nonexistent
+
+libnanovdb-dev:
+    ubuntu:
+        default: ["libnanovdb-dev"]
+        focal: nonexistent
+        jammy: nonexistent
 
 libncurses:
     ubuntu: ["libncurses6"]
@@ -2109,7 +2232,10 @@ libogg:
     ubuntu: ["libogg-dev"]
 
 libogre:
-    ubuntu: ["libogre-1.9.0v5"]
+    ubuntu:
+        default: ["libogre-1.9.0t64"]
+        focal: ["libogre-1.9.0v5"]
+        jammy: ["libogre-1.9.0v5"]
 
 libogre-1.12-dev:
     ubuntu:
@@ -2137,6 +2263,7 @@ libopen3d-dev:
         default: ["libopen3d-dev"]
         bionic: nonexistent
         focal: nonexistent
+        noble: nonexistent
 
 libopenal-dev:
     ubuntu: ["libopenal-dev"]
@@ -2147,11 +2274,49 @@ libopenblas-dev:
 libopencv-contrib-dev:
     ubuntu: ["libopencv-contrib-dev"]
 
+libopencv-core:
+    ubuntu:
+        jammy: ["libopencv-core4.5d"]
+        noble: ["libopencv-core406t64"]
+        resolute: ["libopencv-core410"]
+
+libopencv-core-dev:
+    ubuntu: ["libopencv-core-dev"]
+
 libopencv-dev:
     ubuntu: ["libopencv-dev"]
 
+libopencv-highgui:
+    ubuntu:
+        default: ["libopencv-highgui410"]
+        focal: nonexistent
+        jammy: ["libopencv-highgui4.5d"]
+        noble: ["libopencv-highgui406t64"]
+
+libopencv-imgcodecs:
+    ubuntu:
+        jammy: ["libopencv-imgcodecs4.5d"]
+        noble: ["libopencv-imgcodecs406t64"]
+        resolute: ["libopencv-imgcodecs410"]
+
+libopencv-imgcodecs-dev:
+    ubuntu: ["libopencv-imgcodecs-dev"]
+
+libopencv-imgproc:
+    ubuntu:
+        jammy: ["libopencv-imgproc4.5d"]
+        noble: ["libopencv-imgproc406t64"]
+        resolute: ["libopencv-imgproc410"]
+
 libopencv-imgproc-dev:
     ubuntu: ["libopencv-imgproc-dev"]
+
+libopencv-videoio:
+    ubuntu:
+        default: ["libopencv-videoio410"]
+        focal: nonexistent
+        jammy: ["libopencv-videoio4.5d"]
+        noble: ["libopencv-videoio406t64"]
 
 libopenexr-dev:
     ubuntu: ["libopenexr-dev"]
@@ -2181,6 +2346,7 @@ libopenvdb:
         bionic: ["libopenvdb5.0"]
         focal: ["libopenvdb6.2"]
         jammy: ["libopenvdb8.1"]
+        noble: ["libopenvdb10.0t64"]
 
 libopenvdb-dev:
     ubuntu: ["libopenvdb-dev", "libilmbase-dev"]
@@ -2423,6 +2589,8 @@ libpqxx:
     ubuntu:
         bionic: ["libpqxx-4.0v5"]
         focal: ["libpqxx-6.4"]
+        jammy: ["libpqxx-6.4"]
+        noble: ["libpqxx-7.8t64"]
 
 libpqxx-dev:
     ubuntu: ["libpqxx-dev"]
@@ -2433,6 +2601,9 @@ libprocps-dev:
 libprocps6:
     ubuntu:
         bionic: ["libprocps6"]
+
+libpsl-dev:
+    ubuntu: ["libpsl-dev"]
 
 libpt-dev:
     ubuntu: ["libpt-dev"]
@@ -2461,7 +2632,10 @@ libqglviewer-qt4-dev:
         bionic: ["libqglviewer-dev-qt4"]
 
 libqglviewer2-qt5:
-    ubuntu: ["libqglviewer2-qt5"]
+    ubuntu:
+        default: ["libqglviewer2-qt5t64"]
+        focal: ["libqglviewer2-qt5"]
+        jammy: ["libqglviewer2-qt5"]
 
 libqhull:
     ubuntu: ["libqhull-dev"]
@@ -2494,31 +2668,52 @@ libqt5-charts-dev:
     ubuntu: ["libqt5charts5-dev"]
 
 libqt5-concurrent:
-    ubuntu: ["libqt5concurrent5"]
+    ubuntu:
+        default: ["libqt5concurrent5t64"]
+        focal: ["libqt5concurrent5"]
+        jammy: ["libqt5concurrent5"]
 
 libqt5-core:
-    ubuntu: ["libqt5core5a"]
+    ubuntu:
+        default: ["libqt5core5t64"]
+        focal: ["libqt5core5a"]
+        jammy: ["libqt5core5a"]
+
+libqt5-datavisualization-dev:
+    ubuntu: ["libqt5datavisualization5-dev"]
 
 libqt5-gstreamer-dev:
     ubuntu: ["libqt5gstreamer-dev"]
 
 libqt5-gui:
-    ubuntu: ["libqt5gui5"]
+    ubuntu:
+        default: ["libqt5gui5t64"]
+        focal: ["libqt5gui5"]
+        jammy: ["libqt5gui5"]
 
 libqt5-multimedia:
     ubuntu: ["libqt5multimedia5"]
 
 libqt5-network:
-    ubuntu: ["libqt5network5"]
+    ubuntu:
+        default: ["libqt5network5t64"]
+        focal: ["libqt5network5"]
+        jammy: ["libqt5network5"]
 
 libqt5-opengl:
-    ubuntu: ["libqt5opengl5"]
+    ubuntu:
+        default: ["libqt5opengl5t64"]
+        focal: ["libqt5opengl5"]
+        jammy: ["libqt5opengl5"]
 
 libqt5-opengl-dev:
     ubuntu: ["libqt5opengl5-dev"]
 
 libqt5-printsupport:
-    ubuntu: ["libqt5printsupport5"]
+    ubuntu:
+        default: ["libqt5printsupport5t64"]
+        focal: ["libqt5printsupport5"]
+        jammy: ["libqt5printsupport5"]
 
 libqt5-qml:
     ubuntu: ["libqt5qml5"]
@@ -2533,7 +2728,10 @@ libqt5-serialport-dev:
     ubuntu: ["libqt5serialport5-dev"]
 
 libqt5-sql:
-    ubuntu: ["libqt5sql5"]
+    ubuntu:
+        default: ["libqt5sql5t64"]
+        focal: ["libqt5sql5"]
+        jammy: ["libqt5sql5"]
 
 libqt5-svg:
     ubuntu: ["libqt5svg5"]
@@ -2545,10 +2743,16 @@ libqt5-websockets-dev:
     ubuntu: ["libqt5websockets5-dev"]
 
 libqt5-widgets:
-    ubuntu: ["libqt5widgets5"]
+    ubuntu:
+        default: ["libqt5widgets5t64"]
+        focal: ["libqt5widgets5"]
+        jammy: ["libqt5widgets5"]
 
 libqt5-xml:
-    ubuntu: ["libqt5xml5"]
+    ubuntu:
+        default: ["libqt5xml5t64"]
+        focal: ["libqt5xml5"]
+        jammy: ["libqt5xml5"]
 
 libqt5multimedia5-plugins:
     ubuntu: ["libqt5multimedia5-plugins"]
@@ -2556,11 +2760,108 @@ libqt5multimedia5-plugins:
 libqt5x11extras5-dev:
     ubuntu: ["libqt5x11extras5-dev"]
 
+libqt6-core:
+    ubuntu:
+        default: ["libqt6core6t64"]
+        focal: nonexistent
+        jammy: ["libqt6core6"]
+
+libqt6-multimedia:
+    ubuntu:
+        default: ["libqt6multimedia6"]
+        focal: nonexistent
+
+libqt6-qml:
+    ubuntu:
+        default: ["libqt6qml6"]
+        focal: nonexistent
+
+libqt6-quick:
+    ubuntu:
+        default: ["libqt6quick6"]
+        focal: nonexistent
+
+libqt6-websockets:
+    ubuntu:
+        default: ["libqt6websockets6"]
+        focal: nonexistent
+
+libqt6bluetooth6:
+    ubuntu:
+        default: ["libqt6bluetooth6"]
+        focal: nonexistent
+
+libqt6gui6t64:
+    ubuntu:
+        default: ["libqt6gui6"]
+        focal: nonexistent
+        jammy: ["libqt6gui6"]
+        noble: ["libqt6gui6t64"]
+
+libqt6opengl6t64:
+    ubuntu:
+        default: ["libqt6opengl6"]
+        focal: nonexistent
+        jammy: ["libqt6opengl6"]
+        noble: ["libqt6opengl6t64"]
+
+libqt6statemachine6:
+    ubuntu:
+        default: ["libqt6statemachine6"]
+        focal: nonexistent
+
+libqt6svg6:
+    ubuntu:
+        default: ["libqt6svg6"]
+        focal: nonexistent
+
+libqt6widgets6t64:
+    ubuntu:
+        default: ["libqt6widgets6"]
+        focal: nonexistent
+        jammy: ["libqt6widgets6"]
+        noble: ["libqt6widgets6t64"]
+
+libqtcore:
+    ubuntu:
+        default: ["libqt6core6t64"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: ["libqt5core5t64"]
+
+libqtgui:
+    ubuntu:
+        default: ["libqt6gui6"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: ["libqt5gui5t64"]
+
 libqtgui4:
     ubuntu: ["libqtgui4"]
 
+libqtopengl:
+    ubuntu:
+        default: ["libqt6opengl6"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: ["libqt5opengl5t64"]
+
+libqtsvg:
+    ubuntu:
+        default: ["libqt6svg6"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: ["libqt5svg5"]
+
 libqtwebkit-dev:
     ubuntu: ["libqtwebkit-dev"]
+
+libqtwidgets:
+    ubuntu:
+        default: ["libqt6widgets6"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: ["libqt5widgets5t64"]
 
 libqwt-qt5-dev:
     ubuntu:
@@ -2590,6 +2891,9 @@ libraw1394-dev:
 librdkafka-dev:
     ubuntu: ["librdkafka-dev"]
 
+libre2-dev:
+    ubuntu: ["libre2-dev"]
+
 libreadline:
     ubuntu: ["libreadline-dev"]
 
@@ -2598,6 +2902,9 @@ libreadline-dev:
 
 libreadline-java:
     ubuntu: ["libreadline-java"]
+
+librocksdb-dev:
+    ubuntu: ["librocksdb-dev"]
 
 librtaudio-dev:
     ubuntu: ["librtaudio-dev"]
@@ -2610,6 +2917,9 @@ libsensors4-dev:
 
 libserial-dev:
     ubuntu: ["libserial-dev"]
+
+libserialport-dev:
+    ubuntu: ["libserialport-dev"]
 
 libshaderc-dev:
     ubuntu:
@@ -2631,6 +2941,11 @@ libsoqt4-dev:
 
 libsoundio-dev:
     ubuntu: ["libsoundio-dev"]
+
+libsoup-3.0-dev:
+    ubuntu:
+        default: ["libsoup-3.0-dev"]
+        focal: nonexistent
 
 libsoup2-dev:
     ubuntu: ["libsoup2.4-dev"]
@@ -2655,7 +2970,10 @@ libssh-dev:
     ubuntu: ["libssh-dev"]
 
 libssh2:
-    ubuntu: ["libssh2-1"]
+    ubuntu:
+        default: ["libssh2-1t64"]
+        focal: ["libssh2-1"]
+        jammy: ["libssh2-1"]
 
 libssh2-dev:
     ubuntu: ["libssh2-1-dev"]
@@ -2685,6 +3003,12 @@ libsystemd-dev:
     ubuntu:
         default: ["libsystemd-dev"]
 
+libtaskflow-cpp-dev:
+    ubuntu:
+        default: ["libtaskflow-cpp-dev"]
+        focal: nonexistent
+        jammy: nonexistent
+
 libtclap-dev:
     ubuntu: ["libtclap-dev"]
 
@@ -2707,11 +3031,17 @@ libtool:
     ubuntu: ["libtool", "libltdl-dev", "libtool-bin"]
 
 libttspico:
-    ubuntu: ["libttspico-dev", "libttspico-data", "libttspico-utils", "libttspico0"]
+    ubuntu:
+        default: ["libttspico-dev", "libttspico-data", "libttspico-utils", "libttspico0t64"]
+        focal: ["libttspico-dev", "libttspico-data", "libttspico-utils", "libttspico0"]
+        jammy: ["libttspico-dev", "libttspico-data", "libttspico-utils", "libttspico0"]
 
 libturbojpeg:
     ubuntu:
         default: ["libturbojpeg0-dev"]
+
+libtweeny-dev:
+    ubuntu: ["libtweeny-dev"]
 
 libudev-dev:
     ubuntu: ["libudev-dev"]
@@ -2830,6 +3160,9 @@ libx264-dev:
 libxaw:
     ubuntu: ["libxaw7-dev"]
 
+libxcb-cursor0:
+    ubuntu: ["libxcb-cursor0"]
+
 libxcb-randr0-dev:
     ubuntu: ["libxcb-randr0-dev"]
 
@@ -2892,6 +3225,11 @@ libyaml:
 
 libyaml-dev:
     ubuntu: ["libyaml-dev"]
+
+libyuv-dev:
+    ubuntu:
+        default: ["libyuv-dev"]
+        focal: nonexistent
 
 libzip-dev:
     ubuntu: ["libzip-dev"]
@@ -2973,7 +3311,7 @@ lua5.2-dev:
     ubuntu: ["liblua5.2-dev"]
 
 lz4:
-    ubuntu: ["liblz4-dev"]
+    ubuntu: ["liblz4-dev", "lz4"]
 
 m2r:
     ubuntu:
@@ -3021,6 +3359,9 @@ mkdocs-bootstrap:
 mkdocs-bootswatch:
     ubuntu:
         bionic: ["mkdocs-bootswatch"]
+
+modemmanager:
+    ubuntu: ["modemmanager"]
 
 mongodb:
     ubuntu:
@@ -3279,7 +3620,7 @@ protobuf:
         bionic: ["libprotobuf10"]
         focal: ["libprotobuf17"]
         jammy: ["libprotobuf23"]
-        noble: ["libprotobuf32"]
+        noble: ["libprotobuf32t64"]
 
 protobuf-compiler-grpc:
     ubuntu: ["protobuf-compiler-grpc"]
@@ -3369,8 +3710,112 @@ qml-module-qtquick-window2:
 qml-module-qtquick2:
     ubuntu: ["qml-module-qtquick2"]
 
+qml6-module-qt-labs-folderlistmodel:
+    ubuntu:
+        default: ["qml6-module-qt-labs-folderlistmodel"]
+        focal: nonexistent
+
+qml6-module-qt-labs-platform:
+    ubuntu:
+        default: ["qml6-module-qt-labs-platform"]
+        focal: nonexistent
+
+qml6-module-qt-labs-qmlmodels:
+    ubuntu:
+        default: ["qml6-module-qt-labs-qmlmodels"]
+        focal: nonexistent
+
+qml6-module-qt-labs-settings:
+    ubuntu:
+        default: ["qml6-module-qt-labs-settings"]
+        focal: nonexistent
+
+qml6-module-qt5compat-graphicaleffects:
+    ubuntu:
+        default: ["qml6-module-qt5compat-graphicaleffects"]
+        focal: nonexistent
+
+qml6-module-qtcharts:
+    ubuntu:
+        default: ["qml6-module-qtcharts"]
+        focal: nonexistent
+
+qml6-module-qtcore:
+    ubuntu:
+        default: ["qml6-module-qtcore"]
+        focal: nonexistent
+
+qml6-module-qtmultimedia:
+    ubuntu:
+        default: ["qml6-module-qtmultimedia"]
+        focal: nonexistent
+
+qml6-module-qtpositioning:
+    ubuntu:
+        default: ["qml6-module-qtpositioning"]
+        focal: nonexistent
+
+qml6-module-qtqml:
+    ubuntu:
+        default: ["qml6-module-qtqml"]
+        focal: nonexistent
+
+qml6-module-qtqml-models:
+    ubuntu:
+        default: ["qml6-module-qtqml-models"]
+        focal: nonexistent
+
+qml6-module-qtqml-workerscript:
+    ubuntu:
+        default: ["qml6-module-qtqml-workerscript"]
+        focal: nonexistent
+
+qml6-module-qtquick:
+    ubuntu:
+        default: ["qml6-module-qtquick"]
+        focal: nonexistent
+
+qml6-module-qtquick-controls:
+    ubuntu:
+        default: ["qml6-module-qtquick-controls"]
+        focal: nonexistent
+
+qml6-module-qtquick-dialogs:
+    ubuntu:
+        default: ["qml6-module-qtquick-dialogs"]
+        focal: nonexistent
+
+qml6-module-qtquick-layouts:
+    ubuntu:
+        default: ["qml6-module-qtquick-layouts"]
+        focal: nonexistent
+
+qml6-module-qtquick-templates:
+    ubuntu:
+        default: ["qml6-module-qtquick-templates"]
+        focal: nonexistent
+
+qml6-module-qtquick-window:
+    ubuntu:
+        default: ["qml6-module-qtquick-window"]
+        focal: nonexistent
+
 qrencode:
     ubuntu: ["qrencode"]
+
+qt-base-dev:
+    ubuntu:
+        default: ["qt6-base-dev"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: ["qtbase5-dev"]
+
+qt-svg-dev:
+    ubuntu:
+        default: ["qt6-svg-dev"]
+        focal: nonexistent
+        jammy: nonexistent
+        noble: ["libqt5svg5-dev"]
 
 qt4-dev-tools:
     ubuntu: ["qt4-dev-tools"]
@@ -3388,6 +3833,64 @@ qt5-image-formats-plugins:
 
 qt5-qmake:
     ubuntu: ["qt5-qmake"]
+
+qt6-5compat-dev:
+    ubuntu:
+        default: ["qt6-5compat-dev"]
+        focal: nonexistent
+        jammy: ["libqt6core5compat6-dev"]
+
+qt6-base-dev:
+    ubuntu:
+        default: ["qt6-base-dev"]
+        focal: nonexistent
+
+qt6-base-private-dev:
+    ubuntu:
+        default: ["qt6-base-private-dev"]
+        focal: nonexistent
+
+qt6-connectivity-dev:
+    ubuntu:
+        default: ["qt6-connectivity-dev"]
+        focal: nonexistent
+
+qt6-declarative-dev:
+    ubuntu:
+        default: ["qt6-declarative-dev"]
+        focal: nonexistent
+
+qt6-declarative-private-dev:
+    ubuntu:
+        default: ["qt6-declarative-private-dev"]
+        focal: nonexistent
+
+qt6-multimedia-dev:
+    ubuntu:
+        default: ["qt6-multimedia-dev"]
+        focal: nonexistent
+
+qt6-scxml-dev:
+    ubuntu:
+        default: ["qt6-scxml-dev"]
+        focal: nonexistent
+
+qt6-svg-dev:
+    ubuntu:
+        default: ["qt6-svg-dev"]
+        focal: nonexistent
+        jammy: nonexistent
+
+qt6-tools-dev:
+    ubuntu:
+        default: ["qt6-tools-dev"]
+        focal: nonexistent
+
+qt6-websockets-dev:
+    ubuntu:
+        default: ["qt6-websockets-dev"]
+        focal: nonexistent
+        jammy: nonexistent
 
 qtbase5-dev:
     ubuntu: ["qtbase5-dev"]
@@ -3432,6 +3935,9 @@ range-v3:
 rapidjson-dev:
     ubuntu: ["rapidjson-dev"]
 
+rclone:
+    ubuntu: ["rclone"]
+
 readline-dev:
     ubuntu: ["libreadline-dev"]
 
@@ -3468,6 +3974,21 @@ rti-connext-dds-6.0.1:
     ubuntu:
         default: ["rti-connext-dds-6.0.1"]
         bionic: nonexistent
+
+rti-connext-dds-7.3.0:
+    ubuntu:
+        default: ["rti-connext-dds-7.3.0-ros"]
+        focal: nonexistent
+        jammy: nonexistent
+
+rti-connext-dds-7.7.0:
+    ubuntu:
+        default: ["rti-connext-dds-7.7.0-ros"]
+        focal: nonexistent
+        jammy: nonexistent
+
+rtklib:
+    ubuntu: ["rtklib"]
 
 rtmidi:
     ubuntu: ["librtmidi-dev"]
@@ -3571,6 +4092,9 @@ spacenavd:
 sparsehash:
     ubuntu: ["libsparsehash-dev"]
 
+spatialite-bin:
+    ubuntu: ["spatialite-bin"]
+
 spdlog:
     ubuntu: ["libspdlog-dev"]
 
@@ -3598,6 +4122,9 @@ ssh-askpass-gnome:
 
 sshpass:
     ubuntu: ["sshpass"]
+
+stm32flash:
+    ubuntu: ["stm32flash"]
 
 stress:
     ubuntu: ["stress"]
@@ -3677,6 +4204,9 @@ texlive-latex-recommended:
 texmaker:
     ubuntu: ["texmaker"]
 
+tftp-hpa:
+    ubuntu: ["tftp-hpa"]
+
 tiled:
     ubuntu: ["tiled"]
 
@@ -3724,6 +4254,9 @@ udev:
 
 udhcpc:
     ubuntu: ["udhcpc"]
+
+uhubctl:
+    ubuntu: ["uhubctl"]
 
 unclutter:
     ubuntu: ["unclutter"]
@@ -3927,6 +4460,9 @@ adafruit-mcp3008-pip:
 adafruit-pca9685-pip:
     pip: ["adafruit-pca9685"]
 
+astrometry-pip:
+    pip: ["astrometry"]
+
 autograd-pip:
     pip: ["autograd"]
 
@@ -4042,11 +4578,19 @@ opcua-pip:
 paramiko:
     ubuntu: ["python-paramiko"]
 
+photutils-pip:
+    pip: ["photutils"]
+
 pi-ina219-pip:
     pip: ["pi-ina219"]
 
 pika:
     ubuntu: ["python-pika"]
+
+platformio:
+    ubuntu:
+        default: ["platformio"]
+        focal: nonexistent
 
 pydocstyle:
     ubuntu: ["pydocstyle"]
@@ -4135,6 +4679,9 @@ python-argparse:
 
 python-astor-pip:
     pip: ["astor"]
+
+python-astrometry-pip:
+    pip: ["astrometry"]
 
 python-attrs:
     ubuntu:
@@ -4957,6 +5504,9 @@ python-persist-queue-pip:
 python-pexpect:
     ubuntu: ["python-pexpect"]
 
+python-photutils-pip:
+    pip: ["photutils"]
+
 python-pip:
     ubuntu: ["python-pip"]
 
@@ -5720,8 +6270,7 @@ python3-aiohttp-cors:
     ubuntu: ["python3-aiohttp-cors"]
 
 python3-aiortc:
-    ubuntu:
-        jammy: ["python3-aiortc"]
+    pip: ["aortc"]
 
 python3-albumentations-pip:
     pip: ["albumentations"]
@@ -5746,8 +6295,20 @@ python3-anytree-pip:
 python3-apa102-pi-pip:
     pip: ["apa102-pi"]
 
+python3-apscheduler:
+    ubuntu: ["python3-apscheduler"]
+
+python3-apt:
+    ubuntu: ["python3-apt"]
+
 python3-argcomplete:
     ubuntu: ["python3-argcomplete"]
+
+python3-astrometry-pip:
+    pip: ["astrometry"]
+
+python3-astropy:
+    ubuntu: ["python3-astropy"]
 
 python3-astropy-pip:
     pip: ["astropy"]
@@ -5792,6 +6353,12 @@ python3-bitarray:
 
 python3-bitstring:
     ubuntu: ["python3-bitstring"]
+
+python3-bleak:
+    ubuntu:
+        default: ["python3-bleak"]
+        focal: nonexistent
+        jammy: nonexistent
 
 python3-bloom:
     ubuntu: ["python3-bloom"]
@@ -5922,6 +6489,9 @@ python3-colorcet:
     pip: ["colorcet"]
     pip: ["colorcet"]
 
+python3-colorlog:
+    ubuntu: ["python3-colorlog"]
+
 python3-conan-pip:
     pip: ["conan"]
 
@@ -6032,6 +6602,10 @@ python3-docker:
 python3-docopt:
     ubuntu: ["python3-docopt"]
 
+python3-docstring-parser:
+    pip: ["docstring-parser"]
+    pip: ["docstring-parser"]
+
 python3-docutils:
     ubuntu: ["python3-docutils"]
 
@@ -6041,6 +6615,13 @@ python3-dubins-pip:
 python3-easydict:
     pip: ["easydict"]
     pip: ["easydict"]
+
+python3-easysnmp:
+    pip: ["easysnmp"]
+    pip: ["easysnmp"]
+
+python3-einops-pip:
+    pip: ["einops"]
 
 python3-elasticsearch:
     ubuntu: ["python3-elasticsearch"]
@@ -6071,6 +6652,10 @@ python3-ezdxf:
 python3-fabric:
     ubuntu: ["python3-fabric"]
 
+python3-faiss:
+    pip: ["faiss-cpu"]
+    pip: ["faiss-cpu"]
+
 python3-falcon:
     ubuntu: ["python3-falcon"]
 
@@ -6097,6 +6682,9 @@ python3-fastnumbers-pip:
 
 python3-fcn-pip:
     pip: ["fcn"]
+
+python3-filelock:
+    ubuntu: ["python3-filelock"]
 
 python3-filetype-pip:
     pip: ["filetype"]
@@ -6227,6 +6815,14 @@ python3-formant-pip:
 python3-fpdf2-pip:
     pip: ["fpdf2"]
 
+python3-freezegun:
+    ubuntu: ["python3-freezegun"]
+
+python3-ftdi:
+    ubuntu:
+        default: ["python3-ftdi"]
+        focal: nonexistent
+
 python3-ftdi1:
     ubuntu: ["python3-ftdi1"]
 
@@ -6291,6 +6887,9 @@ python3-google-auth-oauthlib:
         default: ["python3-google-auth-oauthlib"]
         bionic: nonexistent
         focal: nonexistent
+
+python3-google-cloud-firestore-pip:
+    pip: ["google-cloud-firestore"]
 
 python3-google-cloud-pubsub-pip:
     pip: ["google-cloud-pubsub"]
@@ -6368,6 +6967,9 @@ python3-hidapi-cffi:
 python3-httplib2:
     ubuntu: ["python3-httplib2"]
 
+python3-httpx:
+    pip: ["httpx"]
+
 python3-hypothesis:
     ubuntu: ["python3-hypothesis"]
 
@@ -6438,6 +7040,14 @@ python3-jmespath:
 
 python3-joblib:
     ubuntu: ["python3-joblib"]
+
+python3-jraph-pip:
+    pip: ["jraph"]
+
+python3-json5:
+    ubuntu:
+        default: ["python3-json5"]
+        focal: nonexistent
 
 python3-jsonpickle:
     ubuntu: ["python3-jsonpickle"]
@@ -6564,6 +7174,10 @@ python3-mlflow:
 python3-mock:
     ubuntu: ["python3-mock"]
 
+python3-mongomock:
+    pip: ["mongomock"]
+    pip: ["mongomock"]
+
 python3-moonraker-api-pip:
     pip: ["moonraker-api"]
 
@@ -6582,11 +7196,17 @@ python3-motor-pip:
 python3-msgpack:
     ubuntu: ["python3-msgpack"]
 
+python3-msgpack-numpy:
+    ubuntu: ["python3-msgpack-numpy"]
+
 python3-msk-pip:
     pip: ["msk"]
 
 python3-msm-pip:
     pip: ["msm"]
+
+python3-mujoco-pip:
+    pip: ["mujoco"]
 
 python3-multimethod-pip:
     pip: ["multimethod"]
@@ -6676,6 +7296,9 @@ python3-nxt-python-pip:
 python3-oauth2client:
     ubuntu: ["python3-oauth2client"]
 
+python3-obj2mjcf-pip:
+    pip: ["obj2mjcf"]
+
 python3-oct2py-pip:
     pip: ["oct2py"]
 
@@ -6702,6 +7325,7 @@ python3-open3d:
         default: ["python3-open3d"]
         bionic: nonexistent
         focal: nonexistent
+        noble: nonexistent
 
 python3-open3d-pip:
     pip: ["open3d"]
@@ -6726,6 +7350,9 @@ python3-orjson:
 
 python3-osrf-pycommon:
     ubuntu: ["python3-osrf-pycommon"]
+
+python3-overpy:
+    ubuntu: ["python3-overpy"]
 
 python3-overrides:
     pip: ["overrides"]
@@ -6779,6 +7406,9 @@ python3-petact-pip:
 python3-pexpect:
     ubuntu: ["python3-pexpect"]
 
+python3-photutils-pip:
+    pip: ["photutils"]
+
 python3-pickleDB-pip:
     pip: ["pickleDB"]
 
@@ -6803,6 +7433,11 @@ python3-pip:
 python3-pkg-resources:
     ubuntu: ["python3-pkg-resources"]
 
+python3-platformdirs:
+    ubuntu:
+        default: ["python3-platformdirs"]
+        focal: nonexistent
+
 python3-playsound-pip:
     pip: ["playsound"]
 
@@ -6814,6 +7449,9 @@ python3-pocketsphinx-pip:
 
 python3-polling2-pip:
     pip: ["polling2"]
+
+python3-posix-ipc:
+    pip: ["posix-ipc"]
 
 python3-pqdict-pip:
     pip: ["pqdict"]
@@ -6880,6 +7518,9 @@ python3-pydbus:
 python3-pydot:
     ubuntu: ["python3-pydot"]
 
+python3-pydub:
+    ubuntu: ["python3-pydub"]
+
 python3-pyee:
     ubuntu: ["python3-pyee"]
 
@@ -6936,9 +7577,6 @@ python3-pymodbus-pip:
 python3-pymongo:
     ubuntu: ["python3-pymongo"]
 
-python3-pymongo-pip:
-    pip: ["pymongo"]
-
 python3-pynmea2:
     ubuntu: ["python3-nmea2"]
 
@@ -6971,6 +7609,9 @@ python3-pypng:
 python3-pyproj:
     ubuntu: ["python3-pyproj"]
 
+python3-pypylon-pip:
+    pip: ["pypylon"]
+
 python3-pyqrcode:
     ubuntu: ["python3-pyqrcode"]
 
@@ -6988,6 +7629,10 @@ python3-pyqt6.qtmultimedia:
         default: ["python3-pyqt6.qtmultimedia"]
         focal: nonexistent
         jammy: nonexistent
+
+python3-pyqt6.qtwebengine:
+    pip: ["PyQt6-WebEngine"]
+    pip: ["PyQt6-WebEngine"]
 
 python3-pyqtdarktheme-pip:
     pip: ["pyqtdarktheme"]
@@ -7127,6 +7772,11 @@ python3-pytest-benchmark:
 python3-pytest-cov:
     ubuntu: ["python3-pytest-cov"]
 
+python3-pytest-dependency:
+    ubuntu:
+        default: ["python3-pytest-dependency"]
+        focal: nonexistent
+
 python3-pytest-mock:
     ubuntu: ["python3-pytest-mock"]
 
@@ -7165,11 +7815,23 @@ python3-pyvista-pip:
 python3-pyxdg-pip:
     pip: ["pyxdg"]
 
+python3-pyzbar:
+    ubuntu:
+        default: ["python3-pyzbar"]
+        focal: nonexistent
+
 python3-qpsolvers-pip:
     pip: ["qpsolvers"]
 
 python3-qrcode:
     ubuntu: ["python3-qrcode"]
+
+python3-qt-bindings:
+    ubuntu:
+        default: ["libpyside6-dev", "libshiboken6-dev", "pyqt6-dev", "python3-pyqt6", "python3-pyqt6.qtsvg", "python3-pyside6.qtsvg", "qt6-base-dev", "shiboken6", "python3-sipbuild", "python3-pyqtbuild", "pyqt6-dev-tools"]
+        focal: ["libpyside2-dev", "libshiboken2-dev", "pyqt5-dev", "python3-pyqt5", "python3-pyqt5.qtsvg", "python3-pyside2.qtsvg", "python3-sip-dev", "shiboken2"]
+        jammy: ["libpyside2-dev", "libshiboken2-dev", "pyqt5-dev", "python3-pyqt5", "python3-pyqt5.qtsvg", "python3-pyside2.qtsvg", "python3-sip-dev", "shiboken2", "python3-sipbuild"]
+        noble: ["libpyside2-dev", "libshiboken2-dev", "pyqt5-dev", "python3-pyqt5", "python3-pyqt5.qtsvg", "python3-pyside2.qtsvg", "python3-sip-dev", "qtbase5-dev", "shiboken2", "python3-sipbuild", "python3-pyqtbuild"]
 
 python3-qt5-bindings:
     ubuntu:
@@ -7184,6 +7846,10 @@ python3-qt5-bindings-webkit:
 
 python3-qtpy:
     ubuntu: ["python3-qtpy"]
+
+python3-questionary:
+    pip: ["questionary"]
+    pip: ["questionary"]
 
 python3-qwt:
     ubuntu: ["python3-qwt"]
@@ -7202,6 +7868,16 @@ python3-rasterio:
 
 python3-rdflib:
     ubuntu: ["python3-rdflib"]
+
+python3-redis:
+    ubuntu: ["python3-redis"]
+
+python3-reedsolo:
+    pip: ["reedsolo"]
+    pip: ["reedsolo"]
+
+python3-regex:
+    ubuntu: ["python3-regex"]
 
 python3-reportlab:
     ubuntu: ["python3-reportlab"]
@@ -7272,6 +7948,9 @@ python3-ruff-pip:
 python3-sbp-pip:
     pip: ["sbp"]
 
+python3-scapy:
+    ubuntu: ["python3-scapy"]
+
 python3-schedule:
     ubuntu: ["python3-schedule"]
 
@@ -7314,6 +7993,9 @@ python3-sense-hat-pip:
 
 python3-serial:
     ubuntu: ["python3-serial"]
+
+python3-setproctitle:
+    ubuntu: ["python3-setproctitle"]
 
 python3-setuptools:
     ubuntu: ["python3-setuptools"]
@@ -7385,6 +8067,9 @@ python3-sortedcollections-pip:
 python3-sounddevice-pip:
     pip: ["sounddevice"]
 
+python3-soundfile:
+    ubuntu: ["python3-soundfile"]
+
 python3-sparkfun-ublox-gps-pip:
     pip: ["sparkfun-ublox-gps"]
 
@@ -7396,6 +8081,9 @@ python3-sphinx-argparse:
 
 python3-sphinx-autoapi-pip:
     pip: ["sphinx-autoapi"]
+
+python3-sphinx-copybutton:
+    ubuntu: ["python3-sphinx-copybutton"]
 
 python3-sphinx-rtd-theme:
     ubuntu: ["python3-sphinx-rtd-theme"]
@@ -7551,8 +8239,14 @@ python3-typeguard:
 python3-typeguard-pip:
     pip: ["typeguard"]
 
+python3-typer:
+    pip: ["typer"]
+
 python3-types-pyyaml:
     pip: ["types-pyyaml"]
+
+python3-types-setuptools:
+    pip: ["types-setuptools"]
 
 python3-typing-extensions:
     pip: ["typing-extensions"]
@@ -7587,6 +8281,12 @@ python3-urwid:
 
 python3-usb:
     ubuntu: ["python3-usb"]
+
+python3-utm:
+    ubuntu:
+        default: ["python3-utm"]
+        focal: nonexistent
+        jammy: nonexistent
 
 python3-uvicorn:
     pip: ["uvicorn"]
@@ -7651,6 +8351,9 @@ python3-west-pip:
 python3-wgconfig-pip:
     pip: ["wgconfig"]
 
+python3-wheel:
+    ubuntu: ["python3-wheel"]
+
 python3-whichcraft:
     ubuntu: ["python3-whichcraft"]
 
@@ -7662,6 +8365,9 @@ python3-wxgtk4.0:
 
 python3-xdot:
     ubuntu: ["xdot"]
+
+python3-xlib:
+    ubuntu: ["python3-xlib"]
 
 python3-xlsxwriter:
     ubuntu: ["python3-xlsxwriter"]
@@ -7685,6 +8391,9 @@ python3-yoctopuce-pip:
 
 python3-yolov5:
     pip: ["yolov5"]
+
+python3-zeroconf:
+    ubuntu: ["python3-zeroconf"]
 
 python3-zmq:
     ubuntu: ["python3-zmq"]
