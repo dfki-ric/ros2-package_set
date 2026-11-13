@@ -1,0 +1,8 @@
+# Loaded in addition to ros-2.osdeps when ROS_DISTRO is lyrical (see init.rb)
+
+# not released for lyrical in rosdistro (yet); Ubuntu 26.04 ships the same version (1.10)
+octomap:
+    ubuntu: liboctomap-dev
+
+# not released for lyrical (yet); the package set builds it from source (nabo, see ros-2.autobuild)
+libnabo: ignore

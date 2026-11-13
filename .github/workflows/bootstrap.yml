@@ -27,6 +27,19 @@ jobs:
         sudo apt-get -y update && sudo apt-get -y install wget ruby-dev ssh git sudo build-essential libunwind-dev ccache
         git config --global user.name "GitHub runner" && git config --global user.email "runner@github.com"
       shell: bash
+    # Ubuntu 26.04 has no apt-key, which autoproj needs for the key entries in ros-2.osrepos,
+    # so add the ROS 2 apt source the official way (ros2-apt-source) before autoproj runs
+    - name: Add ROS 2 apt source
+      if: ${{ matrix.os == 'ubuntu-26.04' }}
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        version=$(gh release view --repo ros-infrastructure/ros-apt-source --json tagName --jq .tagName)
+        codename=$(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}")
+        gh release download "$version" --repo ros-infrastructure/ros-apt-source \
+          --pattern "ros2-apt-source_${version}.${codename}_all.deb" --output /tmp/ros2-apt-source.deb
+        sudo dpkg -i /tmp/ros2-apt-source.deb
+        sudo apt-get -y update
     - name: bootstrap_buildconf
       env:
         PR_REPO: ${{ github.event.pull_request.head.repo.full_name }}
@@ -45,7 +58,8 @@ jobs:
         . env.sh && aup --config --no-interactive
     - name: update
       run: |
-        source env.sh && autoproj update --no-interactive
+        # -k: report all import/osdeps errors at once (still fails the step)
+        source env.sh && autoproj update --no-interactive -k
 
     - name: Restore ccache
       id: ccache-restore
@@ -62,9 +76,13 @@ jobs:
           ccache --set-config=compression=true
 
     - name: Build
+      env:
+        # CMake 4 (Ubuntu 26.04) rejects cmake_minimum_required < 3.5, which some packages still use
+        CMAKE_POLICY_VERSION_MINIMUM: ${{ matrix.os == 'ubuntu-26.04' && '3.5' || '' }}
       run: |
           source /opt/ros/*/setup.bash
-          colcon build --cmake-args "-DCMAKE_C_COMPILER_LAUNCHER=ccache" "-DCMAKE_CXX_COMPILER_LAUNCHER=ccache" "-DCMAKE_BUILD_TYPE=Release"
+          # --continue-on-error: build everything buildable and list all failures (still fails the step)
+          colcon build --continue-on-error --cmake-args "-DCMAKE_C_COMPILER_LAUNCHER=ccache" "-DCMAKE_CXX_COMPILER_LAUNCHER=ccache" "-DCMAKE_BUILD_TYPE=Release"
 
     - name: Show ccache stats
       if: always()
