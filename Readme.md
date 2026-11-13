@@ -56,7 +56,7 @@ This describes installing for the first time, some parts can be omitted for futu
 
 * `cd ..`
 * `sudo apt install python3-colcon-common-extensions` if not already installed
-* `source /opt/ros/$ROS_DISTRO/setup.bash` (e.g. humble or jazzy)
+* `source /opt/ros/$ROS_DISTRO/setup.bash` (e.g. humble, jazzy or lyrical)
 * `colcon build`
 
 **Sometimes depending packages are not found through pkg-config on first try, in this case: call `source install/setup.bash` and try `colcon build` again**
