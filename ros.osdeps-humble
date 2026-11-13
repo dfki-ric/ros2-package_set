@@ -4,6 +4,18 @@
 #
 # If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config
 #
+navmap_core:
+    ubuntu: ros-humble-navmap-core
+navmap_examples:
+    ubuntu: ros-humble-navmap-examples
+navmap_ros:
+    ubuntu: ros-humble-navmap-ros
+navmap_ros_interfaces:
+    ubuntu: ros-humble-navmap-ros-interfaces
+navmap_rviz_plugin:
+    ubuntu: ros-humble-navmap-rviz-plugin
+navmap_tools:
+    ubuntu: ros-humble-navmap-tools
 aandd_ekew_driver_py:
     ubuntu: ros-humble-aandd-ekew-driver-py
 acado_vendor:
@@ -14,8 +26,16 @@ actuator_msgs:
     ubuntu: ros-humble-actuator-msgs
 adaptive_component:
     ubuntu: ros-humble-adaptive-component
+adi_3dtof_adtf31xx:
+    ubuntu: ros-humble-adi-3dtof-adtf31xx
 adi_3dtof_image_stitching:
     ubuntu: ros-humble-adi-3dtof-image-stitching
+adi_iio:
+    ubuntu: ros-humble-adi-iio
+adi_imu:
+    ubuntu: ros-humble-adi-imu
+adi_tmc_coe:
+    ubuntu: ros-humble-adi-tmc-coe
 adi_tmcl:
     ubuntu: ros-humble-adi-tmcl
 aerostack2:
@@ -34,6 +54,8 @@ as2_behaviors_perception:
     ubuntu: ros-humble-as2-behaviors-perception
 as2_behaviors_platform:
     ubuntu: ros-humble-as2-behaviors-platform
+as2_behaviors_swarm_flocking:
+    ubuntu: ros-humble-as2-behaviors-swarm-flocking
 as2_behaviors_trajectory_generation:
     ubuntu: ros-humble-as2-behaviors-trajectory-generation
 as2_cli:
@@ -72,8 +94,28 @@ as2_usb_camera_interface:
     ubuntu: ros-humble-as2-usb-camera-interface
 as2_visualization:
     ubuntu: ros-humble-as2-visualization
-affordance_primitives:
-    ubuntu: ros-humble-affordance-primitives
+agni_tf_tools:
+    ubuntu: ros-humble-agni-tf-tools
+agnocast:
+    ubuntu: ros-humble-agnocast
+agnocast_cie_config_msgs:
+    ubuntu: ros-humble-agnocast-cie-config-msgs
+agnocast_cie_thread_configurator:
+    ubuntu: ros-humble-agnocast-cie-thread-configurator
+agnocast_components:
+    ubuntu: ros-humble-agnocast-components
+agnocast_e2e_test:
+    ubuntu: ros-humble-agnocast-e2e-test
+agnocast_ioctl_wrapper:
+    ubuntu: ros-humble-agnocast-ioctl-wrapper
+agnocast_sample_application:
+    ubuntu: ros-humble-agnocast-sample-application
+agnocast_sample_interfaces:
+    ubuntu: ros-humble-agnocast-sample-interfaces
+agnocastlib:
+    ubuntu: ros-humble-agnocastlib
+ros2agnocast:
+    ubuntu: ros-humble-ros2agnocast
 ai_prompt_msgs:
     ubuntu: ros-humble-ai-prompt-msgs
 ament_acceleration:
@@ -132,6 +174,8 @@ ament_cmake_catch2:
     ubuntu: ros-humble-ament-cmake-catch2
 ament_cmake_ros:
     ubuntu: ros-humble-ament-cmake-ros
+ament_cmake_ros_core:
+    ubuntu: ros-humble-ament-cmake-ros-core
 domain_coordinator:
     ubuntu: ros-humble-domain-coordinator
 ament_download:
@@ -202,8 +246,6 @@ ament_uncrustify:
     ubuntu: ros-humble-ament-uncrustify
 ament_xmllint:
     ubuntu: ros-humble-ament-xmllint
-ament_nodl:
-    ubuntu: ros-humble-ament-nodl
 ament_package:
     ubuntu: ros-humble-ament-package
 ament_vitis:
@@ -248,12 +290,22 @@ apriltag_detector_umich:
     ubuntu: ros-humble-apriltag-detector-umich
 apriltag_draw:
     ubuntu: ros-humble-apriltag-draw
+apriltag_tools:
+    ubuntu: ros-humble-apriltag-tools
 apriltag_mit:
     ubuntu: ros-humble-apriltag-mit
 apriltag_msgs:
     ubuntu: ros-humble-apriltag-msgs
 apriltag_ros:
     ubuntu: ros-humble-apriltag-ros
+ardrone_sdk:
+    ubuntu: ros-humble-ardrone-sdk
+ardrone_sumo:
+    ubuntu: ros-humble-ardrone-sumo
+aruco_markers:
+    ubuntu: ros-humble-aruco-markers
+aruco_markers_msgs:
+    ubuntu: ros-humble-aruco-markers-msgs
 aruco_opencv:
     ubuntu: ros-humble-aruco-opencv
 aruco_opencv_msgs:
@@ -294,6 +346,20 @@ neobotix_usboard_msgs:
     ubuntu: ros-humble-neobotix-usboard-msgs
 async_web_server_cpp:
     ubuntu: ros-humble-async-web-server-cpp
+at_sonde_ros_driver:
+    ubuntu: ros-humble-at-sonde-ros-driver
+audio_capture:
+    ubuntu: ros-humble-audio-capture
+audio_common:
+    ubuntu: ros-humble-audio-common
+audio_common_msgs:
+    ubuntu: ros-humble-audio-common-msgs
+audio_play:
+    ubuntu: ros-humble-audio-play
+sound_play:
+    ubuntu: ros-humble-sound-play
+sound_play_msgs:
+    ubuntu: ros-humble-sound-play-msgs
 automatika_embodied_agents:
     ubuntu: ros-humble-automatika-embodied-agents
 automatika_ros_sugar:
@@ -314,8 +380,154 @@ autoware_cmake:
     ubuntu: ros-humble-autoware-cmake
 autoware_lint_common:
     ubuntu: ros-humble-autoware-lint-common
+autoware_adapi_adaptors:
+    ubuntu: ros-humble-autoware-adapi-adaptors
+autoware_adapi_specs:
+    ubuntu: ros-humble-autoware-adapi-specs
+autoware_agnocast_wrapper:
+    ubuntu: ros-humble-autoware-agnocast-wrapper
+autoware_awsim_sensor_kit_description:
+    ubuntu: ros-humble-autoware-awsim-sensor-kit-description
+autoware_behavior_velocity_planner:
+    ubuntu: ros-humble-autoware-behavior-velocity-planner
+autoware_behavior_velocity_planner_common:
+    ubuntu: ros-humble-autoware-behavior-velocity-planner-common
+autoware_behavior_velocity_stop_line_module:
+    ubuntu: ros-humble-autoware-behavior-velocity-stop-line-module
+autoware_command_gate:
+    ubuntu: ros-humble-autoware-command-gate
+autoware_component_interface_specs:
+    ubuntu: ros-humble-autoware-component-interface-specs
+autoware_core:
+    ubuntu: ros-humble-autoware-core
+autoware_core_api:
+    ubuntu: ros-humble-autoware-core-api
+autoware_core_control:
+    ubuntu: ros-humble-autoware-core-control
+autoware_core_localization:
+    ubuntu: ros-humble-autoware-core-localization
+autoware_core_map:
+    ubuntu: ros-humble-autoware-core-map
+autoware_core_perception:
+    ubuntu: ros-humble-autoware-core-perception
+autoware_core_planning:
+    ubuntu: ros-humble-autoware-core-planning
+autoware_core_sensing:
+    ubuntu: ros-humble-autoware-core-sensing
+autoware_core_vehicle:
+    ubuntu: ros-humble-autoware-core-vehicle
+autoware_crop_box_filter:
+    ubuntu: ros-humble-autoware-crop-box-filter
+autoware_default_adapi:
+    ubuntu: ros-humble-autoware-default-adapi
+autoware_downsample_filters:
+    ubuntu: ros-humble-autoware-downsample-filters
+autoware_ekf_localizer:
+    ubuntu: ros-humble-autoware-ekf-localizer
+autoware_euclidean_cluster_object_detector:
+    ubuntu: ros-humble-autoware-euclidean-cluster-object-detector
+autoware_geography_utils:
+    ubuntu: ros-humble-autoware-geography-utils
+autoware_global_parameter_loader:
+    ubuntu: ros-humble-autoware-global-parameter-loader
+autoware_gnss_poser:
+    ubuntu: ros-humble-autoware-gnss-poser
+autoware_ground_filter:
+    ubuntu: ros-humble-autoware-ground-filter
+autoware_gyro_odometer:
+    ubuntu: ros-humble-autoware-gyro-odometer
+autoware_interpolation:
+    ubuntu: ros-humble-autoware-interpolation
+autoware_kalman_filter:
+    ubuntu: ros-humble-autoware-kalman-filter
+autoware_lanelet2_map_visualizer:
+    ubuntu: ros-humble-autoware-lanelet2-map-visualizer
+autoware_lanelet2_utils:
+    ubuntu: ros-humble-autoware-lanelet2-utils
+autoware_localization_util:
+    ubuntu: ros-humble-autoware-localization-util
+autoware_map_height_fitter:
+    ubuntu: ros-humble-autoware-map-height-fitter
+autoware_map_loader:
+    ubuntu: ros-humble-autoware-map-loader
+autoware_map_projection_loader:
+    ubuntu: ros-humble-autoware-map-projection-loader
+autoware_marker_utils:
+    ubuntu: ros-humble-autoware-marker-utils
+autoware_mission_planner:
+    ubuntu: ros-humble-autoware-mission-planner
+autoware_motion_utils:
+    ubuntu: ros-humble-autoware-motion-utils
+autoware_motion_velocity_obstacle_stop_module:
+    ubuntu: ros-humble-autoware-motion-velocity-obstacle-stop-module
+autoware_motion_velocity_planner:
+    ubuntu: ros-humble-autoware-motion-velocity-planner
+autoware_motion_velocity_planner_common:
+    ubuntu: ros-humble-autoware-motion-velocity-planner-common
+autoware_ndt_scan_matcher:
+    ubuntu: ros-humble-autoware-ndt-scan-matcher
+autoware_node:
+    ubuntu: ros-humble-autoware-node
+autoware_object_recognition_utils:
+    ubuntu: ros-humble-autoware-object-recognition-utils
+autoware_objects_of_interest_marker_interface:
+    ubuntu: ros-humble-autoware-objects-of-interest-marker-interface
+autoware_osqp_interface:
+    ubuntu: ros-humble-autoware-osqp-interface
+autoware_path_generator:
+    ubuntu: ros-humble-autoware-path-generator
+autoware_perception_objects_converter:
+    ubuntu: ros-humble-autoware-perception-objects-converter
+autoware_planning_factor_interface:
+    ubuntu: ros-humble-autoware-planning-factor-interface
+autoware_planning_test_manager:
+    ubuntu: ros-humble-autoware-planning-test-manager
+autoware_planning_topic_converter:
+    ubuntu: ros-humble-autoware-planning-topic-converter
+autoware_point_types:
+    ubuntu: ros-humble-autoware-point-types
+autoware_pose_initializer:
+    ubuntu: ros-humble-autoware-pose-initializer
+autoware_pyplot:
+    ubuntu: ros-humble-autoware-pyplot
+autoware_qos_utils:
+    ubuntu: ros-humble-autoware-qos-utils
+autoware_qp_interface:
+    ubuntu: ros-humble-autoware-qp-interface
+autoware_route_handler:
+    ubuntu: ros-humble-autoware-route-handler
+autoware_sample_sensor_kit_description:
+    ubuntu: ros-humble-autoware-sample-sensor-kit-description
+autoware_sample_vehicle_description:
+    ubuntu: ros-humble-autoware-sample-vehicle-description
+autoware_signal_processing:
+    ubuntu: ros-humble-autoware-signal-processing
+autoware_simple_pure_pursuit:
+    ubuntu: ros-humble-autoware-simple-pure-pursuit
+autoware_stop_filter:
+    ubuntu: ros-humble-autoware-stop-filter
+autoware_test_node:
+    ubuntu: ros-humble-autoware-test-node
+autoware_test_utils:
+    ubuntu: ros-humble-autoware-test-utils
+autoware_testing:
+    ubuntu: ros-humble-autoware-testing
+autoware_trajectory:
+    ubuntu: ros-humble-autoware-trajectory
+autoware_twist2accel:
+    ubuntu: ros-humble-autoware-twist2accel
+autoware_vehicle_info_utils:
+    ubuntu: ros-humble-autoware-vehicle-info-utils
+autoware_vehicle_velocity_converter:
+    ubuntu: ros-humble-autoware-vehicle-velocity-converter
+autoware_velocity_smoother:
+    ubuntu: ros-humble-autoware-velocity-smoother
 autoware_internal_debug_msgs:
     ubuntu: ros-humble-autoware-internal-debug-msgs
+autoware_internal_localization_msgs:
+    ubuntu: ros-humble-autoware-internal-localization-msgs
+autoware_internal_metric_msgs:
+    ubuntu: ros-humble-autoware-internal-metric-msgs
 autoware_internal_msgs:
     ubuntu: ros-humble-autoware-internal-msgs
 autoware_internal_perception_msgs:
@@ -334,20 +546,60 @@ autoware_localization_msgs:
     ubuntu: ros-humble-autoware-localization-msgs
 autoware_map_msgs:
     ubuntu: ros-humble-autoware-map-msgs
+autoware_msgs:
+    ubuntu: ros-humble-autoware-msgs
 autoware_perception_msgs:
     ubuntu: ros-humble-autoware-perception-msgs
 autoware_planning_msgs:
     ubuntu: ros-humble-autoware-planning-msgs
 autoware_sensing_msgs:
     ubuntu: ros-humble-autoware-sensing-msgs
+autoware_simulation_msgs:
+    ubuntu: ros-humble-autoware-simulation-msgs
 autoware_system_msgs:
     ubuntu: ros-humble-autoware-system-msgs
 autoware_v2x_msgs:
     ubuntu: ros-humble-autoware-v2x-msgs
 autoware_vehicle_msgs:
     ubuntu: ros-humble-autoware-vehicle-msgs
+autoware_localization_rviz_plugin:
+    ubuntu: ros-humble-autoware-localization-rviz-plugin
+autoware_mission_details_overlay_rviz_plugin:
+    ubuntu: ros-humble-autoware-mission-details-overlay-rviz-plugin
+autoware_overlay_rviz_plugin:
+    ubuntu: ros-humble-autoware-overlay-rviz-plugin
+autoware_perception_rviz_plugin:
+    ubuntu: ros-humble-autoware-perception-rviz-plugin
+autoware_planning_rviz_plugin:
+    ubuntu: ros-humble-autoware-planning-rviz-plugin
+autoware_string_stamped_rviz_plugin:
+    ubuntu: ros-humble-autoware-string-stamped-rviz-plugin
+autoware_topic_text_overlay_rviz_plugin:
+    ubuntu: ros-humble-autoware-topic-text-overlay-rviz-plugin
 autoware_utils:
     ubuntu: ros-humble-autoware-utils
+autoware_utils_debug:
+    ubuntu: ros-humble-autoware-utils-debug
+autoware_utils_diagnostics:
+    ubuntu: ros-humble-autoware-utils-diagnostics
+autoware_utils_geometry:
+    ubuntu: ros-humble-autoware-utils-geometry
+autoware_utils_logging:
+    ubuntu: ros-humble-autoware-utils-logging
+autoware_utils_math:
+    ubuntu: ros-humble-autoware-utils-math
+autoware_utils_pcl:
+    ubuntu: ros-humble-autoware-utils-pcl
+autoware_utils_rclcpp:
+    ubuntu: ros-humble-autoware-utils-rclcpp
+autoware_utils_system:
+    ubuntu: ros-humble-autoware-utils-system
+autoware_utils_tf:
+    ubuntu: ros-humble-autoware-utils-tf
+autoware_utils_uuid:
+    ubuntu: ros-humble-autoware-utils-uuid
+autoware_utils_visualization:
+    ubuntu: ros-humble-autoware-utils-visualization
 avt_vimba_camera:
     ubuntu: ros-humble-avt-vimba-camera
 aws_robomaker_small_warehouse_world:
@@ -364,8 +616,20 @@ backward_ros:
     ubuntu: ros-humble-backward-ros
 bag2_to_image:
     ubuntu: ros-humble-bag2-to-image
+bcr_arm:
+    ubuntu: ros-humble-bcr-arm
+bcr_arm_description:
+    ubuntu: ros-humble-bcr-arm-description
+bcr_arm_gazebo:
+    ubuntu: ros-humble-bcr-arm-gazebo
+bcr_arm_moveit_config:
+    ubuntu: ros-humble-bcr-arm-moveit-config
+bcr_arm_ros2:
+    ubuntu: ros-humble-bcr-arm-ros2
 bcr_bot:
     ubuntu: ros-humble-bcr-bot
+behaviortree_cpp_pluginlib:
+    ubuntu: ros-humble-behaviortree-cpp-pluginlib
 behaviortree_cpp_v3:
     ubuntu: ros-humble-behaviortree-cpp-v3
 behaviortree_cpp:
@@ -376,8 +640,16 @@ beluga_amcl:
     ubuntu: ros-humble-beluga-amcl
 beluga_ros:
     ubuntu: ros-humble-beluga-ros
+better_launch:
+    ubuntu: ros-humble-better-launch
 bno055:
     ubuntu: ros-humble-bno055
+bno08x_driver:
+    ubuntu: ros-humble-bno08x-driver
+bob_launch:
+    ubuntu: ros-humble-bob-launch
+bob_llm:
+    ubuntu: ros-humble-bob-llm
 bond:
     ubuntu: ros-humble-bond
 bond_core:
@@ -392,12 +664,22 @@ boost_geometry_util:
     ubuntu: ros-humble-boost-geometry-util
 boost_plugin_loader:
     ubuntu: ros-humble-boost-plugin-loader
+callback_isolated_executor:
+    ubuntu: ros-humble-callback-isolated-executor
+cie_config_msgs:
+    ubuntu: ros-humble-cie-config-msgs
+cie_sample_application:
+    ubuntu: ros-humble-cie-sample-application
+cie_thread_configurator:
+    ubuntu: ros-humble-cie-thread-configurator
 camera_aravis2:
     ubuntu: ros-humble-camera-aravis2
 camera_aravis2_msgs:
     ubuntu: ros-humble-camera-aravis2-msgs
 camera_ros:
     ubuntu: ros-humble-camera-ros
+canboat_vendor:
+    ubuntu: ros-humble-canboat-vendor
 caret_analyze:
     ubuntu: ros-humble-caret-analyze
 caret_analyze_cpp_impl:
@@ -416,6 +698,8 @@ cascade_lifecycle_msgs:
     ubuntu: ros-humble-cascade-lifecycle-msgs
 rclcpp_cascade_lifecycle:
     ubuntu: ros-humble-rclcpp-cascade-lifecycle
+rclpy_cascade_lifecycle:
+    ubuntu: ros-humble-rclpy-cascade-lifecycle
 catch_ros2:
     ubuntu: ros-humble-catch-ros2
 class_loader:
@@ -470,6 +754,10 @@ clearpath_simulator:
     ubuntu: ros-humble-clearpath-simulator
 clips_vendor:
     ubuntu: ros-humble-clips-vendor
+cloudini_lib:
+    ubuntu: ros-humble-cloudini-lib
+cloudini_ros:
+    ubuntu: ros-humble-cloudini-ros
 coal:
     ubuntu: ros-humble-coal
 cob_actions:
@@ -478,6 +766,8 @@ cob_msgs:
     ubuntu: ros-humble-cob-msgs
 cob_srvs:
     ubuntu: ros-humble-cob-srvs
+coin_d4_driver:
+    ubuntu: ros-humble-coin-d4-driver
 color_names:
     ubuntu: ros-humble-color-names
 color_util:
@@ -508,6 +798,8 @@ trajectory_msgs:
     ubuntu: ros-humble-trajectory-msgs
 visualization_msgs:
     ubuntu: ros-humble-visualization-msgs
+connection_inspector:
+    ubuntu: ros-humble-connection-inspector
 console_bridge_vendor:
     ubuntu: ros-humble-console-bridge-vendor
 control_box_rst:
@@ -532,6 +824,22 @@ crane_plus_gazebo:
     ubuntu: ros-humble-crane-plus-gazebo
 crane_plus_moveit_config:
     ubuntu: ros-humble-crane-plus-moveit-config
+crazyflie:
+    ubuntu: ros-humble-crazyflie
+crazyflie_description:
+    ubuntu: ros-humble-crazyflie-description
+crazyflie_examples:
+    ubuntu: ros-humble-crazyflie-examples
+crazyflie_interfaces:
+    ubuntu: ros-humble-crazyflie-interfaces
+crazyflie_py:
+    ubuntu: ros-humble-crazyflie-py
+crazyflie_server_cpp:
+    ubuntu: ros-humble-crazyflie-server-cpp
+crazyflie_server_py:
+    ubuntu: ros-humble-crazyflie-server-py
+crazyflie_sim:
+    ubuntu: ros-humble-crazyflie-sim
 create3_coverage:
     ubuntu: ros-humble-create3-coverage
 create3_examples_msgs:
@@ -578,6 +886,10 @@ create_msgs:
     ubuntu: ros-humble-create-msgs
 create_robot:
     ubuntu: ros-humble-create-robot
+crocoddyl:
+    ubuntu: ros-humble-crocoddyl
+crx_kinematics:
+    ubuntu: ros-humble-crx-kinematics
 cudnn_cmake_module:
     ubuntu: ros-humble-cudnn-cmake-module
 cyclonedds:
@@ -642,6 +954,8 @@ ds_dbw_joystick_demo:
     ubuntu: ros-humble-ds-dbw-joystick-demo
 ds_dbw_msgs:
     ubuntu: ros-humble-ds-dbw-msgs
+decision-node-ros2:
+    ubuntu: ros-humble-decision-node-ros2
 action_tutorials_cpp:
     ubuntu: ros-humble-action-tutorials-cpp
 action_tutorials_interfaces:
@@ -700,18 +1014,38 @@ depthai_ros_driver:
     ubuntu: ros-humble-depthai-ros-driver
 depthai_ros_msgs:
     ubuntu: ros-humble-depthai-ros-msgs
+depthai_bridge_v3:
+    ubuntu: ros-humble-depthai-bridge-v3
+depthai_descriptions_v3:
+    ubuntu: ros-humble-depthai-descriptions-v3
+depthai_examples_v3:
+    ubuntu: ros-humble-depthai-examples-v3
+depthai_filters_v3:
+    ubuntu: ros-humble-depthai-filters-v3
+depthai_ros_driver_v3:
+    ubuntu: ros-humble-depthai-ros-driver-v3
+depthai_ros_msgs_v3:
+    ubuntu: ros-humble-depthai-ros-msgs-v3
+depthai_ros_v3:
+    ubuntu: ros-humble-depthai-ros-v3
+depthai_v3:
+    ubuntu: ros-humble-depthai-v3
 depthimage_to_laserscan:
     ubuntu: ros-humble-depthimage-to-laserscan
 diagnostic_aggregator:
     ubuntu: ros-humble-diagnostic-aggregator
 diagnostic_common_diagnostics:
     ubuntu: ros-humble-diagnostic-common-diagnostics
+diagnostic_remote_logging:
+    ubuntu: ros-humble-diagnostic-remote-logging
 diagnostic_updater:
     ubuntu: ros-humble-diagnostic-updater
 diagnostics:
     ubuntu: ros-humble-diagnostics
 self_test:
     ubuntu: ros-humble-self-test
+digestible:
+    ubuntu: ros-humble-digestible
 dolly:
     ubuntu: ros-humble-dolly
 dolly_follow:
@@ -722,6 +1056,8 @@ dolly_ignition:
     ubuntu: ros-humble-dolly-ignition
 domain_bridge:
     ubuntu: ros-humble-domain-bridge
+doom_ros:
+    ubuntu: ros-humble-doom-ros
 dual_laser_merger:
     ubuntu: ros-humble-dual-laser-merger
 dynamixel_hardware:
@@ -742,6 +1078,82 @@ dynamixel_workbench_toolbox:
     ubuntu: ros-humble-dynamixel-workbench-toolbox
 dynamixel_workbench_msgs:
     ubuntu: ros-humble-dynamixel-workbench-msgs
+easynav:
+    ubuntu: ros-humble-easynav
+easynav_common:
+    ubuntu: ros-humble-easynav-common
+easynav_controller:
+    ubuntu: ros-humble-easynav-controller
+easynav_core:
+    ubuntu: ros-humble-easynav-core
+easynav_interfaces:
+    ubuntu: ros-humble-easynav-interfaces
+easynav_localizer:
+    ubuntu: ros-humble-easynav-localizer
+easynav_maps_manager:
+    ubuntu: ros-humble-easynav-maps-manager
+easynav_planner:
+    ubuntu: ros-humble-easynav-planner
+easynav_recovery:
+    ubuntu: ros-humble-easynav-recovery
+easynav_sensors:
+    ubuntu: ros-humble-easynav-sensors
+easynav_support_py:
+    ubuntu: ros-humble-easynav-support-py
+easynav_system:
+    ubuntu: ros-humble-easynav-system
+easynav_tools:
+    ubuntu: ros-humble-easynav-tools
+easynav_nav2_bridge:
+    ubuntu: ros-humble-easynav-nav2-bridge
+easynav_bonxai_maps_manager:
+    ubuntu: ros-humble-easynav-bonxai-maps-manager
+easynav_costmap_common:
+    ubuntu: ros-humble-easynav-costmap-common
+easynav_costmap_localizer:
+    ubuntu: ros-humble-easynav-costmap-localizer
+easynav_costmap_maps_manager:
+    ubuntu: ros-humble-easynav-costmap-maps-manager
+easynav_costmap_planner:
+    ubuntu: ros-humble-easynav-costmap-planner
+easynav_diagnostic_recovery:
+    ubuntu: ros-humble-easynav-diagnostic-recovery
+easynav_fusion_localizer:
+    ubuntu: ros-humble-easynav-fusion-localizer
+easynav_mhamcl_localizer:
+    ubuntu: ros-humble-easynav-mhamcl-localizer
+easynav_mpc_controller:
+    ubuntu: ros-humble-easynav-mpc-controller
+easynav_mppi_controller:
+    ubuntu: ros-humble-easynav-mppi-controller
+easynav_navmap_localizer:
+    ubuntu: ros-humble-easynav-navmap-localizer
+easynav_navmap_maps_manager:
+    ubuntu: ros-humble-easynav-navmap-maps-manager
+easynav_navmap_planner:
+    ubuntu: ros-humble-easynav-navmap-planner
+easynav_octomap_maps_manager:
+    ubuntu: ros-humble-easynav-octomap-maps-manager
+easynav_regulated_pp_controller:
+    ubuntu: ros-humble-easynav-regulated-pp-controller
+easynav_routes_maps_manager:
+    ubuntu: ros-humble-easynav-routes-maps-manager
+easynav_serest_controller:
+    ubuntu: ros-humble-easynav-serest-controller
+easynav_simple_common:
+    ubuntu: ros-humble-easynav-simple-common
+easynav_simple_controller:
+    ubuntu: ros-humble-easynav-simple-controller
+easynav_simple_localizer:
+    ubuntu: ros-humble-easynav-simple-localizer
+easynav_simple_maps_manager:
+    ubuntu: ros-humble-easynav-simple-maps-manager
+easynav_simple_planner:
+    ubuntu: ros-humble-easynav-simple-planner
+easynav_simple_recovery:
+    ubuntu: ros-humble-easynav-simple-recovery
+easynav_vff_controller:
+    ubuntu: ros-humble-easynav-vff-controller
 ecal:
     ubuntu: ros-humble-ecal
 ecl_command_line:
@@ -824,6 +1236,26 @@ eigenpy:
     ubuntu: ros-humble-eigenpy
 eiquadprog:
     ubuntu: ros-humble-eiquadprog
+elite_cs_series_sdk:
+    ubuntu: ros-humble-elite-cs-series-sdk
+elite_robots:
+    ubuntu: ros-humble-elite-robots
+elite_robots_calibration:
+    ubuntu: ros-humble-elite-robots-calibration
+elite_robots_controllers:
+    ubuntu: ros-humble-elite-robots-controllers
+elite_robots_dashboard_msgs:
+    ubuntu: ros-humble-elite-robots-dashboard-msgs
+elite_robots_driver:
+    ubuntu: ros-humble-elite-robots-driver
+elite_robots_moveit_config:
+    ubuntu: ros-humble-elite-robots-moveit-config
+elite_robots_msgs:
+    ubuntu: ros-humble-elite-robots-msgs
+elite_robots_description:
+    ubuntu: ros-humble-elite-robots-description
+elite_robots_simulation_gz:
+    ubuntu: ros-humble-elite-robots-simulation-gz
 ess_imu_driver2:
     ubuntu: ros-humble-ess-imu-driver2
 etsi_its_cam_coding:
@@ -842,6 +1274,8 @@ etsi_its_coding:
     ubuntu: ros-humble-etsi-its-coding
 etsi_its_conversion:
     ubuntu: ros-humble-etsi-its-conversion
+etsi_its_conversion_srvs:
+    ubuntu: ros-humble-etsi-its-conversion-srvs
 etsi_its_cpm_ts_coding:
     ubuntu: ros-humble-etsi-its-cpm-ts-coding
 etsi_its_cpm_ts_conversion:
@@ -854,12 +1288,30 @@ etsi_its_denm_conversion:
     ubuntu: ros-humble-etsi-its-denm-conversion
 etsi_its_denm_msgs:
     ubuntu: ros-humble-etsi-its-denm-msgs
+etsi_its_denm_ts_coding:
+    ubuntu: ros-humble-etsi-its-denm-ts-coding
+etsi_its_denm_ts_conversion:
+    ubuntu: ros-humble-etsi-its-denm-ts-conversion
+etsi_its_denm_ts_msgs:
+    ubuntu: ros-humble-etsi-its-denm-ts-msgs
+etsi_its_ivim_ts_coding:
+    ubuntu: ros-humble-etsi-its-ivim-ts-coding
+etsi_its_ivim_ts_conversion:
+    ubuntu: ros-humble-etsi-its-ivim-ts-conversion
+etsi_its_ivim_ts_msgs:
+    ubuntu: ros-humble-etsi-its-ivim-ts-msgs
 etsi_its_mapem_ts_coding:
     ubuntu: ros-humble-etsi-its-mapem-ts-coding
 etsi_its_mapem_ts_conversion:
     ubuntu: ros-humble-etsi-its-mapem-ts-conversion
 etsi_its_mapem_ts_msgs:
     ubuntu: ros-humble-etsi-its-mapem-ts-msgs
+etsi_its_mcm_uulm_coding:
+    ubuntu: ros-humble-etsi-its-mcm-uulm-coding
+etsi_its_mcm_uulm_conversion:
+    ubuntu: ros-humble-etsi-its-mcm-uulm-conversion
+etsi_its_mcm_uulm_msgs:
+    ubuntu: ros-humble-etsi-its-mcm-uulm-msgs
 etsi_its_messages:
     ubuntu: ros-humble-etsi-its-messages
 etsi_its_msgs:
@@ -890,6 +1342,22 @@ event_camera_py:
     ubuntu: ros-humble-event-camera-py
 event_camera_renderer:
     ubuntu: ros-humble-event-camera-renderer
+event_camera_tools:
+    ubuntu: ros-humble-event-camera-tools
+event_image_reconstruction_fibar:
+    ubuntu: ros-humble-event-image-reconstruction-fibar
+ewellix_description:
+    ubuntu: ros-humble-ewellix-description
+ewellix_interfaces:
+    ubuntu: ros-humble-ewellix-interfaces
+ewellix_lift_common:
+    ubuntu: ros-humble-ewellix-lift-common
+ewellix_moveit_config:
+    ubuntu: ros-humble-ewellix-moveit-config
+ewellix_sim:
+    ubuntu: ros-humble-ewellix-sim
+ewellix_viz:
+    ubuntu: ros-humble-ewellix-viz
 example_interfaces:
     ubuntu: ros-humble-example-interfaces
 examples_rclcpp_async_client:
@@ -948,6 +1416,16 @@ fastcdr:
     ubuntu: ros-humble-fastcdr
 fastrtps:
     ubuntu: ros-humble-fastrtps
+fss_bringup:
+    ubuntu: ros-humble-fss-bringup
+fss_px4_sim:
+    ubuntu: ros-humble-fss-px4-sim
+fss_sensing:
+    ubuntu: ros-humble-fss-sensing
+fss_time:
+    ubuntu: ros-humble-fss-time
+fss_time_interfaces:
+    ubuntu: ros-humble-fss-time-interfaces
 feetech_ros2_driver:
     ubuntu: ros-humble-feetech-ros2-driver
 ffmpeg_encoder_decoder:
@@ -958,12 +1436,18 @@ ffmpeg_image_transport_msgs:
     ubuntu: ros-humble-ffmpeg-image-transport-msgs
 ffmpeg_image_transport_tools:
     ubuntu: ros-humble-ffmpeg-image-transport-tools
+fibar_lib:
+    ubuntu: ros-humble-fibar-lib
 fields2cover:
     ubuntu: ros-humble-fields2cover
 filters:
     ubuntu: ros-humble-filters
 find_object_2d:
     ubuntu: ros-humble-find-object-2d
+fkie_message_filters:
+    ubuntu: ros-humble-fkie-message-filters
+fkie_potree_rviz_plugin:
+    ubuntu: ros-humble-fkie-potree-rviz-plugin
 flex_sync:
     ubuntu: ros-humble-flex-sync
 flexbe_app:
@@ -994,6 +1478,12 @@ spinnaker_camera_driver:
     ubuntu: ros-humble-spinnaker-camera-driver
 spinnaker_synchronized_camera_driver:
     ubuntu: ros-humble-spinnaker-synchronized-camera-driver
+flir_ptu_description:
+    ubuntu: ros-humble-flir-ptu-description
+flir_ptu_driver:
+    ubuntu: ros-humble-flir-ptu-driver
+flir_ptu_viz:
+    ubuntu: ros-humble-flir-ptu-viz
 fluent_bit_vendor:
     ubuntu: ros-humble-fluent-bit-vendor
 fluent_rviz:
@@ -1022,10 +1512,10 @@ four_wheel_steering_msgs:
     ubuntu: ros-humble-four-wheel-steering-msgs
 foxglove_bridge:
     ubuntu: ros-humble-foxglove-bridge
-foxglove_compressed_video_transport:
-    ubuntu: ros-humble-foxglove-compressed-video-transport
 foxglove_msgs:
     ubuntu: ros-humble-foxglove-msgs
+foxglove_compressed_video_transport:
+    ubuntu: ros-humble-foxglove-compressed-video-transport
 franka_description:
     ubuntu: ros-humble-franka-description
 franka_bringup:
@@ -1052,6 +1542,20 @@ franka_semantic_components:
     ubuntu: ros-humble-franka-semantic-components
 integration_launch_testing:
     ubuntu: ros-humble-integration-launch-testing
+frequency_cam:
+    ubuntu: ros-humble-frequency-cam
+compass_msgs:
+    ubuntu: ros-humble-compass-msgs
+fusioncore_core:
+    ubuntu: ros-humble-fusioncore-core
+fusioncore_datasets:
+    ubuntu: ros-humble-fusioncore-datasets
+fusioncore_gazebo:
+    ubuntu: ros-humble-fusioncore-gazebo
+fusioncore_ros:
+    ubuntu: ros-humble-fusioncore-ros
+fusioncore_ublox:
+    ubuntu: ros-humble-fusioncore-ublox
 game_controller_spl:
     ubuntu: ros-humble-game-controller-spl
 game_controller_spl_interfaces:
@@ -1102,18 +1606,10 @@ gazebo_video_monitor_utils:
     ubuntu: ros-humble-gazebo-video-monitor-utils
 gazebo_video_monitors:
     ubuntu: ros-humble-gazebo-video-monitors
-cmake_generate_parameter_module_example:
-    ubuntu: ros-humble-cmake-generate-parameter-module-example
 generate_parameter_library:
     ubuntu: ros-humble-generate-parameter-library
-generate_parameter_library_example:
-    ubuntu: ros-humble-generate-parameter-library-example
-generate_parameter_library_example_external:
-    ubuntu: ros-humble-generate-parameter-library-example-external
 generate_parameter_library_py:
     ubuntu: ros-humble-generate-parameter-library-py
-generate_parameter_module_example:
-    ubuntu: ros-humble-generate-parameter-module-example
 parameter_traits:
     ubuntu: ros-humble-parameter-traits
 geodesy:
@@ -1172,6 +1668,12 @@ gps_umd:
     ubuntu: ros-humble-gps-umd
 gpsd_client:
     ubuntu: ros-humble-gpsd-client
+rmw_stats_shim:
+    ubuntu: ros-humble-rmw-stats-shim
+rosgraph_monitor:
+    ubuntu: ros-humble-rosgraph-monitor
+rosgraph_monitor_msgs:
+    ubuntu: ros-humble-rosgraph-monitor-msgs
 graph_msgs:
     ubuntu: ros-humble-graph-msgs
 grasping_msgs:
@@ -1180,6 +1682,10 @@ grbl_msgs:
     ubuntu: ros-humble-grbl-msgs
 grbl_ros:
     ubuntu: ros-humble-grbl-ros
+greenwave_monitor:
+    ubuntu: ros-humble-greenwave-monitor
+greenwave_monitor_interfaces:
+    ubuntu: ros-humble-greenwave-monitor-interfaces
 grid_map:
     ubuntu: ros-humble-grid-map
 grid_map_cmake_helpers:
@@ -1216,6 +1722,8 @@ gscam:
     ubuntu: ros-humble-gscam
 gtsam:
     ubuntu: ros-humble-gtsam
+gtsam2mrpt_serial:
+    ubuntu: ros-humble-gtsam2mrpt-serial
 hash_library_vendor:
     ubuntu: ros-humble-hash-library-vendor
 hatchbed_common:
@@ -1224,12 +1732,20 @@ heaphook:
     ubuntu: ros-humble-heaphook
 hebi_cpp_api:
     ubuntu: ros-humble-hebi-cpp-api
+hebi_hardware:
+    ubuntu: ros-humble-hebi-hardware
+hebi_msgs:
+    ubuntu: ros-humble-hebi-msgs
 heightmap_spawner:
     ubuntu: ros-humble-heightmap-spawner
 hey5_description:
     ubuntu: ros-humble-hey5-description
+hitch_estimation_apriltag_array:
+    ubuntu: ros-humble-hitch-estimation-apriltag-array
 hls_lfcd_lds_driver:
     ubuntu: ros-humble-hls-lfcd-lds-driver
+hokuyo_node2:
+    ubuntu: ros-humble-hokuyo-node2
 homing_local_planner:
     ubuntu: ros-humble-homing-local-planner
 hpp-fcl:
@@ -1252,6 +1768,12 @@ hri_rviz:
     ubuntu: ros-humble-hri-rviz
 human_description:
     ubuntu: ros-humble-human-description
+husarion_components_description:
+    ubuntu: ros-humble-husarion-components-description
+husarion_ugv_description:
+    ubuntu: ros-humble-husarion-ugv-description
+husarion_ugv_msgs:
+    ubuntu: ros-humble-husarion-ugv-msgs
 iceoryx_binding_c:
     ubuntu: ros-humble-iceoryx-binding-c
 iceoryx_hoofs:
@@ -1262,6 +1784,10 @@ iceoryx_posh:
     ubuntu: ros-humble-iceoryx-posh
 ifm3d_core:
     ubuntu: ros-humble-ifm3d-core
+gz_ros2_control:
+    ubuntu: ros-humble-gz-ros2-control
+gz_ros2_control_demos:
+    ubuntu: ros-humble-gz-ros2-control-demos
 gz_ros2_control_tests:
     ubuntu: ros-humble-gz-ros2-control-tests
 ign_ros2_control:
@@ -1278,6 +1804,10 @@ ignition_cmake2_vendor:
     ubuntu: ros-humble-ignition-cmake2-vendor
 ignition_math6_vendor:
     ubuntu: ros-humble-ignition-math6-vendor
+ih2_azzurra_hand_driver:
+    ubuntu: ros-humble-ih2-azzurra-hand-driver
+ih2_azzurra_hand_driver_interfaces:
+    ubuntu: ros-humble-ih2-azzurra-hand-driver-interfaces
 camera_calibration_parsers:
     ubuntu: ros-humble-camera-calibration-parsers
 camera_info_manager:
@@ -1314,6 +1844,8 @@ image_transport_plugins:
     ubuntu: ros-humble-image-transport-plugins
 theora_image_transport:
     ubuntu: ros-humble-theora-image-transport
+imu_calib:
+    ubuntu: ros-humble-imu-calib
 imu_pipeline:
     ubuntu: ros-humble-imu-pipeline
 imu_processors:
@@ -1332,10 +1864,26 @@ interactive_marker_twist_server:
     ubuntu: ros-humble-interactive-marker-twist-server
 interactive_markers:
     ubuntu: ros-humble-interactive-markers
+inuros2:
+    ubuntu: ros-humble-inuros2
+franka_inria_inverse_dynamics_solver:
+    ubuntu: ros-humble-franka-inria-inverse-dynamics-solver
+inverse_dynamics_solver:
+    ubuntu: ros-humble-inverse-dynamics-solver
+kdl_inverse_dynamics_solver:
+    ubuntu: ros-humble-kdl-inverse-dynamics-solver
+ur10_inverse_dynamics_solver:
+    ubuntu: ros-humble-ur10-inverse-dynamics-solver
 irobot_create_msgs:
     ubuntu: ros-humble-irobot-create-msgs
 jacro:
     ubuntu: ros-humble-jacro
+jig:
+    ubuntu: ros-humble-jig
+jig_cli:
+    ubuntu: ros-humble-jig-cli
+jig_example:
+    ubuntu: ros-humble-jig-example
 joint_state_publisher:
     ubuntu: ros-humble-joint-state-publisher
 joint_state_publisher_gui:
@@ -1354,10 +1902,30 @@ wiimote:
     ubuntu: ros-humble-wiimote
 wiimote_msgs:
     ubuntu: ros-humble-wiimote-msgs
+jrl_cmakemodules:
+    ubuntu: ros-humble-jrl-cmakemodules
+kairos:
+    ubuntu: ros-humble-kairos
+kangaroo_moveit_config:
+    ubuntu: ros-humble-kangaroo-moveit-config
+kangaroo_bringup:
+    ubuntu: ros-humble-kangaroo-bringup
+kangaroo_controller_configuration:
+    ubuntu: ros-humble-kangaroo-controller-configuration
+kangaroo_description:
+    ubuntu: ros-humble-kangaroo-description
+kangaroo_robot:
+    ubuntu: ros-humble-kangaroo-robot
+kangaroo_mujoco:
+    ubuntu: ros-humble-kangaroo-mujoco
+kangaroo_simulation:
+    ubuntu: ros-humble-kangaroo-simulation
 kdl_parser:
     ubuntu: ros-humble-kdl-parser
 keyboard_handler:
     ubuntu: ros-humble-keyboard-handler
+kinematic_pose_msgs:
+    ubuntu: ros-humble-kinematic-pose-msgs
 kinematics_interface:
     ubuntu: ros-humble-kinematics-interface
 kinematics_interface_kdl:
@@ -1366,6 +1934,8 @@ kinematics_interface_pinocchio:
     ubuntu: ros-humble-kinematics-interface-pinocchio
 kobuki_core:
     ubuntu: ros-humble-kobuki-core
+kobuki_ros:
+    ubuntu: ros-humble-kobuki-ros
 kobuki_ros_interfaces:
     ubuntu: ros-humble-kobuki-ros-interfaces
 kobuki_velocity_smoother:
@@ -1378,8 +1948,6 @@ fri_configuration_controller:
     ubuntu: ros-humble-fri-configuration-controller
 fri_state_broadcaster:
     ubuntu: ros-humble-fri-state-broadcaster
-iiqka_moveit_example:
-    ubuntu: ros-humble-iiqka-moveit-example
 joint_group_impedance_controller:
     ubuntu: ros-humble-joint-group-impedance-controller
 kuka_control_mode_handler:
@@ -1396,8 +1964,10 @@ kuka_event_broadcaster:
     ubuntu: ros-humble-kuka-event-broadcaster
 kuka_iiqka_eac_driver:
     ubuntu: ros-humble-kuka-iiqka-eac-driver
-kuka_kss_rsi_driver:
-    ubuntu: ros-humble-kuka-kss-rsi-driver
+kuka_kss_message_handler:
+    ubuntu: ros-humble-kuka-kss-message-handler
+kuka_rsi_driver:
+    ubuntu: ros-humble-kuka-rsi-driver
 kuka_rsi_simulator:
     ubuntu: ros-humble-kuka-rsi-simulator
 kuka_sunrise_fri_driver:
@@ -1406,14 +1976,22 @@ kuka_external_control_sdk:
     ubuntu: ros-humble-kuka-external-control-sdk
 kuka_external_control_sdk_examples:
     ubuntu: ros-humble-kuka-external-control-sdk-examples
+kuka_drivers:
+    ubuntu: ros-humble-kuka-drivers
+kuka_external_control_sdk:
+    ubuntu: ros-humble-kuka-external-control-sdk
 kuka_agilus_support:
     ubuntu: ros-humble-kuka-agilus-support
 kuka_cybertech_support:
     ubuntu: ros-humble-kuka-cybertech-support
 kuka_fortec_support:
     ubuntu: ros-humble-kuka-fortec-support
+kuka_gazebo:
+    ubuntu: ros-humble-kuka-gazebo
 kuka_iontec_support:
     ubuntu: ros-humble-kuka-iontec-support
+kuka_kl_support:
+    ubuntu: ros-humble-kuka-kl-support
 kuka_kr_moveit_config:
     ubuntu: ros-humble-kuka-kr-moveit-config
 kuka_lbr_iisy_moveit_config:
@@ -1474,6 +2052,8 @@ launch_xml:
     ubuntu: ros-humble-launch-xml
 launch_yaml:
     ubuntu: ros-humble-launch-yaml
+launch_frontend_py:
+    ubuntu: ros-humble-launch-frontend-py
 launch_pal:
     ubuntu: ros-humble-launch-pal
 launch_param_builder:
@@ -1484,6 +2064,8 @@ launch_testing_ros:
     ubuntu: ros-humble-launch-testing-ros
 ros2launch:
     ubuntu: ros-humble-ros2launch
+ld08_driver:
+    ubuntu: ros-humble-ld08-driver
 leo:
     ubuntu: ros-humble-leo
 leo_description:
@@ -1498,6 +2080,8 @@ leo_viz:
     ubuntu: ros-humble-leo-viz
 leo_bringup:
     ubuntu: ros-humble-leo-bringup
+leo_filters:
+    ubuntu: ros-humble-leo-filters
 leo_fw:
     ubuntu: ros-humble-leo-fw
 leo_robot:
@@ -1512,8 +2096,10 @@ leo_simulator:
     ubuntu: ros-humble-leo-simulator
 lgsvl_msgs:
     ubuntu: ros-humble-lgsvl-msgs
-libcaer:
-    ubuntu: ros-humble-libcaer
+libaditof:
+    ubuntu: ros-humble-libaditof
+libbno055_linux:
+    ubuntu: ros-humble-libbno055-linux
 libcaer_driver:
     ubuntu: ros-humble-libcaer-driver
 libcaer_vendor:
@@ -1538,20 +2124,40 @@ libyaml_vendor:
     ubuntu: ros-humble-libyaml-vendor
 lidar_situational_graphs:
     ubuntu: ros-humble-lidar-situational-graphs
+linear_feedback_controller:
+    ubuntu: ros-humble-linear-feedback-controller
+linear_feedback_controller_msgs:
+    ubuntu: ros-humble-linear-feedback-controller-msgs
 lms1xx:
     ubuntu: ros-humble-lms1xx
 bosch_locator_bridge:
     ubuntu: ros-humble-bosch-locator-bridge
 bosch_locator_bridge_utils:
     ubuntu: ros-humble-bosch-locator-bridge-utils
+bosch_navigator_bridge:
+    ubuntu: ros-humble-bosch-navigator-bridge
 log_view:
     ubuntu: ros-humble-log-view
 lsc_ros2_driver:
     ubuntu: ros-humble-lsc-ros2-driver
 lusb:
     ubuntu: ros-humble-lusb
+lvr2:
+    ubuntu: ros-humble-lvr2
 magic_enum:
     ubuntu: ros-humble-magic-enum
+mapoi:
+    ubuntu: ros-humble-mapoi
+mapoi_interfaces:
+    ubuntu: ros-humble-mapoi-interfaces
+mapoi_rviz_plugins:
+    ubuntu: ros-humble-mapoi-rviz-plugins
+mapoi_server:
+    ubuntu: ros-humble-mapoi-server
+mapoi_turtlebot3_example:
+    ubuntu: ros-humble-mapoi-turtlebot3-example
+mapoi_webui:
+    ubuntu: ros-humble-mapoi-webui
 mapviz:
     ubuntu: ros-humble-mapviz
 mapviz_interfaces:
@@ -1582,14 +2188,10 @@ swri_math_util:
     ubuntu: ros-humble-swri-math-util
 swri_opencv_util:
     ubuntu: ros-humble-swri-opencv-util
-swri_roscpp:
-    ubuntu: ros-humble-swri-roscpp
 swri_route_util:
     ubuntu: ros-humble-swri-route-util
 swri_serial_util:
     ubuntu: ros-humble-swri-serial-util
-swri_system_util:
-    ubuntu: ros-humble-swri-system-util
 swri_transform_util:
     ubuntu: ros-humble-swri-transform-util
 marti_can_msgs:
@@ -1620,12 +2222,16 @@ libmavconn:
     ubuntu: ros-humble-libmavconn
 mavros:
     ubuntu: ros-humble-mavros
+mavros_examples:
+    ubuntu: ros-humble-mavros-examples
 mavros_extras:
     ubuntu: ros-humble-mavros-extras
 mavros_msgs:
     ubuntu: ros-humble-mavros-msgs
 menge_vendor:
     ubuntu: ros-humble-menge-vendor
+mesh_tools:
+    ubuntu: ros-humble-mesh-tools
 message_filters:
     ubuntu: ros-humble-message-filters
 message_tf_frame_transformer:
@@ -1664,6 +2270,10 @@ mimick_vendor:
     ubuntu: ros-humble-mimick-vendor
 mir_robot:
     ubuntu: ros-humble-mir-robot
+miti_sdk:
+    ubuntu: ros-humble-miti-sdk
+mobile_robot_simulator:
+    ubuntu: ros-humble-mobile-robot-simulator
 mocap4r2_control:
     ubuntu: ros-humble-mocap4r2-control
 mocap4r2_control_msgs:
@@ -1688,28 +2298,20 @@ mocap_optitrack:
     ubuntu: ros-humble-mocap-optitrack
 mod:
     ubuntu: ros-humble-mod
-kitti_metrics_eval:
-    ubuntu: ros-humble-kitti-metrics-eval
 mola:
     ubuntu: ros-humble-mola
 mola_bridge_ros2:
     ubuntu: ros-humble-mola-bridge-ros2
 mola_demos:
     ubuntu: ros-humble-mola-demos
-mola_input_euroc_dataset:
-    ubuntu: ros-humble-mola-input-euroc-dataset
-mola_input_kitti360_dataset:
-    ubuntu: ros-humble-mola-input-kitti360-dataset
-mola_input_kitti_dataset:
-    ubuntu: ros-humble-mola-input-kitti-dataset
-mola_input_mulran_dataset:
-    ubuntu: ros-humble-mola-input-mulran-dataset
-mola_input_paris_luco_dataset:
-    ubuntu: ros-humble-mola-input-paris-luco-dataset
+mola_input_lidar_bin_dataset:
+    ubuntu: ros-humble-mola-input-lidar-bin-dataset
 mola_input_rawlog:
     ubuntu: ros-humble-mola-input-rawlog
 mola_input_rosbag2:
     ubuntu: ros-humble-mola-input-rosbag2
+mola_input_video:
+    ubuntu: ros-humble-mola-input-video
 mola_kernel:
     ubuntu: ros-humble-mola-kernel
 mola_launcher:
@@ -1726,14 +2328,44 @@ mola_traj_tools:
     ubuntu: ros-humble-mola-traj-tools
 mola_viz:
     ubuntu: ros-humble-mola-viz
+mola_viz_imgui:
+    ubuntu: ros-humble-mola-viz-imgui
 mola_yaml:
     ubuntu: ros-humble-mola-yaml
+kitti_metrics_eval:
+    ubuntu: ros-humble-kitti-metrics-eval
+mola_academic_datasets:
+    ubuntu: ros-humble-mola-academic-datasets
+mola_input_euroc_dataset:
+    ubuntu: ros-humble-mola-input-euroc-dataset
+mola_input_kitti360_dataset:
+    ubuntu: ros-humble-mola-input-kitti360-dataset
+mola_input_kitti_dataset:
+    ubuntu: ros-humble-mola-input-kitti-dataset
+mola_input_mulran_dataset:
+    ubuntu: ros-humble-mola-input-mulran-dataset
+mola_input_paris_luco_dataset:
+    ubuntu: ros-humble-mola-input-paris-luco-dataset
 mola_common:
     ubuntu: ros-humble-mola-common
-mola_lidar_odometry:
-    ubuntu: ros-humble-mola-lidar-odometry
+mola_gnss_to_markers:
+    ubuntu: ros-humble-mola-gnss-to-markers
 mola_imu_preintegration:
     ubuntu: ros-humble-mola-imu-preintegration
+mola_input_ouster:
+    ubuntu: ros-humble-mola-input-ouster
+mola_input_rosbag1:
+    ubuntu: ros-humble-mola-input-rosbag1
+mola_lidar_odometry:
+    ubuntu: ros-humble-mola-lidar-odometry
+mola_mapper_2d:
+    ubuntu: ros-humble-mola-mapper-2d
+mola_sm_loop_closure:
+    ubuntu: ros-humble-mola-sm-loop-closure
+mola_georeferencing:
+    ubuntu: ros-humble-mola-georeferencing
+mola_gtsam_factors:
+    ubuntu: ros-humble-mola-gtsam-factors
 mola_state_estimation:
     ubuntu: ros-humble-mola-state-estimation
 mola_state_estimation_simple:
@@ -1742,10 +2374,30 @@ mola_state_estimation_smoother:
     ubuntu: ros-humble-mola-state-estimation-smoother
 mola_test_datasets:
     ubuntu: ros-humble-mola-test-datasets
+mono_depth_viewer:
+    ubuntu: ros-humble-mono-depth-viewer
 motion_capture_tracking:
     ubuntu: ros-humble-motion-capture-tracking
 motion_capture_tracking_interfaces:
     ubuntu: ros-humble-motion-capture-tracking-interfaces
+mbf_abstract_core:
+    ubuntu: ros-humble-mbf-abstract-core
+mbf_abstract_nav:
+    ubuntu: ros-humble-mbf-abstract-nav
+mbf_msgs:
+    ubuntu: ros-humble-mbf-msgs
+mbf_simple_core:
+    ubuntu: ros-humble-mbf-simple-core
+mbf_simple_nav:
+    ubuntu: ros-humble-mbf-simple-nav
+mbf_test_utility:
+    ubuntu: ros-humble-mbf-test-utility
+mbf_utility:
+    ubuntu: ros-humble-mbf-utility
+move_base_flex:
+    ubuntu: ros-humble-move-base-flex
+rviz_mbf_plugins:
+    ubuntu: ros-humble-rviz-mbf-plugins
 chomp_motion_planner:
     ubuntu: ros-humble-chomp-motion-planner
 moveit:
@@ -1770,6 +2422,8 @@ moveit_planners_ompl:
     ubuntu: ros-humble-moveit-planners-ompl
 moveit_plugins:
     ubuntu: ros-humble-moveit-plugins
+moveit_py:
+    ubuntu: ros-humble-moveit-py
 moveit_resources_prbt_ikfast_manipulator_plugin:
     ubuntu: ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin
 moveit_resources_prbt_moveit_config:
@@ -1836,14 +2490,104 @@ moveit_resources_panda_moveit_config:
     ubuntu: ros-humble-moveit-resources-panda-moveit-config
 moveit_resources_pr2_description:
     ubuntu: ros-humble-moveit-resources-pr2-description
+moveit_task_constructor_capabilities:
+    ubuntu: ros-humble-moveit-task-constructor-capabilities
+moveit_task_constructor_core:
+    ubuntu: ros-humble-moveit-task-constructor-core
+moveit_task_constructor_demo:
+    ubuntu: ros-humble-moveit-task-constructor-demo
+moveit_task_constructor_msgs:
+    ubuntu: ros-humble-moveit-task-constructor-msgs
+moveit_task_constructor_visualization:
+    ubuntu: ros-humble-moveit-task-constructor-visualization
+rviz_marker_tools:
+    ubuntu: ros-humble-rviz-marker-tools
 moveit_visual_tools:
     ubuntu: ros-humble-moveit-visual-tools
 mp2p_icp:
     ubuntu: ros-humble-mp2p-icp
+mp2p_icp_core:
+    ubuntu: ros-humble-mp2p-icp-core
+mp2p_icp_viz:
+    ubuntu: ros-humble-mp2p-icp-viz
 mqtt_client:
     ubuntu: ros-humble-mqtt-client
 mqtt_client_interfaces:
     ubuntu: ros-humble-mqtt-client-interfaces
+mrpt_apps_cli:
+    ubuntu: ros-humble-mrpt-apps-cli
+mrpt_apps_gui:
+    ubuntu: ros-humble-mrpt-apps-gui
+mrpt_bayes:
+    ubuntu: ros-humble-mrpt-bayes
+mrpt_common:
+    ubuntu: ros-humble-mrpt-common
+mrpt_comms:
+    ubuntu: ros-humble-mrpt-comms
+mrpt_config:
+    ubuntu: ros-humble-mrpt-config
+mrpt_containers:
+    ubuntu: ros-humble-mrpt-containers
+mrpt_core:
+    ubuntu: ros-humble-mrpt-core
+mrpt_data:
+    ubuntu: ros-humble-mrpt-data
+mrpt_examples_cpp:
+    ubuntu: ros-humble-mrpt-examples-cpp
+mrpt_expr:
+    ubuntu: ros-humble-mrpt-expr
+mrpt_graphs:
+    ubuntu: ros-humble-mrpt-graphs
+mrpt_graphslam:
+    ubuntu: ros-humble-mrpt-graphslam
+mrpt_gui:
+    ubuntu: ros-humble-mrpt-gui
+mrpt_hwdrivers:
+    ubuntu: ros-humble-mrpt-hwdrivers
+mrpt_img:
+    ubuntu: ros-humble-mrpt-img
+mrpt_imgui:
+    ubuntu: ros-humble-mrpt-imgui
+mrpt_imgui_vendor:
+    ubuntu: ros-humble-mrpt-imgui-vendor
+mrpt_io:
+    ubuntu: ros-humble-mrpt-io
+mrpt_kinematics:
+    ubuntu: ros-humble-mrpt-kinematics
+mrpt_libapps_cli:
+    ubuntu: ros-humble-mrpt-libapps-cli
+mrpt_libapps_gui:
+    ubuntu: ros-humble-mrpt-libapps-gui
+mrpt_maps:
+    ubuntu: ros-humble-mrpt-maps
+mrpt_math:
+    ubuntu: ros-humble-mrpt-math
+mrpt_nav:
+    ubuntu: ros-humble-mrpt-nav
+mrpt_obs:
+    ubuntu: ros-humble-mrpt-obs
+mrpt_opengl:
+    ubuntu: ros-humble-mrpt-opengl
+mrpt_poses:
+    ubuntu: ros-humble-mrpt-poses
+mrpt_random:
+    ubuntu: ros-humble-mrpt-random
+mrpt_rtti:
+    ubuntu: ros-humble-mrpt-rtti
+mrpt_serialization:
+    ubuntu: ros-humble-mrpt-serialization
+mrpt_slam:
+    ubuntu: ros-humble-mrpt-slam
+mrpt_system:
+    ubuntu: ros-humble-mrpt-system
+mrpt_tfest:
+    ubuntu: ros-humble-mrpt-tfest
+mrpt_topography:
+    ubuntu: ros-humble-mrpt-topography
+mrpt_typemeta:
+    ubuntu: ros-humble-mrpt-typemeta
+mrpt_viz:
+    ubuntu: ros-humble-mrpt-viz
 mrpt_msgs:
     ubuntu: ros-humble-mrpt-msgs
 mrpt_map_server:
@@ -1858,16 +2602,20 @@ mrpt_pf_localization:
     ubuntu: ros-humble-mrpt-pf-localization
 mrpt_pointcloud_pipeline:
     ubuntu: ros-humble-mrpt-pointcloud-pipeline
-mrpt_rawlog:
-    ubuntu: ros-humble-mrpt-rawlog
 mrpt_reactivenav2d:
     ubuntu: ros-humble-mrpt-reactivenav2d
 mrpt_tps_astar_planner:
     ubuntu: ros-humble-mrpt-tps-astar-planner
+mrpt_trajectory_follower:
+    ubuntu: ros-humble-mrpt-trajectory-follower
 mrpt_tutorials:
     ubuntu: ros-humble-mrpt-tutorials
 mrpt_path_planning:
     ubuntu: ros-humble-mrpt-path-planning
+mrpt_path_planning_apps:
+    ubuntu: ros-humble-mrpt-path-planning-apps
+mrpt_path_planning_core:
+    ubuntu: ros-humble-mrpt-path-planning-core
 mrpt_apps:
     ubuntu: ros-humble-mrpt-apps
 mrpt_libapps:
@@ -1890,12 +2638,14 @@ mrpt_libopengl:
     ubuntu: ros-humble-mrpt-libopengl
 mrpt_libposes:
     ubuntu: ros-humble-mrpt-libposes
-mrpt_libros_bridge:
-    ubuntu: ros-humble-mrpt-libros-bridge
 mrpt_libslam:
     ubuntu: ros-humble-mrpt-libslam
 mrpt_libtclap:
     ubuntu: ros-humble-mrpt-libtclap
+mrpt_libros_bridge:
+    ubuntu: ros-humble-mrpt-libros-bridge
+rosbag2rawlog:
+    ubuntu: ros-humble-rosbag2rawlog
 mrpt_generic_sensor:
     ubuntu: ros-humble-mrpt-generic-sensor
 mrpt_sensor_bumblebee_stereo:
@@ -1910,14 +2660,36 @@ mrpt_sensorlib:
     ubuntu: ros-humble-mrpt-sensorlib
 mrpt_sensors:
     ubuntu: ros-humble-mrpt-sensors
+novatel_oem6_msgs:
+    ubuntu: ros-humble-novatel-oem6-msgs
 mrt_cmake_modules:
     ubuntu: ros-humble-mrt-cmake-modules
+mujoco_3d_lidar:
+    ubuntu: ros-humble-mujoco-3d-lidar
+mujoco_ros2_control:
+    ubuntu: ros-humble-mujoco-ros2-control
+mujoco_ros2_control_demos:
+    ubuntu: ros-humble-mujoco-ros2-control-demos
+mujoco_ros2_control_msgs:
+    ubuntu: ros-humble-mujoco-ros2-control-msgs
+mujoco_ros2_control_plugins:
+    ubuntu: ros-humble-mujoco-ros2-control-plugins
+mujoco_vendor:
+    ubuntu: ros-humble-mujoco-vendor
 multiple_topic_monitor:
     ubuntu: ros-humble-multiple-topic-monitor
 mvsim:
     ubuntu: ros-humble-mvsim
 myactuator_rmd:
     ubuntu: ros-humble-myactuator-rmd
+namoros:
+    ubuntu: ros-humble-namoros
+namosim:
+    ubuntu: ros-humble-namosim
+nanoeigenpy:
+    ubuntu: ros-humble-nanoeigenpy
+nanoflann_vendor:
+    ubuntu: ros-humble-nanoflann-vendor
 nao_button_sim:
     ubuntu: ros-humble-nao-button-sim
 nao_command_msgs:
@@ -1988,6 +2760,8 @@ nav2_regulated_pure_pursuit_controller:
     ubuntu: ros-humble-nav2-regulated-pure-pursuit-controller
 nav2_rotation_shim_controller:
     ubuntu: ros-humble-nav2-rotation-shim-controller
+nav2_route:
+    ubuntu: ros-humble-nav2-route
 nav2_rviz_plugins:
     ubuntu: ros-humble-nav2-rviz-plugins
 nav2_simple_commander:
@@ -2016,14 +2790,76 @@ navigation2:
     ubuntu: ros-humble-navigation2
 map_msgs:
     ubuntu: ros-humble-map-msgs
+ndcurves:
+    ubuntu: ros-humble-ndcurves
 ndt_omp:
     ubuntu: ros-humble-ndt-omp
+continental_msgs:
+    ubuntu: ros-humble-continental-msgs
+continental_srvs:
+    ubuntu: ros-humble-continental-srvs
+nebula:
+    ubuntu: ros-humble-nebula
+nebula_continental:
+    ubuntu: ros-humble-nebula-continental
+nebula_continental_common:
+    ubuntu: ros-humble-nebula-continental-common
+nebula_continental_decoders:
+    ubuntu: ros-humble-nebula-continental-decoders
+nebula_continental_hw_interfaces:
+    ubuntu: ros-humble-nebula-continental-hw-interfaces
+nebula_core_common:
+    ubuntu: ros-humble-nebula-core-common
+nebula_core_decoders:
+    ubuntu: ros-humble-nebula-core-decoders
+nebula_core_hw_interfaces:
+    ubuntu: ros-humble-nebula-core-hw-interfaces
+nebula_core_ros:
+    ubuntu: ros-humble-nebula-core-ros
+nebula_hesai:
+    ubuntu: ros-humble-nebula-hesai
+nebula_hesai_common:
+    ubuntu: ros-humble-nebula-hesai-common
+nebula_hesai_decoders:
+    ubuntu: ros-humble-nebula-hesai-decoders
+nebula_hesai_hw_interfaces:
+    ubuntu: ros-humble-nebula-hesai-hw-interfaces
+nebula_msgs:
+    ubuntu: ros-humble-nebula-msgs
+nebula_robosense:
+    ubuntu: ros-humble-nebula-robosense
+nebula_robosense_common:
+    ubuntu: ros-humble-nebula-robosense-common
+nebula_robosense_decoders:
+    ubuntu: ros-humble-nebula-robosense-decoders
+nebula_robosense_hw_interfaces:
+    ubuntu: ros-humble-nebula-robosense-hw-interfaces
+nebula_sample:
+    ubuntu: ros-humble-nebula-sample
+nebula_sample_common:
+    ubuntu: ros-humble-nebula-sample-common
+nebula_sample_decoders:
+    ubuntu: ros-humble-nebula-sample-decoders
+nebula_sample_hw_interfaces:
+    ubuntu: ros-humble-nebula-sample-hw-interfaces
+nebula_velodyne:
+    ubuntu: ros-humble-nebula-velodyne
+nebula_velodyne_common:
+    ubuntu: ros-humble-nebula-velodyne-common
+nebula_velodyne_decoders:
+    ubuntu: ros-humble-nebula-velodyne-decoders
+nebula_velodyne_hw_interfaces:
+    ubuntu: ros-humble-nebula-velodyne-hw-interfaces
+pandar_msgs:
+    ubuntu: ros-humble-pandar-msgs
+robosense_msgs:
+    ubuntu: ros-humble-robosense-msgs
 neo_nav2_bringup:
     ubuntu: ros-humble-neo-nav2-bringup
-neo_simulation2:
-    ubuntu: ros-humble-neo-simulation2
 nerian_stereo:
     ubuntu: ros-humble-nerian-stereo
+network_bridge:
+    ubuntu: ros-humble-network-bridge
 network_interface:
     ubuntu: ros-humble-network-interface
 nicla_vision_ros2:
@@ -2036,12 +2872,30 @@ nmea_msgs:
     ubuntu: ros-humble-nmea-msgs
 nmea_navsat_driver:
     ubuntu: ros-humble-nmea-navsat-driver
-nodl_python:
-    ubuntu: ros-humble-nodl-python
+nobleo_socketcan_bridge:
+    ubuntu: ros-humble-nobleo-socketcan-bridge
+ament_nodl:
+    ubuntu: ros-humble-ament-nodl
+nodl:
+    ubuntu: ros-humble-nodl
+nodl_common_interfaces:
+    ubuntu: ros-humble-nodl-common-interfaces
+nodl_conformance:
+    ubuntu: ros-humble-nodl-conformance
+nodl_docgen:
+    ubuntu: ros-humble-nodl-docgen
+nodl_generator_cpp:
+    ubuntu: ros-humble-nodl-generator-cpp
+nodl_observe:
+    ubuntu: ros-humble-nodl-observe
+nodl_schema:
+    ubuntu: ros-humble-nodl-schema
 ros2nodl:
     ubuntu: ros-humble-ros2nodl
 nodl_to_policy:
     ubuntu: ros-humble-nodl-to-policy
+nonpersistent_voxel_layer:
+    ubuntu: ros-humble-nonpersistent-voxel-layer
 novatel_gps_driver:
     ubuntu: ros-humble-novatel-gps-driver
 novatel_gps_msgs:
@@ -2054,6 +2908,8 @@ ntpd_driver:
     ubuntu: ros-humble-ntpd-driver
 ntrip_client:
     ubuntu: ros-humble-ntrip-client
+numpy_ndarray_msgs:
+    ubuntu: ros-humble-numpy-ndarray-msgs
 object_recognition_msgs:
     ubuntu: ros-humble-object-recognition-msgs
 dynamic_edt_3d:
@@ -2080,6 +2936,14 @@ off_highway_general_purpose_radar:
     ubuntu: ros-humble-off-highway-general-purpose-radar
 off_highway_general_purpose_radar_msgs:
     ubuntu: ros-humble-off-highway-general-purpose-radar-msgs
+off_highway_mm7p10:
+    ubuntu: ros-humble-off-highway-mm7p10
+off_highway_mm7p10_msgs:
+    ubuntu: ros-humble-off-highway-mm7p10-msgs
+off_highway_premium_radar:
+    ubuntu: ros-humble-off-highway-premium-radar
+off_highway_premium_radar_msgs:
+    ubuntu: ros-humble-off-highway-premium-radar-msgs
 off_highway_premium_radar_sample:
     ubuntu: ros-humble-off-highway-premium-radar-sample
 off_highway_premium_radar_sample_msgs:
@@ -2096,6 +2960,10 @@ off_highway_uss:
     ubuntu: ros-humble-off-highway-uss
 off_highway_uss_msgs:
     ubuntu: ros-humble-off-highway-uss-msgs
+olive_interfaces:
+    ubuntu: ros-humble-olive-interfaces
+olive_openrmf_fleet_adapter:
+    ubuntu: ros-humble-olive-openrmf-fleet-adapter
 omni_base_2dnav:
     ubuntu: ros-humble-omni-base-2dnav
 omni_base_laser_sensors:
@@ -2118,6 +2986,24 @@ omni_base_simulation:
     ubuntu: ros-humble-omni-base-simulation
 ompl:
     ubuntu: ros-humble-ompl
+onnxruntime_vendor:
+    ubuntu: ros-humble-onnxruntime-vendor
+open_manipulator:
+    ubuntu: ros-humble-open-manipulator
+open_manipulator_x_bringup:
+    ubuntu: ros-humble-open-manipulator-x-bringup
+open_manipulator_x_description:
+    ubuntu: ros-humble-open-manipulator-x-description
+open_manipulator_x_gui:
+    ubuntu: ros-humble-open-manipulator-x-gui
+open_manipulator_x_moveit_config:
+    ubuntu: ros-humble-open-manipulator-x-moveit-config
+open_manipulator_x_playground:
+    ubuntu: ros-humble-open-manipulator-x-playground
+open_manipulator_x_teleop:
+    ubuntu: ros-humble-open-manipulator-x-teleop
+openarm:
+    ubuntu: ros-humble-openarm
 openeb_vendor:
     ubuntu: ros-humble-openeb-vendor
 opennav_docking:
@@ -2130,18 +3016,32 @@ opennav_docking_msgs:
     ubuntu: ros-humble-opennav-docking-msgs
 openni2_camera:
     ubuntu: ros-humble-openni2-camera
+orbbec_camera:
+    ubuntu: ros-humble-orbbec-camera
+orbbec_camera_msgs:
+    ubuntu: ros-humble-orbbec-camera-msgs
+orbbec_description:
+    ubuntu: ros-humble-orbbec-description
 orocos_kdl_vendor:
     ubuntu: ros-humble-orocos-kdl-vendor
 python_orocos_kdl_vendor:
     ubuntu: ros-humble-python-orocos-kdl-vendor
 ortools_vendor:
     ubuntu: ros-humble-ortools-vendor
+oscp_ros2_driver:
+    ubuntu: ros-humble-oscp-ros2-driver
+osqp_eigen:
+    ubuntu: ros-humble-osqp-eigen
 osqp_vendor:
     ubuntu: ros-humble-osqp-vendor
 osrf_pycommon:
     ubuntu: ros-humble-osrf-pycommon
 osrf_testing_tools_cpp:
     ubuntu: ros-humble-osrf-testing-tools-cpp
+ouster_ros:
+    ubuntu: ros-humble-ouster-ros
+ouster_sensor_msgs:
+    ubuntu: ros-humble-ouster-sensor-msgs
 ouxt_common:
     ubuntu: ros-humble-ouxt-common
 ouxt_lint_common:
@@ -2172,12 +3072,40 @@ pal_navigation_cfg_bringup:
     ubuntu: ros-humble-pal-navigation-cfg-bringup
 pal_navigation_cfg_params:
     ubuntu: ros-humble-pal-navigation-cfg-params
+pal_pro_gripper:
+    ubuntu: ros-humble-pal-pro-gripper
+pal_pro_gripper_bringup:
+    ubuntu: ros-humble-pal-pro-gripper-bringup
+pal_pro_gripper_controller_configuration:
+    ubuntu: ros-humble-pal-pro-gripper-controller-configuration
+pal_pro_gripper_description:
+    ubuntu: ros-humble-pal-pro-gripper-description
+pal_pro_gripper_simulation:
+    ubuntu: ros-humble-pal-pro-gripper-simulation
+pal_pro_gripper_wrapper:
+    ubuntu: ros-humble-pal-pro-gripper-wrapper
 pal_robotiq_controller_configuration:
     ubuntu: ros-humble-pal-robotiq-controller-configuration
 pal_robotiq_description:
     ubuntu: ros-humble-pal-robotiq-description
 pal_robotiq_gripper:
     ubuntu: ros-humble-pal-robotiq-gripper
+pal_sea_arm:
+    ubuntu: ros-humble-pal-sea-arm
+pal_sea_arm_bringup:
+    ubuntu: ros-humble-pal-sea-arm-bringup
+pal_sea_arm_controller_configuration:
+    ubuntu: ros-humble-pal-sea-arm-controller-configuration
+pal_sea_arm_description:
+    ubuntu: ros-humble-pal-sea-arm-description
+pal_sea_arm_moveit_config:
+    ubuntu: ros-humble-pal-sea-arm-moveit-config
+pal_sea_arm_gazebo:
+    ubuntu: ros-humble-pal-sea-arm-gazebo
+pal_sea_arm_mujoco:
+    ubuntu: ros-humble-pal-sea-arm-mujoco
+pal_sea_arm_simulation:
+    ubuntu: ros-humble-pal-sea-arm-simulation
 pal_statistics:
     ubuntu: ros-humble-pal-statistics
 pal_statistics_msgs:
@@ -2186,6 +3114,10 @@ pal_urdf_utils:
     ubuntu: ros-humble-pal-urdf-utils
 pangolin:
     ubuntu: ros-humble-pangolin
+parameter_expression:
+    ubuntu: ros-humble-parameter-expression
+pcam_driver:
+    ubuntu: ros-humble-pcam-driver
 pcl_msgs:
     ubuntu: ros-humble-pcl-msgs
 pepper_meshes:
@@ -2202,6 +3134,8 @@ performance_test:
     ubuntu: ros-humble-performance-test
 performance_test_fixture:
     ubuntu: ros-humble-performance-test-fixture
+persist_parameter_server:
+    ubuntu: ros-humble-persist-parameter-server
 libphidget22:
     ubuntu: ros-humble-libphidget22
 phidgets_accelerometer:
@@ -2232,8 +3166,12 @@ phidgets_msgs:
     ubuntu: ros-humble-phidgets-msgs
 phidgets_spatial:
     ubuntu: ros-humble-phidgets-spatial
+phidgets_stepper:
+    ubuntu: ros-humble-phidgets-stepper
 phidgets_temperature:
     ubuntu: ros-humble-phidgets-temperature
+phone_sensors_bridge:
+    ubuntu: ros-humble-phone-sensors-bridge
 pick_ik:
     ubuntu: ros-humble-pick-ik
 picknik_ament_copyright:
@@ -2246,8 +3184,16 @@ pinocchio:
     ubuntu: ros-humble-pinocchio
 play_motion2:
     ubuntu: ros-humble-play-motion2
+play_motion2_cli:
+    ubuntu: ros-humble-play-motion2-cli
 play_motion2_msgs:
     ubuntu: ros-humble-play-motion2-msgs
+play_motion_builder:
+    ubuntu: ros-humble-play-motion-builder
+play_motion_builder_msgs:
+    ubuntu: ros-humble-play-motion-builder-msgs
+rqt_play_motion_builder:
+    ubuntu: ros-humble-rqt-play-motion-builder
 plotjuggler:
     ubuntu: ros-humble-plotjuggler
 plotjuggler_msgs:
@@ -2256,12 +3202,16 @@ plotjuggler_ros:
     ubuntu: ros-humble-plotjuggler-ros
 pluginlib:
     ubuntu: ros-humble-pluginlib
+ros2plugin:
+    ubuntu: ros-humble-ros2plugin
 pmb2_2dnav:
     ubuntu: ros-humble-pmb2-2dnav
 pmb2_laser_sensors:
     ubuntu: ros-humble-pmb2-laser-sensors
 pmb2_navigation:
     ubuntu: ros-humble-pmb2-navigation
+pmb2_rgbd_sensors:
+    ubuntu: ros-humble-pmb2-rgbd-sensors
 pmb2_bringup:
     ubuntu: ros-humble-pmb2-bringup
 pmb2_controller_configuration:
@@ -2290,8 +3240,14 @@ zlib_point_cloud_transport:
     ubuntu: ros-humble-zlib-point-cloud-transport
 zstd_point_cloud_transport:
     ubuntu: ros-humble-zstd-point-cloud-transport
+pointcloud_conversions:
+    ubuntu: ros-humble-pointcloud-conversions
 pointcloud_to_laserscan:
     ubuntu: ros-humble-pointcloud-to-laserscan
+pointcloud_to_ply:
+    ubuntu: ros-humble-pointcloud-to-ply
+polka:
+    ubuntu: ros-humble-polka
 polygon_demos:
     ubuntu: ros-humble-polygon-demos
 polygon_msgs:
@@ -2306,6 +3262,8 @@ pose_cov_ops:
     ubuntu: ros-humble-pose-cov-ops
 proto2ros:
     ubuntu: ros-humble-proto2ros
+protobuf_comm:
+    ubuntu: ros-humble-protobuf-comm
 proxsuite:
     ubuntu: ros-humble-proxsuite
 psdk_interfaces:
@@ -2320,6 +3278,8 @@ puma_motor_driver:
     ubuntu: ros-humble-puma-motor-driver
 puma_motor_msgs:
     ubuntu: ros-humble-puma-motor-msgs
+px4_msgs:
+    ubuntu: ros-humble-px4-msgs
 py_binding_tools:
     ubuntu: ros-humble-py-binding-tools
 py_trees:
@@ -2338,6 +3298,8 @@ pybind11_json_vendor:
     ubuntu: ros-humble-pybind11-json-vendor
 pybind11_vendor:
     ubuntu: ros-humble-pybind11-vendor
+pymoveit2:
+    ubuntu: ros-humble-pymoveit2
 python_cmake_module:
     ubuntu: ros-humble-python-cmake-module
 python_mrpt:
@@ -2368,6 +3330,8 @@ qb_softhand_industry_ros2_control:
     ubuntu: ros-humble-qb-softhand-industry-ros2-control
 qb_softhand_industry_srvs:
     ubuntu: ros-humble-qb-softhand-industry-srvs
+qml6_ros2_plugin:
+    ubuntu: ros-humble-qml6-ros2-plugin
 qml_ros2_plugin:
     ubuntu: ros-humble-qml-ros2-plugin
 qpoases_vendor:
@@ -2404,6 +3368,8 @@ splsm_8_conversion:
     ubuntu: ros-humble-splsm-8-conversion
 radar_msgs:
     ubuntu: ros-humble-radar-msgs
+rai_interfaces:
+    ubuntu: ros-humble-rai-interfaces
 random_numbers:
     ubuntu: ros-humble-random-numbers
 raspimouse:
@@ -2426,6 +3392,8 @@ raspimouse_slam:
     ubuntu: ros-humble-raspimouse-slam
 raspimouse_slam_navigation:
     ubuntu: ros-humble-raspimouse-slam-navigation
+rbq_msgs:
+    ubuntu: ros-humble-rbq-msgs
 rc_common_msgs:
     ubuntu: ros-humble-rc-common-msgs
 rc_dynamics_api:
@@ -2470,6 +3438,8 @@ rcl_logging_noop:
     ubuntu: ros-humble-rcl-logging-noop
 rcl_logging_spdlog:
     ubuntu: ros-humble-rcl-logging-spdlog
+rcl_logging_syslog:
+    ubuntu: ros-humble-rcl-logging-syslog
 rclc:
     ubuntu: ros-humble-rclc
 rclc_examples:
@@ -2514,12 +3484,18 @@ tlsf_cpp:
     ubuntu: ros-humble-tlsf-cpp
 realtime_tools:
     ubuntu: ros-humble-realtime-tools
+reduct_bridge:
+    ubuntu: ros-humble-reduct-bridge
+replay_testing:
+    ubuntu: ros-humble-replay-testing
 libcurl_vendor:
     ubuntu: ros-humble-libcurl-vendor
 resource_retriever:
     ubuntu: ros-humble-resource-retriever
 rig_reconfigure:
     ubuntu: ros-humble-rig-reconfigure
+rko_lio:
+    ubuntu: ros-humble-rko-lio
 rmf_api_msgs:
     ubuntu: ros-humble-rmf-api-msgs
 rmf_battery:
@@ -2628,6 +3604,8 @@ rmw_cyclonedds_cpp:
     ubuntu: ros-humble-rmw-cyclonedds-cpp
 rmw_dds_common:
     ubuntu: ros-humble-rmw-dds-common
+rmw_desert:
+    ubuntu: ros-humble-rmw-desert
 rmw_fastrtps_cpp:
     ubuntu: ros-humble-rmw-fastrtps-cpp
 rmw_fastrtps_dynamic_cpp:
@@ -2640,10 +3618,22 @@ rmw_gurumdds_cpp:
     ubuntu: ros-humble-rmw-gurumdds-cpp
 rmw_implementation:
     ubuntu: ros-humble-rmw-implementation
+int2dds_ffi_vendor:
+    ubuntu: ros-humble-int2dds-ffi-vendor
+rmw_int2dds_cpp:
+    ubuntu: ros-humble-rmw-int2dds-cpp
 rmw_zenoh_cpp:
     ubuntu: ros-humble-rmw-zenoh-cpp
 zenoh_cpp_vendor:
     ubuntu: ros-humble-zenoh-cpp-vendor
+zenoh_security_tools:
+    ubuntu: ros-humble-zenoh-security-tools
+roadmap_explorer:
+    ubuntu: ros-humble-roadmap-explorer
+roadmap_explorer_msgs:
+    ubuntu: ros-humble-roadmap-explorer-msgs
+roadmap_explorer_rviz_plugins:
+    ubuntu: ros-humble-roadmap-explorer-rviz-plugins
 robosoft_openai:
     ubuntu: ros-humble-robosoft-openai
 robot_calibration:
@@ -2662,10 +3652,22 @@ robot_state_publisher:
     ubuntu: ros-humble-robot-state-publisher
 robot_upstart:
     ubuntu: ros-humble-robot-upstart
+robotmem:
+    ubuntu: ros-humble-robotmem
 robotont_driver:
     ubuntu: ros-humble-robotont-driver
 robotraconteur:
     ubuntu: ros-humble-robotraconteur
+robotraconteur_companion:
+    ubuntu: ros-humble-robotraconteur-companion
+robstride_driver:
+    ubuntu: ros-humble-robstride-driver
+robstride_examples:
+    ubuntu: ros-humble-robstride-examples
+robstride_ros2:
+    ubuntu: ros-humble-robstride-ros2
+robstride_ros2_control:
+    ubuntu: ros-humble-robstride-ros2-control
 ros1_bridge:
     ubuntu: ros-humble-ros1-bridge
 canopen:
@@ -2716,6 +3718,8 @@ rqt_controller_manager:
     ubuntu: ros-humble-rqt-controller-manager
 transmission_interface:
     ubuntu: ros-humble-transmission-interface
+ros2_control_cmake:
+    ubuntu: ros-humble-ros2-control-cmake
 ackermann_steering_controller:
     ubuntu: ros-humble-ackermann-steering-controller
 admittance_controller:
@@ -2740,6 +3744,8 @@ joint_state_broadcaster:
     ubuntu: ros-humble-joint-state-broadcaster
 joint_trajectory_controller:
     ubuntu: ros-humble-joint-trajectory-controller
+mecanum_drive_controller:
+    ubuntu: ros-humble-mecanum-drive-controller
 pid_controller:
     ubuntu: ros-humble-pid-controller
 pose_broadcaster:
@@ -2762,10 +3768,22 @@ tricycle_steering_controller:
     ubuntu: ros-humble-tricycle-steering-controller
 velocity_controllers:
     ubuntu: ros-humble-velocity-controllers
+eventdispatch_python:
+    ubuntu: ros-humble-eventdispatch-python
+eventdispatch_ros2:
+    ubuntu: ros-humble-eventdispatch-ros2
+eventdispatch_ros2_interfaces:
+    ubuntu: ros-humble-eventdispatch-ros2-interfaces
+ros2_fmt_logger:
+    ubuntu: ros-humble-ros2-fmt-logger
+ros2_gst_video_bridge:
+    ubuntu: ros-humble-ros2-gst-video-bridge
 kinova_gen3_6dof_robotiq_2f_85_moveit_config:
     ubuntu: ros-humble-kinova-gen3-6dof-robotiq-2f-85-moveit-config
 kinova_gen3_7dof_robotiq_2f_85_moveit_config:
     ubuntu: ros-humble-kinova-gen3-7dof-robotiq-2f-85-moveit-config
+kinova_gen3_lite_moveit_config:
+    ubuntu: ros-humble-kinova-gen3-lite-moveit-config
 kortex_api:
     ubuntu: ros-humble-kortex-api
 kortex_bringup:
@@ -2774,10 +3792,44 @@ kortex_description:
     ubuntu: ros-humble-kortex-description
 kortex_driver:
     ubuntu: ros-humble-kortex-driver
+ros2_medkit_action_status_bridge:
+    ubuntu: ros-humble-ros2-medkit-action-status-bridge
+ros2_medkit_beacon_common:
+    ubuntu: ros-humble-ros2-medkit-beacon-common
+ros2_medkit_cmake:
+    ubuntu: ros-humble-ros2-medkit-cmake
+ros2_medkit_diagnostic_bridge:
+    ubuntu: ros-humble-ros2-medkit-diagnostic-bridge
+ros2_medkit_fault_manager:
+    ubuntu: ros-humble-ros2-medkit-fault-manager
+ros2_medkit_fault_reporter:
+    ubuntu: ros-humble-ros2-medkit-fault-reporter
+ros2_medkit_gateway:
+    ubuntu: ros-humble-ros2-medkit-gateway
+ros2_medkit_graph_provider:
+    ubuntu: ros-humble-ros2-medkit-graph-provider
+ros2_medkit_integration_tests:
+    ubuntu: ros-humble-ros2-medkit-integration-tests
+ros2_medkit_linux_introspection:
+    ubuntu: ros-humble-ros2-medkit-linux-introspection
+ros2_medkit_log_bridge:
+    ubuntu: ros-humble-ros2-medkit-log-bridge
+ros2_medkit_msgs:
+    ubuntu: ros-humble-ros2-medkit-msgs
+ros2_medkit_param_beacon:
+    ubuntu: ros-humble-ros2-medkit-param-beacon
+ros2_medkit_serialization:
+    ubuntu: ros-humble-ros2-medkit-serialization
+ros2_medkit_sovd_service_interface:
+    ubuntu: ros-humble-ros2-medkit-sovd-service-interface
+ros2_medkit_topic_beacon:
+    ubuntu: ros-humble-ros2-medkit-topic-beacon
 ouster_msgs:
     ubuntu: ros-humble-ouster-msgs
 ros2_ouster:
     ubuntu: ros-humble-ros2-ouster
+plansys2:
+    ubuntu: ros-humble-plansys2
 plansys2_bringup:
     ubuntu: ros-humble-plansys2-bringup
 plansys2_bt_actions:
@@ -2788,6 +3840,8 @@ plansys2_domain_expert:
     ubuntu: ros-humble-plansys2-domain-expert
 plansys2_executor:
     ubuntu: ros-humble-plansys2-executor
+plansys2_kairos_plan_solver:
+    ubuntu: ros-humble-plansys2-kairos-plan-solver
 plansys2_lifecycle_manager:
     ubuntu: ros-humble-plansys2-lifecycle-manager
 plansys2_msgs:
@@ -2800,10 +3854,16 @@ plansys2_popf_plan_solver:
     ubuntu: ros-humble-plansys2-popf-plan-solver
 plansys2_problem_expert:
     ubuntu: ros-humble-plansys2-problem-expert
+plansys2_support_py:
+    ubuntu: ros-humble-plansys2-support-py
 plansys2_terminal:
     ubuntu: ros-humble-plansys2-terminal
 plansys2_tools:
     ubuntu: ros-humble-plansys2-tools
+plansys2_tui_cli:
+    ubuntu: ros-humble-plansys2-tui-cli
+ros2_pulse:
+    ubuntu: ros-humble-ros2-pulse
 robotiq_controllers:
     ubuntu: ros-humble-robotiq-controllers
 robotiq_description:
@@ -2826,6 +3886,8 @@ tracetools_trace:
     ubuntu: ros-humble-tracetools-trace
 ros2acceleration:
     ubuntu: ros-humble-ros2acceleration
+ros2ai:
+    ubuntu: ros-humble-ros2ai
 ros2caret:
     ubuntu: ros-humble-ros2caret
 ros2action:
@@ -2864,6 +3926,8 @@ ros2launch_security:
     ubuntu: ros-humble-ros2launch-security
 ros2launch_security_examples:
     ubuntu: ros-humble-ros2launch-security-examples
+ros2tree:
+    ubuntu: ros-humble-ros2tree
 ros_babel_fish:
     ubuntu: ros-humble-ros-babel-fish
 ros_babel_fish_test_msgs:
@@ -2896,12 +3960,12 @@ ros_ign_image:
     ubuntu: ros-humble-ros-ign-image
 ros_ign_interfaces:
     ubuntu: ros-humble-ros-ign-interfaces
-test_ros_gz_bridge:
-    ubuntu: ros-humble-test-ros-gz-bridge
 ros_image_to_qimage:
     ubuntu: ros-humble-ros-image-to-qimage
 ros_industrial_cmake_boilerplate:
     ubuntu: ros-humble-ros-industrial-cmake-boilerplate
+ros_snapd_interfaces:
+    ubuntu: ros-humble-ros-snapd-interfaces
 ros2test:
     ubuntu: ros-humble-ros2test
 ros_testing:
@@ -2952,8 +4016,16 @@ ros1_rosbag_storage_vendor:
     ubuntu: ros-humble-ros1-rosbag-storage-vendor
 rosbag2_bag_v2_plugins:
     ubuntu: ros-humble-rosbag2-bag-v2-plugins
+broll:
+    ubuntu: ros-humble-broll
+rosbag2_storage_broll:
+    ubuntu: ros-humble-rosbag2-storage-broll
 rosbag2_to_video:
     ubuntu: ros-humble-rosbag2-to-video
+rosbag_timing_inspector:
+    ubuntu: ros-humble-rosbag-timing-inspector
+rosbot_ros:
+    ubuntu: ros-humble-rosbot-ros
 rosapi:
     ubuntu: ros-humble-rosapi
 rosapi_msgs:
@@ -3000,6 +4072,8 @@ rosidl_generator_py:
     ubuntu: ros-humble-rosidl-generator-py
 rosidl_runtime_py:
     ubuntu: ros-humble-rosidl-runtime-py
+rosidl_generator_rs:
+    ubuntu: ros-humble-rosidl-generator-rs
 rosidl_typesupport_c:
     ubuntu: ros-humble-rosidl-typesupport-c
 rosidl_typesupport_cpp:
@@ -3018,6 +4092,8 @@ rosx_introspection:
     ubuntu: ros-humble-rosx-introspection
 rot_conv:
     ubuntu: ros-humble-rot-conv
+rplidar_driver:
+    ubuntu: ros-humble-rplidar-driver
 rplidar_ros:
     ubuntu: ros-humble-rplidar-ros
 rpyutils:
@@ -3096,6 +4172,8 @@ rtabmap:
     ubuntu: ros-humble-rtabmap
 rtabmap_conversions:
     ubuntu: ros-humble-rtabmap-conversions
+rtabmap_costmap_plugins:
+    ubuntu: ros-humble-rtabmap-costmap-plugins
 rtabmap_demos:
     ubuntu: ros-humble-rtabmap-demos
 rtabmap_examples:
@@ -3150,6 +4228,8 @@ rviz_visual_tools:
     ubuntu: ros-humble-rviz-visual-tools
 sbg_driver:
     ubuntu: ros-humble-sbg-driver
+scan_2d_merger:
+    ubuntu: ros-humble-scan-2d-merger
 scenario_execution:
     ubuntu: ros-humble-scenario-execution
 scenario_execution_control:
@@ -3212,6 +4292,8 @@ simple_launch:
     ubuntu: ros-humble-simple-launch
 simple_term_menu_vendor:
     ubuntu: ros-humble-simple-term-menu-vendor
+simulation_interfaces:
+    ubuntu: ros-humble-simulation-interfaces
 situational_graphs_datasets:
     ubuntu: ros-humble-situational-graphs-datasets
 situational_graphs_msgs:
@@ -3260,6 +4342,8 @@ social_nav_msgs:
     ubuntu: ros-humble-social-nav-msgs
 social_nav_util:
     ubuntu: ros-humble-social-nav-util
+socketcan_adapter:
+    ubuntu: ros-humble-socketcan-adapter
 sol_vendor:
     ubuntu: ros-humble-sol-vendor
 sophus:
@@ -3284,10 +4368,18 @@ stubborn_buddies:
     ubuntu: ros-humble-stubborn-buddies
 stubborn_buddies_msgs:
     ubuntu: ros-humble-stubborn-buddies-msgs
+styri:
+    ubuntu: ros-humble-styri
 swri_console:
     ubuntu: ros-humble-swri-console
+synapticon_ros2_control:
+    ubuntu: ros-humble-synapticon-ros2-control
 sync_parameter_server:
     ubuntu: ros-humble-sync-parameter-server
+sync_tooling_msgs:
+    ubuntu: ros-humble-sync-tooling-msgs
+synchros2:
+    ubuntu: ros-humble-synchros2
 system_fingerprint:
     ubuntu: ros-humble-system-fingerprint
 launch_system_modes:
@@ -3300,6 +4392,8 @@ system_modes_msgs:
     ubuntu: ros-humble-system-modes-msgs
 system_tests:
     ubuntu: ros-humble-system-tests
+system_webview:
+    ubuntu: ros-humble-system-webview
 talos_moveit_config:
     ubuntu: ros-humble-talos-moveit-config
 talos_bringup:
@@ -3318,6 +4412,8 @@ talos_gazebo:
     ubuntu: ros-humble-talos-gazebo
 tango_icons_vendor:
     ubuntu: ros-humble-tango-icons-vendor
+tecgihan_driver:
+    ubuntu: ros-humble-tecgihan-driver
 joy_teleop:
     ubuntu: ros-humble-joy-teleop
 key_teleop:
@@ -3336,10 +4432,38 @@ tensorrt_cmake_module:
     ubuntu: ros-humble-tensorrt-cmake-module
 test_interface_files:
     ubuntu: ros-humble-test-interface-files
+tf2_web_republisher:
+    ubuntu: ros-humble-tf2-web-republisher
+tf2_web_republisher_interfaces:
+    ubuntu: ros-humble-tf2-web-republisher-interfaces
 tf_transformations:
     ubuntu: ros-humble-tf-transformations
+tf_tree_terminal:
+    ubuntu: ros-humble-tf-tree-terminal
 the_navigation_gauntlet:
     ubuntu: ros-humble-the-navigation-gauntlet
+tiago_dual_moveit_config:
+    ubuntu: ros-humble-tiago-dual-moveit-config
+tiago_dual_2dnav:
+    ubuntu: ros-humble-tiago-dual-2dnav
+tiago_dual_laser_sensors:
+    ubuntu: ros-humble-tiago-dual-laser-sensors
+tiago_dual_navigation:
+    ubuntu: ros-humble-tiago-dual-navigation
+tiago_dual_rgbd_sensors:
+    ubuntu: ros-humble-tiago-dual-rgbd-sensors
+tiago_dual_bringup:
+    ubuntu: ros-humble-tiago-dual-bringup
+tiago_dual_controller_configuration:
+    ubuntu: ros-humble-tiago-dual-controller-configuration
+tiago_dual_description:
+    ubuntu: ros-humble-tiago-dual-description
+tiago_dual_robot:
+    ubuntu: ros-humble-tiago-dual-robot
+tiago_dual_gazebo:
+    ubuntu: ros-humble-tiago-dual-gazebo
+tiago_dual_simulation:
+    ubuntu: ros-humble-tiago-dual-simulation
 tiago_moveit_config:
     ubuntu: ros-humble-tiago-moveit-config
 tiago_2dnav:
@@ -3348,6 +4472,44 @@ tiago_laser_sensors:
     ubuntu: ros-humble-tiago-laser-sensors
 tiago_navigation:
     ubuntu: ros-humble-tiago-navigation
+tiago_rgbd_sensors:
+    ubuntu: ros-humble-tiago-rgbd-sensors
+tiago_pro_head_bringup:
+    ubuntu: ros-humble-tiago-pro-head-bringup
+tiago_pro_head_controller_configuration:
+    ubuntu: ros-humble-tiago-pro-head-controller-configuration
+tiago_pro_head_description:
+    ubuntu: ros-humble-tiago-pro-head-description
+tiago_pro_head_robot:
+    ubuntu: ros-humble-tiago-pro-head-robot
+tiago_pro_head_gazebo:
+    ubuntu: ros-humble-tiago-pro-head-gazebo
+tiago_pro_head_simulation:
+    ubuntu: ros-humble-tiago-pro-head-simulation
+tiago_pro_moveit_config:
+    ubuntu: ros-humble-tiago-pro-moveit-config
+tiago_pro_2dnav:
+    ubuntu: ros-humble-tiago-pro-2dnav
+tiago_pro_laser_sensors:
+    ubuntu: ros-humble-tiago-pro-laser-sensors
+tiago_pro_navigation:
+    ubuntu: ros-humble-tiago-pro-navigation
+tiago_pro_rgbd_sensors:
+    ubuntu: ros-humble-tiago-pro-rgbd-sensors
+tiago_pro_bringup:
+    ubuntu: ros-humble-tiago-pro-bringup
+tiago_pro_controller_configuration:
+    ubuntu: ros-humble-tiago-pro-controller-configuration
+tiago_pro_description:
+    ubuntu: ros-humble-tiago-pro-description
+tiago_pro_robot:
+    ubuntu: ros-humble-tiago-pro-robot
+tiago_pro_gazebo:
+    ubuntu: ros-humble-tiago-pro-gazebo
+tiago_pro_mujoco:
+    ubuntu: ros-humble-tiago-pro-mujoco
+tiago_pro_simulation:
+    ubuntu: ros-humble-tiago-pro-simulation
 tiago_bringup:
     ubuntu: ros-humble-tiago-bringup
 tiago_controller_configuration:
@@ -3374,12 +4536,24 @@ topic_tools:
     ubuntu: ros-humble-topic-tools
 topic_tools_interfaces:
     ubuntu: ros-humble-topic-tools-interfaces
+toppra:
+    ubuntu: ros-humble-toppra
 tracetools_acceleration:
     ubuntu: ros-humble-tracetools-acceleration
 ros2trace_analysis:
     ubuntu: ros-humble-ros2trace-analysis
 tracetools_analysis:
     ubuntu: ros-humble-tracetools-analysis
+trackdlo_bringup:
+    ubuntu: ros-humble-trackdlo-bringup
+trackdlo_core:
+    ubuntu: ros-humble-trackdlo-core
+trackdlo_msgs:
+    ubuntu: ros-humble-trackdlo-msgs
+trackdlo_segmentation:
+    ubuntu: ros-humble-trackdlo-segmentation
+trackdlo_utils:
+    ubuntu: ros-humble-trackdlo-utils
 asio_cmake_module:
     ubuntu: ros-humble-asio-cmake-module
 io_context:
@@ -3388,6 +4562,8 @@ serial_driver:
     ubuntu: ros-humble-serial-driver
 udp_driver:
     ubuntu: ros-humble-udp-driver
+tsid:
+    ubuntu: ros-humble-tsid
 turbojpeg_compressed_image_transport:
     ubuntu: ros-humble-turbojpeg-compressed-image-transport
 turtle_nest:
@@ -3408,6 +4584,42 @@ turtlebot3_node:
     ubuntu: ros-humble-turtlebot3-node
 turtlebot3_teleop:
     ubuntu: ros-humble-turtlebot3-teleop
+turtlebot3_applications:
+    ubuntu: ros-humble-turtlebot3-applications
+turtlebot3_aruco_tracker:
+    ubuntu: ros-humble-turtlebot3-aruco-tracker
+turtlebot3_automatic_parking:
+    ubuntu: ros-humble-turtlebot3-automatic-parking
+turtlebot3_automatic_parking_vision:
+    ubuntu: ros-humble-turtlebot3-automatic-parking-vision
+turtlebot3_follower:
+    ubuntu: ros-humble-turtlebot3-follower
+turtlebot3_panorama:
+    ubuntu: ros-humble-turtlebot3-panorama
+turtlebot3_yolo_object_detection:
+    ubuntu: ros-humble-turtlebot3-yolo-object-detection
+turtlebot3_applications_msgs:
+    ubuntu: ros-humble-turtlebot3-applications-msgs
+turtlebot3_autorace:
+    ubuntu: ros-humble-turtlebot3-autorace
+turtlebot3_autorace_camera:
+    ubuntu: ros-humble-turtlebot3-autorace-camera
+turtlebot3_autorace_detect:
+    ubuntu: ros-humble-turtlebot3-autorace-detect
+turtlebot3_autorace_mission:
+    ubuntu: ros-humble-turtlebot3-autorace-mission
+turtlebot3_home_service_challenge:
+    ubuntu: ros-humble-turtlebot3-home-service-challenge
+turtlebot3_home_service_challenge_aruco:
+    ubuntu: ros-humble-turtlebot3-home-service-challenge-aruco
+turtlebot3_home_service_challenge_core:
+    ubuntu: ros-humble-turtlebot3-home-service-challenge-core
+turtlebot3_home_service_challenge_manipulator:
+    ubuntu: ros-humble-turtlebot3-home-service-challenge-manipulator
+turtlebot3_home_service_challenge_tools:
+    ubuntu: ros-humble-turtlebot3-home-service-challenge-tools
+turtlebot3_machine_learning:
+    ubuntu: ros-humble-turtlebot3-machine-learning
 turtlebot3_manipulation:
     ubuntu: ros-humble-turtlebot3-manipulation
 turtlebot3_manipulation_bringup:
@@ -3430,6 +4642,8 @@ turtlebot3_fake_node:
     ubuntu: ros-humble-turtlebot3-fake-node
 turtlebot3_gazebo:
     ubuntu: ros-humble-turtlebot3-gazebo
+turtlebot3_manipulation_gazebo:
+    ubuntu: ros-humble-turtlebot3-manipulation-gazebo
 turtlebot3_simulations:
     ubuntu: ros-humble-turtlebot3-simulations
 turtlebot4_description:
@@ -3522,6 +4736,8 @@ ublox_ubx_msgs:
     ubuntu: ros-humble-ublox-ubx-msgs
 udp_msgs:
     ubuntu: ros-humble-udp-msgs
+unbag:
+    ubuntu: ros-humble-unbag
 uncrustify_vendor:
     ubuntu: ros-humble-uncrustify-vendor
 unique_identifier_msgs:
@@ -3610,6 +4826,8 @@ velodyne_gazebo_plugins:
     ubuntu: ros-humble-velodyne-gazebo-plugins
 velodyne_simulator:
     ubuntu: ros-humble-velodyne-simulator
+video_to_image_msg_publisher:
+    ubuntu: ros-humble-video-to-image-msg-publisher
 vimbax_camera:
     ubuntu: ros-humble-vimbax-camera
 vimbax_camera_events:
@@ -3656,10 +4874,14 @@ webots_ros2:
     ubuntu: ros-humble-webots-ros2
 webots_ros2_control:
     ubuntu: ros-humble-webots-ros2-control
+webots_ros2_crazyflie:
+    ubuntu: ros-humble-webots-ros2-crazyflie
 webots_ros2_driver:
     ubuntu: ros-humble-webots-ros2-driver
 webots_ros2_epuck:
     ubuntu: ros-humble-webots-ros2-epuck
+webots_ros2_husarion:
+    ubuntu: ros-humble-webots-ros2-husarion
 webots_ros2_importer:
     ubuntu: ros-humble-webots-ros2-importer
 webots_ros2_mavic:
@@ -3686,24 +4908,44 @@ wireless_msgs:
     ubuntu: ros-humble-wireless-msgs
 wireless_watcher:
     ubuntu: ros-humble-wireless-watcher
+wirestead:
+    ubuntu: ros-humble-wirestead
+wirestead_ros:
+    ubuntu: ros-humble-wirestead-ros
 wrapyfi_ros2_interfaces:
     ubuntu: ros-humble-wrapyfi-ros2-interfaces
 xacro:
     ubuntu: ros-humble-xacro
+yaets:
+    ubuntu: ros-humble-yaets
 yaml_cpp_vendor:
     ubuntu: ros-humble-yaml-cpp-vendor
+yashar_turtle_chase:
+    ubuntu: ros-humble-yashar-turtle-chase
 yasmin:
     ubuntu: ros-humble-yasmin
+yasmin_cli:
+    ubuntu: ros-humble-yasmin-cli
 yasmin_demos:
     ubuntu: ros-humble-yasmin-demos
+yasmin_editor:
+    ubuntu: ros-humble-yasmin-editor
+yasmin_factory:
+    ubuntu: ros-humble-yasmin-factory
 yasmin_msgs:
     ubuntu: ros-humble-yasmin-msgs
+yasmin_pcl:
+    ubuntu: ros-humble-yasmin-pcl
+yasmin_plugins_manager:
+    ubuntu: ros-humble-yasmin-plugins-manager
 yasmin_ros:
     ubuntu: ros-humble-yasmin-ros
 yasmin_viewer:
     ubuntu: ros-humble-yasmin-viewer
 zbar_ros:
     ubuntu: ros-humble-zbar-ros
+zed_description:
+    ubuntu: ros-humble-zed-description
 zed_msgs:
     ubuntu: ros-humble-zed-msgs
 zenoh_bridge_dds:

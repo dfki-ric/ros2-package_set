@@ -8,14 +8,24 @@ smacc2:
     ubuntu: ros-rolling-smacc2
 smacc2_msgs:
     ubuntu: ros-rolling-smacc2-msgs
-acado_vendor:
-    ubuntu: ros-rolling-acado-vendor
 ackermann_msgs:
     ubuntu: ros-rolling-ackermann-msgs
+ackermann_nlmpc:
+    ubuntu: ros-rolling-ackermann-nlmpc
+ackermann_nlmpc_msgs:
+    ubuntu: ros-rolling-ackermann-nlmpc-msgs
 actuator_msgs:
     ubuntu: ros-rolling-actuator-msgs
 adaptive_component:
     ubuntu: ros-rolling-adaptive-component
+adi_iio:
+    ubuntu: ros-rolling-adi-iio
+adi_imu:
+    ubuntu: ros-rolling-adi-imu
+ads_vendor:
+    ubuntu: ros-rolling-ads-vendor
+agni_tf_tools:
+    ubuntu: ros-rolling-agni-tf-tools
 ament_acceleration:
     ubuntu: ros-rolling-ament-acceleration
 ament_black:
@@ -34,8 +44,6 @@ ament_cmake_export_dependencies:
     ubuntu: ros-rolling-ament-cmake-export-dependencies
 ament_cmake_export_include_directories:
     ubuntu: ros-rolling-ament-cmake-export-include-directories
-ament_cmake_export_interfaces:
-    ubuntu: ros-rolling-ament-cmake-export-interfaces
 ament_cmake_export_libraries:
     ubuntu: ros-rolling-ament-cmake-export-libraries
 ament_cmake_export_link_flags:
@@ -70,8 +78,14 @@ ament_cmake_catch2:
     ubuntu: ros-rolling-ament-cmake-catch2
 ament_cmake_ros:
     ubuntu: ros-rolling-ament-cmake-ros
+ament_cmake_ros_core:
+    ubuntu: ros-rolling-ament-cmake-ros-core
 domain_coordinator:
     ubuntu: ros-rolling-domain-coordinator
+rmw_test_fixture:
+    ubuntu: ros-rolling-rmw-test-fixture
+rmw_test_fixture_implementation:
+    ubuntu: ros-rolling-rmw-test-fixture-implementation
 ament_download:
     ubuntu: ros-rolling-ament-download
 ament_index_cpp:
@@ -140,8 +154,6 @@ ament_uncrustify:
     ubuntu: ros-rolling-ament-uncrustify
 ament_xmllint:
     ubuntu: ros-rolling-ament-xmllint
-ament_nodl:
-    ubuntu: ros-rolling-ament-nodl
 ament_package:
     ubuntu: ros-rolling-ament-package
 ament_vitis:
@@ -162,12 +174,20 @@ apriltag_detector_umich:
     ubuntu: ros-rolling-apriltag-detector-umich
 apriltag_draw:
     ubuntu: ros-rolling-apriltag-draw
+apriltag_tools:
+    ubuntu: ros-rolling-apriltag-tools
 apriltag_mit:
     ubuntu: ros-rolling-apriltag-mit
 apriltag_msgs:
     ubuntu: ros-rolling-apriltag-msgs
 apriltag_ros:
     ubuntu: ros-rolling-apriltag-ros
+ardrone_sdk:
+    ubuntu: ros-rolling-ardrone-sdk
+ardrone_sumo:
+    ubuntu: ros-rolling-ardrone-sumo
+aruco_markers:
+    ubuntu: ros-rolling-aruco-markers
 aruco_opencv:
     ubuntu: ros-rolling-aruco-opencv
 aruco_opencv_msgs:
@@ -198,6 +218,34 @@ async_web_server_cpp:
     ubuntu: ros-rolling-async-web-server-cpp
 asyncapi_gencpp:
     ubuntu: ros-rolling-asyncapi-gencpp
+at_sonde_ros_driver:
+    ubuntu: ros-rolling-at-sonde-ros-driver
+audio_capture:
+    ubuntu: ros-rolling-audio-capture
+audio_common:
+    ubuntu: ros-rolling-audio-common
+audio_common_msgs:
+    ubuntu: ros-rolling-audio-common-msgs
+audio_play:
+    ubuntu: ros-rolling-audio-play
+sound_play:
+    ubuntu: ros-rolling-sound-play
+sound_play_msgs:
+    ubuntu: ros-rolling-sound-play-msgs
+auto_apms_behavior_tree:
+    ubuntu: ros-rolling-auto-apms-behavior-tree
+auto_apms_behavior_tree_core:
+    ubuntu: ros-rolling-auto-apms-behavior-tree-core
+auto_apms_examples:
+    ubuntu: ros-rolling-auto-apms-examples
+auto_apms_interfaces:
+    ubuntu: ros-rolling-auto-apms-interfaces
+auto_apms_mission:
+    ubuntu: ros-rolling-auto-apms-mission
+auto_apms_ros2behavior:
+    ubuntu: ros-rolling-auto-apms-ros2behavior
+auto_apms_util:
+    ubuntu: ros-rolling-auto-apms-util
 automatika_embodied_agents:
     ubuntu: ros-rolling-automatika-embodied-agents
 automatika_ros_sugar:
@@ -220,6 +268,10 @@ autoware_lint_common:
     ubuntu: ros-rolling-autoware-lint-common
 autoware_internal_debug_msgs:
     ubuntu: ros-rolling-autoware-internal-debug-msgs
+autoware_internal_localization_msgs:
+    ubuntu: ros-rolling-autoware-internal-localization-msgs
+autoware_internal_metric_msgs:
+    ubuntu: ros-rolling-autoware-internal-metric-msgs
 autoware_internal_msgs:
     ubuntu: ros-rolling-autoware-internal-msgs
 autoware_internal_perception_msgs:
@@ -238,12 +290,16 @@ autoware_localization_msgs:
     ubuntu: ros-rolling-autoware-localization-msgs
 autoware_map_msgs:
     ubuntu: ros-rolling-autoware-map-msgs
+autoware_msgs:
+    ubuntu: ros-rolling-autoware-msgs
 autoware_perception_msgs:
     ubuntu: ros-rolling-autoware-perception-msgs
 autoware_planning_msgs:
     ubuntu: ros-rolling-autoware-planning-msgs
 autoware_sensing_msgs:
     ubuntu: ros-rolling-autoware-sensing-msgs
+autoware_simulation_msgs:
+    ubuntu: ros-rolling-autoware-simulation-msgs
 autoware_system_msgs:
     ubuntu: ros-rolling-autoware-system-msgs
 autoware_v2x_msgs:
@@ -252,6 +308,28 @@ autoware_vehicle_msgs:
     ubuntu: ros-rolling-autoware-vehicle-msgs
 autoware_utils:
     ubuntu: ros-rolling-autoware-utils
+autoware_utils_debug:
+    ubuntu: ros-rolling-autoware-utils-debug
+autoware_utils_diagnostics:
+    ubuntu: ros-rolling-autoware-utils-diagnostics
+autoware_utils_geometry:
+    ubuntu: ros-rolling-autoware-utils-geometry
+autoware_utils_logging:
+    ubuntu: ros-rolling-autoware-utils-logging
+autoware_utils_math:
+    ubuntu: ros-rolling-autoware-utils-math
+autoware_utils_pcl:
+    ubuntu: ros-rolling-autoware-utils-pcl
+autoware_utils_rclcpp:
+    ubuntu: ros-rolling-autoware-utils-rclcpp
+autoware_utils_system:
+    ubuntu: ros-rolling-autoware-utils-system
+autoware_utils_tf:
+    ubuntu: ros-rolling-autoware-utils-tf
+autoware_utils_uuid:
+    ubuntu: ros-rolling-autoware-utils-uuid
+autoware_utils_visualization:
+    ubuntu: ros-rolling-autoware-utils-visualization
 avt_vimba_camera:
     ubuntu: ros-rolling-avt-vimba-camera
 aws_robomaker_small_warehouse_world:
@@ -264,12 +342,18 @@ backward_ros:
     ubuntu: ros-rolling-backward-ros
 bag2_to_image:
     ubuntu: ros-rolling-bag2-to-image
-behaviortree_cpp_v3:
-    ubuntu: ros-rolling-behaviortree-cpp-v3
+behaviortree_cpp_pluginlib:
+    ubuntu: ros-rolling-behaviortree-cpp-pluginlib
 behaviortree_cpp:
     ubuntu: ros-rolling-behaviortree-cpp
+better_launch:
+    ubuntu: ros-rolling-better-launch
 bno055:
     ubuntu: ros-rolling-bno055
+bob_launch:
+    ubuntu: ros-rolling-bob-launch
+bob_llm:
+    ubuntu: ros-rolling-bob-llm
 bond:
     ubuntu: ros-rolling-bond
 bond_core:
@@ -284,8 +368,16 @@ boost_geometry_util:
     ubuntu: ros-rolling-boost-geometry-util
 boost_plugin_loader:
     ubuntu: ros-rolling-boost-plugin-loader
+boost_sml_vendor:
+    ubuntu: ros-rolling-boost-sml-vendor
+camera_aravis2:
+    ubuntu: ros-rolling-camera-aravis2
 camera_ros:
     ubuntu: ros-rolling-camera-ros
+canary:
+    ubuntu: ros-rolling-canary
+canboat_vendor:
+    ubuntu: ros-rolling-canboat-vendor
 cartographer:
     ubuntu: ros-rolling-cartographer
 cartographer_ros:
@@ -298,14 +390,52 @@ cascade_lifecycle_msgs:
     ubuntu: ros-rolling-cascade-lifecycle-msgs
 rclcpp_cascade_lifecycle:
     ubuntu: ros-rolling-rclcpp-cascade-lifecycle
+rclpy_cascade_lifecycle:
+    ubuntu: ros-rolling-rclpy-cascade-lifecycle
 catch_ros2:
     ubuntu: ros-rolling-catch-ros2
 class_loader:
     ubuntu: ros-rolling-class-loader
 classic_bags:
     ubuntu: ros-rolling-classic-bags
+clips_executive:
+    ubuntu: ros-rolling-clips-executive
+cx_ament_index_plugin:
+    ubuntu: ros-rolling-cx-ament-index-plugin
+cx_bringup:
+    ubuntu: ros-rolling-cx-bringup
+cx_clips_env_manager:
+    ubuntu: ros-rolling-cx-clips-env-manager
+cx_config_plugin:
+    ubuntu: ros-rolling-cx-config-plugin
+cx_example_plugin:
+    ubuntu: ros-rolling-cx-example-plugin
+cx_executive_plugin:
+    ubuntu: ros-rolling-cx-executive-plugin
+cx_file_load_plugin:
+    ubuntu: ros-rolling-cx-file-load-plugin
+cx_msgs:
+    ubuntu: ros-rolling-cx-msgs
+cx_plugin:
+    ubuntu: ros-rolling-cx-plugin
+cx_protobuf_plugin:
+    ubuntu: ros-rolling-cx-protobuf-plugin
+cx_ros_comm_gen:
+    ubuntu: ros-rolling-cx-ros-comm-gen
+cx_ros_msgs_plugin:
+    ubuntu: ros-rolling-cx-ros-msgs-plugin
+cx_ros_param_plugin:
+    ubuntu: ros-rolling-cx-ros-param-plugin
+cx_tf2_pose_tracker_plugin:
+    ubuntu: ros-rolling-cx-tf2-pose-tracker-plugin
+cx_tutorial_agents:
+    ubuntu: ros-rolling-cx-tutorial-agents
+cx_utils:
+    ubuntu: ros-rolling-cx-utils
 clips_vendor:
     ubuntu: ros-rolling-clips-vendor
+cloudini:
+    ubuntu: ros-rolling-cloudini
 coal:
     ubuntu: ros-rolling-coal
 cob_actions:
@@ -314,12 +444,12 @@ cob_msgs:
     ubuntu: ros-rolling-cob-msgs
 cob_srvs:
     ubuntu: ros-rolling-cob-srvs
+coin_d4_driver:
+    ubuntu: ros-rolling-coin-d4-driver
 color_names:
     ubuntu: ros-rolling-color-names
 color_util:
     ubuntu: ros-rolling-color-util
-actionlib_msgs:
-    ubuntu: ros-rolling-actionlib-msgs
 common_interfaces:
     ubuntu: ros-rolling-common-interfaces
 diagnostic_msgs:
@@ -344,6 +474,16 @@ trajectory_msgs:
     ubuntu: ros-rolling-trajectory-msgs
 visualization_msgs:
     ubuntu: ros-rolling-visualization-msgs
+compass_conversions:
+    ubuntu: ros-rolling-compass-conversions
+compass_interfaces:
+    ubuntu: ros-rolling-compass-interfaces
+magnetic_model:
+    ubuntu: ros-rolling-magnetic-model
+magnetometer_compass:
+    ubuntu: ros-rolling-magnetometer-compass
+magnetometer_pipeline:
+    ubuntu: ros-rolling-magnetometer-pipeline
 console_bridge_vendor:
     ubuntu: ros-rolling-console-bridge-vendor
 control_box_rst:
@@ -354,16 +494,46 @@ control_toolbox:
     ubuntu: ros-rolling-control-toolbox
 tcb_span:
     ubuntu: ros-rolling-tcb-span
-tl_expected:
-    ubuntu: ros-rolling-tl-expected
+cras_msgs:
+    ubuntu: ros-rolling-cras-msgs
+cras_bag_tools:
+    ubuntu: ros-rolling-cras-bag-tools
+cras_cpp_common:
+    ubuntu: ros-rolling-cras-cpp-common
+cras_lint:
+    ubuntu: ros-rolling-cras-lint
+cras_topic_tools:
+    ubuntu: ros-rolling-cras-topic-tools
+crazyflie:
+    ubuntu: ros-rolling-crazyflie
+crazyflie_description:
+    ubuntu: ros-rolling-crazyflie-description
+crazyflie_examples:
+    ubuntu: ros-rolling-crazyflie-examples
+crazyflie_interfaces:
+    ubuntu: ros-rolling-crazyflie-interfaces
+crazyflie_py:
+    ubuntu: ros-rolling-crazyflie-py
+crazyflie_server_cpp:
+    ubuntu: ros-rolling-crazyflie-server-cpp
+crazyflie_server_py:
+    ubuntu: ros-rolling-crazyflie-server-py
+crazyflie_sim:
+    ubuntu: ros-rolling-crazyflie-sim
+crocoddyl:
+    ubuntu: ros-rolling-crocoddyl
+crx_kinematics:
+    ubuntu: ros-rolling-crx-kinematics
 cudnn_cmake_module:
     ubuntu: ros-rolling-cudnn-cmake-module
 cyclonedds:
     ubuntu: ros-rolling-cyclonedds
-data_tamer_cpp:
-    ubuntu: ros-rolling-data-tamer-cpp
-data_tamer_msgs:
-    ubuntu: ros-rolling-data-tamer-msgs
+data_tamer_tools:
+    ubuntu: ros-rolling-data-tamer-tools
+data_tamer_v2:
+    ubuntu: ros-rolling-data-tamer-v2
+decision-node-ros2:
+    ubuntu: ros-rolling-decision-node-ros2
 action_tutorials_cpp:
     ubuntu: ros-rolling-action-tutorials-cpp
 action_tutorials_py:
@@ -402,20 +572,22 @@ quality_of_service_demo_py:
     ubuntu: ros-rolling-quality-of-service-demo-py
 topic_monitor:
     ubuntu: ros-rolling-topic-monitor
-topic_statistics_demo:
-    ubuntu: ros-rolling-topic-statistics-demo
 depthimage_to_laserscan:
     ubuntu: ros-rolling-depthimage-to-laserscan
 diagnostic_aggregator:
     ubuntu: ros-rolling-diagnostic-aggregator
 diagnostic_common_diagnostics:
     ubuntu: ros-rolling-diagnostic-common-diagnostics
+diagnostic_remote_logging:
+    ubuntu: ros-rolling-diagnostic-remote-logging
 diagnostic_updater:
     ubuntu: ros-rolling-diagnostic-updater
 diagnostics:
     ubuntu: ros-rolling-diagnostics
 self_test:
     ubuntu: ros-rolling-self-test
+dispatcher:
+    ubuntu: ros-rolling-dispatcher
 dolly:
     ubuntu: ros-rolling-dolly
 dolly_follow:
@@ -426,10 +598,22 @@ dolly_ignition:
     ubuntu: ros-rolling-dolly-ignition
 domain_bridge:
     ubuntu: ros-rolling-domain-bridge
+doom_ros:
+    ubuntu: ros-rolling-doom-ros
 dual_laser_merger:
     ubuntu: ros-rolling-dual-laser-merger
+dynmsg:
+    ubuntu: ros-rolling-dynmsg
+dynmsg_demo:
+    ubuntu: ros-rolling-dynmsg-demo
+dynmsg_msgs:
+    ubuntu: ros-rolling-dynmsg-msgs
 dynamixel_hardware:
     ubuntu: ros-rolling-dynamixel-hardware
+dynamixel_hardware_interface:
+    ubuntu: ros-rolling-dynamixel-hardware-interface
+dynamixel_interfaces:
+    ubuntu: ros-rolling-dynamixel-interfaces
 dynamixel_sdk:
     ubuntu: ros-rolling-dynamixel-sdk
 dynamixel_sdk_custom_interfaces:
@@ -444,78 +628,14 @@ dynamixel_workbench_msgs:
     ubuntu: ros-rolling-dynamixel-workbench-msgs
 ecal:
     ubuntu: ros-rolling-ecal
-ecl_command_line:
-    ubuntu: ros-rolling-ecl-command-line
-ecl_concepts:
-    ubuntu: ros-rolling-ecl-concepts
-ecl_containers:
-    ubuntu: ros-rolling-ecl-containers
-ecl_converters:
-    ubuntu: ros-rolling-ecl-converters
 ecl_core:
     ubuntu: ros-rolling-ecl-core
-ecl_core_apps:
-    ubuntu: ros-rolling-ecl-core-apps
-ecl_devices:
-    ubuntu: ros-rolling-ecl-devices
-ecl_eigen:
-    ubuntu: ros-rolling-ecl-eigen
-ecl_exceptions:
-    ubuntu: ros-rolling-ecl-exceptions
-ecl_filesystem:
-    ubuntu: ros-rolling-ecl-filesystem
-ecl_formatters:
-    ubuntu: ros-rolling-ecl-formatters
-ecl_geometry:
-    ubuntu: ros-rolling-ecl-geometry
-ecl_ipc:
-    ubuntu: ros-rolling-ecl-ipc
-ecl_linear_algebra:
-    ubuntu: ros-rolling-ecl-linear-algebra
-ecl_manipulators:
-    ubuntu: ros-rolling-ecl-manipulators
-ecl_math:
-    ubuntu: ros-rolling-ecl-math
-ecl_mobile_robot:
-    ubuntu: ros-rolling-ecl-mobile-robot
-ecl_mpl:
-    ubuntu: ros-rolling-ecl-mpl
-ecl_sigslots:
-    ubuntu: ros-rolling-ecl-sigslots
-ecl_statistics:
-    ubuntu: ros-rolling-ecl-statistics
-ecl_streams:
-    ubuntu: ros-rolling-ecl-streams
-ecl_threads:
-    ubuntu: ros-rolling-ecl-threads
-ecl_time:
-    ubuntu: ros-rolling-ecl-time
-ecl_type_traits:
-    ubuntu: ros-rolling-ecl-type-traits
-ecl_utilities:
-    ubuntu: ros-rolling-ecl-utilities
-ecl_config:
-    ubuntu: ros-rolling-ecl-config
-ecl_console:
-    ubuntu: ros-rolling-ecl-console
-ecl_converters_lite:
-    ubuntu: ros-rolling-ecl-converters-lite
-ecl_errors:
-    ubuntu: ros-rolling-ecl-errors
-ecl_io:
-    ubuntu: ros-rolling-ecl-io
 ecl_lite:
     ubuntu: ros-rolling-ecl-lite
-ecl_sigslots_lite:
-    ubuntu: ros-rolling-ecl-sigslots-lite
-ecl_time_lite:
-    ubuntu: ros-rolling-ecl-time-lite
-ecl_build:
-    ubuntu: ros-rolling-ecl-build
-ecl_license:
-    ubuntu: ros-rolling-ecl-license
 ecl_tools:
     ubuntu: ros-rolling-ecl-tools
+ehukai:
+    ubuntu: ros-rolling-ehukai
 eigen3_cmake_module:
     ubuntu: ros-rolling-eigen3-cmake-module
 eigen_stl_containers:
@@ -524,6 +644,8 @@ eigenpy:
     ubuntu: ros-rolling-eigenpy
 eiquadprog:
     ubuntu: ros-rolling-eiquadprog
+enpose_tracking:
+    ubuntu: ros-rolling-enpose-tracking
 event_camera_codecs:
     ubuntu: ros-rolling-event-camera-codecs
 event_camera_msgs:
@@ -532,8 +654,14 @@ event_camera_py:
     ubuntu: ros-rolling-event-camera-py
 event_camera_renderer:
     ubuntu: ros-rolling-event-camera-renderer
+event_camera_tools:
+    ubuntu: ros-rolling-event-camera-tools
+event_image_reconstruction_fibar:
+    ubuntu: ros-rolling-event-image-reconstruction-fibar
 example_interfaces:
     ubuntu: ros-rolling-example-interfaces
+example_robot_descriptions:
+    ubuntu: ros-rolling-example-robot-descriptions
 examples_rclcpp_async_client:
     ubuntu: ros-rolling-examples-rclcpp-async-client
 examples_rclcpp_cbg_executor:
@@ -580,8 +708,8 @@ launch_testing_examples:
     ubuntu: ros-rolling-launch-testing-examples
 fastcdr:
     ubuntu: ros-rolling-fastcdr
-fastrtps:
-    ubuntu: ros-rolling-fastrtps
+fastdds:
+    ubuntu: ros-rolling-fastdds
 feetech_ros2_driver:
     ubuntu: ros-rolling-feetech-ros2-driver
 ffmpeg_encoder_decoder:
@@ -592,12 +720,18 @@ ffmpeg_image_transport_msgs:
     ubuntu: ros-rolling-ffmpeg-image-transport-msgs
 ffmpeg_image_transport_tools:
     ubuntu: ros-rolling-ffmpeg-image-transport-tools
+fibar_lib:
+    ubuntu: ros-rolling-fibar-lib
 fields2cover:
     ubuntu: ros-rolling-fields2cover
 filters:
     ubuntu: ros-rolling-filters
 find_object_2d:
     ubuntu: ros-rolling-find-object-2d
+fkie_message_filters:
+    ubuntu: ros-rolling-fkie-message-filters
+fkie_potree_rviz_plugin:
+    ubuntu: ros-rolling-fkie-potree-rviz-plugin
 flex_sync:
     ubuntu: ros-rolling-flex-sync
 flexbe_behavior_engine:
@@ -640,10 +774,14 @@ four_wheel_steering_msgs:
     ubuntu: ros-rolling-four-wheel-steering-msgs
 foxglove_bridge:
     ubuntu: ros-rolling-foxglove-bridge
-foxglove_compressed_video_transport:
-    ubuntu: ros-rolling-foxglove-compressed-video-transport
 foxglove_msgs:
     ubuntu: ros-rolling-foxglove-msgs
+foxglove_compressed_video_transport:
+    ubuntu: ros-rolling-foxglove-compressed-video-transport
+foxglove_sdk_vendor:
+    ubuntu: ros-rolling-foxglove-sdk-vendor
+frequency_cam:
+    ubuntu: ros-rolling-frequency-cam
 fuse:
     ubuntu: ros-rolling-fuse
 fuse_constraints:
@@ -674,20 +812,10 @@ game_controller_spl:
     ubuntu: ros-rolling-game-controller-spl
 game_controller_spl_interfaces:
     ubuntu: ros-rolling-game-controller-spl-interfaces
-cmake_generate_parameter_module_example:
-    ubuntu: ros-rolling-cmake-generate-parameter-module-example
 generate_parameter_library:
     ubuntu: ros-rolling-generate-parameter-library
-generate_parameter_library_example:
-    ubuntu: ros-rolling-generate-parameter-library-example
-generate_parameter_library_example_external:
-    ubuntu: ros-rolling-generate-parameter-library-example-external
 generate_parameter_library_py:
     ubuntu: ros-rolling-generate-parameter-library-py
-generate_parameter_module_example:
-    ubuntu: ros-rolling-generate-parameter-module-example
-parameter_traits:
-    ubuntu: ros-rolling-parameter-traits
 geodesy:
     ubuntu: ros-rolling-geodesy
 geographic_info:
@@ -744,6 +872,12 @@ gps_umd:
     ubuntu: ros-rolling-gps-umd
 gpsd_client:
     ubuntu: ros-rolling-gpsd-client
+rmw_stats_shim:
+    ubuntu: ros-rolling-rmw-stats-shim
+rosgraph_monitor:
+    ubuntu: ros-rolling-rosgraph-monitor
+rosgraph_monitor_msgs:
+    ubuntu: ros-rolling-rosgraph-monitor-msgs
 graph_msgs:
     ubuntu: ros-rolling-graph-msgs
 grasping_msgs:
@@ -752,10 +886,18 @@ grbl_msgs:
     ubuntu: ros-rolling-grbl-msgs
 grbl_ros:
     ubuntu: ros-rolling-grbl-ros
+greenwave_monitor:
+    ubuntu: ros-rolling-greenwave-monitor
+greenwave_monitor_interfaces:
+    ubuntu: ros-rolling-greenwave-monitor-interfaces
 gscam:
     ubuntu: ros-rolling-gscam
+gstreamer_ros_babel_fish:
+    ubuntu: ros-rolling-gstreamer-ros-babel-fish
 gtsam:
     ubuntu: ros-rolling-gtsam
+gtsam2mrpt_serial:
+    ubuntu: ros-rolling-gtsam2mrpt-serial
 gz_cmake_vendor:
     ubuntu: ros-rolling-gz-cmake-vendor
 gz_common_vendor:
@@ -766,8 +908,6 @@ gz_fuel_tools_vendor:
     ubuntu: ros-rolling-gz-fuel-tools-vendor
 gz_gui_vendor:
     ubuntu: ros-rolling-gz-gui-vendor
-gz_launch_vendor:
-    ubuntu: ros-rolling-gz-launch-vendor
 gz_math_vendor:
     ubuntu: ros-rolling-gz-math-vendor
 gz_msgs_vendor:
@@ -800,10 +940,26 @@ hatchbed_common:
     ubuntu: ros-rolling-hatchbed-common
 heaphook:
     ubuntu: ros-rolling-heaphook
+hebi_cpp_api:
+    ubuntu: ros-rolling-hebi-cpp-api
+hebi_hardware:
+    ubuntu: ros-rolling-hebi-hardware
+hebi_msgs:
+    ubuntu: ros-rolling-hebi-msgs
 hls_lfcd_lds_driver:
     ubuntu: ros-rolling-hls-lfcd-lds-driver
-hpp-fcl:
-    ubuntu: ros-rolling-hpp-fcl
+hri:
+    ubuntu: ros-rolling-hri
+pyhri:
+    ubuntu: ros-rolling-pyhri
+hri_actions_msgs:
+    ubuntu: ros-rolling-hri-actions-msgs
+hri_msgs:
+    ubuntu: ros-rolling-hri-msgs
+hri_rviz:
+    ubuntu: ros-rolling-hri-rviz
+human_description:
+    ubuntu: ros-rolling-human-description
 hyveos_bridge:
     ubuntu: ros-rolling-hyveos-bridge
 hyveos_msgs:
@@ -882,6 +1038,14 @@ interactive_marker_twist_server:
     ubuntu: ros-rolling-interactive-marker-twist-server
 interactive_markers:
     ubuntu: ros-rolling-interactive-markers
+franka_inria_inverse_dynamics_solver:
+    ubuntu: ros-rolling-franka-inria-inverse-dynamics-solver
+inverse_dynamics_solver:
+    ubuntu: ros-rolling-inverse-dynamics-solver
+kdl_inverse_dynamics_solver:
+    ubuntu: ros-rolling-kdl-inverse-dynamics-solver
+ur10_inverse_dynamics_solver:
+    ubuntu: ros-rolling-ur10-inverse-dynamics-solver
 irobot_create_msgs:
     ubuntu: ros-rolling-irobot-create-msgs
 jacro:
@@ -904,8 +1068,44 @@ wiimote:
     ubuntu: ros-rolling-wiimote
 wiimote_msgs:
     ubuntu: ros-rolling-wiimote-msgs
+jrl_cmakemodules:
+    ubuntu: ros-rolling-jrl-cmakemodules
+audio_video_recorder:
+    ubuntu: ros-rolling-audio-video-recorder
+dynamic_tf_publisher:
+    ubuntu: ros-rolling-dynamic-tf-publisher
+image_view2:
+    ubuntu: ros-rolling-image-view2
+jsk_common:
+    ubuntu: ros-rolling-jsk-common
+jsk_data:
+    ubuntu: ros-rolling-jsk-data
+jsk_ros1_ros2_compat:
+    ubuntu: ros-rolling-jsk-ros1-ros2-compat
+jsk_rosbag_tools:
+    ubuntu: ros-rolling-jsk-rosbag-tools
+jsk_tools:
+    ubuntu: ros-rolling-jsk-tools
+jsk_topic_tools:
+    ubuntu: ros-rolling-jsk-topic-tools
+jsk_common_msgs:
+    ubuntu: ros-rolling-jsk-common-msgs
+jsk_footstep_msgs:
+    ubuntu: ros-rolling-jsk-footstep-msgs
+jsk_gui_msgs:
+    ubuntu: ros-rolling-jsk-gui-msgs
+jsk_hark_msgs:
+    ubuntu: ros-rolling-jsk-hark-msgs
+posedetection_msgs:
+    ubuntu: ros-rolling-posedetection-msgs
+speech_recognition_msgs:
+    ubuntu: ros-rolling-speech-recognition-msgs
+kddockwidgets_qt6_vendor:
+    ubuntu: ros-rolling-kddockwidgets-qt6-vendor
 kdl_parser:
     ubuntu: ros-rolling-kdl-parser
+kdl_parser_py:
+    ubuntu: ros-rolling-kdl-parser-py
 keyboard_handler:
     ubuntu: ros-rolling-keyboard-handler
 kinematics_interface:
@@ -966,6 +1166,10 @@ launch_xml:
     ubuntu: ros-rolling-launch-xml
 launch_yaml:
     ubuntu: ros-rolling-launch-yaml
+launch_frontend_py:
+    ubuntu: ros-rolling-launch-frontend-py
+launch_pal:
+    ubuntu: ros-rolling-launch-pal
 launch_param_builder:
     ubuntu: ros-rolling-launch-param-builder
 launch_ros:
@@ -974,6 +1178,8 @@ launch_testing_ros:
     ubuntu: ros-rolling-launch-testing-ros
 ros2launch:
     ubuntu: ros-rolling-ros2launch
+ld08_driver:
+    ubuntu: ros-rolling-ld08-driver
 leo:
     ubuntu: ros-rolling-leo
 leo_description:
@@ -986,8 +1192,12 @@ leo_desktop:
     ubuntu: ros-rolling-leo-desktop
 leo_viz:
     ubuntu: ros-rolling-leo-viz
+leo_examples:
+    ubuntu: ros-rolling-leo-examples
 leo_bringup:
     ubuntu: ros-rolling-leo-bringup
+leo_filters:
+    ubuntu: ros-rolling-leo-filters
 leo_fw:
     ubuntu: ros-rolling-leo-fw
 leo_robot:
@@ -1002,8 +1212,6 @@ leo_simulator:
     ubuntu: ros-rolling-leo-simulator
 lgsvl_msgs:
     ubuntu: ros-rolling-lgsvl-msgs
-libcaer:
-    ubuntu: ros-rolling-libcaer
 libcaer_driver:
     ubuntu: ros-rolling-libcaer-driver
 libcaer_vendor:
@@ -1016,12 +1224,22 @@ libnabo:
     ubuntu: ros-rolling-libnabo
 libpointmatcher:
     ubuntu: ros-rolling-libpointmatcher
+librealsense2:
+    ubuntu: ros-rolling-librealsense2
 libstatistics_collector:
     ubuntu: ros-rolling-libstatistics-collector
 libyaml_vendor:
     ubuntu: ros-rolling-libyaml-vendor
+lidar_mirror_fov_reshaper:
+    ubuntu: ros-rolling-lidar-mirror-fov-reshaper
+linear_feedback_controller:
+    ubuntu: ros-rolling-linear-feedback-controller
+linear_feedback_controller_msgs:
+    ubuntu: ros-rolling-linear-feedback-controller-msgs
 linux_isolate_process:
     ubuntu: ros-rolling-linux-isolate-process
+live555_vendor:
+    ubuntu: ros-rolling-live555-vendor
 log_view:
     ubuntu: ros-rolling-log-view
 magic_enum:
@@ -1056,14 +1274,10 @@ swri_math_util:
     ubuntu: ros-rolling-swri-math-util
 swri_opencv_util:
     ubuntu: ros-rolling-swri-opencv-util
-swri_roscpp:
-    ubuntu: ros-rolling-swri-roscpp
 swri_route_util:
     ubuntu: ros-rolling-swri-route-util
 swri_serial_util:
     ubuntu: ros-rolling-swri-serial-util
-swri_system_util:
-    ubuntu: ros-rolling-swri-system-util
 swri_transform_util:
     ubuntu: ros-rolling-swri-transform-util
 marti_can_msgs:
@@ -1090,6 +1304,8 @@ libmavconn:
     ubuntu: ros-rolling-libmavconn
 mavros:
     ubuntu: ros-rolling-mavros
+mavros_examples:
+    ubuntu: ros-rolling-mavros-examples
 mavros_extras:
     ubuntu: ros-rolling-mavros-extras
 mavros_msgs:
@@ -1126,28 +1342,20 @@ mini_tof_interfaces:
     ubuntu: ros-rolling-mini-tof-interfaces
 mir_robot:
     ubuntu: ros-rolling-mir-robot
-kitti_metrics_eval:
-    ubuntu: ros-rolling-kitti-metrics-eval
 mola:
     ubuntu: ros-rolling-mola
 mola_bridge_ros2:
     ubuntu: ros-rolling-mola-bridge-ros2
 mola_demos:
     ubuntu: ros-rolling-mola-demos
-mola_input_euroc_dataset:
-    ubuntu: ros-rolling-mola-input-euroc-dataset
-mola_input_kitti360_dataset:
-    ubuntu: ros-rolling-mola-input-kitti360-dataset
-mola_input_kitti_dataset:
-    ubuntu: ros-rolling-mola-input-kitti-dataset
-mola_input_mulran_dataset:
-    ubuntu: ros-rolling-mola-input-mulran-dataset
-mola_input_paris_luco_dataset:
-    ubuntu: ros-rolling-mola-input-paris-luco-dataset
+mola_input_lidar_bin_dataset:
+    ubuntu: ros-rolling-mola-input-lidar-bin-dataset
 mola_input_rawlog:
     ubuntu: ros-rolling-mola-input-rawlog
 mola_input_rosbag2:
     ubuntu: ros-rolling-mola-input-rosbag2
+mola_input_video:
+    ubuntu: ros-rolling-mola-input-video
 mola_kernel:
     ubuntu: ros-rolling-mola-kernel
 mola_launcher:
@@ -1164,14 +1372,42 @@ mola_traj_tools:
     ubuntu: ros-rolling-mola-traj-tools
 mola_viz:
     ubuntu: ros-rolling-mola-viz
+mola_viz_imgui:
+    ubuntu: ros-rolling-mola-viz-imgui
 mola_yaml:
     ubuntu: ros-rolling-mola-yaml
+kitti_metrics_eval:
+    ubuntu: ros-rolling-kitti-metrics-eval
+mola_academic_datasets:
+    ubuntu: ros-rolling-mola-academic-datasets
+mola_input_euroc_dataset:
+    ubuntu: ros-rolling-mola-input-euroc-dataset
+mola_input_kitti360_dataset:
+    ubuntu: ros-rolling-mola-input-kitti360-dataset
+mola_input_kitti_dataset:
+    ubuntu: ros-rolling-mola-input-kitti-dataset
+mola_input_mulran_dataset:
+    ubuntu: ros-rolling-mola-input-mulran-dataset
+mola_input_paris_luco_dataset:
+    ubuntu: ros-rolling-mola-input-paris-luco-dataset
 mola_common:
     ubuntu: ros-rolling-mola-common
-mola_lidar_odometry:
-    ubuntu: ros-rolling-mola-lidar-odometry
+mola_gnss_to_markers:
+    ubuntu: ros-rolling-mola-gnss-to-markers
 mola_imu_preintegration:
     ubuntu: ros-rolling-mola-imu-preintegration
+mola_input_ouster:
+    ubuntu: ros-rolling-mola-input-ouster
+mola_input_rosbag1:
+    ubuntu: ros-rolling-mola-input-rosbag1
+mola_lidar_odometry:
+    ubuntu: ros-rolling-mola-lidar-odometry
+mola_sm_loop_closure:
+    ubuntu: ros-rolling-mola-sm-loop-closure
+mola_georeferencing:
+    ubuntu: ros-rolling-mola-georeferencing
+mola_gtsam_factors:
+    ubuntu: ros-rolling-mola-gtsam-factors
 mola_state_estimation:
     ubuntu: ros-rolling-mola-state-estimation
 mola_state_estimation_simple:
@@ -1180,6 +1416,8 @@ mola_state_estimation_smoother:
     ubuntu: ros-rolling-mola-state-estimation-smoother
 mola_test_datasets:
     ubuntu: ros-rolling-mola-test-datasets
+mola_vision:
+    ubuntu: ros-rolling-mola-vision
 motion_capture_tracking:
     ubuntu: ros-rolling-motion-capture-tracking
 motion_capture_tracking_interfaces:
@@ -1282,14 +1520,106 @@ moveit_resources_panda_moveit_config:
     ubuntu: ros-rolling-moveit-resources-panda-moveit-config
 moveit_resources_pr2_description:
     ubuntu: ros-rolling-moveit-resources-pr2-description
+moveit_task_constructor_capabilities:
+    ubuntu: ros-rolling-moveit-task-constructor-capabilities
+moveit_task_constructor_core:
+    ubuntu: ros-rolling-moveit-task-constructor-core
+moveit_task_constructor_demo:
+    ubuntu: ros-rolling-moveit-task-constructor-demo
+moveit_task_constructor_msgs:
+    ubuntu: ros-rolling-moveit-task-constructor-msgs
+moveit_task_constructor_visualization:
+    ubuntu: ros-rolling-moveit-task-constructor-visualization
+rviz_marker_tools:
+    ubuntu: ros-rolling-rviz-marker-tools
 moveit_visual_tools:
     ubuntu: ros-rolling-moveit-visual-tools
 mp2p_icp:
     ubuntu: ros-rolling-mp2p-icp
+mp2p_icp_core:
+    ubuntu: ros-rolling-mp2p-icp-core
+mp2p_icp_viz:
+    ubuntu: ros-rolling-mp2p-icp-viz
+mp_units_vendor:
+    ubuntu: ros-rolling-mp-units-vendor
 mqtt_client:
     ubuntu: ros-rolling-mqtt-client
 mqtt_client_interfaces:
     ubuntu: ros-rolling-mqtt-client-interfaces
+mrpt_apps_cli:
+    ubuntu: ros-rolling-mrpt-apps-cli
+mrpt_apps_gui:
+    ubuntu: ros-rolling-mrpt-apps-gui
+mrpt_bayes:
+    ubuntu: ros-rolling-mrpt-bayes
+mrpt_common:
+    ubuntu: ros-rolling-mrpt-common
+mrpt_comms:
+    ubuntu: ros-rolling-mrpt-comms
+mrpt_config:
+    ubuntu: ros-rolling-mrpt-config
+mrpt_containers:
+    ubuntu: ros-rolling-mrpt-containers
+mrpt_core:
+    ubuntu: ros-rolling-mrpt-core
+mrpt_data:
+    ubuntu: ros-rolling-mrpt-data
+mrpt_examples_cpp:
+    ubuntu: ros-rolling-mrpt-examples-cpp
+mrpt_expr:
+    ubuntu: ros-rolling-mrpt-expr
+mrpt_graphs:
+    ubuntu: ros-rolling-mrpt-graphs
+mrpt_graphslam:
+    ubuntu: ros-rolling-mrpt-graphslam
+mrpt_gui:
+    ubuntu: ros-rolling-mrpt-gui
+mrpt_hwdrivers:
+    ubuntu: ros-rolling-mrpt-hwdrivers
+mrpt_img:
+    ubuntu: ros-rolling-mrpt-img
+mrpt_imgui:
+    ubuntu: ros-rolling-mrpt-imgui
+mrpt_imgui_vendor:
+    ubuntu: ros-rolling-mrpt-imgui-vendor
+mrpt_io:
+    ubuntu: ros-rolling-mrpt-io
+mrpt_kinematics:
+    ubuntu: ros-rolling-mrpt-kinematics
+mrpt_libapps_cli:
+    ubuntu: ros-rolling-mrpt-libapps-cli
+mrpt_libapps_gui:
+    ubuntu: ros-rolling-mrpt-libapps-gui
+mrpt_maps:
+    ubuntu: ros-rolling-mrpt-maps
+mrpt_math:
+    ubuntu: ros-rolling-mrpt-math
+mrpt_nav:
+    ubuntu: ros-rolling-mrpt-nav
+mrpt_obs:
+    ubuntu: ros-rolling-mrpt-obs
+mrpt_opengl:
+    ubuntu: ros-rolling-mrpt-opengl
+mrpt_poses:
+    ubuntu: ros-rolling-mrpt-poses
+mrpt_random:
+    ubuntu: ros-rolling-mrpt-random
+mrpt_rtti:
+    ubuntu: ros-rolling-mrpt-rtti
+mrpt_serialization:
+    ubuntu: ros-rolling-mrpt-serialization
+mrpt_slam:
+    ubuntu: ros-rolling-mrpt-slam
+mrpt_system:
+    ubuntu: ros-rolling-mrpt-system
+mrpt_tfest:
+    ubuntu: ros-rolling-mrpt-tfest
+mrpt_topography:
+    ubuntu: ros-rolling-mrpt-topography
+mrpt_typemeta:
+    ubuntu: ros-rolling-mrpt-typemeta
+mrpt_viz:
+    ubuntu: ros-rolling-mrpt-viz
 mrpt_msgs:
     ubuntu: ros-rolling-mrpt-msgs
 mrpt_map_server:
@@ -1304,16 +1634,20 @@ mrpt_pf_localization:
     ubuntu: ros-rolling-mrpt-pf-localization
 mrpt_pointcloud_pipeline:
     ubuntu: ros-rolling-mrpt-pointcloud-pipeline
-mrpt_rawlog:
-    ubuntu: ros-rolling-mrpt-rawlog
 mrpt_reactivenav2d:
     ubuntu: ros-rolling-mrpt-reactivenav2d
 mrpt_tps_astar_planner:
     ubuntu: ros-rolling-mrpt-tps-astar-planner
+mrpt_trajectory_follower:
+    ubuntu: ros-rolling-mrpt-trajectory-follower
 mrpt_tutorials:
     ubuntu: ros-rolling-mrpt-tutorials
 mrpt_path_planning:
     ubuntu: ros-rolling-mrpt-path-planning
+mrpt_path_planning_apps:
+    ubuntu: ros-rolling-mrpt-path-planning-apps
+mrpt_path_planning_core:
+    ubuntu: ros-rolling-mrpt-path-planning-core
 mrpt_apps:
     ubuntu: ros-rolling-mrpt-apps
 mrpt_libapps:
@@ -1336,12 +1670,14 @@ mrpt_libopengl:
     ubuntu: ros-rolling-mrpt-libopengl
 mrpt_libposes:
     ubuntu: ros-rolling-mrpt-libposes
-mrpt_libros_bridge:
-    ubuntu: ros-rolling-mrpt-libros-bridge
 mrpt_libslam:
     ubuntu: ros-rolling-mrpt-libslam
 mrpt_libtclap:
     ubuntu: ros-rolling-mrpt-libtclap
+mrpt_libros_bridge:
+    ubuntu: ros-rolling-mrpt-libros-bridge
+rosbag2rawlog:
+    ubuntu: ros-rolling-rosbag2rawlog
 mrpt_generic_sensor:
     ubuntu: ros-rolling-mrpt-generic-sensor
 mrpt_sensor_bumblebee_stereo:
@@ -1356,10 +1692,30 @@ mrpt_sensorlib:
     ubuntu: ros-rolling-mrpt-sensorlib
 mrpt_sensors:
     ubuntu: ros-rolling-mrpt-sensors
+novatel_oem6_msgs:
+    ubuntu: ros-rolling-novatel-oem6-msgs
 mrt_cmake_modules:
     ubuntu: ros-rolling-mrt-cmake-modules
+mujoco_3d_lidar:
+    ubuntu: ros-rolling-mujoco-3d-lidar
+mujoco_ros2_control:
+    ubuntu: ros-rolling-mujoco-ros2-control
+mujoco_ros2_control_demos:
+    ubuntu: ros-rolling-mujoco-ros2-control-demos
+mujoco_ros2_control_msgs:
+    ubuntu: ros-rolling-mujoco-ros2-control-msgs
+mujoco_ros2_control_plugins:
+    ubuntu: ros-rolling-mujoco-ros2-control-plugins
+mujoco_vendor:
+    ubuntu: ros-rolling-mujoco-vendor
+multisensor_calibration:
+    ubuntu: ros-rolling-multisensor-calibration
 mvsim:
     ubuntu: ros-rolling-mvsim
+nanoeigenpy:
+    ubuntu: ros-rolling-nanoeigenpy
+nanoflann_vendor:
+    ubuntu: ros-rolling-nanoflann-vendor
 nao_button_sim:
     ubuntu: ros-rolling-nao-button-sim
 nao_command_msgs:
@@ -1382,8 +1738,10 @@ nav2_minimal_tb4_sim:
     ubuntu: ros-rolling-nav2-minimal-tb4-sim
 map_msgs:
     ubuntu: ros-rolling-map-msgs
-neo_simulation2:
-    ubuntu: ros-rolling-neo-simulation2
+ndcurves:
+    ubuntu: ros-rolling-ndcurves
+network_bridge:
+    ubuntu: ros-rolling-network-bridge
 nlohmann_json_schema_validator_vendor:
     ubuntu: ros-rolling-nlohmann-json-schema-validator-vendor
 nmea_hardware_interface:
@@ -1392,8 +1750,24 @@ nmea_msgs:
     ubuntu: ros-rolling-nmea-msgs
 nmea_navsat_driver:
     ubuntu: ros-rolling-nmea-navsat-driver
-nodl_python:
-    ubuntu: ros-rolling-nodl-python
+nobleo_socketcan_bridge:
+    ubuntu: ros-rolling-nobleo-socketcan-bridge
+ament_nodl:
+    ubuntu: ros-rolling-ament-nodl
+nodl:
+    ubuntu: ros-rolling-nodl
+nodl_common_interfaces:
+    ubuntu: ros-rolling-nodl-common-interfaces
+nodl_conformance:
+    ubuntu: ros-rolling-nodl-conformance
+nodl_docgen:
+    ubuntu: ros-rolling-nodl-docgen
+nodl_generator_cpp:
+    ubuntu: ros-rolling-nodl-generator-cpp
+nodl_observe:
+    ubuntu: ros-rolling-nodl-observe
+nodl_schema:
+    ubuntu: ros-rolling-nodl-schema
 ros2nodl:
     ubuntu: ros-rolling-ros2nodl
 nodl_to_policy:
@@ -1422,8 +1796,64 @@ odom_to_tf_ros2:
     ubuntu: ros-rolling-odom-to-tf-ros2
 odri_master_board_sdk:
     ubuntu: ros-rolling-odri-master-board-sdk
+off_highway_can:
+    ubuntu: ros-rolling-off-highway-can
+off_highway_general_purpose_radar:
+    ubuntu: ros-rolling-off-highway-general-purpose-radar
+off_highway_general_purpose_radar_msgs:
+    ubuntu: ros-rolling-off-highway-general-purpose-radar-msgs
+off_highway_mm7p10:
+    ubuntu: ros-rolling-off-highway-mm7p10
+off_highway_mm7p10_msgs:
+    ubuntu: ros-rolling-off-highway-mm7p10-msgs
+off_highway_premium_radar:
+    ubuntu: ros-rolling-off-highway-premium-radar
+off_highway_premium_radar_msgs:
+    ubuntu: ros-rolling-off-highway-premium-radar-msgs
+off_highway_premium_radar_sample:
+    ubuntu: ros-rolling-off-highway-premium-radar-sample
+off_highway_premium_radar_sample_msgs:
+    ubuntu: ros-rolling-off-highway-premium-radar-sample-msgs
+off_highway_radar:
+    ubuntu: ros-rolling-off-highway-radar
+off_highway_radar_msgs:
+    ubuntu: ros-rolling-off-highway-radar-msgs
+off_highway_sensor_drivers:
+    ubuntu: ros-rolling-off-highway-sensor-drivers
+off_highway_sensor_drivers_examples:
+    ubuntu: ros-rolling-off-highway-sensor-drivers-examples
+off_highway_uss:
+    ubuntu: ros-rolling-off-highway-uss
+off_highway_uss_msgs:
+    ubuntu: ros-rolling-off-highway-uss-msgs
 ompl:
     ubuntu: ros-rolling-ompl
+onnxruntime_vendor:
+    ubuntu: ros-rolling-onnxruntime-vendor
+open3d_vendor:
+    ubuntu: ros-rolling-open3d-vendor
+om_gravity_compensation_controller:
+    ubuntu: ros-rolling-om-gravity-compensation-controller
+om_joint_trajectory_command_broadcaster:
+    ubuntu: ros-rolling-om-joint-trajectory-command-broadcaster
+om_spring_actuator_controller:
+    ubuntu: ros-rolling-om-spring-actuator-controller
+open_manipulator:
+    ubuntu: ros-rolling-open-manipulator
+open_manipulator_bringup:
+    ubuntu: ros-rolling-open-manipulator-bringup
+open_manipulator_collision:
+    ubuntu: ros-rolling-open-manipulator-collision
+open_manipulator_description:
+    ubuntu: ros-rolling-open-manipulator-description
+open_manipulator_gui:
+    ubuntu: ros-rolling-open-manipulator-gui
+open_manipulator_moveit_config:
+    ubuntu: ros-rolling-open-manipulator-moveit-config
+open_manipulator_playground:
+    ubuntu: ros-rolling-open-manipulator-playground
+open_manipulator_teleop:
+    ubuntu: ros-rolling-open-manipulator-teleop
 openeb_vendor:
     ubuntu: ros-rolling-openeb-vendor
 openni2_camera:
@@ -1432,16 +1862,22 @@ opensw:
     ubuntu: ros-rolling-opensw
 opensw_ros:
     ubuntu: ros-rolling-opensw-ros
+orbbec_camera:
+    ubuntu: ros-rolling-orbbec-camera
+orbbec_camera_msgs:
+    ubuntu: ros-rolling-orbbec-camera-msgs
+orbbec_description:
+    ubuntu: ros-rolling-orbbec-description
 orocos_kdl_vendor:
     ubuntu: ros-rolling-orocos-kdl-vendor
 python_orocos_kdl_vendor:
     ubuntu: ros-rolling-python-orocos-kdl-vendor
 ortools_vendor:
     ubuntu: ros-rolling-ortools-vendor
+osqp_eigen:
+    ubuntu: ros-rolling-osqp-eigen
 osqp_vendor:
     ubuntu: ros-rolling-osqp-vendor
-osrf_pycommon:
-    ubuntu: ros-rolling-osrf-pycommon
 osrf_testing_tools_cpp:
     ubuntu: ros-rolling-osrf-testing-tools-cpp
 ouster_ros:
@@ -1456,8 +1892,12 @@ pal_statistics:
     ubuntu: ros-rolling-pal-statistics
 pal_statistics_msgs:
     ubuntu: ros-rolling-pal-statistics-msgs
+pal_urdf_utils:
+    ubuntu: ros-rolling-pal-urdf-utils
 pangolin:
     ubuntu: ros-rolling-pangolin
+parameter_expression:
+    ubuntu: ros-rolling-parameter-expression
 pcl_msgs:
     ubuntu: ros-rolling-pcl-msgs
 open3d_conversions:
@@ -1472,6 +1912,10 @@ performance_test:
     ubuntu: ros-rolling-performance-test
 performance_test_fixture:
     ubuntu: ros-rolling-performance-test-fixture
+persist_parameter_server:
+    ubuntu: ros-rolling-persist-parameter-server
+pfs:
+    ubuntu: ros-rolling-pfs
 libphidget22:
     ubuntu: ros-rolling-libphidget22
 phidgets_accelerometer:
@@ -1502,8 +1946,12 @@ phidgets_msgs:
     ubuntu: ros-rolling-phidgets-msgs
 phidgets_spatial:
     ubuntu: ros-rolling-phidgets-spatial
+phidgets_stepper:
+    ubuntu: ros-rolling-phidgets-stepper
 phidgets_temperature:
     ubuntu: ros-rolling-phidgets-temperature
+phone_sensors_bridge:
+    ubuntu: ros-rolling-phone-sensors-bridge
 pick_ik:
     ubuntu: ros-rolling-pick-ik
 picknik_ament_copyright:
@@ -1514,14 +1962,24 @@ picknik_twist_controller:
     ubuntu: ros-rolling-picknik-twist-controller
 pinocchio:
     ubuntu: ros-rolling-pinocchio
-plotjuggler:
-    ubuntu: ros-rolling-plotjuggler
+play_motion2:
+    ubuntu: ros-rolling-play-motion2
+play_motion2_cli:
+    ubuntu: ros-rolling-play-motion2-cli
+play_motion2_msgs:
+    ubuntu: ros-rolling-play-motion2-msgs
+play_motion_builder:
+    ubuntu: ros-rolling-play-motion-builder
+play_motion_builder_msgs:
+    ubuntu: ros-rolling-play-motion-builder-msgs
+rqt_play_motion_builder:
+    ubuntu: ros-rolling-rqt-play-motion-builder
 plotjuggler_msgs:
     ubuntu: ros-rolling-plotjuggler-msgs
-plotjuggler_ros:
-    ubuntu: ros-rolling-plotjuggler-ros
 pluginlib:
     ubuntu: ros-rolling-pluginlib
+ros2plugin:
+    ubuntu: ros-rolling-ros2plugin
 point_cloud_msg_wrapper:
     ubuntu: ros-rolling-point-cloud-msg-wrapper
 point_cloud_transport:
@@ -1542,6 +2000,8 @@ point_cloud_transport_tutorial:
     ubuntu: ros-rolling-point-cloud-transport-tutorial
 pointcloud_to_laserscan:
     ubuntu: ros-rolling-pointcloud-to-laserscan
+polka:
+    ubuntu: ros-rolling-polka
 polygon_demos:
     ubuntu: ros-rolling-polygon-demos
 polygon_msgs:
@@ -1552,8 +2012,12 @@ polygon_utils:
     ubuntu: ros-rolling-polygon-utils
 pose_cov_ops:
     ubuntu: ros-rolling-pose-cov-ops
+protobuf_comm:
+    ubuntu: ros-rolling-protobuf-comm
 proxsuite:
     ubuntu: ros-rolling-proxsuite
+px4_msgs:
+    ubuntu: ros-rolling-px4-msgs
 py_binding_tools:
     ubuntu: ros-rolling-py-binding-tools
 py_trees:
@@ -1572,14 +2036,16 @@ pybind11_json_vendor:
     ubuntu: ros-rolling-pybind11-json-vendor
 pybind11_vendor:
     ubuntu: ros-rolling-pybind11-vendor
+pymoveit2:
+    ubuntu: ros-rolling-pymoveit2
 python_cmake_module:
     ubuntu: ros-rolling-python-cmake-module
 python_mrpt:
     ubuntu: ros-rolling-python-mrpt
 python_qt_binding:
     ubuntu: ros-rolling-python-qt-binding
-qml_ros2_plugin:
-    ubuntu: ros-rolling-qml-ros2-plugin
+qml6_ros2_plugin:
+    ubuntu: ros-rolling-qml6-ros2-plugin
 qpoases_vendor:
     ubuntu: ros-rolling-qpoases-vendor
 qt_dotgraph:
@@ -1652,14 +2118,20 @@ test_msgs:
     ubuntu: ros-rolling-test-msgs
 type_description_interfaces:
     ubuntu: ros-rolling-type-description-interfaces
+rcl_logging_implementation:
+    ubuntu: ros-rolling-rcl-logging-implementation
 rcl_logging_interface:
     ubuntu: ros-rolling-rcl-logging-interface
 rcl_logging_noop:
     ubuntu: ros-rolling-rcl-logging-noop
 rcl_logging_spdlog:
     ubuntu: ros-rolling-rcl-logging-spdlog
+rcl_logging_journal:
+    ubuntu: ros-rolling-rcl-logging-journal
 rcl_logging_rcutils:
     ubuntu: ros-rolling-rcl-logging-rcutils
+rcl_logging_syslog:
+    ubuntu: ros-rolling-rcl-logging-syslog
 rclc:
     ubuntu: ros-rolling-rclc
 rclc_examples:
@@ -1696,18 +2168,36 @@ reach:
     ubuntu: ros-rolling-reach
 reach_ros:
     ubuntu: ros-rolling-reach-ros
+realsense2_camera:
+    ubuntu: ros-rolling-realsense2-camera
+realsense2_camera_msgs:
+    ubuntu: ros-rolling-realsense2-camera-msgs
+realsense2_description:
+    ubuntu: ros-rolling-realsense2-description
 rttest:
     ubuntu: ros-rolling-rttest
 tlsf_cpp:
     ubuntu: ros-rolling-tlsf-cpp
 realtime_tools:
     ubuntu: ros-rolling-realtime-tools
-libcurl_vendor:
-    ubuntu: ros-rolling-libcurl-vendor
+reductstore_agent:
+    ubuntu: ros-rolling-reductstore-agent
+replay_testing:
+    ubuntu: ros-rolling-replay-testing
 resource_retriever:
     ubuntu: ros-rolling-resource-retriever
+resource_retriever_interfaces:
+    ubuntu: ros-rolling-resource-retriever-interfaces
+resource_retriever_service:
+    ubuntu: ros-rolling-resource-retriever-service
+resource_retriever_service_plugin:
+    ubuntu: ros-rolling-resource-retriever-service-plugin
 rig_reconfigure:
     ubuntu: ros-rolling-rig-reconfigure
+rko_lio:
+    ubuntu: ros-rolling-rko-lio
+rko_slam:
+    ubuntu: ros-rolling-rko-slam
 rmf_api_msgs:
     ubuntu: ros-rolling-rmf-api-msgs
 rmf_battery:
@@ -1818,6 +2308,8 @@ rmw:
     ubuntu: ros-rolling-rmw
 rmw_implementation_cmake:
     ubuntu: ros-rolling-rmw-implementation-cmake
+rmw_security_common:
+    ubuntu: ros-rolling-rmw-security-common
 rmw_connextdds:
     ubuntu: ros-rolling-rmw-connextdds
 rmw_connextdds_common:
@@ -1830,22 +2322,60 @@ rmw_dds_common:
     ubuntu: ros-rolling-rmw-dds-common
 rmw_desert:
     ubuntu: ros-rolling-rmw-desert
+rmw_email:
+    ubuntu: ros-rolling-rmw-email
 rmw_fastrtps_cpp:
     ubuntu: ros-rolling-rmw-fastrtps-cpp
-rmw_fastrtps_dynamic_cpp:
-    ubuntu: ros-rolling-rmw-fastrtps-dynamic-cpp
-rmw_fastrtps_shared_cpp:
-    ubuntu: ros-rolling-rmw-fastrtps-shared-cpp
 gurumdds_cmake_module:
     ubuntu: ros-rolling-gurumdds-cmake-module
 rmw_gurumdds_cpp:
     ubuntu: ros-rolling-rmw-gurumdds-cpp
 rmw_implementation:
     ubuntu: ros-rolling-rmw-implementation
+int2dds_ffi_vendor:
+    ubuntu: ros-rolling-int2dds-ffi-vendor
+rmw_int2dds_cpp:
+    ubuntu: ros-rolling-rmw-int2dds-cpp
+rmw_swiftdds_cpp:
+    ubuntu: ros-rolling-rmw-swiftdds-cpp
 rmw_zenoh_cpp:
     ubuntu: ros-rolling-rmw-zenoh-cpp
 zenoh_cpp_vendor:
     ubuntu: ros-rolling-zenoh-cpp-vendor
+zenoh_security_tools:
+    ubuntu: ros-rolling-zenoh-security-tools
+roboplan:
+    ubuntu: ros-rolling-roboplan
+roboplan_cartesian_planning:
+    ubuntu: ros-rolling-roboplan-cartesian-planning
+roboplan_common:
+    ubuntu: ros-rolling-roboplan-common
+roboplan_core:
+    ubuntu: ros-rolling-roboplan-core
+roboplan_example_models:
+    ubuntu: ros-rolling-roboplan-example-models
+roboplan_examples:
+    ubuntu: ros-rolling-roboplan-examples
+roboplan_oink:
+    ubuntu: ros-rolling-roboplan-oink
+roboplan_rrt:
+    ubuntu: ros-rolling-roboplan-rrt
+roboplan_simple_ik:
+    ubuntu: ros-rolling-roboplan-simple-ik
+roboplan_toppra:
+    ubuntu: ros-rolling-roboplan-toppra
+roboplan_ros_cpp:
+    ubuntu: ros-rolling-roboplan-ros-cpp
+roboplan_ros_examples:
+    ubuntu: ros-rolling-roboplan-ros-examples
+roboplan_ros_franka:
+    ubuntu: ros-rolling-roboplan-ros-franka
+roboplan_ros_py:
+    ubuntu: ros-rolling-roboplan-ros-py
+roboplan_ros_visualization:
+    ubuntu: ros-rolling-roboplan-ros-visualization
+robot_body_filter:
+    ubuntu: ros-rolling-robot-body-filter
 robot_calibration:
     ubuntu: ros-rolling-robot-calibration
 robot_calibration_msgs:
@@ -1854,8 +2384,22 @@ robot_localization:
     ubuntu: ros-rolling-robot-localization
 robot_state_publisher:
     ubuntu: ros-rolling-robot-state-publisher
+robotis_interfaces:
+    ubuntu: ros-rolling-robotis-interfaces
 robotraconteur:
     ubuntu: ros-rolling-robotraconteur
+robotraconteur_companion:
+    ubuntu: ros-rolling-robotraconteur-companion
+robstride_driver:
+    ubuntu: ros-rolling-robstride-driver
+robstride_examples:
+    ubuntu: ros-rolling-robstride-examples
+robstride_ros2:
+    ubuntu: ros-rolling-robstride-ros2
+robstride_ros2_control:
+    ubuntu: ros-rolling-robstride-ros2-control
+ros-netft:
+    ubuntu: ros-rolling-ros-netft
 ros1_bridge:
     ubuntu: ros-rolling-ros1-bridge
 canopen:
@@ -1906,40 +2450,48 @@ rqt_controller_manager:
     ubuntu: ros-rolling-rqt-controller-manager
 transmission_interface:
     ubuntu: ros-rolling-transmission-interface
+ros2_control_cmake:
+    ubuntu: ros-rolling-ros2-control-cmake
 ackermann_steering_controller:
     ubuntu: ros-rolling-ackermann-steering-controller
 admittance_controller:
     ubuntu: ros-rolling-admittance-controller
+battery_state_broadcaster:
+    ubuntu: ros-rolling-battery-state-broadcaster
 bicycle_steering_controller:
     ubuntu: ros-rolling-bicycle-steering-controller
+chained_filter_controller:
+    ubuntu: ros-rolling-chained-filter-controller
 diff_drive_controller:
     ubuntu: ros-rolling-diff-drive-controller
-effort_controllers:
-    ubuntu: ros-rolling-effort-controllers
 force_torque_sensor_broadcaster:
     ubuntu: ros-rolling-force-torque-sensor-broadcaster
 forward_command_controller:
     ubuntu: ros-rolling-forward-command-controller
 gpio_controllers:
     ubuntu: ros-rolling-gpio-controllers
-gripper_controllers:
-    ubuntu: ros-rolling-gripper-controllers
+gps_sensor_broadcaster:
+    ubuntu: ros-rolling-gps-sensor-broadcaster
 imu_sensor_broadcaster:
     ubuntu: ros-rolling-imu-sensor-broadcaster
 joint_state_broadcaster:
     ubuntu: ros-rolling-joint-state-broadcaster
 joint_trajectory_controller:
     ubuntu: ros-rolling-joint-trajectory-controller
+magnetometer_broadcaster:
+    ubuntu: ros-rolling-magnetometer-broadcaster
 mecanum_drive_controller:
     ubuntu: ros-rolling-mecanum-drive-controller
+motion_primitives_controllers:
+    ubuntu: ros-rolling-motion-primitives-controllers
+omni_wheel_drive_controller:
+    ubuntu: ros-rolling-omni-wheel-drive-controller
 parallel_gripper_controller:
     ubuntu: ros-rolling-parallel-gripper-controller
 pid_controller:
     ubuntu: ros-rolling-pid-controller
 pose_broadcaster:
     ubuntu: ros-rolling-pose-broadcaster
-position_controllers:
-    ubuntu: ros-rolling-position-controllers
 range_sensor_broadcaster:
     ubuntu: ros-rolling-range-sensor-broadcaster
 ros2_controllers:
@@ -1948,20 +2500,30 @@ ros2_controllers_test_nodes:
     ubuntu: ros-rolling-ros2-controllers-test-nodes
 rqt_joint_trajectory_controller:
     ubuntu: ros-rolling-rqt-joint-trajectory-controller
+state_interfaces_broadcaster:
+    ubuntu: ros-rolling-state-interfaces-broadcaster
 steering_controllers_library:
     ubuntu: ros-rolling-steering-controllers-library
 tricycle_controller:
     ubuntu: ros-rolling-tricycle-controller
 tricycle_steering_controller:
     ubuntu: ros-rolling-tricycle-steering-controller
-velocity_controllers:
-    ubuntu: ros-rolling-velocity-controllers
 ros2_easy_test:
     ubuntu: ros-rolling-ros2-easy-test
+eventdispatch_python:
+    ubuntu: ros-rolling-eventdispatch-python
+eventdispatch_ros2:
+    ubuntu: ros-rolling-eventdispatch-ros2
+eventdispatch_ros2_interfaces:
+    ubuntu: ros-rolling-eventdispatch-ros2-interfaces
+ros2_fmt_logger:
+    ubuntu: ros-rolling-ros2-fmt-logger
 kinova_gen3_6dof_robotiq_2f_85_moveit_config:
     ubuntu: ros-rolling-kinova-gen3-6dof-robotiq-2f-85-moveit-config
 kinova_gen3_7dof_robotiq_2f_85_moveit_config:
     ubuntu: ros-rolling-kinova-gen3-7dof-robotiq-2f-85-moveit-config
+kinova_gen3_lite_moveit_config:
+    ubuntu: ros-rolling-kinova-gen3-lite-moveit-config
 kortex_api:
     ubuntu: ros-rolling-kortex-api
 kortex_bringup:
@@ -1974,6 +2536,8 @@ robotiq_controllers:
     ubuntu: ros-rolling-robotiq-controllers
 robotiq_description:
     ubuntu: ros-rolling-robotiq-description
+ros2_snapshot:
+    ubuntu: ros-rolling-ros2-snapshot
 ros2_socketcan:
     ubuntu: ros-rolling-ros2-socketcan
 ros2_socketcan_msgs:
@@ -1994,6 +2558,8 @@ tracetools_trace:
     ubuntu: ros-rolling-tracetools-trace
 ros2acceleration:
     ubuntu: ros-rolling-ros2acceleration
+ros2ai:
+    ubuntu: ros-rolling-ros2ai
 ros2action:
     ubuntu: ros-rolling-ros2action
 ros2cli:
@@ -2010,6 +2576,8 @@ ros2lifecycle:
     ubuntu: ros-rolling-ros2lifecycle
 ros2lifecycle_test_fixtures:
     ubuntu: ros-rolling-ros2lifecycle-test-fixtures
+ros2log:
+    ubuntu: ros-rolling-ros2log
 ros2multicast:
     ubuntu: ros-rolling-ros2multicast
 ros2node:
@@ -2034,8 +2602,8 @@ ros_babel_fish:
     ubuntu: ros-rolling-ros-babel-fish
 ros_babel_fish_test_msgs:
     ubuntu: ros-rolling-ros-babel-fish-test-msgs
-battery_state_broadcaster:
-    ubuntu: ros-rolling-battery-state-broadcaster
+ros_babel_fish_tools:
+    ubuntu: ros-rolling-ros-babel-fish-tools
 battery_state_rviz_overlay:
     ubuntu: ros-rolling-battery-state-rviz-overlay
 can_msgs:
@@ -2054,12 +2622,12 @@ ros_gz_sim:
     ubuntu: ros-rolling-ros-gz-sim
 ros_gz_sim_demos:
     ubuntu: ros-rolling-ros-gz-sim-demos
-test_ros_gz_bridge:
-    ubuntu: ros-rolling-test-ros-gz-bridge
 ros_image_to_qimage:
     ubuntu: ros-rolling-ros-image-to-qimage
 ros_industrial_cmake_boilerplate:
     ubuntu: ros-rolling-ros-industrial-cmake-boilerplate
+ros_snapd_interfaces:
+    ubuntu: ros-rolling-ros-snapd-interfaces
 ros2test:
     ubuntu: ros-rolling-ros2test
 ros_testing:
@@ -2070,8 +2638,8 @@ turtlesim_msgs:
     ubuntu: ros-rolling-turtlesim-msgs
 ros_workspace:
     ubuntu: ros-rolling-ros-workspace
-liblz4_vendor:
-    ubuntu: ros-rolling-liblz4-vendor
+lz4_cmake_module:
+    ubuntu: ros-rolling-lz4-cmake-module
 mcap_vendor:
     ubuntu: ros-rolling-mcap-vendor
 ros2bag:
@@ -2112,14 +2680,18 @@ rosbag2_tests:
     ubuntu: ros-rolling-rosbag2-tests
 rosbag2_transport:
     ubuntu: ros-rolling-rosbag2-transport
-sqlite3_vendor:
-    ubuntu: ros-rolling-sqlite3-vendor
-zstd_vendor:
-    ubuntu: ros-rolling-zstd-vendor
+zstd_cmake_module:
+    ubuntu: ros-rolling-zstd-cmake-module
 rosbag2_bag_v2:
     ubuntu: ros-rolling-rosbag2-bag-v2
+broll:
+    ubuntu: ros-rolling-broll
+rosbag2_storage_broll:
+    ubuntu: ros-rolling-rosbag2-storage-broll
 rosbag2_to_video:
     ubuntu: ros-rolling-rosbag2-to-video
+rosbag_timing_inspector:
+    ubuntu: ros-rolling-rosbag-timing-inspector
 rosapi:
     ubuntu: ros-rolling-rosapi
 rosapi_msgs:
@@ -2136,6 +2708,14 @@ rosbridge_test_msgs:
     ubuntu: ros-rolling-rosbridge-test-msgs
 rosidl_adapter:
     ubuntu: ros-rolling-rosidl-adapter
+rosidl_buffer:
+    ubuntu: ros-rolling-rosidl-buffer
+rosidl_buffer_backend:
+    ubuntu: ros-rolling-rosidl-buffer-backend
+rosidl_buffer_backend_registry:
+    ubuntu: ros-rolling-rosidl-buffer-backend-registry
+rosidl_buffer_py:
+    ubuntu: ros-rolling-rosidl-buffer-py
 rosidl_cli:
     ubuntu: ros-rolling-rosidl-cli
 rosidl_cmake:
@@ -2160,6 +2740,20 @@ rosidl_typesupport_introspection_c:
     ubuntu: ros-rolling-rosidl-typesupport-introspection-c
 rosidl_typesupport_introspection_cpp:
     ubuntu: ros-rolling-rosidl-typesupport-introspection-cpp
+cuda_buffer:
+    ubuntu: ros-rolling-cuda-buffer
+cuda_buffer_backend:
+    ubuntu: ros-rolling-cuda-buffer-backend
+cuda_buffer_backend_msgs:
+    ubuntu: ros-rolling-cuda-buffer-backend-msgs
+libtorch_vendor:
+    ubuntu: ros-rolling-libtorch-vendor
+tensor_msgs:
+    ubuntu: ros-rolling-tensor-msgs
+torch_conversions:
+    ubuntu: ros-rolling-torch-conversions
+robot_arm_demo:
+    ubuntu: ros-rolling-robot-arm-demo
 rosidl_core_generators:
     ubuntu: ros-rolling-rosidl-core-generators
 rosidl_core_runtime:
@@ -2178,16 +2772,44 @@ rosidl_generator_py:
     ubuntu: ros-rolling-rosidl-generator-py
 rosidl_runtime_py:
     ubuntu: ros-rolling-rosidl-runtime-py
+rosidl_generator_rs:
+    ubuntu: ros-rolling-rosidl-generator-rs
 rosidl_typesupport_c:
     ubuntu: ros-rolling-rosidl-typesupport-c
 rosidl_typesupport_cpp:
     ubuntu: ros-rolling-rosidl-typesupport-cpp
-fastrtps_cmake_module:
-    ubuntu: ros-rolling-fastrtps-cmake-module
 rosidl_typesupport_fastrtps_c:
     ubuntu: ros-rolling-rosidl-typesupport-fastrtps-c
 rosidl_typesupport_fastrtps_cpp:
     ubuntu: ros-rolling-rosidl-typesupport-fastrtps-cpp
+rosidlcpp:
+    ubuntu: ros-rolling-rosidlcpp
+rosidlcpp_generator_c:
+    ubuntu: ros-rolling-rosidlcpp-generator-c
+rosidlcpp_generator_core:
+    ubuntu: ros-rolling-rosidlcpp-generator-core
+rosidlcpp_generator_cpp:
+    ubuntu: ros-rolling-rosidlcpp-generator-cpp
+rosidlcpp_generator_py:
+    ubuntu: ros-rolling-rosidlcpp-generator-py
+rosidlcpp_generator_type_description:
+    ubuntu: ros-rolling-rosidlcpp-generator-type-description
+rosidlcpp_parser:
+    ubuntu: ros-rolling-rosidlcpp-parser
+rosidlcpp_typesupport_c:
+    ubuntu: ros-rolling-rosidlcpp-typesupport-c
+rosidlcpp_typesupport_cpp:
+    ubuntu: ros-rolling-rosidlcpp-typesupport-cpp
+rosidlcpp_typesupport_fastrtps_c:
+    ubuntu: ros-rolling-rosidlcpp-typesupport-fastrtps-c
+rosidlcpp_typesupport_fastrtps_cpp:
+    ubuntu: ros-rolling-rosidlcpp-typesupport-fastrtps-cpp
+rosidlcpp_typesupport_introspection_c:
+    ubuntu: ros-rolling-rosidlcpp-typesupport-introspection-c
+rosidlcpp_typesupport_introspection_cpp:
+    ubuntu: ros-rolling-rosidlcpp-typesupport-introspection-cpp
+rosmon2:
+    ubuntu: ros-rolling-rosmon2
 rclpy_message_converter:
     ubuntu: ros-rolling-rclpy-message-converter
 rclpy_message_converter_msgs:
@@ -2196,10 +2818,20 @@ rosx_introspection:
     ubuntu: ros-rolling-rosx-introspection
 rot_conv:
     ubuntu: ros-rolling-rot-conv
+rplidar_driver:
+    ubuntu: ros-rolling-rplidar-driver
 rplidar_ros:
     ubuntu: ros-rolling-rplidar-ros
 rpyutils:
     ubuntu: ros-rolling-rpyutils
+rqml:
+    ubuntu: ros-rolling-rqml
+rqml_core:
+    ubuntu: ros-rolling-rqml-core
+rqml_default_plugins:
+    ubuntu: ros-rolling-rqml-default-plugins
+rqml_plugin_example:
+    ubuntu: ros-rolling-rqml-plugin-example
 rqt:
     ubuntu: ros-rolling-rqt
 rqt_gui:
@@ -2232,10 +2864,14 @@ rqt_image_overlay_layer:
     ubuntu: ros-rolling-rqt-image-overlay-layer
 rqt_image_view:
     ubuntu: ros-rolling-rqt-image-view
+rqt_lifecycle_manager:
+    ubuntu: ros-rolling-rqt-lifecycle-manager
 rqt_moveit:
     ubuntu: ros-rolling-rqt-moveit
 rqt_msg:
     ubuntu: ros-rolling-rqt-msg
+rqt_multiplot:
+    ubuntu: ros-rolling-rqt-multiplot
 rqt_plot:
     ubuntu: ros-rolling-rqt-plot
 rqt_publisher:
@@ -2264,6 +2900,8 @@ rqt_topic:
     ubuntu: ros-rolling-rqt-topic
 rsl:
     ubuntu: ros-rolling-rsl
+rslidar_msg:
+    ubuntu: ros-rolling-rslidar-msg
 rt_manipulators_cpp:
     ubuntu: ros-rolling-rt-manipulators-cpp
 rt_manipulators_examples:
@@ -2272,14 +2910,42 @@ rt_usb_9axisimu_driver:
     ubuntu: ros-rolling-rt-usb-9axisimu-driver
 rtabmap:
     ubuntu: ros-rolling-rtabmap
+rtabmap_conversions:
+    ubuntu: ros-rolling-rtabmap-conversions
+rtabmap_demos:
+    ubuntu: ros-rolling-rtabmap-demos
+rtabmap_examples:
+    ubuntu: ros-rolling-rtabmap-examples
+rtabmap_launch:
+    ubuntu: ros-rolling-rtabmap-launch
+rtabmap_msgs:
+    ubuntu: ros-rolling-rtabmap-msgs
+rtabmap_odom:
+    ubuntu: ros-rolling-rtabmap-odom
+rtabmap_python:
+    ubuntu: ros-rolling-rtabmap-python
+rtabmap_ros:
+    ubuntu: ros-rolling-rtabmap-ros
+rtabmap_rviz_plugins:
+    ubuntu: ros-rolling-rtabmap-rviz-plugins
+rtabmap_slam:
+    ubuntu: ros-rolling-rtabmap-slam
+rtabmap_sync:
+    ubuntu: ros-rolling-rtabmap-sync
+rtabmap_util:
+    ubuntu: ros-rolling-rtabmap-util
+rtabmap_viz:
+    ubuntu: ros-rolling-rtabmap-viz
 rtcm_msgs:
     ubuntu: ros-rolling-rtcm-msgs
+rtest:
+    ubuntu: ros-rolling-rtest
+rtsp_image_transport:
+    ubuntu: ros-rolling-rtsp-image-transport
 ruckig:
     ubuntu: ros-rolling-ruckig
 rviz2:
     ubuntu: ros-rolling-rviz2
-rviz_assimp_vendor:
-    ubuntu: ros-rolling-rviz-assimp-vendor
 rviz_common:
     ubuntu: ros-rolling-rviz-common
 rviz_default_plugins:
@@ -2296,18 +2962,28 @@ rviz_2d_overlay_msgs:
     ubuntu: ros-rolling-rviz-2d-overlay-msgs
 rviz_2d_overlay_plugins:
     ubuntu: ros-rolling-rviz-2d-overlay-plugins
+rviz_satellite:
+    ubuntu: ros-rolling-rviz-satellite
+rviz_splat:
+    ubuntu: ros-rolling-rviz-splat
 rviz_visual_tools:
     ubuntu: ros-rolling-rviz-visual-tools
+sbg_driver:
+    ubuntu: ros-rolling-sbg-driver
 sdformat_test_files:
     ubuntu: ros-rolling-sdformat-test-files
 sdformat_urdf:
     ubuntu: ros-rolling-sdformat-urdf
 sdformat_vendor:
     ubuntu: ros-rolling-sdformat-vendor
+sensor_filters:
+    ubuntu: ros-rolling-sensor-filters
 septentrio_gnss_driver:
     ubuntu: ros-rolling-septentrio-gnss-driver
 service_load_balancing:
     ubuntu: ros-rolling-service-load-balancing
+shmem_buffer_backend:
+    ubuntu: ros-rolling-shmem-buffer-backend
 sick_safetyscanners2:
     ubuntu: ros-rolling-sick-safetyscanners2
 sick_safetyscanners2_interfaces:
@@ -2322,12 +2998,16 @@ sick_safevisionary_interfaces:
     ubuntu: ros-rolling-sick-safevisionary-interfaces
 sick_safevisionary_tests:
     ubuntu: ros-rolling-sick-safevisionary-tests
+sicks300_ros2:
+    ubuntu: ros-rolling-sicks300-ros2
 simple_actions:
     ubuntu: ros-rolling-simple-actions
 simple_grasping:
     ubuntu: ros-rolling-simple-grasping
 simple_launch:
     ubuntu: ros-rolling-simple-launch
+simulation_interfaces:
+    ubuntu: ros-rolling-simulation-interfaces
 slg_msgs:
     ubuntu: ros-rolling-slg-msgs
 slider_publisher:
@@ -2340,8 +3020,6 @@ smach_msgs:
     ubuntu: ros-rolling-smach-msgs
 smach_ros:
     ubuntu: ros-rolling-smach-ros
-snowbot_operating_system:
-    ubuntu: ros-rolling-snowbot-operating-system
 soar_ros:
     ubuntu: ros-rolling-soar-ros
 soccer_geometry_msgs:
@@ -2358,12 +3036,16 @@ soccer_vision_attribute_msgs:
     ubuntu: ros-rolling-soccer-vision-attribute-msgs
 soccer_vision_3d_rviz_markers:
     ubuntu: ros-rolling-soccer-vision-3d-rviz-markers
+socketcan_adapter:
+    ubuntu: ros-rolling-socketcan-adapter
 sol_vendor:
     ubuntu: ros-rolling-sol-vendor
 sophus:
     ubuntu: ros-rolling-sophus
 spdlog_vendor:
     ubuntu: ros-rolling-spdlog-vendor
+splat_interfaces:
+    ubuntu: ros-rolling-splat-interfaces
 srdfdom:
     ubuntu: ros-rolling-srdfdom
 sros2:
@@ -2376,18 +3058,16 @@ stomp:
     ubuntu: ros-rolling-stomp
 swri_console:
     ubuntu: ros-rolling-swri-console
+synapticon_ros2_control:
+    ubuntu: ros-rolling-synapticon-ros2-control
+sync_tooling_msgs:
+    ubuntu: ros-rolling-sync-tooling-msgs
 system_fingerprint:
     ubuntu: ros-rolling-system-fingerprint
-launch_system_modes:
-    ubuntu: ros-rolling-launch-system-modes
-system_modes:
-    ubuntu: ros-rolling-system-modes
-system_modes_examples:
-    ubuntu: ros-rolling-system-modes-examples
-system_modes_msgs:
-    ubuntu: ros-rolling-system-modes-msgs
 system_tests:
     ubuntu: ros-rolling-system-tests
+system_webview:
+    ubuntu: ros-rolling-system-webview
 tango_icons_vendor:
     ubuntu: ros-rolling-tango-icons-vendor
 joy_teleop:
@@ -2410,8 +3090,14 @@ test_interface_files:
     ubuntu: ros-rolling-test-interface-files
 tf2_2d:
     ubuntu: ros-rolling-tf2-2d
+tf2_web_republisher:
+    ubuntu: ros-rolling-tf2-web-republisher
+tf2_web_republisher_interfaces:
+    ubuntu: ros-rolling-tf2-web-republisher-interfaces
 tf_transformations:
     ubuntu: ros-rolling-tf-transformations
+tf_tree_terminal:
+    ubuntu: ros-rolling-tf-tree-terminal
 tinyspline_vendor:
     ubuntu: ros-rolling-tinyspline-vendor
 tinyxml2_vendor:
@@ -2420,12 +3106,20 @@ tinyxml_vendor:
     ubuntu: ros-rolling-tinyxml-vendor
 tlsf:
     ubuntu: ros-rolling-tlsf
-topic_based_ros2_control:
-    ubuntu: ros-rolling-topic-based-ros2-control
+tobas:
+    ubuntu: ros-rolling-tobas
+cm_topic_hardware_component:
+    ubuntu: ros-rolling-cm-topic-hardware-component
+joint_command_topic_hardware_interface:
+    ubuntu: ros-rolling-joint-command-topic-hardware-interface
+joint_state_topic_hardware_interface:
+    ubuntu: ros-rolling-joint-state-topic-hardware-interface
 topic_tools:
     ubuntu: ros-rolling-topic-tools
 topic_tools_interfaces:
     ubuntu: ros-rolling-topic-tools-interfaces
+toppra:
+    ubuntu: ros-rolling-toppra
 trac_ik:
     ubuntu: ros-rolling-trac-ik
 trac_ik_kinematics_plugin:
@@ -2446,10 +3140,32 @@ serial_driver:
     ubuntu: ros-rolling-serial-driver
 udp_driver:
     ubuntu: ros-rolling-udp-driver
+tsid:
+    ubuntu: ros-rolling-tsid
 turbojpeg_compressed_image_transport:
     ubuntu: ros-rolling-turbojpeg-compressed-image-transport
 turtle_nest:
     ubuntu: ros-rolling-turtle-nest
+turtlebot3:
+    ubuntu: ros-rolling-turtlebot3
+turtlebot3_applications:
+    ubuntu: ros-rolling-turtlebot3-applications
+turtlebot3_applications_msgs:
+    ubuntu: ros-rolling-turtlebot3-applications-msgs
+turtlebot3_autorace:
+    ubuntu: ros-rolling-turtlebot3-autorace
+turtlebot3_autorace_camera:
+    ubuntu: ros-rolling-turtlebot3-autorace-camera
+turtlebot3_autorace_detect:
+    ubuntu: ros-rolling-turtlebot3-autorace-detect
+turtlebot3_autorace_mission:
+    ubuntu: ros-rolling-turtlebot3-autorace-mission
+turtlebot3_home_service_challenge:
+    ubuntu: ros-rolling-turtlebot3-home-service-challenge
+turtlebot3_machine_learning:
+    ubuntu: ros-rolling-turtlebot3-machine-learning
+turtlebot3_manipulation:
+    ubuntu: ros-rolling-turtlebot3-manipulation
 turtlebot3_msgs:
     ubuntu: ros-rolling-turtlebot3-msgs
 turtlebot3_fake_node:
@@ -2510,6 +3226,8 @@ ublox_ubx_msgs:
     ubuntu: ros-rolling-ublox-ubx-msgs
 udp_msgs:
     ubuntu: ros-rolling-udp-msgs
+unbag:
+    ubuntu: ros-rolling-unbag
 uncrustify_vendor:
     ubuntu: ros-rolling-uncrustify-vendor
 unique_identifier_msgs:
@@ -2542,6 +3260,8 @@ urdf_launch:
     ubuntu: ros-rolling-urdf-launch
 urdfdom_py:
     ubuntu: ros-rolling-urdfdom-py
+urdf_test:
+    ubuntu: ros-rolling-urdf-test
 urdf_tutorial:
     ubuntu: ros-rolling-urdf-tutorial
 urdfdom:
@@ -2580,12 +3300,8 @@ velodyne_msgs:
     ubuntu: ros-rolling-velodyne-msgs
 velodyne_pointcloud:
     ubuntu: ros-rolling-velodyne-pointcloud
-velodyne_description:
-    ubuntu: ros-rolling-velodyne-description
-velodyne_gazebo_plugins:
-    ubuntu: ros-rolling-velodyne-gazebo-plugins
-velodyne_simulator:
-    ubuntu: ros-rolling-velodyne-simulator
+video_to_image_msg_publisher:
+    ubuntu: ros-rolling-video-to-image-msg-publisher
 vision_msgs:
     ubuntu: ros-rolling-vision-msgs
 vision_msgs_rviz_plugins:
@@ -2616,10 +3332,14 @@ webots_ros2:
     ubuntu: ros-rolling-webots-ros2
 webots_ros2_control:
     ubuntu: ros-rolling-webots-ros2-control
+webots_ros2_crazyflie:
+    ubuntu: ros-rolling-webots-ros2-crazyflie
 webots_ros2_driver:
     ubuntu: ros-rolling-webots-ros2-driver
 webots_ros2_epuck:
     ubuntu: ros-rolling-webots-ros2-epuck
+webots_ros2_husarion:
+    ubuntu: ros-rolling-webots-ros2-husarion
 webots_ros2_importer:
     ubuntu: ros-rolling-webots-ros2-importer
 webots_ros2_mavic:
@@ -2642,10 +3362,20 @@ yaml_cpp_vendor:
     ubuntu: ros-rolling-yaml-cpp-vendor
 yasmin:
     ubuntu: ros-rolling-yasmin
+yasmin_cli:
+    ubuntu: ros-rolling-yasmin-cli
 yasmin_demos:
     ubuntu: ros-rolling-yasmin-demos
+yasmin_editor:
+    ubuntu: ros-rolling-yasmin-editor
+yasmin_factory:
+    ubuntu: ros-rolling-yasmin-factory
 yasmin_msgs:
     ubuntu: ros-rolling-yasmin-msgs
+yasmin_pcl:
+    ubuntu: ros-rolling-yasmin-pcl
+yasmin_plugins_manager:
+    ubuntu: ros-rolling-yasmin-plugins-manager
 yasmin_ros:
     ubuntu: ros-rolling-yasmin-ros
 yasmin_viewer:
@@ -2654,6 +3384,10 @@ zbar_ros:
     ubuntu: ros-rolling-zbar-ros
 zbar_ros_interfaces:
     ubuntu: ros-rolling-zbar-ros-interfaces
+zed_description:
+    ubuntu: ros-rolling-zed-description
+zed_msgs:
+    ubuntu: ros-rolling-zed-msgs
 zenoh_bridge_dds:
     ubuntu: ros-rolling-zenoh-bridge-dds
 zmqpp_vendor:
