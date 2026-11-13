@@ -15,9 +15,11 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [ubuntu-22.04, ubuntu-24.04]
+        os: [ubuntu-22.04, ubuntu-24.04, ubuntu-26.04]
       fail-fast: false
     runs-on: ${{ matrix.os }}
+    # Ubuntu 26.04 (ROS 2 lyrical) is nice-to-have for now: a failure does not fail the workflow
+    continue-on-error: ${{ matrix.os == 'ubuntu-26.04' }}
     steps:
     # - uses: actions/checkout@v4  ## no need to checkout, this is done by autoproj_bootstrap
     - name: Install dependencies

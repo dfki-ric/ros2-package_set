@@ -20,6 +20,8 @@ if (!Autoproj.config.has_value_for?("ROS_DISTRO")) then
                 Autoproj.config.set("ROS_DISTRO", "humble")
             elsif os_versions.include?('24.04')
                 Autoproj.config.set("ROS_DISTRO", "jazzy")
+            elsif os_versions.include?('26.04')
+                Autoproj.config.set("ROS_DISTRO", "lyrical")
             end
         end        
     end
@@ -27,7 +29,7 @@ end
 
 Autoproj.config.declare "ROS_DISTRO",
         "string",
-        doc: ["Which ros version should be used to import package depenencies [humble, jazzy, rolling] ?", "\tyou can test other versions, osdeps files will be generated if name is valid"]
+        doc: ["Which ros version should be used to import package depenencies [humble, jazzy, lyrical, rolling] ?", "\tyou can test other versions, osdeps files will be generated if name is valid"]
 
 # get the selected ros version
 ros_version = Autoproj.config.get("ROS_DISTRO")
