@@ -1,6 +1,6 @@
 #
 # This file is generated, do not edit!
-# based on https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/rolling/distribution.yaml
+# based on rolling/distribution.yaml of https://github.com/ros/rosdistro master, commit 16198d63d0f0591db254f6f9f10f3f757689a97a (2026-11-14T05:11:19Z)
 #
 # If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config
 #
