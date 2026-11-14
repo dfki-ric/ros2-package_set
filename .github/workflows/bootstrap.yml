@@ -40,7 +40,8 @@ jobs:
         git pull -X theirs PR ${{ github.ref }}
     - name: update
       run: |
-        source env.sh && autoproj update --no-interactive
+        # -k: report all import/osdeps errors at once (still fails the step)
+        source env.sh && autoproj update --no-interactive -k
 
     - name: Restore ccache
       id: ccache-restore
@@ -59,7 +60,8 @@ jobs:
     - name: Build
       run: |
           source /opt/ros/*/setup.bash
-          colcon build --cmake-args "-DCMAKE_C_COMPILER_LAUNCHER=ccache" "-DCMAKE_CXX_COMPILER_LAUNCHER=ccache" "-DCMAKE_BUILD_TYPE=Release"
+          # --continue-on-error: build everything buildable and list all failures (still fails the step)
+          colcon build --continue-on-error --cmake-args "-DCMAKE_C_COMPILER_LAUNCHER=ccache" "-DCMAKE_CXX_COMPILER_LAUNCHER=ccache" "-DCMAKE_BUILD_TYPE=Release"
 
     - name: Show ccache stats
       if: always()
