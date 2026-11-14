@@ -15,9 +15,23 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [ubuntu-22.04, ubuntu-24.04]
+        include:
+          - os: ubuntu-22.04
+            ros_distro: humble
+          - os: ubuntu-24.04
+            ros_distro: jazzy
+          - os: ubuntu-22.04
+            ros_distro: rolling
+          - os: ubuntu-24.04
+            ros_distro: rolling
       fail-fast: false
     runs-on: ${{ matrix.os }}
+    # rolling is nice-to-have: its binaries for these Ubuntu releases are no longer updated
+    # (rolling moved on to newer releases), so a failure does not fail the workflow
+    continue-on-error: ${{ matrix.ros_distro == 'rolling' }}
+    env:
+      # picked up by init.rb as the initial ROS_DISTRO configuration
+      ROS_DISTRO: ${{ matrix.ros_distro }}
     steps:
     # - uses: actions/checkout@v4  ## no need to checkout, this is done by autoproj_bootstrap
     - name: Install dependencies
@@ -47,9 +61,9 @@ jobs:
       uses: actions/cache/restore@v6
       with:
         path: ${{ github.workspace }}/.ccache
-        key: ${{ matrix.os }}-ccache-${{ github.run_id }}
+        key: ${{ matrix.os }}-${{ matrix.ros_distro }}-ccache-${{ github.run_id }}
         restore-keys: |
-          ${{ matrix.os }}-ccache-
+          ${{ matrix.os }}-${{ matrix.ros_distro }}-ccache-
 
     - name: Configure ccache
       run: |

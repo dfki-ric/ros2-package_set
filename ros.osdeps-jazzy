@@ -4,18 +4,60 @@
 #
 # If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config
 #
-smacc2:
-    ubuntu: ros-jazzy-smacc2
-smacc2_msgs:
-    ubuntu: ros-jazzy-smacc2-msgs
+navmap_core:
+    ubuntu: ros-jazzy-navmap-core
+navmap_examples:
+    ubuntu: ros-jazzy-navmap-examples
+navmap_ros:
+    ubuntu: ros-jazzy-navmap-ros
+navmap_ros_interfaces:
+    ubuntu: ros-jazzy-navmap-ros-interfaces
+navmap_rviz_plugin:
+    ubuntu: ros-jazzy-navmap-rviz-plugin
+navmap_tools:
+    ubuntu: ros-jazzy-navmap-tools
 acado_vendor:
     ubuntu: ros-jazzy-acado-vendor
 ackermann_msgs:
     ubuntu: ros-jazzy-ackermann-msgs
+ackermann_nlmpc:
+    ubuntu: ros-jazzy-ackermann-nlmpc
+ackermann_nlmpc_msgs:
+    ubuntu: ros-jazzy-ackermann-nlmpc-msgs
 actuator_msgs:
     ubuntu: ros-jazzy-actuator-msgs
+adaptive_bridge:
+    ubuntu: ros-jazzy-adaptive-bridge
 adaptive_component:
     ubuntu: ros-jazzy-adaptive-component
+adi_iio:
+    ubuntu: ros-jazzy-adi-iio
+adi_imu:
+    ubuntu: ros-jazzy-adi-imu
+ads_vendor:
+    ubuntu: ros-jazzy-ads-vendor
+agni_tf_tools:
+    ubuntu: ros-jazzy-agni-tf-tools
+agnocast:
+    ubuntu: ros-jazzy-agnocast
+agnocast_cie_config_msgs:
+    ubuntu: ros-jazzy-agnocast-cie-config-msgs
+agnocast_cie_thread_configurator:
+    ubuntu: ros-jazzy-agnocast-cie-thread-configurator
+agnocast_components:
+    ubuntu: ros-jazzy-agnocast-components
+agnocast_e2e_test:
+    ubuntu: ros-jazzy-agnocast-e2e-test
+agnocast_ioctl_wrapper:
+    ubuntu: ros-jazzy-agnocast-ioctl-wrapper
+agnocast_sample_application:
+    ubuntu: ros-jazzy-agnocast-sample-application
+agnocast_sample_interfaces:
+    ubuntu: ros-jazzy-agnocast-sample-interfaces
+agnocastlib:
+    ubuntu: ros-jazzy-agnocastlib
+ros2agnocast:
+    ubuntu: ros-jazzy-ros2agnocast
 ai_prompt_msgs:
     ubuntu: ros-jazzy-ai-prompt-msgs
 ament_acceleration:
@@ -72,6 +114,8 @@ ament_cmake_catch2:
     ubuntu: ros-jazzy-ament-cmake-catch2
 ament_cmake_ros:
     ubuntu: ros-jazzy-ament-cmake-ros
+ament_cmake_ros_core:
+    ubuntu: ros-jazzy-ament-cmake-ros-core
 domain_coordinator:
     ubuntu: ros-jazzy-domain-coordinator
 ament_download:
@@ -142,8 +186,6 @@ ament_uncrustify:
     ubuntu: ros-jazzy-ament-uncrustify
 ament_xmllint:
     ubuntu: ros-jazzy-ament-xmllint
-ament_nodl:
-    ubuntu: ros-jazzy-ament-nodl
 ament_package:
     ubuntu: ros-jazzy-ament-package
 ament_vitis:
@@ -158,6 +200,14 @@ apriltag:
     ubuntu: ros-jazzy-apriltag
 apriltag_detector:
     ubuntu: ros-jazzy-apriltag-detector
+apriltag_detector_mit:
+    ubuntu: ros-jazzy-apriltag-detector-mit
+apriltag_detector_umich:
+    ubuntu: ros-jazzy-apriltag-detector-umich
+apriltag_draw:
+    ubuntu: ros-jazzy-apriltag-draw
+apriltag_tools:
+    ubuntu: ros-jazzy-apriltag-tools
 apriltag_mit:
     ubuntu: ros-jazzy-apriltag-mit
 apriltag_msgs:
@@ -166,6 +216,14 @@ apriltag_ros:
     ubuntu: ros-jazzy-apriltag-ros
 ar4_ros_driver:
     ubuntu: ros-jazzy-ar4-ros-driver
+ardrone_sdk:
+    ubuntu: ros-jazzy-ardrone-sdk
+ardrone_sumo:
+    ubuntu: ros-jazzy-ardrone-sumo
+aruco_markers:
+    ubuntu: ros-jazzy-aruco-markers
+aruco_markers_msgs:
+    ubuntu: ros-jazzy-aruco-markers-msgs
 aruco_opencv:
     ubuntu: ros-jazzy-aruco-opencv
 aruco_opencv_msgs:
@@ -196,6 +254,34 @@ async_web_server_cpp:
     ubuntu: ros-jazzy-async-web-server-cpp
 asyncapi_gencpp:
     ubuntu: ros-jazzy-asyncapi-gencpp
+at_sonde_ros_driver:
+    ubuntu: ros-jazzy-at-sonde-ros-driver
+audio_capture:
+    ubuntu: ros-jazzy-audio-capture
+audio_common:
+    ubuntu: ros-jazzy-audio-common
+audio_common_msgs:
+    ubuntu: ros-jazzy-audio-common-msgs
+audio_play:
+    ubuntu: ros-jazzy-audio-play
+sound_play:
+    ubuntu: ros-jazzy-sound-play
+sound_play_msgs:
+    ubuntu: ros-jazzy-sound-play-msgs
+auto_apms_behavior_tree:
+    ubuntu: ros-jazzy-auto-apms-behavior-tree
+auto_apms_behavior_tree_core:
+    ubuntu: ros-jazzy-auto-apms-behavior-tree-core
+auto_apms_examples:
+    ubuntu: ros-jazzy-auto-apms-examples
+auto_apms_interfaces:
+    ubuntu: ros-jazzy-auto-apms-interfaces
+auto_apms_mission:
+    ubuntu: ros-jazzy-auto-apms-mission
+auto_apms_ros2behavior:
+    ubuntu: ros-jazzy-auto-apms-ros2behavior
+auto_apms_util:
+    ubuntu: ros-jazzy-auto-apms-util
 automatika_embodied_agents:
     ubuntu: ros-jazzy-automatika-embodied-agents
 automatika_ros_sugar:
@@ -216,8 +302,154 @@ autoware_cmake:
     ubuntu: ros-jazzy-autoware-cmake
 autoware_lint_common:
     ubuntu: ros-jazzy-autoware-lint-common
+autoware_adapi_adaptors:
+    ubuntu: ros-jazzy-autoware-adapi-adaptors
+autoware_adapi_specs:
+    ubuntu: ros-jazzy-autoware-adapi-specs
+autoware_agnocast_wrapper:
+    ubuntu: ros-jazzy-autoware-agnocast-wrapper
+autoware_awsim_sensor_kit_description:
+    ubuntu: ros-jazzy-autoware-awsim-sensor-kit-description
+autoware_behavior_velocity_planner:
+    ubuntu: ros-jazzy-autoware-behavior-velocity-planner
+autoware_behavior_velocity_planner_common:
+    ubuntu: ros-jazzy-autoware-behavior-velocity-planner-common
+autoware_behavior_velocity_stop_line_module:
+    ubuntu: ros-jazzy-autoware-behavior-velocity-stop-line-module
+autoware_command_gate:
+    ubuntu: ros-jazzy-autoware-command-gate
+autoware_component_interface_specs:
+    ubuntu: ros-jazzy-autoware-component-interface-specs
+autoware_core:
+    ubuntu: ros-jazzy-autoware-core
+autoware_core_api:
+    ubuntu: ros-jazzy-autoware-core-api
+autoware_core_control:
+    ubuntu: ros-jazzy-autoware-core-control
+autoware_core_localization:
+    ubuntu: ros-jazzy-autoware-core-localization
+autoware_core_map:
+    ubuntu: ros-jazzy-autoware-core-map
+autoware_core_perception:
+    ubuntu: ros-jazzy-autoware-core-perception
+autoware_core_planning:
+    ubuntu: ros-jazzy-autoware-core-planning
+autoware_core_sensing:
+    ubuntu: ros-jazzy-autoware-core-sensing
+autoware_core_vehicle:
+    ubuntu: ros-jazzy-autoware-core-vehicle
+autoware_crop_box_filter:
+    ubuntu: ros-jazzy-autoware-crop-box-filter
+autoware_default_adapi:
+    ubuntu: ros-jazzy-autoware-default-adapi
+autoware_downsample_filters:
+    ubuntu: ros-jazzy-autoware-downsample-filters
+autoware_ekf_localizer:
+    ubuntu: ros-jazzy-autoware-ekf-localizer
+autoware_euclidean_cluster_object_detector:
+    ubuntu: ros-jazzy-autoware-euclidean-cluster-object-detector
+autoware_geography_utils:
+    ubuntu: ros-jazzy-autoware-geography-utils
+autoware_global_parameter_loader:
+    ubuntu: ros-jazzy-autoware-global-parameter-loader
+autoware_gnss_poser:
+    ubuntu: ros-jazzy-autoware-gnss-poser
+autoware_ground_filter:
+    ubuntu: ros-jazzy-autoware-ground-filter
+autoware_gyro_odometer:
+    ubuntu: ros-jazzy-autoware-gyro-odometer
+autoware_interpolation:
+    ubuntu: ros-jazzy-autoware-interpolation
+autoware_kalman_filter:
+    ubuntu: ros-jazzy-autoware-kalman-filter
+autoware_lanelet2_map_visualizer:
+    ubuntu: ros-jazzy-autoware-lanelet2-map-visualizer
+autoware_lanelet2_utils:
+    ubuntu: ros-jazzy-autoware-lanelet2-utils
+autoware_localization_util:
+    ubuntu: ros-jazzy-autoware-localization-util
+autoware_map_height_fitter:
+    ubuntu: ros-jazzy-autoware-map-height-fitter
+autoware_map_loader:
+    ubuntu: ros-jazzy-autoware-map-loader
+autoware_map_projection_loader:
+    ubuntu: ros-jazzy-autoware-map-projection-loader
+autoware_marker_utils:
+    ubuntu: ros-jazzy-autoware-marker-utils
+autoware_mission_planner:
+    ubuntu: ros-jazzy-autoware-mission-planner
+autoware_motion_utils:
+    ubuntu: ros-jazzy-autoware-motion-utils
+autoware_motion_velocity_obstacle_stop_module:
+    ubuntu: ros-jazzy-autoware-motion-velocity-obstacle-stop-module
+autoware_motion_velocity_planner:
+    ubuntu: ros-jazzy-autoware-motion-velocity-planner
+autoware_motion_velocity_planner_common:
+    ubuntu: ros-jazzy-autoware-motion-velocity-planner-common
+autoware_ndt_scan_matcher:
+    ubuntu: ros-jazzy-autoware-ndt-scan-matcher
+autoware_node:
+    ubuntu: ros-jazzy-autoware-node
+autoware_object_recognition_utils:
+    ubuntu: ros-jazzy-autoware-object-recognition-utils
+autoware_objects_of_interest_marker_interface:
+    ubuntu: ros-jazzy-autoware-objects-of-interest-marker-interface
+autoware_osqp_interface:
+    ubuntu: ros-jazzy-autoware-osqp-interface
+autoware_path_generator:
+    ubuntu: ros-jazzy-autoware-path-generator
+autoware_perception_objects_converter:
+    ubuntu: ros-jazzy-autoware-perception-objects-converter
+autoware_planning_factor_interface:
+    ubuntu: ros-jazzy-autoware-planning-factor-interface
+autoware_planning_test_manager:
+    ubuntu: ros-jazzy-autoware-planning-test-manager
+autoware_planning_topic_converter:
+    ubuntu: ros-jazzy-autoware-planning-topic-converter
+autoware_point_types:
+    ubuntu: ros-jazzy-autoware-point-types
+autoware_pose_initializer:
+    ubuntu: ros-jazzy-autoware-pose-initializer
+autoware_pyplot:
+    ubuntu: ros-jazzy-autoware-pyplot
+autoware_qos_utils:
+    ubuntu: ros-jazzy-autoware-qos-utils
+autoware_qp_interface:
+    ubuntu: ros-jazzy-autoware-qp-interface
+autoware_route_handler:
+    ubuntu: ros-jazzy-autoware-route-handler
+autoware_sample_sensor_kit_description:
+    ubuntu: ros-jazzy-autoware-sample-sensor-kit-description
+autoware_sample_vehicle_description:
+    ubuntu: ros-jazzy-autoware-sample-vehicle-description
+autoware_signal_processing:
+    ubuntu: ros-jazzy-autoware-signal-processing
+autoware_simple_pure_pursuit:
+    ubuntu: ros-jazzy-autoware-simple-pure-pursuit
+autoware_stop_filter:
+    ubuntu: ros-jazzy-autoware-stop-filter
+autoware_test_node:
+    ubuntu: ros-jazzy-autoware-test-node
+autoware_test_utils:
+    ubuntu: ros-jazzy-autoware-test-utils
+autoware_testing:
+    ubuntu: ros-jazzy-autoware-testing
+autoware_trajectory:
+    ubuntu: ros-jazzy-autoware-trajectory
+autoware_twist2accel:
+    ubuntu: ros-jazzy-autoware-twist2accel
+autoware_vehicle_info_utils:
+    ubuntu: ros-jazzy-autoware-vehicle-info-utils
+autoware_vehicle_velocity_converter:
+    ubuntu: ros-jazzy-autoware-vehicle-velocity-converter
+autoware_velocity_smoother:
+    ubuntu: ros-jazzy-autoware-velocity-smoother
 autoware_internal_debug_msgs:
     ubuntu: ros-jazzy-autoware-internal-debug-msgs
+autoware_internal_localization_msgs:
+    ubuntu: ros-jazzy-autoware-internal-localization-msgs
+autoware_internal_metric_msgs:
+    ubuntu: ros-jazzy-autoware-internal-metric-msgs
 autoware_internal_msgs:
     ubuntu: ros-jazzy-autoware-internal-msgs
 autoware_internal_perception_msgs:
@@ -236,18 +468,46 @@ autoware_localization_msgs:
     ubuntu: ros-jazzy-autoware-localization-msgs
 autoware_map_msgs:
     ubuntu: ros-jazzy-autoware-map-msgs
+autoware_msgs:
+    ubuntu: ros-jazzy-autoware-msgs
 autoware_perception_msgs:
     ubuntu: ros-jazzy-autoware-perception-msgs
 autoware_planning_msgs:
     ubuntu: ros-jazzy-autoware-planning-msgs
 autoware_sensing_msgs:
     ubuntu: ros-jazzy-autoware-sensing-msgs
+autoware_simulation_msgs:
+    ubuntu: ros-jazzy-autoware-simulation-msgs
 autoware_system_msgs:
     ubuntu: ros-jazzy-autoware-system-msgs
 autoware_v2x_msgs:
     ubuntu: ros-jazzy-autoware-v2x-msgs
 autoware_vehicle_msgs:
     ubuntu: ros-jazzy-autoware-vehicle-msgs
+autoware_utils:
+    ubuntu: ros-jazzy-autoware-utils
+autoware_utils_debug:
+    ubuntu: ros-jazzy-autoware-utils-debug
+autoware_utils_diagnostics:
+    ubuntu: ros-jazzy-autoware-utils-diagnostics
+autoware_utils_geometry:
+    ubuntu: ros-jazzy-autoware-utils-geometry
+autoware_utils_logging:
+    ubuntu: ros-jazzy-autoware-utils-logging
+autoware_utils_math:
+    ubuntu: ros-jazzy-autoware-utils-math
+autoware_utils_pcl:
+    ubuntu: ros-jazzy-autoware-utils-pcl
+autoware_utils_rclcpp:
+    ubuntu: ros-jazzy-autoware-utils-rclcpp
+autoware_utils_system:
+    ubuntu: ros-jazzy-autoware-utils-system
+autoware_utils_tf:
+    ubuntu: ros-jazzy-autoware-utils-tf
+autoware_utils_uuid:
+    ubuntu: ros-jazzy-autoware-utils-uuid
+autoware_utils_visualization:
+    ubuntu: ros-jazzy-autoware-utils-visualization
 avt_vimba_camera:
     ubuntu: ros-jazzy-avt-vimba-camera
 aws_robomaker_small_warehouse_world:
@@ -266,6 +526,24 @@ backward_ros:
     ubuntu: ros-jazzy-backward-ros
 bag2_to_image:
     ubuntu: ros-jazzy-bag2-to-image
+bcr_arm:
+    ubuntu: ros-jazzy-bcr-arm
+bcr_arm_description:
+    ubuntu: ros-jazzy-bcr-arm-description
+bcr_arm_gazebo:
+    ubuntu: ros-jazzy-bcr-arm-gazebo
+bcr_arm_moveit_config:
+    ubuntu: ros-jazzy-bcr-arm-moveit-config
+bcr_arm_ros2:
+    ubuntu: ros-jazzy-bcr-arm-ros2
+bcr_bot:
+    ubuntu: ros-jazzy-bcr-bot
+beckhoff_ads_bringup:
+    ubuntu: ros-jazzy-beckhoff-ads-bringup
+beckhoff_ads_hardware_interface:
+    ubuntu: ros-jazzy-beckhoff-ads-hardware-interface
+behaviortree_cpp_pluginlib:
+    ubuntu: ros-jazzy-behaviortree-cpp-pluginlib
 behaviortree_cpp_v3:
     ubuntu: ros-jazzy-behaviortree-cpp-v3
 behaviortree_cpp:
@@ -276,6 +554,8 @@ beluga_amcl:
     ubuntu: ros-jazzy-beluga-amcl
 beluga_ros:
     ubuntu: ros-jazzy-beluga-ros
+better_launch:
+    ubuntu: ros-jazzy-better-launch
 bno055:
     ubuntu: ros-jazzy-bno055
 bond:
@@ -294,12 +574,28 @@ boost_plugin_loader:
     ubuntu: ros-jazzy-boost-plugin-loader
 boost_sml_vendor:
     ubuntu: ros-jazzy-boost-sml-vendor
+btick:
+    ubuntu: ros-jazzy-btick
+callback_isolated_executor:
+    ubuntu: ros-jazzy-callback-isolated-executor
+cie_config_msgs:
+    ubuntu: ros-jazzy-cie-config-msgs
+cie_sample_application:
+    ubuntu: ros-jazzy-cie-sample-application
+cie_thread_configurator:
+    ubuntu: ros-jazzy-cie-thread-configurator
 camera_aravis2:
     ubuntu: ros-jazzy-camera-aravis2
 camera_aravis2_msgs:
     ubuntu: ros-jazzy-camera-aravis2-msgs
 camera_ros:
     ubuntu: ros-jazzy-camera-ros
+canboat_vendor:
+    ubuntu: ros-jazzy-canboat-vendor
+canopen_inventus_driver:
+    ubuntu: ros-jazzy-canopen-inventus-driver
+canopen_inventus_interfaces:
+    ubuntu: ros-jazzy-canopen-inventus-interfaces
 cartographer:
     ubuntu: ros-jazzy-cartographer
 cartographer_ros:
@@ -312,12 +608,16 @@ cascade_lifecycle_msgs:
     ubuntu: ros-jazzy-cascade-lifecycle-msgs
 rclcpp_cascade_lifecycle:
     ubuntu: ros-jazzy-rclcpp-cascade-lifecycle
+rclpy_cascade_lifecycle:
+    ubuntu: ros-jazzy-rclpy-cascade-lifecycle
 catch_ros2:
     ubuntu: ros-jazzy-catch-ros2
 class_loader:
     ubuntu: ros-jazzy-class-loader
 classic_bags:
     ubuntu: ros-jazzy-classic-bags
+clearpath_bms_broadcaster:
+    ubuntu: ros-jazzy-clearpath-bms-broadcaster
 clearpath_bt_joy:
     ubuntu: ros-jazzy-clearpath-bt-joy
 clearpath_common:
@@ -328,6 +628,8 @@ clearpath_customization:
     ubuntu: ros-jazzy-clearpath-customization
 clearpath_description:
     ubuntu: ros-jazzy-clearpath-description
+clearpath_diagnostics:
+    ubuntu: ros-jazzy-clearpath-diagnostics
 clearpath_generator_common:
     ubuntu: ros-jazzy-clearpath-generator-common
 clearpath_manipulators:
@@ -360,8 +662,56 @@ clearpath_nav2_demos:
     ubuntu: ros-jazzy-clearpath-nav2-demos
 clearpath_ros2_socketcan_interface:
     ubuntu: ros-jazzy-clearpath-ros2-socketcan-interface
+clearpath_generator_gz:
+    ubuntu: ros-jazzy-clearpath-generator-gz
+clearpath_gz:
+    ubuntu: ros-jazzy-clearpath-gz
+clearpath_simulator:
+    ubuntu: ros-jazzy-clearpath-simulator
+clearpath_tests:
+    ubuntu: ros-jazzy-clearpath-tests
+clips_executive:
+    ubuntu: ros-jazzy-clips-executive
+cx_ament_index_plugin:
+    ubuntu: ros-jazzy-cx-ament-index-plugin
+cx_bringup:
+    ubuntu: ros-jazzy-cx-bringup
+cx_clips_env_manager:
+    ubuntu: ros-jazzy-cx-clips-env-manager
+cx_config_plugin:
+    ubuntu: ros-jazzy-cx-config-plugin
+cx_example_plugin:
+    ubuntu: ros-jazzy-cx-example-plugin
+cx_executive_plugin:
+    ubuntu: ros-jazzy-cx-executive-plugin
+cx_file_load_plugin:
+    ubuntu: ros-jazzy-cx-file-load-plugin
+cx_msgs:
+    ubuntu: ros-jazzy-cx-msgs
+cx_plugin:
+    ubuntu: ros-jazzy-cx-plugin
+cx_protobuf_plugin:
+    ubuntu: ros-jazzy-cx-protobuf-plugin
+cx_ros_comm_gen:
+    ubuntu: ros-jazzy-cx-ros-comm-gen
+cx_ros_msgs_plugin:
+    ubuntu: ros-jazzy-cx-ros-msgs-plugin
+cx_ros_param_plugin:
+    ubuntu: ros-jazzy-cx-ros-param-plugin
+cx_tf2_pose_tracker_plugin:
+    ubuntu: ros-jazzy-cx-tf2-pose-tracker-plugin
+cx_tutorial_agents:
+    ubuntu: ros-jazzy-cx-tutorial-agents
+cx_utils:
+    ubuntu: ros-jazzy-cx-utils
 clips_vendor:
     ubuntu: ros-jazzy-clips-vendor
+cloudini_lib:
+    ubuntu: ros-jazzy-cloudini-lib
+cloudini_ros:
+    ubuntu: ros-jazzy-cloudini-ros
+cm_executors:
+    ubuntu: ros-jazzy-cm-executors
 coal:
     ubuntu: ros-jazzy-coal
 cob_actions:
@@ -370,6 +720,8 @@ cob_msgs:
     ubuntu: ros-jazzy-cob-msgs
 cob_srvs:
     ubuntu: ros-jazzy-cob-srvs
+coin_d4_driver:
+    ubuntu: ros-jazzy-coin-d4-driver
 color_names:
     ubuntu: ros-jazzy-color-names
 color_util:
@@ -400,6 +752,18 @@ trajectory_msgs:
     ubuntu: ros-jazzy-trajectory-msgs
 visualization_msgs:
     ubuntu: ros-jazzy-visualization-msgs
+compass_conversions:
+    ubuntu: ros-jazzy-compass-conversions
+compass_interfaces:
+    ubuntu: ros-jazzy-compass-interfaces
+magnetic_model:
+    ubuntu: ros-jazzy-magnetic-model
+magnetometer_compass:
+    ubuntu: ros-jazzy-magnetometer-compass
+magnetometer_pipeline:
+    ubuntu: ros-jazzy-magnetometer-pipeline
+connection_inspector:
+    ubuntu: ros-jazzy-connection-inspector
 console_bridge_vendor:
     ubuntu: ros-jazzy-console-bridge-vendor
 control_box_rst:
@@ -424,6 +788,34 @@ crane_plus_gazebo:
     ubuntu: ros-jazzy-crane-plus-gazebo
 crane_plus_moveit_config:
     ubuntu: ros-jazzy-crane-plus-moveit-config
+cras_msgs:
+    ubuntu: ros-jazzy-cras-msgs
+cras_bag_tools:
+    ubuntu: ros-jazzy-cras-bag-tools
+cras_cpp_common:
+    ubuntu: ros-jazzy-cras-cpp-common
+cras_lint:
+    ubuntu: ros-jazzy-cras-lint
+cras_topic_tools:
+    ubuntu: ros-jazzy-cras-topic-tools
+crazyflie:
+    ubuntu: ros-jazzy-crazyflie
+crazyflie:
+    ubuntu: ros-jazzy-crazyflie
+crazyflie_description:
+    ubuntu: ros-jazzy-crazyflie-description
+crazyflie_examples:
+    ubuntu: ros-jazzy-crazyflie-examples
+crazyflie_interfaces:
+    ubuntu: ros-jazzy-crazyflie-interfaces
+crazyflie_py:
+    ubuntu: ros-jazzy-crazyflie-py
+crazyflie_server_cpp:
+    ubuntu: ros-jazzy-crazyflie-server-cpp
+crazyflie_server_py:
+    ubuntu: ros-jazzy-crazyflie-server-py
+crazyflie_sim:
+    ubuntu: ros-jazzy-crazyflie-sim
 create3_coverage:
     ubuntu: ros-jazzy-create3-coverage
 create3_examples_msgs:
@@ -454,14 +846,22 @@ irobot_create_nodes:
     ubuntu: ros-jazzy-irobot-create-nodes
 irobot_create_toolbox:
     ubuntu: ros-jazzy-irobot-create-toolbox
+crocoddyl:
+    ubuntu: ros-jazzy-crocoddyl
+crx_kinematics:
+    ubuntu: ros-jazzy-crx-kinematics
 cudnn_cmake_module:
     ubuntu: ros-jazzy-cudnn-cmake-module
 cyclonedds:
     ubuntu: ros-jazzy-cyclonedds
+daheng4ros:
+    ubuntu: ros-jazzy-daheng4ros
 data_tamer_cpp:
     ubuntu: ros-jazzy-data-tamer-cpp
 data_tamer_msgs:
     ubuntu: ros-jazzy-data-tamer-msgs
+data_tamer_tools:
+    ubuntu: ros-jazzy-data-tamer-tools
 dataspeed_can:
     ubuntu: ros-jazzy-dataspeed-can
 dataspeed_can_msg_filters:
@@ -480,6 +880,8 @@ ds_dbw_joystick_demo:
     ubuntu: ros-jazzy-ds-dbw-joystick-demo
 ds_dbw_msgs:
     ubuntu: ros-jazzy-ds-dbw-msgs
+decision-node-ros2:
+    ubuntu: ros-jazzy-decision-node-ros2
 action_tutorials_cpp:
     ubuntu: ros-jazzy-action-tutorials-cpp
 action_tutorials_interfaces:
@@ -522,6 +924,12 @@ topic_monitor:
     ubuntu: ros-jazzy-topic-monitor
 topic_statistics_demo:
     ubuntu: ros-jazzy-topic-statistics-demo
+dendros:
+    ubuntu: ros-jazzy-dendros
+depth_obstacle_detect_ros:
+    ubuntu: ros-jazzy-depth-obstacle-detect-ros
+depth_obstacle_detect_ros_msgs:
+    ubuntu: ros-jazzy-depth-obstacle-detect-ros-msgs
 depthai:
     ubuntu: ros-jazzy-depthai
 depthai-ros:
@@ -538,18 +946,38 @@ depthai_ros_driver:
     ubuntu: ros-jazzy-depthai-ros-driver
 depthai_ros_msgs:
     ubuntu: ros-jazzy-depthai-ros-msgs
+depthai_bridge_v3:
+    ubuntu: ros-jazzy-depthai-bridge-v3
+depthai_descriptions_v3:
+    ubuntu: ros-jazzy-depthai-descriptions-v3
+depthai_examples_v3:
+    ubuntu: ros-jazzy-depthai-examples-v3
+depthai_filters_v3:
+    ubuntu: ros-jazzy-depthai-filters-v3
+depthai_ros_driver_v3:
+    ubuntu: ros-jazzy-depthai-ros-driver-v3
+depthai_ros_msgs_v3:
+    ubuntu: ros-jazzy-depthai-ros-msgs-v3
+depthai_ros_v3:
+    ubuntu: ros-jazzy-depthai-ros-v3
+depthai_v3:
+    ubuntu: ros-jazzy-depthai-v3
 depthimage_to_laserscan:
     ubuntu: ros-jazzy-depthimage-to-laserscan
 diagnostic_aggregator:
     ubuntu: ros-jazzy-diagnostic-aggregator
 diagnostic_common_diagnostics:
     ubuntu: ros-jazzy-diagnostic-common-diagnostics
+diagnostic_remote_logging:
+    ubuntu: ros-jazzy-diagnostic-remote-logging
 diagnostic_updater:
     ubuntu: ros-jazzy-diagnostic-updater
 diagnostics:
     ubuntu: ros-jazzy-diagnostics
 self_test:
     ubuntu: ros-jazzy-self-test
+dispatcher:
+    ubuntu: ros-jazzy-dispatcher
 dolly:
     ubuntu: ros-jazzy-dolly
 dolly_follow:
@@ -560,10 +988,16 @@ dolly_ignition:
     ubuntu: ros-jazzy-dolly-ignition
 domain_bridge:
     ubuntu: ros-jazzy-domain-bridge
+doom_ros:
+    ubuntu: ros-jazzy-doom-ros
 dual_laser_merger:
     ubuntu: ros-jazzy-dual-laser-merger
 dynamixel_hardware:
     ubuntu: ros-jazzy-dynamixel-hardware
+dynamixel_hardware_interface:
+    ubuntu: ros-jazzy-dynamixel-hardware-interface
+dynamixel_interfaces:
+    ubuntu: ros-jazzy-dynamixel-interfaces
 dynamixel_sdk:
     ubuntu: ros-jazzy-dynamixel-sdk
 dynamixel_sdk_custom_interfaces:
@@ -576,6 +1010,106 @@ dynamixel_workbench_toolbox:
     ubuntu: ros-jazzy-dynamixel-workbench-toolbox
 dynamixel_workbench_msgs:
     ubuntu: ros-jazzy-dynamixel-workbench-msgs
+easynav:
+    ubuntu: ros-jazzy-easynav
+easynav_common:
+    ubuntu: ros-jazzy-easynav-common
+easynav_controller:
+    ubuntu: ros-jazzy-easynav-controller
+easynav_core:
+    ubuntu: ros-jazzy-easynav-core
+easynav_interfaces:
+    ubuntu: ros-jazzy-easynav-interfaces
+easynav_localizer:
+    ubuntu: ros-jazzy-easynav-localizer
+easynav_maps_manager:
+    ubuntu: ros-jazzy-easynav-maps-manager
+easynav_planner:
+    ubuntu: ros-jazzy-easynav-planner
+easynav_recovery:
+    ubuntu: ros-jazzy-easynav-recovery
+easynav_sensors:
+    ubuntu: ros-jazzy-easynav-sensors
+easynav_support_py:
+    ubuntu: ros-jazzy-easynav-support-py
+easynav_system:
+    ubuntu: ros-jazzy-easynav-system
+easynav_tools:
+    ubuntu: ros-jazzy-easynav-tools
+easynav_nav2_bridge:
+    ubuntu: ros-jazzy-easynav-nav2-bridge
+easynav_playground_kobuki:
+    ubuntu: ros-jazzy-easynav-playground-kobuki
+easynav_playground_kobuki_description:
+    ubuntu: ros-jazzy-easynav-playground-kobuki-description
+easynav_playground_kobuki_worlds:
+    ubuntu: ros-jazzy-easynav-playground-kobuki-worlds
+easynav_playground_omni:
+    ubuntu: ros-jazzy-easynav-playground-omni
+easynav_playground_omni_description:
+    ubuntu: ros-jazzy-easynav-playground-omni-description
+easynav_playground_omni_worlds:
+    ubuntu: ros-jazzy-easynav-playground-omni-worlds
+easynav_playground_summit:
+    ubuntu: ros-jazzy-easynav-playground-summit
+easynav_playground_summit_description:
+    ubuntu: ros-jazzy-easynav-playground-summit-description
+easynav_playground_summit_worlds:
+    ubuntu: ros-jazzy-easynav-playground-summit-worlds
+easynav_playground_tiago:
+    ubuntu: ros-jazzy-easynav-playground-tiago
+easynav_playground_tiago_description:
+    ubuntu: ros-jazzy-easynav-playground-tiago-description
+easynav_playground_tiago_worlds:
+    ubuntu: ros-jazzy-easynav-playground-tiago-worlds
+easynav_bonxai_maps_manager:
+    ubuntu: ros-jazzy-easynav-bonxai-maps-manager
+easynav_costmap_common:
+    ubuntu: ros-jazzy-easynav-costmap-common
+easynav_costmap_localizer:
+    ubuntu: ros-jazzy-easynav-costmap-localizer
+easynav_costmap_maps_manager:
+    ubuntu: ros-jazzy-easynav-costmap-maps-manager
+easynav_costmap_planner:
+    ubuntu: ros-jazzy-easynav-costmap-planner
+easynav_diagnostic_recovery:
+    ubuntu: ros-jazzy-easynav-diagnostic-recovery
+easynav_fusion_localizer:
+    ubuntu: ros-jazzy-easynav-fusion-localizer
+easynav_mhamcl_localizer:
+    ubuntu: ros-jazzy-easynav-mhamcl-localizer
+easynav_mpc_controller:
+    ubuntu: ros-jazzy-easynav-mpc-controller
+easynav_mppi_controller:
+    ubuntu: ros-jazzy-easynav-mppi-controller
+easynav_navmap_localizer:
+    ubuntu: ros-jazzy-easynav-navmap-localizer
+easynav_navmap_maps_manager:
+    ubuntu: ros-jazzy-easynav-navmap-maps-manager
+easynav_navmap_planner:
+    ubuntu: ros-jazzy-easynav-navmap-planner
+easynav_octomap_maps_manager:
+    ubuntu: ros-jazzy-easynav-octomap-maps-manager
+easynav_regulated_pp_controller:
+    ubuntu: ros-jazzy-easynav-regulated-pp-controller
+easynav_routes_maps_manager:
+    ubuntu: ros-jazzy-easynav-routes-maps-manager
+easynav_serest_controller:
+    ubuntu: ros-jazzy-easynav-serest-controller
+easynav_simple_common:
+    ubuntu: ros-jazzy-easynav-simple-common
+easynav_simple_controller:
+    ubuntu: ros-jazzy-easynav-simple-controller
+easynav_simple_localizer:
+    ubuntu: ros-jazzy-easynav-simple-localizer
+easynav_simple_maps_manager:
+    ubuntu: ros-jazzy-easynav-simple-maps-manager
+easynav_simple_planner:
+    ubuntu: ros-jazzy-easynav-simple-planner
+easynav_simple_recovery:
+    ubuntu: ros-jazzy-easynav-simple-recovery
+easynav_vff_controller:
+    ubuntu: ros-jazzy-easynav-vff-controller
 ecal:
     ubuntu: ros-jazzy-ecal
 ecl_command_line:
@@ -586,12 +1120,6 @@ ecl_containers:
     ubuntu: ros-jazzy-ecl-containers
 ecl_converters:
     ubuntu: ros-jazzy-ecl-converters
-ecl_core:
-    ubuntu: ros-jazzy-ecl-core
-ecl_core_apps:
-    ubuntu: ros-jazzy-ecl-core-apps
-ecl_devices:
-    ubuntu: ros-jazzy-ecl-devices
 ecl_eigen:
     ubuntu: ros-jazzy-ecl-eigen
 ecl_exceptions:
@@ -602,8 +1130,6 @@ ecl_formatters:
     ubuntu: ros-jazzy-ecl-formatters
 ecl_geometry:
     ubuntu: ros-jazzy-ecl-geometry
-ecl_ipc:
-    ubuntu: ros-jazzy-ecl-ipc
 ecl_linear_algebra:
     ubuntu: ros-jazzy-ecl-linear-algebra
 ecl_manipulators:
@@ -614,16 +1140,8 @@ ecl_mobile_robot:
     ubuntu: ros-jazzy-ecl-mobile-robot
 ecl_mpl:
     ubuntu: ros-jazzy-ecl-mpl
-ecl_sigslots:
-    ubuntu: ros-jazzy-ecl-sigslots
 ecl_statistics:
     ubuntu: ros-jazzy-ecl-statistics
-ecl_streams:
-    ubuntu: ros-jazzy-ecl-streams
-ecl_threads:
-    ubuntu: ros-jazzy-ecl-threads
-ecl_time:
-    ubuntu: ros-jazzy-ecl-time
 ecl_type_traits:
     ubuntu: ros-jazzy-ecl-type-traits
 ecl_utilities:
@@ -636,14 +1154,8 @@ ecl_converters_lite:
     ubuntu: ros-jazzy-ecl-converters-lite
 ecl_errors:
     ubuntu: ros-jazzy-ecl-errors
-ecl_io:
-    ubuntu: ros-jazzy-ecl-io
-ecl_lite:
-    ubuntu: ros-jazzy-ecl-lite
 ecl_sigslots_lite:
     ubuntu: ros-jazzy-ecl-sigslots-lite
-ecl_time_lite:
-    ubuntu: ros-jazzy-ecl-time-lite
 ecl_build:
     ubuntu: ros-jazzy-ecl-build
 ecl_license:
@@ -658,6 +1170,10 @@ eigenpy:
     ubuntu: ros-jazzy-eigenpy
 eiquadprog:
     ubuntu: ros-jazzy-eiquadprog
+elite_cs_series_sdk:
+    ubuntu: ros-jazzy-elite-cs-series-sdk
+elite_robots_description:
+    ubuntu: ros-jazzy-elite-robots-description
 ess_imu_driver2:
     ubuntu: ros-jazzy-ess-imu-driver2
 etsi_its_cam_coding:
@@ -676,6 +1192,8 @@ etsi_its_coding:
     ubuntu: ros-jazzy-etsi-its-coding
 etsi_its_conversion:
     ubuntu: ros-jazzy-etsi-its-conversion
+etsi_its_conversion_srvs:
+    ubuntu: ros-jazzy-etsi-its-conversion-srvs
 etsi_its_cpm_ts_coding:
     ubuntu: ros-jazzy-etsi-its-cpm-ts-coding
 etsi_its_cpm_ts_conversion:
@@ -688,12 +1206,30 @@ etsi_its_denm_conversion:
     ubuntu: ros-jazzy-etsi-its-denm-conversion
 etsi_its_denm_msgs:
     ubuntu: ros-jazzy-etsi-its-denm-msgs
+etsi_its_denm_ts_coding:
+    ubuntu: ros-jazzy-etsi-its-denm-ts-coding
+etsi_its_denm_ts_conversion:
+    ubuntu: ros-jazzy-etsi-its-denm-ts-conversion
+etsi_its_denm_ts_msgs:
+    ubuntu: ros-jazzy-etsi-its-denm-ts-msgs
+etsi_its_ivim_ts_coding:
+    ubuntu: ros-jazzy-etsi-its-ivim-ts-coding
+etsi_its_ivim_ts_conversion:
+    ubuntu: ros-jazzy-etsi-its-ivim-ts-conversion
+etsi_its_ivim_ts_msgs:
+    ubuntu: ros-jazzy-etsi-its-ivim-ts-msgs
 etsi_its_mapem_ts_coding:
     ubuntu: ros-jazzy-etsi-its-mapem-ts-coding
 etsi_its_mapem_ts_conversion:
     ubuntu: ros-jazzy-etsi-its-mapem-ts-conversion
 etsi_its_mapem_ts_msgs:
     ubuntu: ros-jazzy-etsi-its-mapem-ts-msgs
+etsi_its_mcm_uulm_coding:
+    ubuntu: ros-jazzy-etsi-its-mcm-uulm-coding
+etsi_its_mcm_uulm_conversion:
+    ubuntu: ros-jazzy-etsi-its-mcm-uulm-conversion
+etsi_its_mcm_uulm_msgs:
+    ubuntu: ros-jazzy-etsi-its-mcm-uulm-msgs
 etsi_its_messages:
     ubuntu: ros-jazzy-etsi-its-messages
 etsi_its_msgs:
@@ -724,6 +1260,22 @@ event_camera_py:
     ubuntu: ros-jazzy-event-camera-py
 event_camera_renderer:
     ubuntu: ros-jazzy-event-camera-renderer
+event_camera_tools:
+    ubuntu: ros-jazzy-event-camera-tools
+event_image_reconstruction_fibar:
+    ubuntu: ros-jazzy-event-image-reconstruction-fibar
+ewellix_description:
+    ubuntu: ros-jazzy-ewellix-description
+ewellix_interfaces:
+    ubuntu: ros-jazzy-ewellix-interfaces
+ewellix_lift_common:
+    ubuntu: ros-jazzy-ewellix-lift-common
+ewellix_moveit_config:
+    ubuntu: ros-jazzy-ewellix-moveit-config
+ewellix_sim:
+    ubuntu: ros-jazzy-ewellix-sim
+ewellix_viz:
+    ubuntu: ros-jazzy-ewellix-viz
 example_interfaces:
     ubuntu: ros-jazzy-example-interfaces
 examples_rclcpp_async_client:
@@ -770,6 +1322,10 @@ examples_rclpy_pointcloud_publisher:
     ubuntu: ros-jazzy-examples-rclpy-pointcloud-publisher
 launch_testing_examples:
     ubuntu: ros-jazzy-launch-testing-examples
+fadecandy_driver:
+    ubuntu: ros-jazzy-fadecandy-driver
+fadecandy_msgs:
+    ubuntu: ros-jazzy-fadecandy-msgs
 fastcdr:
     ubuntu: ros-jazzy-fastcdr
 fastrtps:
@@ -784,12 +1340,20 @@ ffmpeg_image_transport_msgs:
     ubuntu: ros-jazzy-ffmpeg-image-transport-msgs
 ffmpeg_image_transport_tools:
     ubuntu: ros-jazzy-ffmpeg-image-transport-tools
+fibar_lib:
+    ubuntu: ros-jazzy-fibar-lib
 fields2cover:
     ubuntu: ros-jazzy-fields2cover
 filters:
     ubuntu: ros-jazzy-filters
 find_object_2d:
     ubuntu: ros-jazzy-find-object-2d
+fkie_message_filters:
+    ubuntu: ros-jazzy-fkie-message-filters
+fkie_multi_agent_suite:
+    ubuntu: ros-jazzy-fkie-multi-agent-suite
+fkie_potree_rviz_plugin:
+    ubuntu: ros-jazzy-fkie-potree-rviz-plugin
 flex_sync:
     ubuntu: ros-jazzy-flex-sync
 flexbe_behavior_engine:
@@ -818,6 +1382,12 @@ spinnaker_camera_driver:
     ubuntu: ros-jazzy-spinnaker-camera-driver
 spinnaker_synchronized_camera_driver:
     ubuntu: ros-jazzy-spinnaker-synchronized-camera-driver
+flir_ptu_description:
+    ubuntu: ros-jazzy-flir-ptu-description
+flir_ptu_driver:
+    ubuntu: ros-jazzy-flir-ptu-driver
+flir_ptu_viz:
+    ubuntu: ros-jazzy-flir-ptu-viz
 fluent_rviz:
     ubuntu: ros-jazzy-fluent-rviz
 fmi_adapter:
@@ -832,10 +1402,16 @@ four_wheel_steering_msgs:
     ubuntu: ros-jazzy-four-wheel-steering-msgs
 foxglove_bridge:
     ubuntu: ros-jazzy-foxglove-bridge
-foxglove_compressed_video_transport:
-    ubuntu: ros-jazzy-foxglove-compressed-video-transport
 foxglove_msgs:
     ubuntu: ros-jazzy-foxglove-msgs
+foxglove_compressed_video_transport:
+    ubuntu: ros-jazzy-foxglove-compressed-video-transport
+foxglove_sdk_vendor:
+    ubuntu: ros-jazzy-foxglove-sdk-vendor
+frame_editor:
+    ubuntu: ros-jazzy-frame-editor
+frequency_cam:
+    ubuntu: ros-jazzy-frequency-cam
 fuse:
     ubuntu: ros-jazzy-fuse
 fuse_constraints:
@@ -862,6 +1438,18 @@ fuse_variables:
     ubuntu: ros-jazzy-fuse-variables
 fuse_viz:
     ubuntu: ros-jazzy-fuse-viz
+compass_msgs:
+    ubuntu: ros-jazzy-compass-msgs
+fusioncore_core:
+    ubuntu: ros-jazzy-fusioncore-core
+fusioncore_datasets:
+    ubuntu: ros-jazzy-fusioncore-datasets
+fusioncore_gazebo:
+    ubuntu: ros-jazzy-fusioncore-gazebo
+fusioncore_ros:
+    ubuntu: ros-jazzy-fusioncore-ros
+fusioncore_ublox:
+    ubuntu: ros-jazzy-fusioncore-ublox
 game_controller_spl:
     ubuntu: ros-jazzy-game-controller-spl
 game_controller_spl_interfaces:
@@ -882,18 +1470,10 @@ rcgcrd_spl_4_conversion:
     ubuntu: ros-jazzy-rcgcrd-spl-4-conversion
 gazebo_msgs:
     ubuntu: ros-jazzy-gazebo-msgs
-cmake_generate_parameter_module_example:
-    ubuntu: ros-jazzy-cmake-generate-parameter-module-example
 generate_parameter_library:
     ubuntu: ros-jazzy-generate-parameter-library
-generate_parameter_library_example:
-    ubuntu: ros-jazzy-generate-parameter-library-example
-generate_parameter_library_example_external:
-    ubuntu: ros-jazzy-generate-parameter-library-example-external
 generate_parameter_library_py:
     ubuntu: ros-jazzy-generate-parameter-library-py
-generate_parameter_module_example:
-    ubuntu: ros-jazzy-generate-parameter-module-example
 parameter_traits:
     ubuntu: ros-jazzy-parameter-traits
 geodesy:
@@ -952,14 +1532,26 @@ gps_umd:
     ubuntu: ros-jazzy-gps-umd
 gpsd_client:
     ubuntu: ros-jazzy-gpsd-client
+rmw_stats_shim:
+    ubuntu: ros-jazzy-rmw-stats-shim
+rosgraph_monitor:
+    ubuntu: ros-jazzy-rosgraph-monitor
+rosgraph_monitor_msgs:
+    ubuntu: ros-jazzy-rosgraph-monitor-msgs
 graph_msgs:
     ubuntu: ros-jazzy-graph-msgs
+grasp_synergy_adapter:
+    ubuntu: ros-jazzy-grasp-synergy-adapter
 grasping_msgs:
     ubuntu: ros-jazzy-grasping-msgs
 grbl_msgs:
     ubuntu: ros-jazzy-grbl-msgs
 grbl_ros:
     ubuntu: ros-jazzy-grbl-ros
+greenwave_monitor:
+    ubuntu: ros-jazzy-greenwave-monitor
+greenwave_monitor_interfaces:
+    ubuntu: ros-jazzy-greenwave-monitor-interfaces
 grid_map:
     ubuntu: ros-jazzy-grid-map
 grid_map_cmake_helpers:
@@ -992,8 +1584,12 @@ grid_map_visualization:
     ubuntu: ros-jazzy-grid-map-visualization
 gscam:
     ubuntu: ros-jazzy-gscam
+gstreamer_ros_babel_fish:
+    ubuntu: ros-jazzy-gstreamer-ros-babel-fish
 gtsam:
     ubuntu: ros-jazzy-gtsam
+gtsam2mrpt_serial:
+    ubuntu: ros-jazzy-gtsam2mrpt-serial
 gz_cmake_vendor:
     ubuntu: ros-jazzy-gz-cmake-vendor
 gz_common_vendor:
@@ -1038,14 +1634,48 @@ hatchbed_common:
     ubuntu: ros-jazzy-hatchbed-common
 heaphook:
     ubuntu: ros-jazzy-heaphook
+hebi_cpp_api:
+    ubuntu: ros-jazzy-hebi-cpp-api
+hebi_hardware:
+    ubuntu: ros-jazzy-hebi-hardware
+hebi_msgs:
+    ubuntu: ros-jazzy-hebi-msgs
 hector_rviz_overlay:
     ubuntu: ros-jazzy-hector-rviz-overlay
 heightmap_spawner:
     ubuntu: ros-jazzy-heightmap-spawner
+hitch_estimation_apriltag_array:
+    ubuntu: ros-jazzy-hitch-estimation-apriltag-array
 hls_lfcd_lds_driver:
     ubuntu: ros-jazzy-hls-lfcd-lds-driver
 hpp-fcl:
     ubuntu: ros-jazzy-hpp-fcl
+hri:
+    ubuntu: ros-jazzy-hri
+pyhri:
+    ubuntu: ros-jazzy-pyhri
+hri_actions_msgs:
+    ubuntu: ros-jazzy-hri-actions-msgs
+hri_msgs:
+    ubuntu: ros-jazzy-hri-msgs
+hri_rviz:
+    ubuntu: ros-jazzy-hri-rviz
+human_description:
+    ubuntu: ros-jazzy-human-description
+husarion_components_description:
+    ubuntu: ros-jazzy-husarion-components-description
+husarion_mecanum_drive_controller:
+    ubuntu: ros-jazzy-husarion-mecanum-drive-controller
+low_pass_filter:
+    ubuntu: ros-jazzy-low-pass-filter
+twist_mux_controller:
+    ubuntu: ros-jazzy-twist-mux-controller
+husarion_gz_worlds:
+    ubuntu: ros-jazzy-husarion-gz-worlds
+husarion_ugv_description:
+    ubuntu: ros-jazzy-husarion-ugv-description
+husarion_ugv_msgs:
+    ubuntu: ros-jazzy-husarion-ugv-msgs
 hyveos_bridge:
     ubuntu: ros-jazzy-hyveos-bridge
 hyveos_msgs:
@@ -1124,10 +1754,24 @@ interactive_marker_twist_server:
     ubuntu: ros-jazzy-interactive-marker-twist-server
 interactive_markers:
     ubuntu: ros-jazzy-interactive-markers
+franka_inria_inverse_dynamics_solver:
+    ubuntu: ros-jazzy-franka-inria-inverse-dynamics-solver
+inverse_dynamics_solver:
+    ubuntu: ros-jazzy-inverse-dynamics-solver
+kdl_inverse_dynamics_solver:
+    ubuntu: ros-jazzy-kdl-inverse-dynamics-solver
+ur10_inverse_dynamics_solver:
+    ubuntu: ros-jazzy-ur10-inverse-dynamics-solver
 irobot_create_msgs:
     ubuntu: ros-jazzy-irobot-create-msgs
 jacro:
     ubuntu: ros-jazzy-jacro
+jig:
+    ubuntu: ros-jazzy-jig
+jig_cli:
+    ubuntu: ros-jazzy-jig-cli
+jig_example:
+    ubuntu: ros-jazzy-jig-example
 joint_state_publisher:
     ubuntu: ros-jazzy-joint-state-publisher
 joint_state_publisher_gui:
@@ -1146,10 +1790,46 @@ wiimote:
     ubuntu: ros-jazzy-wiimote
 wiimote_msgs:
     ubuntu: ros-jazzy-wiimote-msgs
+jrl_cmakemodules:
+    ubuntu: ros-jazzy-jrl-cmakemodules
+audio_video_recorder:
+    ubuntu: ros-jazzy-audio-video-recorder
+dynamic_tf_publisher:
+    ubuntu: ros-jazzy-dynamic-tf-publisher
+image_view2:
+    ubuntu: ros-jazzy-image-view2
+jsk_common:
+    ubuntu: ros-jazzy-jsk-common
+jsk_data:
+    ubuntu: ros-jazzy-jsk-data
+jsk_ros1_ros2_compat:
+    ubuntu: ros-jazzy-jsk-ros1-ros2-compat
+jsk_rosbag_tools:
+    ubuntu: ros-jazzy-jsk-rosbag-tools
+jsk_tools:
+    ubuntu: ros-jazzy-jsk-tools
+jsk_topic_tools:
+    ubuntu: ros-jazzy-jsk-topic-tools
+jsk_common_msgs:
+    ubuntu: ros-jazzy-jsk-common-msgs
+jsk_footstep_msgs:
+    ubuntu: ros-jazzy-jsk-footstep-msgs
+jsk_gui_msgs:
+    ubuntu: ros-jazzy-jsk-gui-msgs
+jsk_hark_msgs:
+    ubuntu: ros-jazzy-jsk-hark-msgs
+posedetection_msgs:
+    ubuntu: ros-jazzy-posedetection-msgs
+speech_recognition_msgs:
+    ubuntu: ros-jazzy-speech-recognition-msgs
+kairos:
+    ubuntu: ros-jazzy-kairos
 kdl_parser:
     ubuntu: ros-jazzy-kdl-parser
 keyboard_handler:
     ubuntu: ros-jazzy-keyboard-handler
+kinematic_pose_msgs:
+    ubuntu: ros-jazzy-kinematic-pose-msgs
 kinematics_interface:
     ubuntu: ros-jazzy-kinematics-interface
 kinematics_interface_kdl:
@@ -1166,6 +1846,72 @@ kompass:
     ubuntu: ros-jazzy-kompass
 kompass_interfaces:
     ubuntu: ros-jazzy-kompass-interfaces
+fri_configuration_controller:
+    ubuntu: ros-jazzy-fri-configuration-controller
+fri_state_broadcaster:
+    ubuntu: ros-jazzy-fri-state-broadcaster
+joint_group_impedance_controller:
+    ubuntu: ros-jazzy-joint-group-impedance-controller
+kuka_control_mode_handler:
+    ubuntu: ros-jazzy-kuka-control-mode-handler
+kuka_controllers:
+    ubuntu: ros-jazzy-kuka-controllers
+kuka_driver_interfaces:
+    ubuntu: ros-jazzy-kuka-driver-interfaces
+kuka_drivers:
+    ubuntu: ros-jazzy-kuka-drivers
+kuka_drivers_core:
+    ubuntu: ros-jazzy-kuka-drivers-core
+kuka_event_broadcaster:
+    ubuntu: ros-jazzy-kuka-event-broadcaster
+kuka_iiqka_eac_driver:
+    ubuntu: ros-jazzy-kuka-iiqka-eac-driver
+kuka_kss_message_handler:
+    ubuntu: ros-jazzy-kuka-kss-message-handler
+kuka_rsi_driver:
+    ubuntu: ros-jazzy-kuka-rsi-driver
+kuka_rsi_simulator:
+    ubuntu: ros-jazzy-kuka-rsi-simulator
+kuka_sunrise_fri_driver:
+    ubuntu: ros-jazzy-kuka-sunrise-fri-driver
+kuka_external_control_sdk:
+    ubuntu: ros-jazzy-kuka-external-control-sdk
+kuka_external_control_sdk_examples:
+    ubuntu: ros-jazzy-kuka-external-control-sdk-examples
+kuka_drivers:
+    ubuntu: ros-jazzy-kuka-drivers
+kuka_external_control_sdk:
+    ubuntu: ros-jazzy-kuka-external-control-sdk
+kuka_agilus_support:
+    ubuntu: ros-jazzy-kuka-agilus-support
+kuka_cybertech_support:
+    ubuntu: ros-jazzy-kuka-cybertech-support
+kuka_fortec_support:
+    ubuntu: ros-jazzy-kuka-fortec-support
+kuka_gazebo:
+    ubuntu: ros-jazzy-kuka-gazebo
+kuka_iontec_support:
+    ubuntu: ros-jazzy-kuka-iontec-support
+kuka_kl_support:
+    ubuntu: ros-jazzy-kuka-kl-support
+kuka_kr_moveit_config:
+    ubuntu: ros-jazzy-kuka-kr-moveit-config
+kuka_lbr_iisy_moveit_config:
+    ubuntu: ros-jazzy-kuka-lbr-iisy-moveit-config
+kuka_lbr_iisy_support:
+    ubuntu: ros-jazzy-kuka-lbr-iisy-support
+kuka_lbr_iiwa_moveit_config:
+    ubuntu: ros-jazzy-kuka-lbr-iiwa-moveit-config
+kuka_lbr_iiwa_support:
+    ubuntu: ros-jazzy-kuka-lbr-iiwa-support
+kuka_mock_hardware_interface:
+    ubuntu: ros-jazzy-kuka-mock-hardware-interface
+kuka_quantec_support:
+    ubuntu: ros-jazzy-kuka-quantec-support
+kuka_resources:
+    ubuntu: ros-jazzy-kuka-resources
+kuka_robot_descriptions:
+    ubuntu: ros-jazzy-kuka-robot-descriptions
 lanelet2:
     ubuntu: ros-jazzy-lanelet2
 lanelet2_core:
@@ -1194,6 +1940,10 @@ laser_geometry:
     ubuntu: ros-jazzy-laser-geometry
 laser_proc:
     ubuntu: ros-jazzy-laser-proc
+laser_scan_merger:
+    ubuntu: ros-jazzy-laser-scan-merger
+laser_segmentation:
+    ubuntu: ros-jazzy-laser-segmentation
 launch:
     ubuntu: ros-jazzy-launch
 launch_pytest:
@@ -1206,6 +1956,10 @@ launch_xml:
     ubuntu: ros-jazzy-launch-xml
 launch_yaml:
     ubuntu: ros-jazzy-launch-yaml
+launch_frontend_py:
+    ubuntu: ros-jazzy-launch-frontend-py
+launch_pal:
+    ubuntu: ros-jazzy-launch-pal
 launch_param_builder:
     ubuntu: ros-jazzy-launch-param-builder
 launch_ros:
@@ -1214,6 +1968,8 @@ launch_testing_ros:
     ubuntu: ros-jazzy-launch-testing-ros
 ros2launch:
     ubuntu: ros-jazzy-ros2launch
+ld08_driver:
+    ubuntu: ros-jazzy-ld08-driver
 leo:
     ubuntu: ros-jazzy-leo
 leo_description:
@@ -1226,8 +1982,18 @@ leo_desktop:
     ubuntu: ros-jazzy-leo-desktop
 leo_viz:
     ubuntu: ros-jazzy-leo-viz
+leo_example_follow_aruco_marker:
+    ubuntu: ros-jazzy-leo-example-follow-aruco-marker
+leo_example_line_follower:
+    ubuntu: ros-jazzy-leo-example-line-follower
+leo_example_object_detection:
+    ubuntu: ros-jazzy-leo-example-object-detection
+leo_examples:
+    ubuntu: ros-jazzy-leo-examples
 leo_bringup:
     ubuntu: ros-jazzy-leo-bringup
+leo_filters:
+    ubuntu: ros-jazzy-leo-filters
 leo_fw:
     ubuntu: ros-jazzy-leo-fw
 leo_robot:
@@ -1240,10 +2006,14 @@ leo_gz_worlds:
     ubuntu: ros-jazzy-leo-gz-worlds
 leo_simulator:
     ubuntu: ros-jazzy-leo-simulator
+lgdx_rplidar_c1:
+    ubuntu: ros-jazzy-lgdx-rplidar-c1
 lgsvl_msgs:
     ubuntu: ros-jazzy-lgsvl-msgs
-libcaer:
-    ubuntu: ros-jazzy-libcaer
+libaditof:
+    ubuntu: ros-jazzy-libaditof
+libbno055_linux:
+    ubuntu: ros-jazzy-libbno055-linux
 libcaer_driver:
     ubuntu: ros-jazzy-libcaer-driver
 libcaer_vendor:
@@ -1262,14 +2032,42 @@ libstatistics_collector:
     ubuntu: ros-jazzy-libstatistics-collector
 libyaml_vendor:
     ubuntu: ros-jazzy-libyaml-vendor
+lightning_rrt:
+    ubuntu: ros-jazzy-lightning-rrt
+lightning_rrt_interfaces:
+    ubuntu: ros-jazzy-lightning-rrt-interfaces
+linear_feedback_controller:
+    ubuntu: ros-jazzy-linear-feedback-controller
+linear_feedback_controller_msgs:
+    ubuntu: ros-jazzy-linear-feedback-controller-msgs
 linux_isolate_process:
     ubuntu: ros-jazzy-linux-isolate-process
+live555_vendor:
+    ubuntu: ros-jazzy-live555-vendor
+lms1xx:
+    ubuntu: ros-jazzy-lms1xx
+localization_msgs_tools:
+    ubuntu: ros-jazzy-localization-msgs-tools
 log_view:
     ubuntu: ros-jazzy-log-view
 lusb:
     ubuntu: ros-jazzy-lusb
+lvr2:
+    ubuntu: ros-jazzy-lvr2
 magic_enum:
     ubuntu: ros-jazzy-magic-enum
+mapoi:
+    ubuntu: ros-jazzy-mapoi
+mapoi_interfaces:
+    ubuntu: ros-jazzy-mapoi-interfaces
+mapoi_rviz_plugins:
+    ubuntu: ros-jazzy-mapoi-rviz-plugins
+mapoi_server:
+    ubuntu: ros-jazzy-mapoi-server
+mapoi_turtlebot3_example:
+    ubuntu: ros-jazzy-mapoi-turtlebot3-example
+mapoi_webui:
+    ubuntu: ros-jazzy-mapoi-webui
 mapviz:
     ubuntu: ros-jazzy-mapviz
 mapviz_interfaces:
@@ -1300,14 +2098,10 @@ swri_math_util:
     ubuntu: ros-jazzy-swri-math-util
 swri_opencv_util:
     ubuntu: ros-jazzy-swri-opencv-util
-swri_roscpp:
-    ubuntu: ros-jazzy-swri-roscpp
 swri_route_util:
     ubuntu: ros-jazzy-swri-route-util
 swri_serial_util:
     ubuntu: ros-jazzy-swri-serial-util
-swri_system_util:
-    ubuntu: ros-jazzy-swri-system-util
 swri_transform_util:
     ubuntu: ros-jazzy-swri-transform-util
 marti_can_msgs:
@@ -1334,18 +2128,24 @@ libmavconn:
     ubuntu: ros-jazzy-libmavconn
 mavros:
     ubuntu: ros-jazzy-mavros
+mavros_examples:
+    ubuntu: ros-jazzy-mavros-examples
 mavros_extras:
     ubuntu: ros-jazzy-mavros-extras
 mavros_msgs:
     ubuntu: ros-jazzy-mavros-msgs
 menge_vendor:
     ubuntu: ros-jazzy-menge-vendor
+mesh_tools:
+    ubuntu: ros-jazzy-mesh-tools
 message_filters:
     ubuntu: ros-jazzy-message-filters
 message_tf_frame_transformer:
     ubuntu: ros-jazzy-message-tf-frame-transformer
 metavision_driver:
     ubuntu: ros-jazzy-metavision-driver
+metriplane:
+    ubuntu: ros-jazzy-metriplane
 micro_ros_diagnostic_bridge:
     ubuntu: ros-jazzy-micro-ros-diagnostic-bridge
 micro_ros_diagnostic_msgs:
@@ -1366,28 +2166,28 @@ mimick_vendor:
     ubuntu: ros-jazzy-mimick-vendor
 mir_robot:
     ubuntu: ros-jazzy-mir-robot
-kitti_metrics_eval:
-    ubuntu: ros-jazzy-kitti-metrics-eval
+miti_sdk:
+    ubuntu: ros-jazzy-miti-sdk
+mobile_robot_simulator:
+    ubuntu: ros-jazzy-mobile-robot-simulator
+mocap4r2_msgs:
+    ubuntu: ros-jazzy-mocap4r2-msgs
+mocap_optitrack:
+    ubuntu: ros-jazzy-mocap-optitrack
 mola:
     ubuntu: ros-jazzy-mola
 mola_bridge_ros2:
     ubuntu: ros-jazzy-mola-bridge-ros2
 mola_demos:
     ubuntu: ros-jazzy-mola-demos
-mola_input_euroc_dataset:
-    ubuntu: ros-jazzy-mola-input-euroc-dataset
-mola_input_kitti360_dataset:
-    ubuntu: ros-jazzy-mola-input-kitti360-dataset
-mola_input_kitti_dataset:
-    ubuntu: ros-jazzy-mola-input-kitti-dataset
-mola_input_mulran_dataset:
-    ubuntu: ros-jazzy-mola-input-mulran-dataset
-mola_input_paris_luco_dataset:
-    ubuntu: ros-jazzy-mola-input-paris-luco-dataset
+mola_input_lidar_bin_dataset:
+    ubuntu: ros-jazzy-mola-input-lidar-bin-dataset
 mola_input_rawlog:
     ubuntu: ros-jazzy-mola-input-rawlog
 mola_input_rosbag2:
     ubuntu: ros-jazzy-mola-input-rosbag2
+mola_input_video:
+    ubuntu: ros-jazzy-mola-input-video
 mola_kernel:
     ubuntu: ros-jazzy-mola-kernel
 mola_launcher:
@@ -1404,14 +2204,42 @@ mola_traj_tools:
     ubuntu: ros-jazzy-mola-traj-tools
 mola_viz:
     ubuntu: ros-jazzy-mola-viz
+mola_viz_imgui:
+    ubuntu: ros-jazzy-mola-viz-imgui
 mola_yaml:
     ubuntu: ros-jazzy-mola-yaml
+kitti_metrics_eval:
+    ubuntu: ros-jazzy-kitti-metrics-eval
+mola_academic_datasets:
+    ubuntu: ros-jazzy-mola-academic-datasets
+mola_input_euroc_dataset:
+    ubuntu: ros-jazzy-mola-input-euroc-dataset
+mola_input_kitti360_dataset:
+    ubuntu: ros-jazzy-mola-input-kitti360-dataset
+mola_input_kitti_dataset:
+    ubuntu: ros-jazzy-mola-input-kitti-dataset
+mola_input_mulran_dataset:
+    ubuntu: ros-jazzy-mola-input-mulran-dataset
+mola_input_paris_luco_dataset:
+    ubuntu: ros-jazzy-mola-input-paris-luco-dataset
 mola_common:
     ubuntu: ros-jazzy-mola-common
-mola_lidar_odometry:
-    ubuntu: ros-jazzy-mola-lidar-odometry
+mola_gnss_to_markers:
+    ubuntu: ros-jazzy-mola-gnss-to-markers
 mola_imu_preintegration:
     ubuntu: ros-jazzy-mola-imu-preintegration
+mola_input_ouster:
+    ubuntu: ros-jazzy-mola-input-ouster
+mola_input_rosbag1:
+    ubuntu: ros-jazzy-mola-input-rosbag1
+mola_lidar_odometry:
+    ubuntu: ros-jazzy-mola-lidar-odometry
+mola_sm_loop_closure:
+    ubuntu: ros-jazzy-mola-sm-loop-closure
+mola_georeferencing:
+    ubuntu: ros-jazzy-mola-georeferencing
+mola_gtsam_factors:
+    ubuntu: ros-jazzy-mola-gtsam-factors
 mola_state_estimation:
     ubuntu: ros-jazzy-mola-state-estimation
 mola_state_estimation_simple:
@@ -1424,6 +2252,24 @@ motion_capture_tracking:
     ubuntu: ros-jazzy-motion-capture-tracking
 motion_capture_tracking_interfaces:
     ubuntu: ros-jazzy-motion-capture-tracking-interfaces
+mbf_abstract_core:
+    ubuntu: ros-jazzy-mbf-abstract-core
+mbf_abstract_nav:
+    ubuntu: ros-jazzy-mbf-abstract-nav
+mbf_msgs:
+    ubuntu: ros-jazzy-mbf-msgs
+mbf_simple_core:
+    ubuntu: ros-jazzy-mbf-simple-core
+mbf_simple_nav:
+    ubuntu: ros-jazzy-mbf-simple-nav
+mbf_test_utility:
+    ubuntu: ros-jazzy-mbf-test-utility
+mbf_utility:
+    ubuntu: ros-jazzy-mbf-utility
+move_base_flex:
+    ubuntu: ros-jazzy-move-base-flex
+rviz_mbf_plugins:
+    ubuntu: ros-jazzy-rviz-mbf-plugins
 chomp_motion_planner:
     ubuntu: ros-jazzy-chomp-motion-planner
 moveit:
@@ -1522,14 +2368,106 @@ moveit_resources_panda_moveit_config:
     ubuntu: ros-jazzy-moveit-resources-panda-moveit-config
 moveit_resources_pr2_description:
     ubuntu: ros-jazzy-moveit-resources-pr2-description
+moveit_task_constructor_capabilities:
+    ubuntu: ros-jazzy-moveit-task-constructor-capabilities
+moveit_task_constructor_core:
+    ubuntu: ros-jazzy-moveit-task-constructor-core
+moveit_task_constructor_demo:
+    ubuntu: ros-jazzy-moveit-task-constructor-demo
+moveit_task_constructor_msgs:
+    ubuntu: ros-jazzy-moveit-task-constructor-msgs
+moveit_task_constructor_visualization:
+    ubuntu: ros-jazzy-moveit-task-constructor-visualization
+rviz_marker_tools:
+    ubuntu: ros-jazzy-rviz-marker-tools
 moveit_visual_tools:
     ubuntu: ros-jazzy-moveit-visual-tools
 mp2p_icp:
     ubuntu: ros-jazzy-mp2p-icp
+mp2p_icp_core:
+    ubuntu: ros-jazzy-mp2p-icp-core
+mp2p_icp_viz:
+    ubuntu: ros-jazzy-mp2p-icp-viz
+mp_units_vendor:
+    ubuntu: ros-jazzy-mp-units-vendor
 mqtt_client:
     ubuntu: ros-jazzy-mqtt-client
 mqtt_client_interfaces:
     ubuntu: ros-jazzy-mqtt-client-interfaces
+mrpt_apps_cli:
+    ubuntu: ros-jazzy-mrpt-apps-cli
+mrpt_apps_gui:
+    ubuntu: ros-jazzy-mrpt-apps-gui
+mrpt_bayes:
+    ubuntu: ros-jazzy-mrpt-bayes
+mrpt_common:
+    ubuntu: ros-jazzy-mrpt-common
+mrpt_comms:
+    ubuntu: ros-jazzy-mrpt-comms
+mrpt_config:
+    ubuntu: ros-jazzy-mrpt-config
+mrpt_containers:
+    ubuntu: ros-jazzy-mrpt-containers
+mrpt_core:
+    ubuntu: ros-jazzy-mrpt-core
+mrpt_data:
+    ubuntu: ros-jazzy-mrpt-data
+mrpt_examples_cpp:
+    ubuntu: ros-jazzy-mrpt-examples-cpp
+mrpt_expr:
+    ubuntu: ros-jazzy-mrpt-expr
+mrpt_graphs:
+    ubuntu: ros-jazzy-mrpt-graphs
+mrpt_graphslam:
+    ubuntu: ros-jazzy-mrpt-graphslam
+mrpt_gui:
+    ubuntu: ros-jazzy-mrpt-gui
+mrpt_hwdrivers:
+    ubuntu: ros-jazzy-mrpt-hwdrivers
+mrpt_img:
+    ubuntu: ros-jazzy-mrpt-img
+mrpt_imgui:
+    ubuntu: ros-jazzy-mrpt-imgui
+mrpt_imgui_vendor:
+    ubuntu: ros-jazzy-mrpt-imgui-vendor
+mrpt_io:
+    ubuntu: ros-jazzy-mrpt-io
+mrpt_kinematics:
+    ubuntu: ros-jazzy-mrpt-kinematics
+mrpt_libapps_cli:
+    ubuntu: ros-jazzy-mrpt-libapps-cli
+mrpt_libapps_gui:
+    ubuntu: ros-jazzy-mrpt-libapps-gui
+mrpt_maps:
+    ubuntu: ros-jazzy-mrpt-maps
+mrpt_math:
+    ubuntu: ros-jazzy-mrpt-math
+mrpt_nav:
+    ubuntu: ros-jazzy-mrpt-nav
+mrpt_obs:
+    ubuntu: ros-jazzy-mrpt-obs
+mrpt_opengl:
+    ubuntu: ros-jazzy-mrpt-opengl
+mrpt_poses:
+    ubuntu: ros-jazzy-mrpt-poses
+mrpt_random:
+    ubuntu: ros-jazzy-mrpt-random
+mrpt_rtti:
+    ubuntu: ros-jazzy-mrpt-rtti
+mrpt_serialization:
+    ubuntu: ros-jazzy-mrpt-serialization
+mrpt_slam:
+    ubuntu: ros-jazzy-mrpt-slam
+mrpt_system:
+    ubuntu: ros-jazzy-mrpt-system
+mrpt_tfest:
+    ubuntu: ros-jazzy-mrpt-tfest
+mrpt_topography:
+    ubuntu: ros-jazzy-mrpt-topography
+mrpt_typemeta:
+    ubuntu: ros-jazzy-mrpt-typemeta
+mrpt_viz:
+    ubuntu: ros-jazzy-mrpt-viz
 mrpt_msgs:
     ubuntu: ros-jazzy-mrpt-msgs
 mrpt_map_server:
@@ -1544,16 +2482,20 @@ mrpt_pf_localization:
     ubuntu: ros-jazzy-mrpt-pf-localization
 mrpt_pointcloud_pipeline:
     ubuntu: ros-jazzy-mrpt-pointcloud-pipeline
-mrpt_rawlog:
-    ubuntu: ros-jazzy-mrpt-rawlog
 mrpt_reactivenav2d:
     ubuntu: ros-jazzy-mrpt-reactivenav2d
 mrpt_tps_astar_planner:
     ubuntu: ros-jazzy-mrpt-tps-astar-planner
+mrpt_trajectory_follower:
+    ubuntu: ros-jazzy-mrpt-trajectory-follower
 mrpt_tutorials:
     ubuntu: ros-jazzy-mrpt-tutorials
 mrpt_path_planning:
     ubuntu: ros-jazzy-mrpt-path-planning
+mrpt_path_planning_apps:
+    ubuntu: ros-jazzy-mrpt-path-planning-apps
+mrpt_path_planning_core:
+    ubuntu: ros-jazzy-mrpt-path-planning-core
 mrpt_apps:
     ubuntu: ros-jazzy-mrpt-apps
 mrpt_libapps:
@@ -1576,12 +2518,14 @@ mrpt_libopengl:
     ubuntu: ros-jazzy-mrpt-libopengl
 mrpt_libposes:
     ubuntu: ros-jazzy-mrpt-libposes
-mrpt_libros_bridge:
-    ubuntu: ros-jazzy-mrpt-libros-bridge
 mrpt_libslam:
     ubuntu: ros-jazzy-mrpt-libslam
 mrpt_libtclap:
     ubuntu: ros-jazzy-mrpt-libtclap
+mrpt_libros_bridge:
+    ubuntu: ros-jazzy-mrpt-libros-bridge
+rosbag2rawlog:
+    ubuntu: ros-jazzy-rosbag2rawlog
 mrpt_generic_sensor:
     ubuntu: ros-jazzy-mrpt-generic-sensor
 mrpt_sensor_bumblebee_stereo:
@@ -1596,10 +2540,34 @@ mrpt_sensorlib:
     ubuntu: ros-jazzy-mrpt-sensorlib
 mrpt_sensors:
     ubuntu: ros-jazzy-mrpt-sensors
+novatel_oem6_msgs:
+    ubuntu: ros-jazzy-novatel-oem6-msgs
 mrt_cmake_modules:
     ubuntu: ros-jazzy-mrt-cmake-modules
+mujoco_3d_lidar:
+    ubuntu: ros-jazzy-mujoco-3d-lidar
+mujoco_ros2_control:
+    ubuntu: ros-jazzy-mujoco-ros2-control
+mujoco_ros2_control_demos:
+    ubuntu: ros-jazzy-mujoco-ros2-control-demos
+mujoco_ros2_control_msgs:
+    ubuntu: ros-jazzy-mujoco-ros2-control-msgs
+mujoco_ros2_control_plugins:
+    ubuntu: ros-jazzy-mujoco-ros2-control-plugins
+mujoco_vendor:
+    ubuntu: ros-jazzy-mujoco-vendor
+multisensor_calibration:
+    ubuntu: ros-jazzy-multisensor-calibration
+multisensor_calibration_interface:
+    ubuntu: ros-jazzy-multisensor-calibration-interface
+small_gicp_vendor:
+    ubuntu: ros-jazzy-small-gicp-vendor
 mvsim:
     ubuntu: ros-jazzy-mvsim
+nanoeigenpy:
+    ubuntu: ros-jazzy-nanoeigenpy
+nanoflann_vendor:
+    ubuntu: ros-jazzy-nanoflann-vendor
 nao_button_sim:
     ubuntu: ros-jazzy-nao-button-sim
 nao_command_msgs:
@@ -1614,6 +2582,14 @@ nao_lola_command_msgs:
     ubuntu: ros-jazzy-nao-lola-command-msgs
 nao_lola_sensor_msgs:
     ubuntu: ros-jazzy-nao-lola-sensor-msgs
+nao_meshes:
+    ubuntu: ros-jazzy-nao-meshes
+naoqi_bridge_msgs:
+    ubuntu: ros-jazzy-naoqi-bridge-msgs
+naoqi_libqi:
+    ubuntu: ros-jazzy-naoqi-libqi
+naoqi_libqicore:
+    ubuntu: ros-jazzy-naoqi-libqicore
 nav2_minimal_tb3_sim:
     ubuntu: ros-jazzy-nav2-minimal-tb3-sim
 nav2_minimal_tb4_description:
@@ -1674,6 +2650,8 @@ nav2_regulated_pure_pursuit_controller:
     ubuntu: ros-jazzy-nav2-regulated-pure-pursuit-controller
 nav2_rotation_shim_controller:
     ubuntu: ros-jazzy-nav2-rotation-shim-controller
+nav2_route:
+    ubuntu: ros-jazzy-nav2-route
 nav2_rviz_plugins:
     ubuntu: ros-jazzy-nav2-rviz-plugins
 nav2_simple_commander:
@@ -1706,12 +2684,74 @@ opennav_docking_bt:
     ubuntu: ros-jazzy-opennav-docking-bt
 opennav_docking_core:
     ubuntu: ros-jazzy-opennav-docking-core
+opennav_following:
+    ubuntu: ros-jazzy-opennav-following
 map_msgs:
     ubuntu: ros-jazzy-map-msgs
+ndcurves:
+    ubuntu: ros-jazzy-ndcurves
+continental_msgs:
+    ubuntu: ros-jazzy-continental-msgs
+continental_srvs:
+    ubuntu: ros-jazzy-continental-srvs
+nebula:
+    ubuntu: ros-jazzy-nebula
+nebula_continental:
+    ubuntu: ros-jazzy-nebula-continental
+nebula_continental_common:
+    ubuntu: ros-jazzy-nebula-continental-common
+nebula_continental_decoders:
+    ubuntu: ros-jazzy-nebula-continental-decoders
+nebula_continental_hw_interfaces:
+    ubuntu: ros-jazzy-nebula-continental-hw-interfaces
+nebula_core_common:
+    ubuntu: ros-jazzy-nebula-core-common
+nebula_core_decoders:
+    ubuntu: ros-jazzy-nebula-core-decoders
+nebula_core_hw_interfaces:
+    ubuntu: ros-jazzy-nebula-core-hw-interfaces
+nebula_core_ros:
+    ubuntu: ros-jazzy-nebula-core-ros
+nebula_hesai:
+    ubuntu: ros-jazzy-nebula-hesai
+nebula_hesai_common:
+    ubuntu: ros-jazzy-nebula-hesai-common
+nebula_hesai_decoders:
+    ubuntu: ros-jazzy-nebula-hesai-decoders
+nebula_hesai_hw_interfaces:
+    ubuntu: ros-jazzy-nebula-hesai-hw-interfaces
+nebula_msgs:
+    ubuntu: ros-jazzy-nebula-msgs
+nebula_robosense:
+    ubuntu: ros-jazzy-nebula-robosense
+nebula_robosense_common:
+    ubuntu: ros-jazzy-nebula-robosense-common
+nebula_robosense_decoders:
+    ubuntu: ros-jazzy-nebula-robosense-decoders
+nebula_robosense_hw_interfaces:
+    ubuntu: ros-jazzy-nebula-robosense-hw-interfaces
+nebula_sample:
+    ubuntu: ros-jazzy-nebula-sample
+nebula_sample_common:
+    ubuntu: ros-jazzy-nebula-sample-common
+nebula_sample_decoders:
+    ubuntu: ros-jazzy-nebula-sample-decoders
+nebula_sample_hw_interfaces:
+    ubuntu: ros-jazzy-nebula-sample-hw-interfaces
+nebula_velodyne:
+    ubuntu: ros-jazzy-nebula-velodyne
+nebula_velodyne_common:
+    ubuntu: ros-jazzy-nebula-velodyne-common
+nebula_velodyne_decoders:
+    ubuntu: ros-jazzy-nebula-velodyne-decoders
+nebula_velodyne_hw_interfaces:
+    ubuntu: ros-jazzy-nebula-velodyne-hw-interfaces
+pandar_msgs:
+    ubuntu: ros-jazzy-pandar-msgs
+robosense_msgs:
+    ubuntu: ros-jazzy-robosense-msgs
 neo_nav2_bringup:
     ubuntu: ros-jazzy-neo-nav2-bringup
-neo_simulation2:
-    ubuntu: ros-jazzy-neo-simulation2
 network_bridge:
     ubuntu: ros-jazzy-network-bridge
 nicla_vision_ros2:
@@ -1724,20 +2764,44 @@ nmea_msgs:
     ubuntu: ros-jazzy-nmea-msgs
 nmea_navsat_driver:
     ubuntu: ros-jazzy-nmea-navsat-driver
-nodl_python:
-    ubuntu: ros-jazzy-nodl-python
+nobleo_socketcan_bridge:
+    ubuntu: ros-jazzy-nobleo-socketcan-bridge
+ament_nodl:
+    ubuntu: ros-jazzy-ament-nodl
+nodl:
+    ubuntu: ros-jazzy-nodl
+nodl_common_interfaces:
+    ubuntu: ros-jazzy-nodl-common-interfaces
+nodl_conformance:
+    ubuntu: ros-jazzy-nodl-conformance
+nodl_docgen:
+    ubuntu: ros-jazzy-nodl-docgen
+nodl_generator_cpp:
+    ubuntu: ros-jazzy-nodl-generator-cpp
+nodl_observe:
+    ubuntu: ros-jazzy-nodl-observe
+nodl_schema:
+    ubuntu: ros-jazzy-nodl-schema
 ros2nodl:
     ubuntu: ros-jazzy-ros2nodl
 nodl_to_policy:
     ubuntu: ros-jazzy-nodl-to-policy
+nonpersistent_voxel_layer:
+    ubuntu: ros-jazzy-nonpersistent-voxel-layer
 novatel_gps_driver:
     ubuntu: ros-jazzy-novatel-gps-driver
 novatel_gps_msgs:
     ubuntu: ros-jazzy-novatel-gps-msgs
+novatel_oem7_driver:
+    ubuntu: ros-jazzy-novatel-oem7-driver
+novatel_oem7_msgs:
+    ubuntu: ros-jazzy-novatel-oem7-msgs
 ntpd_driver:
     ubuntu: ros-jazzy-ntpd-driver
 ntrip_client:
     ubuntu: ros-jazzy-ntrip-client
+numpy_ndarray_msgs:
+    ubuntu: ros-jazzy-numpy-ndarray-msgs
 object_recognition_msgs:
     ubuntu: ros-jazzy-object-recognition-msgs
 dynamic_edt_3d:
@@ -1760,8 +2824,72 @@ odom_to_tf_ros2:
     ubuntu: ros-jazzy-odom-to-tf-ros2
 odri_master_board_sdk:
     ubuntu: ros-jazzy-odri-master-board-sdk
+off_highway_can:
+    ubuntu: ros-jazzy-off-highway-can
+off_highway_general_purpose_radar:
+    ubuntu: ros-jazzy-off-highway-general-purpose-radar
+off_highway_general_purpose_radar_msgs:
+    ubuntu: ros-jazzy-off-highway-general-purpose-radar-msgs
+off_highway_mm7p10:
+    ubuntu: ros-jazzy-off-highway-mm7p10
+off_highway_mm7p10_msgs:
+    ubuntu: ros-jazzy-off-highway-mm7p10-msgs
+off_highway_premium_radar:
+    ubuntu: ros-jazzy-off-highway-premium-radar
+off_highway_premium_radar_msgs:
+    ubuntu: ros-jazzy-off-highway-premium-radar-msgs
+off_highway_premium_radar_sample:
+    ubuntu: ros-jazzy-off-highway-premium-radar-sample
+off_highway_premium_radar_sample_msgs:
+    ubuntu: ros-jazzy-off-highway-premium-radar-sample-msgs
+off_highway_radar:
+    ubuntu: ros-jazzy-off-highway-radar
+off_highway_radar_msgs:
+    ubuntu: ros-jazzy-off-highway-radar-msgs
+off_highway_sensor_drivers:
+    ubuntu: ros-jazzy-off-highway-sensor-drivers
+off_highway_sensor_drivers_examples:
+    ubuntu: ros-jazzy-off-highway-sensor-drivers-examples
+off_highway_uss:
+    ubuntu: ros-jazzy-off-highway-uss
+off_highway_uss_msgs:
+    ubuntu: ros-jazzy-off-highway-uss-msgs
+olive_interfaces:
+    ubuntu: ros-jazzy-olive-interfaces
+olive_openrmf_fleet_adapter:
+    ubuntu: ros-jazzy-olive-openrmf-fleet-adapter
 ompl:
     ubuntu: ros-jazzy-ompl
+onnxruntime_vendor:
+    ubuntu: ros-jazzy-onnxruntime-vendor
+om_gravity_compensation_controller:
+    ubuntu: ros-jazzy-om-gravity-compensation-controller
+om_joint_trajectory_command_broadcaster:
+    ubuntu: ros-jazzy-om-joint-trajectory-command-broadcaster
+om_spring_actuator_controller:
+    ubuntu: ros-jazzy-om-spring-actuator-controller
+open_manipulator:
+    ubuntu: ros-jazzy-open-manipulator
+open_manipulator_bringup:
+    ubuntu: ros-jazzy-open-manipulator-bringup
+open_manipulator_collision:
+    ubuntu: ros-jazzy-open-manipulator-collision
+open_manipulator_description:
+    ubuntu: ros-jazzy-open-manipulator-description
+open_manipulator_gui:
+    ubuntu: ros-jazzy-open-manipulator-gui
+open_manipulator_moveit_config:
+    ubuntu: ros-jazzy-open-manipulator-moveit-config
+open_manipulator_playground:
+    ubuntu: ros-jazzy-open-manipulator-playground
+open_manipulator_teleop:
+    ubuntu: ros-jazzy-open-manipulator-teleop
+open_sound_control:
+    ubuntu: ros-jazzy-open-sound-control
+open_sound_control_bridge:
+    ubuntu: ros-jazzy-open-sound-control-bridge
+open_sound_control_msgs:
+    ubuntu: ros-jazzy-open-sound-control-msgs
 openeb_vendor:
     ubuntu: ros-jazzy-openeb-vendor
 openni2_camera:
@@ -1770,12 +2898,22 @@ opensw:
     ubuntu: ros-jazzy-opensw
 opensw_ros:
     ubuntu: ros-jazzy-opensw-ros
+orbbec_camera:
+    ubuntu: ros-jazzy-orbbec-camera
+orbbec_camera_msgs:
+    ubuntu: ros-jazzy-orbbec-camera-msgs
+orbbec_description:
+    ubuntu: ros-jazzy-orbbec-description
 orocos_kdl_vendor:
     ubuntu: ros-jazzy-orocos-kdl-vendor
 python_orocos_kdl_vendor:
     ubuntu: ros-jazzy-python-orocos-kdl-vendor
 ortools_vendor:
     ubuntu: ros-jazzy-ortools-vendor
+oscp_ros2_driver:
+    ubuntu: ros-jazzy-oscp-ros2-driver
+osqp_eigen:
+    ubuntu: ros-jazzy-osqp-eigen
 osqp_vendor:
     ubuntu: ros-jazzy-osqp-vendor
 osrf_pycommon:
@@ -1796,8 +2934,12 @@ pal_statistics_msgs:
     ubuntu: ros-jazzy-pal-statistics-msgs
 pangolin:
     ubuntu: ros-jazzy-pangolin
+parameter_expression:
+    ubuntu: ros-jazzy-parameter-expression
 pcl_msgs:
     ubuntu: ros-jazzy-pcl-msgs
+pepper_meshes:
+    ubuntu: ros-jazzy-pepper-meshes
 open3d_conversions:
     ubuntu: ros-jazzy-open3d-conversions
 pcl_conversions:
@@ -1810,6 +2952,10 @@ performance_test:
     ubuntu: ros-jazzy-performance-test
 performance_test_fixture:
     ubuntu: ros-jazzy-performance-test-fixture
+persist_parameter_server:
+    ubuntu: ros-jazzy-persist-parameter-server
+pfs:
+    ubuntu: ros-jazzy-pfs
 libphidget22:
     ubuntu: ros-jazzy-libphidget22
 phidgets_accelerometer:
@@ -1840,8 +2986,12 @@ phidgets_msgs:
     ubuntu: ros-jazzy-phidgets-msgs
 phidgets_spatial:
     ubuntu: ros-jazzy-phidgets-spatial
+phidgets_stepper:
+    ubuntu: ros-jazzy-phidgets-stepper
 phidgets_temperature:
     ubuntu: ros-jazzy-phidgets-temperature
+phone_sensors_bridge:
+    ubuntu: ros-jazzy-phone-sensors-bridge
 pick_ik:
     ubuntu: ros-jazzy-pick-ik
 picknik_ament_copyright:
@@ -1852,6 +3002,18 @@ picknik_twist_controller:
     ubuntu: ros-jazzy-picknik-twist-controller
 pinocchio:
     ubuntu: ros-jazzy-pinocchio
+play_motion2:
+    ubuntu: ros-jazzy-play-motion2
+play_motion2_cli:
+    ubuntu: ros-jazzy-play-motion2-cli
+play_motion2_msgs:
+    ubuntu: ros-jazzy-play-motion2-msgs
+play_motion_builder:
+    ubuntu: ros-jazzy-play-motion-builder
+play_motion_builder_msgs:
+    ubuntu: ros-jazzy-play-motion-builder-msgs
+rqt_play_motion_builder:
+    ubuntu: ros-jazzy-rqt-play-motion-builder
 plotjuggler:
     ubuntu: ros-jazzy-plotjuggler
 plotjuggler_msgs:
@@ -1860,6 +3022,8 @@ plotjuggler_ros:
     ubuntu: ros-jazzy-plotjuggler-ros
 pluginlib:
     ubuntu: ros-jazzy-pluginlib
+ros2plugin:
+    ubuntu: ros-jazzy-ros2plugin
 point_cloud_msg_wrapper:
     ubuntu: ros-jazzy-point-cloud-msg-wrapper
 point_cloud_transport:
@@ -1878,8 +3042,14 @@ zstd_point_cloud_transport:
     ubuntu: ros-jazzy-zstd-point-cloud-transport
 point_cloud_transport_tutorial:
     ubuntu: ros-jazzy-point-cloud-transport-tutorial
+pointcloud_conversions:
+    ubuntu: ros-jazzy-pointcloud-conversions
 pointcloud_to_laserscan:
     ubuntu: ros-jazzy-pointcloud-to-laserscan
+pointcloud_to_ply:
+    ubuntu: ros-jazzy-pointcloud-to-ply
+polka:
+    ubuntu: ros-jazzy-polka
 polygon_demos:
     ubuntu: ros-jazzy-polygon-demos
 polygon_msgs:
@@ -1892,10 +3062,26 @@ popf:
     ubuntu: ros-jazzy-popf
 pose_cov_ops:
     ubuntu: ros-jazzy-pose-cov-ops
+potential_fields:
+    ubuntu: ros-jazzy-potential-fields
+proto2ros:
+    ubuntu: ros-jazzy-proto2ros
+protobuf_comm:
+    ubuntu: ros-jazzy-protobuf-comm
+prox_mpc_controller:
+    ubuntu: ros-jazzy-prox-mpc-controller
+prox_mpc_core:
+    ubuntu: ros-jazzy-prox-mpc-core
+prox_mpc_msgs:
+    ubuntu: ros-jazzy-prox-mpc-msgs
+prox_mpc_test_models:
+    ubuntu: ros-jazzy-prox-mpc-test-models
 proxsuite:
     ubuntu: ros-jazzy-proxsuite
 ptz_action_server_msgs:
     ubuntu: ros-jazzy-ptz-action-server-msgs
+px4_msgs:
+    ubuntu: ros-jazzy-px4-msgs
 py_binding_tools:
     ubuntu: ros-jazzy-py-binding-tools
 py_trees:
@@ -1914,12 +3100,18 @@ pybind11_json_vendor:
     ubuntu: ros-jazzy-pybind11-json-vendor
 pybind11_vendor:
     ubuntu: ros-jazzy-pybind11-vendor
+pybulletfleet:
+    ubuntu: ros-jazzy-pybulletfleet
+pymoveit2:
+    ubuntu: ros-jazzy-pymoveit2
 python_cmake_module:
     ubuntu: ros-jazzy-python-cmake-module
 python_mrpt:
     ubuntu: ros-jazzy-python-mrpt
 python_qt_binding:
     ubuntu: ros-jazzy-python-qt-binding
+qml6_ros2_plugin:
+    ubuntu: ros-jazzy-qml6-ros2-plugin
 qml_ros2_plugin:
     ubuntu: ros-jazzy-qml-ros2-plugin
 qpoases_vendor:
@@ -1946,8 +3138,28 @@ splsm_7_conversion:
     ubuntu: ros-jazzy-splsm-7-conversion
 radar_msgs:
     ubuntu: ros-jazzy-radar-msgs
+rai_interfaces:
+    ubuntu: ros-jazzy-rai-interfaces
 random_numbers:
     ubuntu: ros-jazzy-random-numbers
+raph:
+    ubuntu: ros-jazzy-raph
+raph_description:
+    ubuntu: ros-jazzy-raph-description
+raph_interfaces:
+    ubuntu: ros-jazzy-raph-interfaces
+raph_teleop:
+    ubuntu: ros-jazzy-raph-teleop
+raph_desktop:
+    ubuntu: ros-jazzy-raph-desktop
+raph_bringup:
+    ubuntu: ros-jazzy-raph-bringup
+raph_fw:
+    ubuntu: ros-jazzy-raph-fw
+raph_oak:
+    ubuntu: ros-jazzy-raph-oak
+raph_robot:
+    ubuntu: ros-jazzy-raph-robot
 raspimouse:
     ubuntu: ros-jazzy-raspimouse
 raspimouse_msgs:
@@ -2018,6 +3230,8 @@ rcl_logging_spdlog:
     ubuntu: ros-jazzy-rcl-logging-spdlog
 rcl_logging_rcutils:
     ubuntu: ros-jazzy-rcl-logging-rcutils
+rcl_logging_syslog:
+    ubuntu: ros-jazzy-rcl-logging-syslog
 rclc:
     ubuntu: ros-jazzy-rclc
 rclc_examples:
@@ -2034,6 +3248,12 @@ rclcpp_components:
     ubuntu: ros-jazzy-rclcpp-components
 rclcpp_lifecycle:
     ubuntu: ros-jazzy-rclcpp-lifecycle
+colcon_rclgd:
+    ubuntu: ros-jazzy-colcon-rclgd
+rclgd:
+    ubuntu: ros-jazzy-rclgd
+rclgd_cli:
+    ubuntu: ros-jazzy-rclgd-cli
 rclpy:
     ubuntu: ros-jazzy-rclpy
 rcpputils:
@@ -2050,6 +3270,14 @@ rcss3d_nao:
     ubuntu: ros-jazzy-rcss3d-nao
 rcutils:
     ubuntu: ros-jazzy-rcutils
+rdl:
+    ubuntu: ros-jazzy-rdl
+rdl_benchmark:
+    ubuntu: ros-jazzy-rdl-benchmark
+rdl_dynamics:
+    ubuntu: ros-jazzy-rdl-dynamics
+rdl_urdfreader:
+    ubuntu: ros-jazzy-rdl-urdfreader
 reach:
     ubuntu: ros-jazzy-reach
 reach_ros:
@@ -2066,12 +3294,22 @@ tlsf_cpp:
     ubuntu: ros-jazzy-tlsf-cpp
 realtime_tools:
     ubuntu: ros-jazzy-realtime-tools
+reduct_bridge:
+    ubuntu: ros-jazzy-reduct-bridge
+reductstore_agent:
+    ubuntu: ros-jazzy-reductstore-agent
+replay_testing:
+    ubuntu: ros-jazzy-replay-testing
 libcurl_vendor:
     ubuntu: ros-jazzy-libcurl-vendor
 resource_retriever:
     ubuntu: ros-jazzy-resource-retriever
 rig_reconfigure:
     ubuntu: ros-jazzy-rig-reconfigure
+rko_lio:
+    ubuntu: ros-jazzy-rko-lio
+rko_slam:
+    ubuntu: ros-jazzy-rko-slam
 rmf_api_msgs:
     ubuntu: ros-jazzy-rmf-api-msgs
 rmf_battery:
@@ -2180,6 +3418,8 @@ rmw_cyclonedds_cpp:
     ubuntu: ros-jazzy-rmw-cyclonedds-cpp
 rmw_dds_common:
     ubuntu: ros-jazzy-rmw-dds-common
+rmw_desert:
+    ubuntu: ros-jazzy-rmw-desert
 rmw_fastrtps_cpp:
     ubuntu: ros-jazzy-rmw-fastrtps-cpp
 rmw_fastrtps_dynamic_cpp:
@@ -2192,10 +3432,48 @@ rmw_gurumdds_cpp:
     ubuntu: ros-jazzy-rmw-gurumdds-cpp
 rmw_implementation:
     ubuntu: ros-jazzy-rmw-implementation
+int2dds_ffi_vendor:
+    ubuntu: ros-jazzy-int2dds-ffi-vendor
+rmw_int2dds_cpp:
+    ubuntu: ros-jazzy-rmw-int2dds-cpp
 rmw_zenoh_cpp:
     ubuntu: ros-jazzy-rmw-zenoh-cpp
 zenoh_cpp_vendor:
     ubuntu: ros-jazzy-zenoh-cpp-vendor
+zenoh_security_tools:
+    ubuntu: ros-jazzy-zenoh-security-tools
+roadmap_explorer:
+    ubuntu: ros-jazzy-roadmap-explorer
+roboplan:
+    ubuntu: ros-jazzy-roboplan
+roboplan_cartesian_planning:
+    ubuntu: ros-jazzy-roboplan-cartesian-planning
+roboplan_common:
+    ubuntu: ros-jazzy-roboplan-common
+roboplan_core:
+    ubuntu: ros-jazzy-roboplan-core
+roboplan_example_models:
+    ubuntu: ros-jazzy-roboplan-example-models
+roboplan_examples:
+    ubuntu: ros-jazzy-roboplan-examples
+roboplan_oink:
+    ubuntu: ros-jazzy-roboplan-oink
+roboplan_rrt:
+    ubuntu: ros-jazzy-roboplan-rrt
+roboplan_simple_ik:
+    ubuntu: ros-jazzy-roboplan-simple-ik
+roboplan_toppra:
+    ubuntu: ros-jazzy-roboplan-toppra
+roboplan_ros_cpp:
+    ubuntu: ros-jazzy-roboplan-ros-cpp
+roboplan_ros_examples:
+    ubuntu: ros-jazzy-roboplan-ros-examples
+roboplan_ros_franka:
+    ubuntu: ros-jazzy-roboplan-ros-franka
+roboplan_ros_py:
+    ubuntu: ros-jazzy-roboplan-ros-py
+roboplan_ros_visualization:
+    ubuntu: ros-jazzy-roboplan-ros-visualization
 robosoft_openai:
     ubuntu: ros-jazzy-robosoft-openai
 robot_calibration:
@@ -2208,8 +3486,20 @@ robot_state_publisher:
     ubuntu: ros-jazzy-robot-state-publisher
 robot_upstart:
     ubuntu: ros-jazzy-robot-upstart
+robotis_interfaces:
+    ubuntu: ros-jazzy-robotis-interfaces
 robotraconteur:
     ubuntu: ros-jazzy-robotraconteur
+robotraconteur_companion:
+    ubuntu: ros-jazzy-robotraconteur-companion
+robstride_driver:
+    ubuntu: ros-jazzy-robstride-driver
+robstride_examples:
+    ubuntu: ros-jazzy-robstride-examples
+robstride_ros2:
+    ubuntu: ros-jazzy-robstride-ros2
+robstride_ros2_control:
+    ubuntu: ros-jazzy-robstride-ros2-control
 ros1_bridge:
     ubuntu: ros-jazzy-ros1-bridge
 canopen:
@@ -2238,6 +3528,10 @@ canopen_utils:
     ubuntu: ros-jazzy-canopen-utils
 lely_core_libraries:
     ubuntu: ros-jazzy-lely-core-libraries
+cheese:
+    ubuntu: ros-jazzy-cheese
+cheese_interfaces:
+    ubuntu: ros-jazzy-cheese-interfaces
 controller_interface:
     ubuntu: ros-jazzy-controller-interface
 controller_manager:
@@ -2260,12 +3554,18 @@ rqt_controller_manager:
     ubuntu: ros-jazzy-rqt-controller-manager
 transmission_interface:
     ubuntu: ros-jazzy-transmission-interface
+ros2_control_cmake:
+    ubuntu: ros-jazzy-ros2-control-cmake
 ackermann_steering_controller:
     ubuntu: ros-jazzy-ackermann-steering-controller
 admittance_controller:
     ubuntu: ros-jazzy-admittance-controller
+battery_state_broadcaster:
+    ubuntu: ros-jazzy-battery-state-broadcaster
 bicycle_steering_controller:
     ubuntu: ros-jazzy-bicycle-steering-controller
+chained_filter_controller:
+    ubuntu: ros-jazzy-chained-filter-controller
 diff_drive_controller:
     ubuntu: ros-jazzy-diff-drive-controller
 effort_controllers:
@@ -2276,6 +3576,8 @@ forward_command_controller:
     ubuntu: ros-jazzy-forward-command-controller
 gpio_controllers:
     ubuntu: ros-jazzy-gpio-controllers
+gps_sensor_broadcaster:
+    ubuntu: ros-jazzy-gps-sensor-broadcaster
 gripper_controllers:
     ubuntu: ros-jazzy-gripper-controllers
 imu_sensor_broadcaster:
@@ -2284,8 +3586,14 @@ joint_state_broadcaster:
     ubuntu: ros-jazzy-joint-state-broadcaster
 joint_trajectory_controller:
     ubuntu: ros-jazzy-joint-trajectory-controller
+magnetometer_broadcaster:
+    ubuntu: ros-jazzy-magnetometer-broadcaster
 mecanum_drive_controller:
     ubuntu: ros-jazzy-mecanum-drive-controller
+motion_primitives_controllers:
+    ubuntu: ros-jazzy-motion-primitives-controllers
+omni_wheel_drive_controller:
+    ubuntu: ros-jazzy-omni-wheel-drive-controller
 parallel_gripper_controller:
     ubuntu: ros-jazzy-parallel-gripper-controller
 pid_controller:
@@ -2302,6 +3610,8 @@ ros2_controllers_test_nodes:
     ubuntu: ros-jazzy-ros2-controllers-test-nodes
 rqt_joint_trajectory_controller:
     ubuntu: ros-jazzy-rqt-joint-trajectory-controller
+state_interfaces_broadcaster:
+    ubuntu: ros-jazzy-state-interfaces-broadcaster
 steering_controllers_library:
     ubuntu: ros-jazzy-steering-controllers-library
 tricycle_controller:
@@ -2310,10 +3620,22 @@ tricycle_steering_controller:
     ubuntu: ros-jazzy-tricycle-steering-controller
 velocity_controllers:
     ubuntu: ros-jazzy-velocity-controllers
+eventdispatch_python:
+    ubuntu: ros-jazzy-eventdispatch-python
+eventdispatch_ros2:
+    ubuntu: ros-jazzy-eventdispatch-ros2
+eventdispatch_ros2_interfaces:
+    ubuntu: ros-jazzy-eventdispatch-ros2-interfaces
+ros2_fmt_logger:
+    ubuntu: ros-jazzy-ros2-fmt-logger
+ros2_helper:
+    ubuntu: ros-jazzy-ros2-helper
 kinova_gen3_6dof_robotiq_2f_85_moveit_config:
     ubuntu: ros-jazzy-kinova-gen3-6dof-robotiq-2f-85-moveit-config
 kinova_gen3_7dof_robotiq_2f_85_moveit_config:
     ubuntu: ros-jazzy-kinova-gen3-7dof-robotiq-2f-85-moveit-config
+kinova_gen3_lite_moveit_config:
+    ubuntu: ros-jazzy-kinova-gen3-lite-moveit-config
 kortex_api:
     ubuntu: ros-jazzy-kortex-api
 kortex_bringup:
@@ -2322,8 +3644,42 @@ kortex_description:
     ubuntu: ros-jazzy-kortex-description
 kortex_driver:
     ubuntu: ros-jazzy-kortex-driver
+ros2_medkit_action_status_bridge:
+    ubuntu: ros-jazzy-ros2-medkit-action-status-bridge
+ros2_medkit_beacon_common:
+    ubuntu: ros-jazzy-ros2-medkit-beacon-common
+ros2_medkit_cmake:
+    ubuntu: ros-jazzy-ros2-medkit-cmake
+ros2_medkit_diagnostic_bridge:
+    ubuntu: ros-jazzy-ros2-medkit-diagnostic-bridge
+ros2_medkit_fault_manager:
+    ubuntu: ros-jazzy-ros2-medkit-fault-manager
+ros2_medkit_fault_reporter:
+    ubuntu: ros-jazzy-ros2-medkit-fault-reporter
+ros2_medkit_gateway:
+    ubuntu: ros-jazzy-ros2-medkit-gateway
+ros2_medkit_graph_provider:
+    ubuntu: ros-jazzy-ros2-medkit-graph-provider
+ros2_medkit_integration_tests:
+    ubuntu: ros-jazzy-ros2-medkit-integration-tests
+ros2_medkit_linux_introspection:
+    ubuntu: ros-jazzy-ros2-medkit-linux-introspection
+ros2_medkit_log_bridge:
+    ubuntu: ros-jazzy-ros2-medkit-log-bridge
+ros2_medkit_msgs:
+    ubuntu: ros-jazzy-ros2-medkit-msgs
+ros2_medkit_param_beacon:
+    ubuntu: ros-jazzy-ros2-medkit-param-beacon
+ros2_medkit_serialization:
+    ubuntu: ros-jazzy-ros2-medkit-serialization
+ros2_medkit_sovd_service_interface:
+    ubuntu: ros-jazzy-ros2-medkit-sovd-service-interface
+ros2_medkit_topic_beacon:
+    ubuntu: ros-jazzy-ros2-medkit-topic-beacon
 ros2_ouster_drivers:
     ubuntu: ros-jazzy-ros2-ouster-drivers
+plansys2:
+    ubuntu: ros-jazzy-plansys2
 plansys2_bringup:
     ubuntu: ros-jazzy-plansys2-bringup
 plansys2_bt_actions:
@@ -2334,6 +3690,8 @@ plansys2_domain_expert:
     ubuntu: ros-jazzy-plansys2-domain-expert
 plansys2_executor:
     ubuntu: ros-jazzy-plansys2-executor
+plansys2_kairos_plan_solver:
+    ubuntu: ros-jazzy-plansys2-kairos-plan-solver
 plansys2_lifecycle_manager:
     ubuntu: ros-jazzy-plansys2-lifecycle-manager
 plansys2_msgs:
@@ -2350,14 +3708,22 @@ plansys2_support_py:
     ubuntu: ros-jazzy-plansys2-support-py
 plansys2_terminal:
     ubuntu: ros-jazzy-plansys2-terminal
-plansys2_tests:
-    ubuntu: ros-jazzy-plansys2-tests
 plansys2_tools:
     ubuntu: ros-jazzy-plansys2-tools
+plansys2_tui_cli:
+    ubuntu: ros-jazzy-plansys2-tui-cli
+ros2_pulse:
+    ubuntu: ros-jazzy-ros2-pulse
 robotiq_controllers:
     ubuntu: ros-jazzy-robotiq-controllers
 robotiq_description:
     ubuntu: ros-jazzy-robotiq-description
+ros2_shadow:
+    ubuntu: ros-jazzy-ros2-shadow
+ros2_shadow_demos:
+    ubuntu: ros-jazzy-ros2-shadow-demos
+ros2_snapshot:
+    ubuntu: ros-jazzy-ros2-snapshot
 ros2_socketcan:
     ubuntu: ros-jazzy-ros2-socketcan
 ros2_socketcan_msgs:
@@ -2378,6 +3744,8 @@ tracetools_trace:
     ubuntu: ros-jazzy-tracetools-trace
 ros2acceleration:
     ubuntu: ros-jazzy-ros2acceleration
+ros2ai:
+    ubuntu: ros-jazzy-ros2ai
 ros2action:
     ubuntu: ros-jazzy-ros2action
 ros2cli:
@@ -2418,10 +3786,10 @@ ros_babel_fish:
     ubuntu: ros-jazzy-ros-babel-fish
 ros_babel_fish_test_msgs:
     ubuntu: ros-jazzy-ros-babel-fish-test-msgs
+ros_babel_fish_tools:
+    ubuntu: ros-jazzy-ros-babel-fish-tools
 ros_babel_fish_test_msgs:
     ubuntu: ros-jazzy-ros-babel-fish-test-msgs
-battery_state_broadcaster:
-    ubuntu: ros-jazzy-battery-state-broadcaster
 battery_state_rviz_overlay:
     ubuntu: ros-jazzy-battery-state-rviz-overlay
 can_msgs:
@@ -2440,12 +3808,12 @@ ros_gz_sim:
     ubuntu: ros-jazzy-ros-gz-sim
 ros_gz_sim_demos:
     ubuntu: ros-jazzy-ros-gz-sim-demos
-test_ros_gz_bridge:
-    ubuntu: ros-jazzy-test-ros-gz-bridge
 ros_image_to_qimage:
     ubuntu: ros-jazzy-ros-image-to-qimage
 ros_industrial_cmake_boilerplate:
     ubuntu: ros-jazzy-ros-industrial-cmake-boilerplate
+ros_snapd_interfaces:
+    ubuntu: ros-jazzy-ros-snapd-interfaces
 ros2test:
     ubuntu: ros-jazzy-ros2test
 ros_testing:
@@ -2504,8 +3872,36 @@ zstd_vendor:
     ubuntu: ros-jazzy-zstd-vendor
 rosbag2_bag_v2:
     ubuntu: ros-jazzy-rosbag2-bag-v2
+broll:
+    ubuntu: ros-jazzy-broll
+rosbag2_storage_broll:
+    ubuntu: ros-jazzy-rosbag2-storage-broll
 rosbag2_to_video:
     ubuntu: ros-jazzy-rosbag2-to-video
+rosbag_timing_inspector:
+    ubuntu: ros-jazzy-rosbag-timing-inspector
+rosbot_mavlink_bridge:
+    ubuntu: ros-jazzy-rosbot-mavlink-bridge
+rosbot:
+    ubuntu: ros-jazzy-rosbot
+rosbot_bringup:
+    ubuntu: ros-jazzy-rosbot-bringup
+rosbot_controller:
+    ubuntu: ros-jazzy-rosbot-controller
+rosbot_description:
+    ubuntu: ros-jazzy-rosbot-description
+rosbot_gazebo:
+    ubuntu: ros-jazzy-rosbot-gazebo
+rosbot_hardware_interfaces:
+    ubuntu: ros-jazzy-rosbot-hardware-interfaces
+rosbot_joy:
+    ubuntu: ros-jazzy-rosbot-joy
+rosbot_localization:
+    ubuntu: ros-jazzy-rosbot-localization
+rosbot_moveit:
+    ubuntu: ros-jazzy-rosbot-moveit
+rosbot_utils:
+    ubuntu: ros-jazzy-rosbot-utils
 rosapi:
     ubuntu: ros-jazzy-rosapi
 rosapi_msgs:
@@ -2564,6 +3960,8 @@ rosidl_generator_py:
     ubuntu: ros-jazzy-rosidl-generator-py
 rosidl_runtime_py:
     ubuntu: ros-jazzy-rosidl-runtime-py
+rosidl_generator_rs:
+    ubuntu: ros-jazzy-rosidl-generator-rs
 rosidl_typesupport_c:
     ubuntu: ros-jazzy-rosidl-typesupport-c
 rosidl_typesupport_cpp:
@@ -2574,6 +3972,32 @@ rosidl_typesupport_fastrtps_c:
     ubuntu: ros-jazzy-rosidl-typesupport-fastrtps-c
 rosidl_typesupport_fastrtps_cpp:
     ubuntu: ros-jazzy-rosidl-typesupport-fastrtps-cpp
+rosidlcpp:
+    ubuntu: ros-jazzy-rosidlcpp
+rosidlcpp_generator_c:
+    ubuntu: ros-jazzy-rosidlcpp-generator-c
+rosidlcpp_generator_core:
+    ubuntu: ros-jazzy-rosidlcpp-generator-core
+rosidlcpp_generator_cpp:
+    ubuntu: ros-jazzy-rosidlcpp-generator-cpp
+rosidlcpp_generator_py:
+    ubuntu: ros-jazzy-rosidlcpp-generator-py
+rosidlcpp_generator_type_description:
+    ubuntu: ros-jazzy-rosidlcpp-generator-type-description
+rosidlcpp_parser:
+    ubuntu: ros-jazzy-rosidlcpp-parser
+rosidlcpp_typesupport_c:
+    ubuntu: ros-jazzy-rosidlcpp-typesupport-c
+rosidlcpp_typesupport_cpp:
+    ubuntu: ros-jazzy-rosidlcpp-typesupport-cpp
+rosidlcpp_typesupport_fastrtps_c:
+    ubuntu: ros-jazzy-rosidlcpp-typesupport-fastrtps-c
+rosidlcpp_typesupport_fastrtps_cpp:
+    ubuntu: ros-jazzy-rosidlcpp-typesupport-fastrtps-cpp
+rosidlcpp_typesupport_introspection_c:
+    ubuntu: ros-jazzy-rosidlcpp-typesupport-introspection-c
+rosidlcpp_typesupport_introspection_cpp:
+    ubuntu: ros-jazzy-rosidlcpp-typesupport-introspection-cpp
 rclpy_message_converter:
     ubuntu: ros-jazzy-rclpy-message-converter
 rclpy_message_converter_msgs:
@@ -2582,10 +4006,20 @@ rosx_introspection:
     ubuntu: ros-jazzy-rosx-introspection
 rot_conv:
     ubuntu: ros-jazzy-rot-conv
+rplidar_driver:
+    ubuntu: ros-jazzy-rplidar-driver
 rplidar_ros:
     ubuntu: ros-jazzy-rplidar-ros
 rpyutils:
     ubuntu: ros-jazzy-rpyutils
+rqml:
+    ubuntu: ros-jazzy-rqml
+rqml_core:
+    ubuntu: ros-jazzy-rqml-core
+rqml_default_plugins:
+    ubuntu: ros-jazzy-rqml-default-plugins
+rqml_plugin_example:
+    ubuntu: ros-jazzy-rqml-plugin-example
 rqt:
     ubuntu: ros-jazzy-rqt
 rqt_gui:
@@ -2618,10 +4052,14 @@ rqt_image_overlay_layer:
     ubuntu: ros-jazzy-rqt-image-overlay-layer
 rqt_image_view:
     ubuntu: ros-jazzy-rqt-image-view
+rqt_lifecycle_manager:
+    ubuntu: ros-jazzy-rqt-lifecycle-manager
 rqt_moveit:
     ubuntu: ros-jazzy-rqt-moveit
 rqt_msg:
     ubuntu: ros-jazzy-rqt-msg
+rqt_multiplot:
+    ubuntu: ros-jazzy-rqt-multiplot
 rqt_plot:
     ubuntu: ros-jazzy-rqt-plot
 rqt_publisher:
@@ -2664,6 +4102,8 @@ rtabmap:
     ubuntu: ros-jazzy-rtabmap
 rtabmap_conversions:
     ubuntu: ros-jazzy-rtabmap-conversions
+rtabmap_costmap_plugins:
+    ubuntu: ros-jazzy-rtabmap-costmap-plugins
 rtabmap_demos:
     ubuntu: ros-jazzy-rtabmap-demos
 rtabmap_examples:
@@ -2690,6 +4130,10 @@ rtabmap_viz:
     ubuntu: ros-jazzy-rtabmap-viz
 rtcm_msgs:
     ubuntu: ros-jazzy-rtcm-msgs
+rtest:
+    ubuntu: ros-jazzy-rtest
+rtsp_image_transport:
+    ubuntu: ros-jazzy-rtsp-image-transport
 ruckig:
     ubuntu: ros-jazzy-ruckig
 rviz2:
@@ -2714,30 +4158,40 @@ rviz_2d_overlay_plugins:
     ubuntu: ros-jazzy-rviz-2d-overlay-plugins
 rviz_satellite:
     ubuntu: ros-jazzy-rviz-satellite
+rviz_splat:
+    ubuntu: ros-jazzy-rviz-splat
 rviz_visual_tools:
     ubuntu: ros-jazzy-rviz-visual-tools
 sbg_driver:
     ubuntu: ros-jazzy-sbg-driver
+scan_2d_merger:
+    ubuntu: ros-jazzy-scan-2d-merger
+scan_detection_fusion:
+    ubuntu: ros-jazzy-scan-detection-fusion
 scenario_execution:
     ubuntu: ros-jazzy-scenario-execution
 scenario_execution_control:
     ubuntu: ros-jazzy-scenario-execution-control
 scenario_execution_coverage:
     ubuntu: ros-jazzy-scenario-execution-coverage
+scenario_execution_dataops:
+    ubuntu: ros-jazzy-scenario-execution-dataops
 scenario_execution_gazebo:
     ubuntu: ros-jazzy-scenario-execution-gazebo
 scenario_execution_interfaces:
     ubuntu: ros-jazzy-scenario-execution-interfaces
 scenario_execution_nav2:
     ubuntu: ros-jazzy-scenario-execution-nav2
+scenario_execution_network:
+    ubuntu: ros-jazzy-scenario-execution-network
 scenario_execution_os:
     ubuntu: ros-jazzy-scenario-execution-os
-scenario_execution_py_trees_ros:
-    ubuntu: ros-jazzy-scenario-execution-py-trees-ros
 scenario_execution_ros:
     ubuntu: ros-jazzy-scenario-execution-ros
 scenario_execution_rviz:
     ubuntu: ros-jazzy-scenario-execution-rviz
+scenario_execution_sim:
+    ubuntu: ros-jazzy-scenario-execution-sim
 scenario_execution_x11:
     ubuntu: ros-jazzy-scenario-execution-x11
 sdformat_test_files:
@@ -2764,6 +4218,8 @@ sick_safevisionary_tests:
     ubuntu: ros-jazzy-sick-safevisionary-tests
 sick_scan_xd:
     ubuntu: ros-jazzy-sick-scan-xd
+sicks300_ros2:
+    ubuntu: ros-jazzy-sicks300-ros2
 simple_actions:
     ubuntu: ros-jazzy-simple-actions
 simple_grasping:
@@ -2772,10 +4228,18 @@ simple_launch:
     ubuntu: ros-jazzy-simple-launch
 simple_term_menu_vendor:
     ubuntu: ros-jazzy-simple-term-menu-vendor
+simulation_interfaces:
+    ubuntu: ros-jazzy-simulation-interfaces
 slam_toolbox:
     ubuntu: ros-jazzy-slam-toolbox
+slg_msgs:
+    ubuntu: ros-jazzy-slg-msgs
 slider_publisher:
     ubuntu: ros-jazzy-slider-publisher
+smacc2:
+    ubuntu: ros-jazzy-smacc2
+smacc2_msgs:
+    ubuntu: ros-jazzy-smacc2-msgs
 executive_smach:
     ubuntu: ros-jazzy-executive-smach
 smach:
@@ -2786,6 +4250,10 @@ smach_ros:
     ubuntu: ros-jazzy-smach-ros
 snowbot_operating_system:
     ubuntu: ros-jazzy-snowbot-operating-system
+so_arm_100:
+    ubuntu: ros-jazzy-so-arm-100
+so_arm_100_hardware:
+    ubuntu: ros-jazzy-so-arm-100-hardware
 soar_ros:
     ubuntu: ros-jazzy-soar-ros
 soccer_geometry_msgs:
@@ -2802,6 +4270,8 @@ soccer_vision_attribute_msgs:
     ubuntu: ros-jazzy-soccer-vision-attribute-msgs
 soccer_vision_3d_rviz_markers:
     ubuntu: ros-jazzy-soccer-vision-3d-rviz-markers
+socketcan_adapter:
+    ubuntu: ros-jazzy-socketcan-adapter
 sol_vendor:
     ubuntu: ros-jazzy-sol-vendor
 sophus:
@@ -2812,6 +4282,8 @@ spatio_temporal_voxel_layer:
     ubuntu: ros-jazzy-spatio-temporal-voxel-layer
 spdlog_vendor:
     ubuntu: ros-jazzy-spdlog-vendor
+splat_interfaces:
+    ubuntu: ros-jazzy-splat-interfaces
 srdfdom:
     ubuntu: ros-jazzy-srdfdom
 sros2:
@@ -2822,8 +4294,16 @@ steering_functions:
     ubuntu: ros-jazzy-steering-functions
 stomp:
     ubuntu: ros-jazzy-stomp
+styri:
+    ubuntu: ros-jazzy-styri
 swri_console:
     ubuntu: ros-jazzy-swri-console
+synapticon_ros2_control:
+    ubuntu: ros-jazzy-synapticon-ros2-control
+sync_tooling_msgs:
+    ubuntu: ros-jazzy-sync-tooling-msgs
+synchros2:
+    ubuntu: ros-jazzy-synchros2
 system_fingerprint:
     ubuntu: ros-jazzy-system-fingerprint
 launch_system_modes:
@@ -2836,8 +4316,12 @@ system_modes_msgs:
     ubuntu: ros-jazzy-system-modes-msgs
 system_tests:
     ubuntu: ros-jazzy-system-tests
+system_webview:
+    ubuntu: ros-jazzy-system-webview
 tango_icons_vendor:
     ubuntu: ros-jazzy-tango-icons-vendor
+tecgihan_driver:
+    ubuntu: ros-jazzy-tecgihan-driver
 joy_teleop:
     ubuntu: ros-jazzy-joy-teleop
 key_teleop:
@@ -2858,8 +4342,16 @@ test_interface_files:
     ubuntu: ros-jazzy-test-interface-files
 tf2_2d:
     ubuntu: ros-jazzy-tf2-2d
+tf2_web_republisher:
+    ubuntu: ros-jazzy-tf2-web-republisher
+tf2_web_republisher_interfaces:
+    ubuntu: ros-jazzy-tf2-web-republisher-interfaces
+tf_namespace_bridge:
+    ubuntu: ros-jazzy-tf-namespace-bridge
 tf_transformations:
     ubuntu: ros-jazzy-tf-transformations
+tf_tree_terminal:
+    ubuntu: ros-jazzy-tf-tree-terminal
 tinyspline_vendor:
     ubuntu: ros-jazzy-tinyspline-vendor
 tinyxml2_vendor:
@@ -2868,12 +4360,362 @@ tinyxml_vendor:
     ubuntu: ros-jazzy-tinyxml-vendor
 tlsf:
     ubuntu: ros-jazzy-tlsf
-topic_based_ros2_control:
-    ubuntu: ros-jazzy-topic-based-ros2-control
+tobas:
+    ubuntu: ros-jazzy-tobas
+tobas_actuator_test:
+    ubuntu: ros-jazzy-tobas-actuator-test
+tobas_algorithm:
+    ubuntu: ros-jazzy-tobas-algorithm
+tobas_bootmedia_config:
+    ubuntu: ros-jazzy-tobas-bootmedia-config
+tobas_camera:
+    ubuntu: ros-jazzy-tobas-camera
+tobas_camera_msgs:
+    ubuntu: ros-jazzy-tobas-camera-msgs
+tobas_camera_ros_interface:
+    ubuntu: ros-jazzy-tobas-camera-ros-interface
+tobas_code_style:
+    ubuntu: ros-jazzy-tobas-code-style
+tobas_colcon_cpp:
+    ubuntu: ros-jazzy-tobas-colcon-cpp
+tobas_command_msgs:
+    ubuntu: ros-jazzy-tobas-command-msgs
+tobas_command_msgs_adapter:
+    ubuntu: ros-jazzy-tobas-command-msgs-adapter
+tobas_common:
+    ubuntu: ros-jazzy-tobas-common
+tobas_components_rt:
+    ubuntu: ros-jazzy-tobas-components-rt
+tobas_config_servers:
+    ubuntu: ros-jazzy-tobas-config-servers
+tobas_connection_monitor:
+    ubuntu: ros-jazzy-tobas-connection-monitor
+tobas_constants:
+    ubuntu: ros-jazzy-tobas-constants
+tobas_control:
+    ubuntu: ros-jazzy-tobas-control
+tobas_control_system:
+    ubuntu: ros-jazzy-tobas-control-system
+tobas_controllers:
+    ubuntu: ros-jazzy-tobas-controllers
+tobas_core:
+    ubuntu: ros-jazzy-tobas-core
+tobas_cpp_code_style_example:
+    ubuntu: ros-jazzy-tobas-cpp-code-style-example
+tobas_crypt:
+    ubuntu: ros-jazzy-tobas-crypt
+tobas_cui:
+    ubuntu: ros-jazzy-tobas-cui
+tobas_cyclonedds_config:
+    ubuntu: ros-jazzy-tobas-cyclonedds-config
+tobas_debug_msgs:
+    ubuntu: ros-jazzy-tobas-debug-msgs
+tobas_debug_msgs_adapter:
+    ubuntu: ros-jazzy-tobas-debug-msgs-adapter
+tobas_debug_tools:
+    ubuntu: ros-jazzy-tobas-debug-tools
+tobas_description:
+    ubuntu: ros-jazzy-tobas-description
+tobas_disturbance_observer:
+    ubuntu: ros-jazzy-tobas-disturbance-observer
+tobas_dparam:
+    ubuntu: ros-jazzy-tobas-dparam
+tobas_dparam_client:
+    ubuntu: ros-jazzy-tobas-dparam-client
+tobas_dparam_common:
+    ubuntu: ros-jazzy-tobas-dparam-common
+tobas_dparam_msgs:
+    ubuntu: ros-jazzy-tobas-dparam-msgs
+tobas_dparam_server:
+    ubuntu: ros-jazzy-tobas-dparam-server
+tobas_drone:
+    ubuntu: ros-jazzy-tobas-drone
+tobas_drone_core:
+    ubuntu: ros-jazzy-tobas-drone-core
+tobas_drone_msgs:
+    ubuntu: ros-jazzy-tobas-drone-msgs
+tobas_drone_msgs_adapter:
+    ubuntu: ros-jazzy-tobas-drone-msgs-adapter
+tobas_drone_server:
+    ubuntu: ros-jazzy-tobas-drone-server
+tobas_drone_tools:
+    ubuntu: ros-jazzy-tobas-drone-tools
+tobas_dsp:
+    ubuntu: ros-jazzy-tobas-dsp
+tobas_dummy_pkg:
+    ubuntu: ros-jazzy-tobas-dummy-pkg
+tobas_dynamixel:
+    ubuntu: ros-jazzy-tobas-dynamixel
+tobas_dynamixel_handler:
+    ubuntu: ros-jazzy-tobas-dynamixel-handler
+tobas_dynamixel_msgs:
+    ubuntu: ros-jazzy-tobas-dynamixel-msgs
+tobas_dynamixel_ros_interface:
+    ubuntu: ros-jazzy-tobas-dynamixel-ros-interface
+tobas_eigen_conversions:
+    ubuntu: ros-jazzy-tobas-eigen-conversions
+tobas_eigen_msgs:
+    ubuntu: ros-jazzy-tobas-eigen-msgs
+tobas_eigen_msgs_adapter:
+    ubuntu: ros-jazzy-tobas-eigen-msgs-adapter
+tobas_eigen_tools:
+    ubuntu: ros-jazzy-tobas-eigen-tools
+tobas_eskf:
+    ubuntu: ros-jazzy-tobas-eskf
+tobas_examples:
+    ubuntu: ros-jazzy-tobas-examples
+tobas_examples_cpp:
+    ubuntu: ros-jazzy-tobas-examples-cpp
+tobas_examples_py:
+    ubuntu: ros-jazzy-tobas-examples-py
+tobas_external:
+    ubuntu: ros-jazzy-tobas-external
+tobas_failsafe:
+    ubuntu: ros-jazzy-tobas-failsafe
+tobas_fake_publishers:
+    ubuntu: ros-jazzy-tobas-fake-publishers
+tobas_fc1xx:
+    ubuntu: ros-jazzy-tobas-fc1xx
+tobas_fc1xx_core:
+    ubuntu: ros-jazzy-tobas-fc1xx-core
+tobas_fc1xx_ros:
+    ubuntu: ros-jazzy-tobas-fc1xx-ros
+tobas_fc1xx_test:
+    ubuntu: ros-jazzy-tobas-fc1xx-test
+tobas_fc2xx:
+    ubuntu: ros-jazzy-tobas-fc2xx
+tobas_fc2xx_core:
+    ubuntu: ros-jazzy-tobas-fc2xx-core
+tobas_fc2xx_ros:
+    ubuntu: ros-jazzy-tobas-fc2xx-ros
+tobas_fc2xx_test:
+    ubuntu: ros-jazzy-tobas-fc2xx-test
+tobas_fixed_wing_controller:
+    ubuntu: ros-jazzy-tobas-fixed-wing-controller
+tobas_flight_log_gui:
+    ubuntu: ros-jazzy-tobas-flight-log-gui
+tobas_gamepad:
+    ubuntu: ros-jazzy-tobas-gamepad
+tobas_gamepad_core:
+    ubuntu: ros-jazzy-tobas-gamepad-core
+tobas_gamepad_ros:
+    ubuntu: ros-jazzy-tobas-gamepad-ros
+tobas_gazebo:
+    ubuntu: ros-jazzy-tobas-gazebo
+tobas_gazebo_common:
+    ubuntu: ros-jazzy-tobas-gazebo-common
+tobas_gazebo_conversions:
+    ubuntu: ros-jazzy-tobas-gazebo-conversions
+tobas_gazebo_gui_plugins:
+    ubuntu: ros-jazzy-tobas-gazebo-gui-plugins
+tobas_gazebo_msgs:
+    ubuntu: ros-jazzy-tobas-gazebo-msgs
+tobas_gazebo_ros:
+    ubuntu: ros-jazzy-tobas-gazebo-ros
+tobas_gazebo_sim:
+    ubuntu: ros-jazzy-tobas-gazebo-sim
+tobas_gazebo_system_plugins:
+    ubuntu: ros-jazzy-tobas-gazebo-system-plugins
+tobas_gazebo_tools:
+    ubuntu: ros-jazzy-tobas-gazebo-tools
+tobas_gcs:
+    ubuntu: ros-jazzy-tobas-gcs
+tobas_geographic:
+    ubuntu: ros-jazzy-tobas-geographic
+tobas_git:
+    ubuntu: ros-jazzy-tobas-git
+tobas_gui:
+    ubuntu: ros-jazzy-tobas-gui
+tobas_gui_common:
+    ubuntu: ros-jazzy-tobas-gui-common
+tobas_hardware:
+    ubuntu: ros-jazzy-tobas-hardware
+tobas_hardware_common:
+    ubuntu: ros-jazzy-tobas-hardware-common
+tobas_ic_drivers:
+    ubuntu: ros-jazzy-tobas-ic-drivers
+tobas_ic_drivers_ros:
+    ubuntu: ros-jazzy-tobas-ic-drivers-ros
+tobas_image_processing:
+    ubuntu: ros-jazzy-tobas-image-processing
+tobas_inja_vendor:
+    ubuntu: ros-jazzy-tobas-inja-vendor
+tobas_joint_states_bridge:
+    ubuntu: ros-jazzy-tobas-joint-states-bridge
+tobas_kdl:
+    ubuntu: ros-jazzy-tobas-kdl
+tobas_kdl_conversions:
+    ubuntu: ros-jazzy-tobas-kdl-conversions
+tobas_kdl_msgs:
+    ubuntu: ros-jazzy-tobas-kdl-msgs
+tobas_kdl_msgs_adapter:
+    ubuntu: ros-jazzy-tobas-kdl-msgs-adapter
+tobas_kdl_parser:
+    ubuntu: ros-jazzy-tobas-kdl-parser
+tobas_keyboard:
+    ubuntu: ros-jazzy-tobas-keyboard
+tobas_keyboard_teleop:
+    ubuntu: ros-jazzy-tobas-keyboard-teleop
+tobas_landing_detection:
+    ubuntu: ros-jazzy-tobas-landing-detection
+tobas_linux:
+    ubuntu: ros-jazzy-tobas-linux
+tobas_manipulation:
+    ubuntu: ros-jazzy-tobas-manipulation
+tobas_math:
+    ubuntu: ros-jazzy-tobas-math
+tobas_mission:
+    ubuntu: ros-jazzy-tobas-mission
+tobas_mission_execution_mc:
+    ubuntu: ros-jazzy-tobas-mission-execution-mc
+tobas_mission_items:
+    ubuntu: ros-jazzy-tobas-mission-items
+tobas_mission_msgs:
+    ubuntu: ros-jazzy-tobas-mission-msgs
+tobas_mission_msgs_adapter:
+    ubuntu: ros-jazzy-tobas-mission-msgs-adapter
+tobas_msgs:
+    ubuntu: ros-jazzy-tobas-msgs
+tobas_msgs_adapter:
+    ubuntu: ros-jazzy-tobas-msgs-adapter
+tobas_nlp:
+    ubuntu: ros-jazzy-tobas-nlp
+tobas_node:
+    ubuntu: ros-jazzy-tobas-node
+tobas_nonplanar_multi_controller:
+    ubuntu: ros-jazzy-tobas-nonplanar-multi-controller
+tobas_parameter_tuning:
+    ubuntu: ros-jazzy-tobas-parameter-tuning
+tobas_path_tools:
+    ubuntu: ros-jazzy-tobas-path-tools
+tobas_planar_multi_controller:
+    ubuntu: ros-jazzy-tobas-planar-multi-controller
+tobas_pose_pid:
+    ubuntu: ros-jazzy-tobas-pose-pid
+tobas_property:
+    ubuntu: ros-jazzy-tobas-property
+tobas_property_client:
+    ubuntu: ros-jazzy-tobas-property-client
+tobas_property_common:
+    ubuntu: ros-jazzy-tobas-property-common
+tobas_property_msgs:
+    ubuntu: ros-jazzy-tobas-property-msgs
+tobas_property_server:
+    ubuntu: ros-jazzy-tobas-property-server
+tobas_property_tree:
+    ubuntu: ros-jazzy-tobas-property-tree
+tobas_qt_tools:
+    ubuntu: ros-jazzy-tobas-qt-tools
+tobas_quadprog:
+    ubuntu: ros-jazzy-tobas-quadprog
+tobas_qwt_wrapper:
+    ubuntu: ros-jazzy-tobas-qwt-wrapper
+tobas_random_axis_tilt_multi_controller:
+    ubuntu: ros-jazzy-tobas-random-axis-tilt-multi-controller
+tobas_rapidcsv_vendor:
+    ubuntu: ros-jazzy-tobas-rapidcsv-vendor
+tobas_rc_teleop:
+    ubuntu: ros-jazzy-tobas-rc-teleop
+tobas_real:
+    ubuntu: ros-jazzy-tobas-real
+tobas_real_common:
+    ubuntu: ros-jazzy-tobas-real-common
+tobas_real_msgs:
+    ubuntu: ros-jazzy-tobas-real-msgs
+tobas_real_ros:
+    ubuntu: ros-jazzy-tobas-real-ros
+tobas_ros2_tools:
+    ubuntu: ros-jazzy-tobas-ros2-tools
+tobas_ros_interface:
+    ubuntu: ros-jazzy-tobas-ros-interface
+tobas_rosbag_recorder:
+    ubuntu: ros-jazzy-tobas-rosbag-recorder
+tobas_rotor_anomaly_detection:
+    ubuntu: ros-jazzy-tobas-rotor-anomaly-detection
+tobas_rotor_controller:
+    ubuntu: ros-jazzy-tobas-rotor-controller
+tobas_rqt_bridge:
+    ubuntu: ros-jazzy-tobas-rqt-bridge
+tobas_rviz_plugin:
+    ubuntu: ros-jazzy-tobas-rviz-plugin
+tobas_rviz_wrapper:
+    ubuntu: ros-jazzy-tobas-rviz-wrapper
+tobas_sbus_driver:
+    ubuntu: ros-jazzy-tobas-sbus-driver
+tobas_sensor_calibration:
+    ubuntu: ros-jazzy-tobas-sensor-calibration
+tobas_setup_assistant:
+    ubuntu: ros-jazzy-tobas-setup-assistant
+tobas_simulation_gui:
+    ubuntu: ros-jazzy-tobas-simulation-gui
+tobas_ssh:
+    ubuntu: ros-jazzy-tobas-ssh
+tobas_ssh_authkey:
+    ubuntu: ros-jazzy-tobas-ssh-authkey
+tobas_ssh_client:
+    ubuntu: ros-jazzy-tobas-ssh-client
+tobas_ssh_msgs:
+    ubuntu: ros-jazzy-tobas-ssh-msgs
+tobas_ssh_server:
+    ubuntu: ros-jazzy-tobas-ssh-server
+tobas_std_msgs:
+    ubuntu: ros-jazzy-tobas-std-msgs
+tobas_std_msgs_adapter:
+    ubuntu: ros-jazzy-tobas-std-msgs-adapter
+tobas_std_tools:
+    ubuntu: ros-jazzy-tobas-std-tools
+tobas_string_tools:
+    ubuntu: ros-jazzy-tobas-string-tools
+tobas_tile_proxy:
+    ubuntu: ros-jazzy-tobas-tile-proxy
+tobas_time_tools:
+    ubuntu: ros-jazzy-tobas-time-tools
+tobas_tools:
+    ubuntu: ros-jazzy-tobas-tools
+tobas_topic_throttle:
+    ubuntu: ros-jazzy-tobas-topic-throttle
+tobas_trajectory_generation:
+    ubuntu: ros-jazzy-tobas-trajectory-generation
+tobas_tree_server:
+    ubuntu: ros-jazzy-tobas-tree-server
+tobas_uadf:
+    ubuntu: ros-jazzy-tobas-uadf
+tobas_udev:
+    ubuntu: ros-jazzy-tobas-udev
+tobas_urdf:
+    ubuntu: ros-jazzy-tobas-urdf
+tobas_urdf_builder:
+    ubuntu: ros-jazzy-tobas-urdf-builder
+tobas_urdf_builder_plugin:
+    ubuntu: ros-jazzy-tobas-urdf-builder-plugin
+tobas_version:
+    ubuntu: ros-jazzy-tobas-version
+tobas_vibration_filter:
+    ubuntu: ros-jazzy-tobas-vibration-filter
+tobas_visualization_msgs:
+    ubuntu: ros-jazzy-tobas-visualization-msgs
+tobas_wind_model:
+    ubuntu: ros-jazzy-tobas-wind-model
+tobas_wpa_supplicant:
+    ubuntu: ros-jazzy-tobas-wpa-supplicant
+tobas_xml_tools:
+    ubuntu: ros-jazzy-tobas-xml-tools
+tobas_y_axis_tilt_multi_controller:
+    ubuntu: ros-jazzy-tobas-y-axis-tilt-multi-controller
+tobas_yaml_tools:
+    ubuntu: ros-jazzy-tobas-yaml-tools
+cm_topic_hardware_component:
+    ubuntu: ros-jazzy-cm-topic-hardware-component
+joint_command_topic_hardware_interface:
+    ubuntu: ros-jazzy-joint-command-topic-hardware-interface
+joint_state_topic_hardware_interface:
+    ubuntu: ros-jazzy-joint-state-topic-hardware-interface
 topic_tools:
     ubuntu: ros-jazzy-topic-tools
 topic_tools_interfaces:
     ubuntu: ros-jazzy-topic-tools-interfaces
+toppra:
+    ubuntu: ros-jazzy-toppra
 trac_ik:
     ubuntu: ros-jazzy-trac-ik
 trac_ik_kinematics_plugin:
@@ -2886,6 +4728,16 @@ ros2trace_analysis:
     ubuntu: ros-jazzy-ros2trace-analysis
 tracetools_analysis:
     ubuntu: ros-jazzy-tracetools-analysis
+trackdlo_bringup:
+    ubuntu: ros-jazzy-trackdlo-bringup
+trackdlo_core:
+    ubuntu: ros-jazzy-trackdlo-core
+trackdlo_msgs:
+    ubuntu: ros-jazzy-trackdlo-msgs
+trackdlo_segmentation:
+    ubuntu: ros-jazzy-trackdlo-segmentation
+trackdlo_utils:
+    ubuntu: ros-jazzy-trackdlo-utils
 asio_cmake_module:
     ubuntu: ros-jazzy-asio-cmake-module
 io_context:
@@ -2894,10 +4746,86 @@ serial_driver:
     ubuntu: ros-jazzy-serial-driver
 udp_driver:
     ubuntu: ros-jazzy-udp-driver
+trimble_driver:
+    ubuntu: ros-jazzy-trimble-driver
+trimble_gsof_msgs:
+    ubuntu: ros-jazzy-trimble-gsof-msgs
+trimble_interfaces:
+    ubuntu: ros-jazzy-trimble-interfaces
+tsid:
+    ubuntu: ros-jazzy-tsid
 turbojpeg_compressed_image_transport:
     ubuntu: ros-jazzy-turbojpeg-compressed-image-transport
 turtle_nest:
     ubuntu: ros-jazzy-turtle-nest
+turtlebot3:
+    ubuntu: ros-jazzy-turtlebot3
+turtlebot3_bringup:
+    ubuntu: ros-jazzy-turtlebot3-bringup
+turtlebot3_cartographer:
+    ubuntu: ros-jazzy-turtlebot3-cartographer
+turtlebot3_description:
+    ubuntu: ros-jazzy-turtlebot3-description
+turtlebot3_example:
+    ubuntu: ros-jazzy-turtlebot3-example
+turtlebot3_navigation2:
+    ubuntu: ros-jazzy-turtlebot3-navigation2
+turtlebot3_node:
+    ubuntu: ros-jazzy-turtlebot3-node
+turtlebot3_teleop:
+    ubuntu: ros-jazzy-turtlebot3-teleop
+turtlebot3_applications:
+    ubuntu: ros-jazzy-turtlebot3-applications
+turtlebot3_aruco_tracker:
+    ubuntu: ros-jazzy-turtlebot3-aruco-tracker
+turtlebot3_automatic_parking:
+    ubuntu: ros-jazzy-turtlebot3-automatic-parking
+turtlebot3_automatic_parking_vision:
+    ubuntu: ros-jazzy-turtlebot3-automatic-parking-vision
+turtlebot3_follower:
+    ubuntu: ros-jazzy-turtlebot3-follower
+turtlebot3_panorama:
+    ubuntu: ros-jazzy-turtlebot3-panorama
+turtlebot3_yolo_object_detection:
+    ubuntu: ros-jazzy-turtlebot3-yolo-object-detection
+turtlebot3_applications_msgs:
+    ubuntu: ros-jazzy-turtlebot3-applications-msgs
+turtlebot3_autorace:
+    ubuntu: ros-jazzy-turtlebot3-autorace
+turtlebot3_autorace_camera:
+    ubuntu: ros-jazzy-turtlebot3-autorace-camera
+turtlebot3_autorace_detect:
+    ubuntu: ros-jazzy-turtlebot3-autorace-detect
+turtlebot3_autorace_mission:
+    ubuntu: ros-jazzy-turtlebot3-autorace-mission
+turtlebot3_home_service_challenge:
+    ubuntu: ros-jazzy-turtlebot3-home-service-challenge
+turtlebot3_home_service_challenge_aruco:
+    ubuntu: ros-jazzy-turtlebot3-home-service-challenge-aruco
+turtlebot3_home_service_challenge_core:
+    ubuntu: ros-jazzy-turtlebot3-home-service-challenge-core
+turtlebot3_home_service_challenge_manipulator:
+    ubuntu: ros-jazzy-turtlebot3-home-service-challenge-manipulator
+turtlebot3_home_service_challenge_tools:
+    ubuntu: ros-jazzy-turtlebot3-home-service-challenge-tools
+turtlebot3_machine_learning:
+    ubuntu: ros-jazzy-turtlebot3-machine-learning
+turtlebot3_manipulation:
+    ubuntu: ros-jazzy-turtlebot3-manipulation
+turtlebot3_manipulation_bringup:
+    ubuntu: ros-jazzy-turtlebot3-manipulation-bringup
+turtlebot3_manipulation_cartographer:
+    ubuntu: ros-jazzy-turtlebot3-manipulation-cartographer
+turtlebot3_manipulation_description:
+    ubuntu: ros-jazzy-turtlebot3-manipulation-description
+turtlebot3_manipulation_hardware:
+    ubuntu: ros-jazzy-turtlebot3-manipulation-hardware
+turtlebot3_manipulation_moveit_config:
+    ubuntu: ros-jazzy-turtlebot3-manipulation-moveit-config
+turtlebot3_manipulation_navigation2:
+    ubuntu: ros-jazzy-turtlebot3-manipulation-navigation2
+turtlebot3_manipulation_teleop:
+    ubuntu: ros-jazzy-turtlebot3-manipulation-teleop
 turtlebot3_msgs:
     ubuntu: ros-jazzy-turtlebot3-msgs
 turtlebot3_fake_node:
@@ -2992,6 +4920,8 @@ ublox_ubx_msgs:
     ubuntu: ros-jazzy-ublox-ubx-msgs
 udp_msgs:
     ubuntu: ros-jazzy-udp-msgs
+unbag:
+    ubuntu: ros-jazzy-unbag
 uncrustify_vendor:
     ubuntu: ros-jazzy-uncrustify-vendor
 unique_identifier_msgs:
@@ -3024,6 +4954,8 @@ urdf_launch:
     ubuntu: ros-jazzy-urdf-launch
 urdfdom_py:
     ubuntu: ros-jazzy-urdfdom-py
+urdf_test:
+    ubuntu: ros-jazzy-urdf-test
 urdf_tutorial:
     ubuntu: ros-jazzy-urdf-tutorial
 urdfdom:
@@ -3036,6 +4968,8 @@ urg_node:
     ubuntu: ros-jazzy-urg-node
 urg_node_msgs:
     ubuntu: ros-jazzy-urg-node-msgs
+urinterfaces:
+    ubuntu: ros-jazzy-urinterfaces
 usb_cam:
     ubuntu: ros-jazzy-usb-cam
 v4l2_camera:
@@ -3052,6 +4986,8 @@ ros_core:
     ubuntu: ros-jazzy-ros-core
 simulation:
     ubuntu: ros-jazzy-simulation
+vector_pursuit_controller:
+    ubuntu: ros-jazzy-vector-pursuit-controller
 velodyne:
     ubuntu: ros-jazzy-velodyne
 velodyne_driver:
@@ -3064,10 +5000,8 @@ velodyne_pointcloud:
     ubuntu: ros-jazzy-velodyne-pointcloud
 velodyne_description:
     ubuntu: ros-jazzy-velodyne-description
-velodyne_gazebo_plugins:
-    ubuntu: ros-jazzy-velodyne-gazebo-plugins
-velodyne_simulator:
-    ubuntu: ros-jazzy-velodyne-simulator
+video_to_image_msg_publisher:
+    ubuntu: ros-jazzy-video-to-image-msg-publisher
 vision_msgs:
     ubuntu: ros-jazzy-vision-msgs
 vision_msgs_rviz_plugins:
@@ -3094,16 +5028,24 @@ warehouse_ros:
     ubuntu: ros-jazzy-warehouse-ros
 warehouse_ros_sqlite:
     ubuntu: ros-jazzy-warehouse-ros-sqlite
+wato_monorepo:
+    ubuntu: ros-jazzy-wato-monorepo
+web_tf_editor:
+    ubuntu: ros-jazzy-web-tf-editor
 web_video_server:
     ubuntu: ros-jazzy-web-video-server
 webots_ros2:
     ubuntu: ros-jazzy-webots-ros2
 webots_ros2_control:
     ubuntu: ros-jazzy-webots-ros2-control
+webots_ros2_crazyflie:
+    ubuntu: ros-jazzy-webots-ros2-crazyflie
 webots_ros2_driver:
     ubuntu: ros-jazzy-webots-ros2-driver
 webots_ros2_epuck:
     ubuntu: ros-jazzy-webots-ros2-epuck
+webots_ros2_husarion:
+    ubuntu: ros-jazzy-webots-ros2-husarion
 webots_ros2_importer:
     ubuntu: ros-jazzy-webots-ros2-importer
 webots_ros2_mavic:
@@ -3124,6 +5066,10 @@ wireless_msgs:
     ubuntu: ros-jazzy-wireless-msgs
 wireless_watcher:
     ubuntu: ros-jazzy-wireless-watcher
+wirestead:
+    ubuntu: ros-jazzy-wirestead
+wirestead_ros:
+    ubuntu: ros-jazzy-wirestead-ros
 xacro:
     ubuntu: ros-jazzy-xacro
 yaets:
@@ -3132,10 +5078,20 @@ yaml_cpp_vendor:
     ubuntu: ros-jazzy-yaml-cpp-vendor
 yasmin:
     ubuntu: ros-jazzy-yasmin
+yasmin_cli:
+    ubuntu: ros-jazzy-yasmin-cli
 yasmin_demos:
     ubuntu: ros-jazzy-yasmin-demos
+yasmin_editor:
+    ubuntu: ros-jazzy-yasmin-editor
+yasmin_factory:
+    ubuntu: ros-jazzy-yasmin-factory
 yasmin_msgs:
     ubuntu: ros-jazzy-yasmin-msgs
+yasmin_pcl:
+    ubuntu: ros-jazzy-yasmin-pcl
+yasmin_plugins_manager:
+    ubuntu: ros-jazzy-yasmin-plugins-manager
 yasmin_ros:
     ubuntu: ros-jazzy-yasmin-ros
 yasmin_viewer:
@@ -3144,6 +5100,10 @@ zbar_ros:
     ubuntu: ros-jazzy-zbar-ros
 zbar_ros_interfaces:
     ubuntu: ros-jazzy-zbar-ros-interfaces
+zed_description:
+    ubuntu: ros-jazzy-zed-description
+zed_msgs:
+    ubuntu: ros-jazzy-zed-msgs
 zenoh_bridge_dds:
     ubuntu: ros-jazzy-zenoh-bridge-dds
 zmqpp_vendor:
