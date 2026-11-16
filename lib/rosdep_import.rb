@@ -120,8 +120,43 @@ module Ros2
             end
         end
 
-        def import_ros_packages(rosversion)
-            url = "https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/"+rosversion+"/distribution.yaml"
+        # Returns the current commit of a rosdistro branch as [sha, commit date]
+        def getBranchCommit(branch)
+            data = JSON.parse(Net::HTTP.get(URI("https://api.github.com/repos/ros/rosdistro/commits/#{branch}")))
+            if !data.is_a?(Hash) || !data["sha"] then
+                raise "could not get the current commit of the rosdistro #{branch} branch " \
+                      "from the GitHub API: #{data}"
+            end
+            [data["sha"], data["commit"]["committer"]["date"]]
+        end
+
+        # Returns [ref to download from, description of it] for the given ROS_OSDEP_ROSDISTRO_REF value:
+        # "auto" (master for rolling, the latest tag of the distribution otherwise),
+        # "master", "latest-tag" or a tag name such as "jazzy/2026-10-05".
+        # master is pinned to its current commit, so that all files come from the same version.
+        def resolve_ref(rosversion, ref)
+            ref = "auto" if ref.nil? || ref.empty?
+            if ref == "auto" then
+                ref = (rosversion == "rolling") ? "master" : "latest-tag"
+            end
+            case ref
+            when "master"
+                sha, date = getBranchCommit("master")
+                [sha, "master, commit #{sha} (#{date})"]
+            when "latest-tag"
+                tag = getLatestTag(rosversion)
+                if tag.empty? then
+                    raise "no tag found for #{rosversion} in https://github.com/ros/rosdistro, " \
+                          "set ROS_OSDEP_ROSDISTRO_REF to master to use the master branch"
+                end
+                ["refs/tags/#{tag}", "tag #{tag}"]
+            else
+                ["refs/tags/#{ref}", "tag #{ref}"]
+            end
+        end
+
+        def import_ros_packages(rosversion, ref)
+            url = "https://raw.githubusercontent.com/ros/rosdistro/#{ref}/#{rosversion}/distribution.yaml"
             URI.open(url) do |f|
                 yaml = if Psych::VERSION > '4.0'
                     YAML.load(f, aliases: false)
@@ -142,17 +177,24 @@ module Ros2
             end
         end
 
-        def import(rosversion)
-            rostag=getLatestTag(rosversion)
-            Autoproj.message "Using tag: #{rostag} of https://github.com/ros/rosdistro to generate osdeps" 
-            @osdep_file.puts "# based on https://github.com/ros/rosdistro tag #{rostag}\n#"
+        # ref: see resolve_ref
+        def import(rosversion, ref = "auto")
+            ref, description = resolve_ref(rosversion, ref)
+            Autoproj.message "Using #{description} of https://github.com/ros/rosdistro to generate osdeps"
+            base_url = "https://raw.githubusercontent.com/ros/rosdistro/#{ref}"
+            @osdep_file.puts "# based on https://github.com/ros/rosdistro #{description}\n#"
             @osdep_file.puts "# If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config\n#"
-            @rosfile.puts "# based on https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/"+rosversion+"/distribution.yaml\n#"
+            @rosfile.puts "# based on #{rosversion}/distribution.yaml of https://github.com/ros/rosdistro #{description}\n#"
             @rosfile.puts "# If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config\n#"
-            import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/base.yaml")
-            import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/python.yaml")
-            import_rosdep_osdeps("https://raw.githubusercontent.com/ros/rosdistro/refs/tags/#{rostag}/rosdep/ruby.yaml")
-            import_ros_packages(rosversion)
+            import_rosdep_osdeps("#{base_url}/rosdep/base.yaml")
+            import_rosdep_osdeps("#{base_url}/rosdep/python.yaml")
+            import_rosdep_osdeps("#{base_url}/rosdep/ruby.yaml")
+            import_ros_packages(rosversion, ref)
+        rescue StandardError
+            # don't leave incomplete files behind: they would not be regenerated on the next run
+            close()
+            File.delete(@osdep_file.path, @rosfile.path)
+            raise
         end
     end
 end
