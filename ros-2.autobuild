@@ -38,3 +38,24 @@ colcon_package "ground_segmentation_ros2", move_to: "perception" do |pkg|
 end
 
 colcon_package "nav2_ground_consistency_costmap_plugin", move_to: "navigation"
+
+osdeps = Autoproj.workspace.os_package_resolver
+
+# plotjuggler is no longer released for rolling
+if osdeps.availability_of("plotjuggler") != Autoproj::OSPackageResolver::AVAILABLE
+    # optional for robot_remote_control (its PlotJuggler plugin is skipped without it)
+    osdeps.add_entries({ "plotjuggler" => "ignore" }, file: __FILE__)
+end
+
+# nav2 is not released for every ROS distribution (e.g. not for rolling, docker images instead:
+# https://discourse.openrobotics.org/t/rfi-would-you-use-nav2-rolling-binaries/37490)
+# TODO build nav2 from source in that case?
+if osdeps.availability_of("nav2_costmap_2d") != Autoproj::OSPackageResolver::AVAILABLE
+    Autoproj.warn "nav2_costmap_2d is not available for ROS_DISTRO #{Autoproj.config.get('ROS_DISTRO')}, " \
+                  "ignoring nav2_ground_consistency_costmap_plugin"
+    Autoproj.manifest.ignore_package "nav2_ground_consistency_costmap_plugin"
+end
+if osdeps.availability_of("nav2_msgs") != Autoproj::OSPackageResolver::AVAILABLE
+    # ugv_nav4d_ros2 builds without it (only some of its scripts use it)
+    osdeps.add_entries({ "nav2_msgs" => "ignore" }, file: __FILE__)
+end
