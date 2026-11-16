@@ -7,7 +7,7 @@
   <license>New BSD</license>
 
   <depend package="slam3d" />
-  <depend package="octomap" />
+  <depend package="liboctomap-dev" />
 
   <keywords>
     <keyword>Mapping</keyword>
