@@ -98,6 +98,9 @@ These can be changed with `autoproj reconfigure`:
 
 * ROS_DISTRO - the ROS 2 distribution to generate OS dependencies for (defaults to the sourced ROS 2 environment, otherwise to the one matching the Ubuntu version)
 * ROS_OSDEP_FORCE_UPDATE - regenerate the OS dependency definitions from rosdep once
+* ROS_OSDEP_ROSDISTRO_REF - version of the rosdistro repository to generate them from:
+  `auto` (default: `master` for rolling, the latest tag of the distribution otherwise),
+  `master`, `latest-tag` or a tag name such as `jazzy/2026-10-05`
 * COLCON_USE_SYMLINK_INSTALL - call colcon with `--symlink-install` when building with autoproj
 
 
