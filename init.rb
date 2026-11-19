@@ -51,6 +51,15 @@ Autoproj.config.declare "ROS_OSDEP_FORCE_UPDATE",
     doc: ["Force update of the OS Dependency Definitions from rosdep?", "\tThis will import the most recent rosdep definitions once", "Please create a pull request if you did so and there were changes", "It is set to false automacically after update"]
 
 
+Autoproj.config.declare "ROS_OSDEP_ROSDISTRO_REF",
+    "string",
+    default: "auto",
+    doc: ["Which version of https://github.com/ros/rosdistro should the OS dependencies be generated from?",
+          "\tauto: the master branch for rolling, the latest tag of the distribution otherwise",
+          "\tmaster, latest-tag, or a tag name such as jazzy/2026-10-05",
+          "\tOnly used when the definitions are (re)generated, see ROS_OSDEP_FORCE_UPDATE"]
+
+
 force_import = false
 if (Autoproj.config.get("ROS_OSDEP_FORCE_UPDATE") == true) then
     force_import = true
@@ -62,7 +71,7 @@ end
 if !File.exist?(ubuntu_osdeps) || !File.exist?(ros_osdeps) || force_import == true then
     Autoproj.message "Importing rosdep to #{ubuntu_osdeps} and #{ros_osdeps}" 
     importer = Ros2::RosdepImporter.new(ubuntu_osdeps, ros_osdeps, osdep_blacklist)
-    importer.import(ros_version)
+    importer.import(ros_version, Autoproj.config.get("ROS_OSDEP_ROSDISTRO_REF"))
     Autoproj.config.set("IMPORTED_ROS_OSDEPS", ros_version)
     # Autoproj.config.set("IMPORTED_ROS_TAGDATE", ros_tag_date)
 end
