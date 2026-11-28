@@ -129,7 +129,10 @@ module Ros2
                     YAML.load(f)
                 end
                 yaml["repositories"].each do |depname, content|
-                    if content.has_key?("release") && content["release"].has_key?("packages") then
+                    # skip repositories without a release for this distribution (no release
+                    # version): there is no ros-<distro>-<name> package for them
+                    next unless content.has_key?("release") && content["release"].has_key?("version")
+                    if content["release"].has_key?("packages") then
                         content["release"]["packages"].each do |package|
                             @rosfile.puts  package + ":"
                             @rosfile.puts "    ubuntu: ros-"+rosversion+"-"+package.gsub(/_/, '-')

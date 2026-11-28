@@ -1,0 +1,3650 @@
+#
+# This file is generated, do not edit!
+# based on https://raw.githubusercontent.com/ros/rosdistro/refs/heads/master/lyrical/distribution.yaml
+#
+# If you need a refresh, call autoproj reconfigure or delete just this file and run autoproj update --config
+#
+navmap_core:
+    ubuntu: ros-lyrical-navmap-core
+navmap_examples:
+    ubuntu: ros-lyrical-navmap-examples
+navmap_ros:
+    ubuntu: ros-lyrical-navmap-ros
+navmap_ros_interfaces:
+    ubuntu: ros-lyrical-navmap-ros-interfaces
+navmap_rviz_plugin:
+    ubuntu: ros-lyrical-navmap-rviz-plugin
+navmap_tools:
+    ubuntu: ros-lyrical-navmap-tools
+acado_vendor:
+    ubuntu: ros-lyrical-acado-vendor
+ackermann_msgs:
+    ubuntu: ros-lyrical-ackermann-msgs
+ackermann_nlmpc:
+    ubuntu: ros-lyrical-ackermann-nlmpc
+ackermann_nlmpc_msgs:
+    ubuntu: ros-lyrical-ackermann-nlmpc-msgs
+actuator_msgs:
+    ubuntu: ros-lyrical-actuator-msgs
+adaptive_component:
+    ubuntu: ros-lyrical-adaptive-component
+adi_iio:
+    ubuntu: ros-lyrical-adi-iio
+adi_imu:
+    ubuntu: ros-lyrical-adi-imu
+agni_tf_tools:
+    ubuntu: ros-lyrical-agni-tf-tools
+ament_acceleration:
+    ubuntu: ros-lyrical-ament-acceleration
+ament_black:
+    ubuntu: ros-lyrical-ament-black
+ament_cmake_black:
+    ubuntu: ros-lyrical-ament-cmake-black
+ament_cmake:
+    ubuntu: ros-lyrical-ament-cmake
+ament_cmake_auto:
+    ubuntu: ros-lyrical-ament-cmake-auto
+ament_cmake_core:
+    ubuntu: ros-lyrical-ament-cmake-core
+ament_cmake_export_definitions:
+    ubuntu: ros-lyrical-ament-cmake-export-definitions
+ament_cmake_export_dependencies:
+    ubuntu: ros-lyrical-ament-cmake-export-dependencies
+ament_cmake_export_include_directories:
+    ubuntu: ros-lyrical-ament-cmake-export-include-directories
+ament_cmake_export_libraries:
+    ubuntu: ros-lyrical-ament-cmake-export-libraries
+ament_cmake_export_link_flags:
+    ubuntu: ros-lyrical-ament-cmake-export-link-flags
+ament_cmake_export_targets:
+    ubuntu: ros-lyrical-ament-cmake-export-targets
+ament_cmake_gen_version_h:
+    ubuntu: ros-lyrical-ament-cmake-gen-version-h
+ament_cmake_gmock:
+    ubuntu: ros-lyrical-ament-cmake-gmock
+ament_cmake_google_benchmark:
+    ubuntu: ros-lyrical-ament-cmake-google-benchmark
+ament_cmake_gtest:
+    ubuntu: ros-lyrical-ament-cmake-gtest
+ament_cmake_include_directories:
+    ubuntu: ros-lyrical-ament-cmake-include-directories
+ament_cmake_libraries:
+    ubuntu: ros-lyrical-ament-cmake-libraries
+ament_cmake_pytest:
+    ubuntu: ros-lyrical-ament-cmake-pytest
+ament_cmake_python:
+    ubuntu: ros-lyrical-ament-cmake-python
+ament_cmake_target_dependencies:
+    ubuntu: ros-lyrical-ament-cmake-target-dependencies
+ament_cmake_test:
+    ubuntu: ros-lyrical-ament-cmake-test
+ament_cmake_vendor_package:
+    ubuntu: ros-lyrical-ament-cmake-vendor-package
+ament_cmake_version:
+    ubuntu: ros-lyrical-ament-cmake-version
+ament_cmake_catch2:
+    ubuntu: ros-lyrical-ament-cmake-catch2
+ament_cmake_ros:
+    ubuntu: ros-lyrical-ament-cmake-ros
+ament_cmake_ros_core:
+    ubuntu: ros-lyrical-ament-cmake-ros-core
+domain_coordinator:
+    ubuntu: ros-lyrical-domain-coordinator
+rmw_test_fixture:
+    ubuntu: ros-lyrical-rmw-test-fixture
+rmw_test_fixture_implementation:
+    ubuntu: ros-lyrical-rmw-test-fixture-implementation
+ament_download:
+    ubuntu: ros-lyrical-ament-download
+ament_index_cpp:
+    ubuntu: ros-lyrical-ament-index-cpp
+ament_index_python:
+    ubuntu: ros-lyrical-ament-index-python
+ament_clang_format:
+    ubuntu: ros-lyrical-ament-clang-format
+ament_clang_tidy:
+    ubuntu: ros-lyrical-ament-clang-tidy
+ament_cmake_clang_format:
+    ubuntu: ros-lyrical-ament-cmake-clang-format
+ament_cmake_clang_tidy:
+    ubuntu: ros-lyrical-ament-cmake-clang-tidy
+ament_cmake_copyright:
+    ubuntu: ros-lyrical-ament-cmake-copyright
+ament_cmake_cppcheck:
+    ubuntu: ros-lyrical-ament-cmake-cppcheck
+ament_cmake_cpplint:
+    ubuntu: ros-lyrical-ament-cmake-cpplint
+ament_cmake_flake8:
+    ubuntu: ros-lyrical-ament-cmake-flake8
+ament_cmake_lint_cmake:
+    ubuntu: ros-lyrical-ament-cmake-lint-cmake
+ament_cmake_mypy:
+    ubuntu: ros-lyrical-ament-cmake-mypy
+ament_cmake_pclint:
+    ubuntu: ros-lyrical-ament-cmake-pclint
+ament_cmake_pep257:
+    ubuntu: ros-lyrical-ament-cmake-pep257
+ament_cmake_pycodestyle:
+    ubuntu: ros-lyrical-ament-cmake-pycodestyle
+ament_cmake_pyflakes:
+    ubuntu: ros-lyrical-ament-cmake-pyflakes
+ament_cmake_uncrustify:
+    ubuntu: ros-lyrical-ament-cmake-uncrustify
+ament_cmake_xmllint:
+    ubuntu: ros-lyrical-ament-cmake-xmllint
+ament_copyright:
+    ubuntu: ros-lyrical-ament-copyright
+ament_cppcheck:
+    ubuntu: ros-lyrical-ament-cppcheck
+ament_cpplint:
+    ubuntu: ros-lyrical-ament-cpplint
+ament_flake8:
+    ubuntu: ros-lyrical-ament-flake8
+ament_lint:
+    ubuntu: ros-lyrical-ament-lint
+ament_lint_auto:
+    ubuntu: ros-lyrical-ament-lint-auto
+ament_lint_cmake:
+    ubuntu: ros-lyrical-ament-lint-cmake
+ament_lint_common:
+    ubuntu: ros-lyrical-ament-lint-common
+ament_mypy:
+    ubuntu: ros-lyrical-ament-mypy
+ament_pclint:
+    ubuntu: ros-lyrical-ament-pclint
+ament_pep257:
+    ubuntu: ros-lyrical-ament-pep257
+ament_pycodestyle:
+    ubuntu: ros-lyrical-ament-pycodestyle
+ament_pyflakes:
+    ubuntu: ros-lyrical-ament-pyflakes
+ament_uncrustify:
+    ubuntu: ros-lyrical-ament-uncrustify
+ament_xmllint:
+    ubuntu: ros-lyrical-ament-xmllint
+ament_package:
+    ubuntu: ros-lyrical-ament-package
+ament_vitis:
+    ubuntu: ros-lyrical-ament-vitis
+angles:
+    ubuntu: ros-lyrical-angles
+apex_test_tools:
+    ubuntu: ros-lyrical-apex-test-tools
+test_apex_test_tools:
+    ubuntu: ros-lyrical-test-apex-test-tools
+apriltag:
+    ubuntu: ros-lyrical-apriltag
+apriltag_detector:
+    ubuntu: ros-lyrical-apriltag-detector
+apriltag_detector_mit:
+    ubuntu: ros-lyrical-apriltag-detector-mit
+apriltag_detector_umich:
+    ubuntu: ros-lyrical-apriltag-detector-umich
+apriltag_draw:
+    ubuntu: ros-lyrical-apriltag-draw
+apriltag_tools:
+    ubuntu: ros-lyrical-apriltag-tools
+apriltag_mit:
+    ubuntu: ros-lyrical-apriltag-mit
+apriltag_msgs:
+    ubuntu: ros-lyrical-apriltag-msgs
+apriltag_ros:
+    ubuntu: ros-lyrical-apriltag-ros
+ardrone_sdk:
+    ubuntu: ros-lyrical-ardrone-sdk
+ardrone_sumo:
+    ubuntu: ros-lyrical-ardrone-sumo
+aruco_opencv:
+    ubuntu: ros-lyrical-aruco-opencv
+aruco_opencv_msgs:
+    ubuntu: ros-lyrical-aruco-opencv-msgs
+aruco:
+    ubuntu: ros-lyrical-aruco
+aruco_msgs:
+    ubuntu: ros-lyrical-aruco-msgs
+aruco_ros:
+    ubuntu: ros-lyrical-aruco-ros
+delphi_esr_msgs:
+    ubuntu: ros-lyrical-delphi-esr-msgs
+delphi_mrr_msgs:
+    ubuntu: ros-lyrical-delphi-mrr-msgs
+delphi_srr_msgs:
+    ubuntu: ros-lyrical-delphi-srr-msgs
+derived_object_msgs:
+    ubuntu: ros-lyrical-derived-object-msgs
+ibeo_msgs:
+    ubuntu: ros-lyrical-ibeo-msgs
+kartech_linear_actuator_msgs:
+    ubuntu: ros-lyrical-kartech-linear-actuator-msgs
+mobileye_560_660_msgs:
+    ubuntu: ros-lyrical-mobileye-560-660-msgs
+neobotix_usboard_msgs:
+    ubuntu: ros-lyrical-neobotix-usboard-msgs
+async_web_server_cpp:
+    ubuntu: ros-lyrical-async-web-server-cpp
+at_sonde_ros_driver:
+    ubuntu: ros-lyrical-at-sonde-ros-driver
+audio_capture:
+    ubuntu: ros-lyrical-audio-capture
+audio_common:
+    ubuntu: ros-lyrical-audio-common
+audio_common_msgs:
+    ubuntu: ros-lyrical-audio-common-msgs
+audio_play:
+    ubuntu: ros-lyrical-audio-play
+sound_play:
+    ubuntu: ros-lyrical-sound-play
+sound_play_msgs:
+    ubuntu: ros-lyrical-sound-play-msgs
+auto_apms_behavior_tree:
+    ubuntu: ros-lyrical-auto-apms-behavior-tree
+auto_apms_behavior_tree_core:
+    ubuntu: ros-lyrical-auto-apms-behavior-tree-core
+auto_apms_examples:
+    ubuntu: ros-lyrical-auto-apms-examples
+auto_apms_interfaces:
+    ubuntu: ros-lyrical-auto-apms-interfaces
+auto_apms_mission:
+    ubuntu: ros-lyrical-auto-apms-mission
+auto_apms_ros2behavior:
+    ubuntu: ros-lyrical-auto-apms-ros2behavior
+auto_apms_util:
+    ubuntu: ros-lyrical-auto-apms-util
+automatika_embodied_agents:
+    ubuntu: ros-lyrical-automatika-embodied-agents
+automatika_ros_sugar:
+    ubuntu: ros-lyrical-automatika-ros-sugar
+automotive_autonomy_msgs:
+    ubuntu: ros-lyrical-automotive-autonomy-msgs
+automotive_navigation_msgs:
+    ubuntu: ros-lyrical-automotive-navigation-msgs
+automotive_platform_msgs:
+    ubuntu: ros-lyrical-automotive-platform-msgs
+autoware_adapi_v1_msgs:
+    ubuntu: ros-lyrical-autoware-adapi-v1-msgs
+autoware_adapi_version_msgs:
+    ubuntu: ros-lyrical-autoware-adapi-version-msgs
+autoware_auto_msgs:
+    ubuntu: ros-lyrical-autoware-auto-msgs
+autoware_cmake:
+    ubuntu: ros-lyrical-autoware-cmake
+autoware_lint_common:
+    ubuntu: ros-lyrical-autoware-lint-common
+autoware_internal_debug_msgs:
+    ubuntu: ros-lyrical-autoware-internal-debug-msgs
+autoware_internal_localization_msgs:
+    ubuntu: ros-lyrical-autoware-internal-localization-msgs
+autoware_internal_metric_msgs:
+    ubuntu: ros-lyrical-autoware-internal-metric-msgs
+autoware_internal_msgs:
+    ubuntu: ros-lyrical-autoware-internal-msgs
+autoware_internal_perception_msgs:
+    ubuntu: ros-lyrical-autoware-internal-perception-msgs
+autoware_internal_planning_msgs:
+    ubuntu: ros-lyrical-autoware-internal-planning-msgs
+autoware_lanelet2_extension:
+    ubuntu: ros-lyrical-autoware-lanelet2-extension
+autoware_lanelet2_extension_python:
+    ubuntu: ros-lyrical-autoware-lanelet2-extension-python
+autoware_common_msgs:
+    ubuntu: ros-lyrical-autoware-common-msgs
+autoware_control_msgs:
+    ubuntu: ros-lyrical-autoware-control-msgs
+autoware_localization_msgs:
+    ubuntu: ros-lyrical-autoware-localization-msgs
+autoware_map_msgs:
+    ubuntu: ros-lyrical-autoware-map-msgs
+autoware_msgs:
+    ubuntu: ros-lyrical-autoware-msgs
+autoware_perception_msgs:
+    ubuntu: ros-lyrical-autoware-perception-msgs
+autoware_planning_msgs:
+    ubuntu: ros-lyrical-autoware-planning-msgs
+autoware_sensing_msgs:
+    ubuntu: ros-lyrical-autoware-sensing-msgs
+autoware_system_msgs:
+    ubuntu: ros-lyrical-autoware-system-msgs
+autoware_v2x_msgs:
+    ubuntu: ros-lyrical-autoware-v2x-msgs
+autoware_vehicle_msgs:
+    ubuntu: ros-lyrical-autoware-vehicle-msgs
+autoware_utils:
+    ubuntu: ros-lyrical-autoware-utils
+autoware_utils_debug:
+    ubuntu: ros-lyrical-autoware-utils-debug
+autoware_utils_diagnostics:
+    ubuntu: ros-lyrical-autoware-utils-diagnostics
+autoware_utils_geometry:
+    ubuntu: ros-lyrical-autoware-utils-geometry
+autoware_utils_logging:
+    ubuntu: ros-lyrical-autoware-utils-logging
+autoware_utils_math:
+    ubuntu: ros-lyrical-autoware-utils-math
+autoware_utils_pcl:
+    ubuntu: ros-lyrical-autoware-utils-pcl
+autoware_utils_rclcpp:
+    ubuntu: ros-lyrical-autoware-utils-rclcpp
+autoware_utils_system:
+    ubuntu: ros-lyrical-autoware-utils-system
+autoware_utils_tf:
+    ubuntu: ros-lyrical-autoware-utils-tf
+autoware_utils_uuid:
+    ubuntu: ros-lyrical-autoware-utils-uuid
+autoware_utils_visualization:
+    ubuntu: ros-lyrical-autoware-utils-visualization
+avt_vimba_camera:
+    ubuntu: ros-lyrical-avt-vimba-camera
+aws_sdk_cpp_vendor:
+    ubuntu: ros-lyrical-aws-sdk-cpp-vendor
+backward_ros:
+    ubuntu: ros-lyrical-backward-ros
+bag2_to_image:
+    ubuntu: ros-lyrical-bag2-to-image
+behaviortree_cpp:
+    ubuntu: ros-lyrical-behaviortree-cpp
+beluga:
+    ubuntu: ros-lyrical-beluga
+beluga_amcl:
+    ubuntu: ros-lyrical-beluga-amcl
+beluga_ros:
+    ubuntu: ros-lyrical-beluga-ros
+bno055:
+    ubuntu: ros-lyrical-bno055
+bond:
+    ubuntu: ros-lyrical-bond
+bond_core:
+    ubuntu: ros-lyrical-bond-core
+bondcpp:
+    ubuntu: ros-lyrical-bondcpp
+bondpy:
+    ubuntu: ros-lyrical-bondpy
+smclib:
+    ubuntu: ros-lyrical-smclib
+boost_geometry_util:
+    ubuntu: ros-lyrical-boost-geometry-util
+boost_plugin_loader:
+    ubuntu: ros-lyrical-boost-plugin-loader
+boost_sml_vendor:
+    ubuntu: ros-lyrical-boost-sml-vendor
+camera_ros:
+    ubuntu: ros-lyrical-camera-ros
+cartographer:
+    ubuntu: ros-lyrical-cartographer
+cartographer_ros:
+    ubuntu: ros-lyrical-cartographer-ros
+cartographer_ros_msgs:
+    ubuntu: ros-lyrical-cartographer-ros-msgs
+cartographer_rviz:
+    ubuntu: ros-lyrical-cartographer-rviz
+cascade_lifecycle_msgs:
+    ubuntu: ros-lyrical-cascade-lifecycle-msgs
+rclcpp_cascade_lifecycle:
+    ubuntu: ros-lyrical-rclcpp-cascade-lifecycle
+rclpy_cascade_lifecycle:
+    ubuntu: ros-lyrical-rclpy-cascade-lifecycle
+catch_ros2:
+    ubuntu: ros-lyrical-catch-ros2
+class_loader:
+    ubuntu: ros-lyrical-class-loader
+classic_bags:
+    ubuntu: ros-lyrical-classic-bags
+clips_executive:
+    ubuntu: ros-lyrical-clips-executive
+cx_ament_index_plugin:
+    ubuntu: ros-lyrical-cx-ament-index-plugin
+cx_bringup:
+    ubuntu: ros-lyrical-cx-bringup
+cx_clips_env_manager:
+    ubuntu: ros-lyrical-cx-clips-env-manager
+cx_config_plugin:
+    ubuntu: ros-lyrical-cx-config-plugin
+cx_example_plugin:
+    ubuntu: ros-lyrical-cx-example-plugin
+cx_executive_plugin:
+    ubuntu: ros-lyrical-cx-executive-plugin
+cx_file_load_plugin:
+    ubuntu: ros-lyrical-cx-file-load-plugin
+cx_msgs:
+    ubuntu: ros-lyrical-cx-msgs
+cx_plugin:
+    ubuntu: ros-lyrical-cx-plugin
+cx_protobuf_plugin:
+    ubuntu: ros-lyrical-cx-protobuf-plugin
+cx_ros_comm_gen:
+    ubuntu: ros-lyrical-cx-ros-comm-gen
+cx_ros_msgs_plugin:
+    ubuntu: ros-lyrical-cx-ros-msgs-plugin
+cx_ros_param_plugin:
+    ubuntu: ros-lyrical-cx-ros-param-plugin
+cx_tf2_pose_tracker_plugin:
+    ubuntu: ros-lyrical-cx-tf2-pose-tracker-plugin
+cx_tutorial_agents:
+    ubuntu: ros-lyrical-cx-tutorial-agents
+cx_utils:
+    ubuntu: ros-lyrical-cx-utils
+clips_vendor:
+    ubuntu: ros-lyrical-clips-vendor
+cloudini_lib:
+    ubuntu: ros-lyrical-cloudini-lib
+cloudini_ros:
+    ubuntu: ros-lyrical-cloudini-ros
+coal:
+    ubuntu: ros-lyrical-coal
+coin_d4_driver:
+    ubuntu: ros-lyrical-coin-d4-driver
+color_names:
+    ubuntu: ros-lyrical-color-names
+color_util:
+    ubuntu: ros-lyrical-color-util
+common_interfaces:
+    ubuntu: ros-lyrical-common-interfaces
+diagnostic_msgs:
+    ubuntu: ros-lyrical-diagnostic-msgs
+geometry_msgs:
+    ubuntu: ros-lyrical-geometry-msgs
+nav_msgs:
+    ubuntu: ros-lyrical-nav-msgs
+sensor_msgs:
+    ubuntu: ros-lyrical-sensor-msgs
+sensor_msgs_py:
+    ubuntu: ros-lyrical-sensor-msgs-py
+shape_msgs:
+    ubuntu: ros-lyrical-shape-msgs
+std_msgs:
+    ubuntu: ros-lyrical-std-msgs
+std_srvs:
+    ubuntu: ros-lyrical-std-srvs
+stereo_msgs:
+    ubuntu: ros-lyrical-stereo-msgs
+trajectory_msgs:
+    ubuntu: ros-lyrical-trajectory-msgs
+visualization_msgs:
+    ubuntu: ros-lyrical-visualization-msgs
+compass_conversions:
+    ubuntu: ros-lyrical-compass-conversions
+compass_interfaces:
+    ubuntu: ros-lyrical-compass-interfaces
+magnetic_model:
+    ubuntu: ros-lyrical-magnetic-model
+magnetometer_compass:
+    ubuntu: ros-lyrical-magnetometer-compass
+magnetometer_pipeline:
+    ubuntu: ros-lyrical-magnetometer-pipeline
+console_bridge_vendor:
+    ubuntu: ros-lyrical-console-bridge-vendor
+control_box_rst:
+    ubuntu: ros-lyrical-control-box-rst
+control_msgs:
+    ubuntu: ros-lyrical-control-msgs
+control_toolbox:
+    ubuntu: ros-lyrical-control-toolbox
+tcb_span:
+    ubuntu: ros-lyrical-tcb-span
+cras_msgs:
+    ubuntu: ros-lyrical-cras-msgs
+cras_bag_tools:
+    ubuntu: ros-lyrical-cras-bag-tools
+cras_cpp_common:
+    ubuntu: ros-lyrical-cras-cpp-common
+cras_lint:
+    ubuntu: ros-lyrical-cras-lint
+cras_topic_tools:
+    ubuntu: ros-lyrical-cras-topic-tools
+crazyflie:
+    ubuntu: ros-lyrical-crazyflie
+crazyflie_description:
+    ubuntu: ros-lyrical-crazyflie-description
+crazyflie_examples:
+    ubuntu: ros-lyrical-crazyflie-examples
+crazyflie_interfaces:
+    ubuntu: ros-lyrical-crazyflie-interfaces
+crazyflie_py:
+    ubuntu: ros-lyrical-crazyflie-py
+crazyflie_server_cpp:
+    ubuntu: ros-lyrical-crazyflie-server-cpp
+crazyflie_server_py:
+    ubuntu: ros-lyrical-crazyflie-server-py
+crazyflie_sim:
+    ubuntu: ros-lyrical-crazyflie-sim
+crocoddyl:
+    ubuntu: ros-lyrical-crocoddyl
+crx_kinematics:
+    ubuntu: ros-lyrical-crx-kinematics
+cudnn_cmake_module:
+    ubuntu: ros-lyrical-cudnn-cmake-module
+cyclonedds:
+    ubuntu: ros-lyrical-cyclonedds
+data_tamer_cpp:
+    ubuntu: ros-lyrical-data-tamer-cpp
+data_tamer_msgs:
+    ubuntu: ros-lyrical-data-tamer-msgs
+data_tamer_tools:
+    ubuntu: ros-lyrical-data-tamer-tools
+dataspeed_can:
+    ubuntu: ros-lyrical-dataspeed-can
+dataspeed_can_msg_filters:
+    ubuntu: ros-lyrical-dataspeed-can-msg-filters
+dataspeed_can_msgs:
+    ubuntu: ros-lyrical-dataspeed-can-msgs
+dataspeed_can_tools:
+    ubuntu: ros-lyrical-dataspeed-can-tools
+dataspeed_can_usb:
+    ubuntu: ros-lyrical-dataspeed-can-usb
+ds_dbw:
+    ubuntu: ros-lyrical-ds-dbw
+ds_dbw_can:
+    ubuntu: ros-lyrical-ds-dbw-can
+ds_dbw_joystick_demo:
+    ubuntu: ros-lyrical-ds-dbw-joystick-demo
+ds_dbw_msgs:
+    ubuntu: ros-lyrical-ds-dbw-msgs
+action_tutorials_cpp:
+    ubuntu: ros-lyrical-action-tutorials-cpp
+action_tutorials_py:
+    ubuntu: ros-lyrical-action-tutorials-py
+composition:
+    ubuntu: ros-lyrical-composition
+demo_nodes_cpp:
+    ubuntu: ros-lyrical-demo-nodes-cpp
+demo_nodes_cpp_native:
+    ubuntu: ros-lyrical-demo-nodes-cpp-native
+demo_nodes_py:
+    ubuntu: ros-lyrical-demo-nodes-py
+dummy_map_server:
+    ubuntu: ros-lyrical-dummy-map-server
+dummy_robot_bringup:
+    ubuntu: ros-lyrical-dummy-robot-bringup
+dummy_sensors:
+    ubuntu: ros-lyrical-dummy-sensors
+image_tools:
+    ubuntu: ros-lyrical-image-tools
+intra_process_demo:
+    ubuntu: ros-lyrical-intra-process-demo
+lifecycle:
+    ubuntu: ros-lyrical-lifecycle
+lifecycle_py:
+    ubuntu: ros-lyrical-lifecycle-py
+logging_demo:
+    ubuntu: ros-lyrical-logging-demo
+pendulum_control:
+    ubuntu: ros-lyrical-pendulum-control
+pendulum_msgs:
+    ubuntu: ros-lyrical-pendulum-msgs
+quality_of_service_demo_cpp:
+    ubuntu: ros-lyrical-quality-of-service-demo-cpp
+quality_of_service_demo_py:
+    ubuntu: ros-lyrical-quality-of-service-demo-py
+topic_monitor:
+    ubuntu: ros-lyrical-topic-monitor
+topic_statistics_demo:
+    ubuntu: ros-lyrical-topic-statistics-demo
+depthai:
+    ubuntu: ros-lyrical-depthai
+depthai-ros:
+    ubuntu: ros-lyrical-depthai-ros
+depthai_bridge:
+    ubuntu: ros-lyrical-depthai-bridge
+depthai_descriptions:
+    ubuntu: ros-lyrical-depthai-descriptions
+depthai_examples:
+    ubuntu: ros-lyrical-depthai-examples
+depthai_filters:
+    ubuntu: ros-lyrical-depthai-filters
+depthai_ros_driver:
+    ubuntu: ros-lyrical-depthai-ros-driver
+depthai_ros_msgs:
+    ubuntu: ros-lyrical-depthai-ros-msgs
+depthimage_to_laserscan:
+    ubuntu: ros-lyrical-depthimage-to-laserscan
+diagnostic_aggregator:
+    ubuntu: ros-lyrical-diagnostic-aggregator
+diagnostic_common_diagnostics:
+    ubuntu: ros-lyrical-diagnostic-common-diagnostics
+diagnostic_remote_logging:
+    ubuntu: ros-lyrical-diagnostic-remote-logging
+diagnostic_updater:
+    ubuntu: ros-lyrical-diagnostic-updater
+diagnostics:
+    ubuntu: ros-lyrical-diagnostics
+self_test:
+    ubuntu: ros-lyrical-self-test
+dual_laser_merger:
+    ubuntu: ros-lyrical-dual-laser-merger
+dynamixel_hardware_interface:
+    ubuntu: ros-lyrical-dynamixel-hardware-interface
+dynamixel_interfaces:
+    ubuntu: ros-lyrical-dynamixel-interfaces
+dynamixel_sdk:
+    ubuntu: ros-lyrical-dynamixel-sdk
+dynamixel_sdk_custom_interfaces:
+    ubuntu: ros-lyrical-dynamixel-sdk-custom-interfaces
+dynamixel_sdk_examples:
+    ubuntu: ros-lyrical-dynamixel-sdk-examples
+dynamixel_workbench:
+    ubuntu: ros-lyrical-dynamixel-workbench
+dynamixel_workbench_toolbox:
+    ubuntu: ros-lyrical-dynamixel-workbench-toolbox
+dynamixel_workbench_msgs:
+    ubuntu: ros-lyrical-dynamixel-workbench-msgs
+easynav:
+    ubuntu: ros-lyrical-easynav
+easynav_common:
+    ubuntu: ros-lyrical-easynav-common
+easynav_controller:
+    ubuntu: ros-lyrical-easynav-controller
+easynav_core:
+    ubuntu: ros-lyrical-easynav-core
+easynav_interfaces:
+    ubuntu: ros-lyrical-easynav-interfaces
+easynav_localizer:
+    ubuntu: ros-lyrical-easynav-localizer
+easynav_maps_manager:
+    ubuntu: ros-lyrical-easynav-maps-manager
+easynav_planner:
+    ubuntu: ros-lyrical-easynav-planner
+easynav_recovery:
+    ubuntu: ros-lyrical-easynav-recovery
+easynav_sensors:
+    ubuntu: ros-lyrical-easynav-sensors
+easynav_support_py:
+    ubuntu: ros-lyrical-easynav-support-py
+easynav_system:
+    ubuntu: ros-lyrical-easynav-system
+easynav_tools:
+    ubuntu: ros-lyrical-easynav-tools
+easynav_nav2_bridge:
+    ubuntu: ros-lyrical-easynav-nav2-bridge
+easynav_playground_kobuki:
+    ubuntu: ros-lyrical-easynav-playground-kobuki
+easynav_playground_kobuki_description:
+    ubuntu: ros-lyrical-easynav-playground-kobuki-description
+easynav_playground_kobuki_worlds:
+    ubuntu: ros-lyrical-easynav-playground-kobuki-worlds
+easynav_playground_omni:
+    ubuntu: ros-lyrical-easynav-playground-omni
+easynav_playground_omni_description:
+    ubuntu: ros-lyrical-easynav-playground-omni-description
+easynav_playground_omni_worlds:
+    ubuntu: ros-lyrical-easynav-playground-omni-worlds
+easynav_playground_summit:
+    ubuntu: ros-lyrical-easynav-playground-summit
+easynav_playground_summit_description:
+    ubuntu: ros-lyrical-easynav-playground-summit-description
+easynav_playground_summit_worlds:
+    ubuntu: ros-lyrical-easynav-playground-summit-worlds
+easynav_playground_tiago:
+    ubuntu: ros-lyrical-easynav-playground-tiago
+easynav_playground_tiago_description:
+    ubuntu: ros-lyrical-easynav-playground-tiago-description
+easynav_playground_tiago_worlds:
+    ubuntu: ros-lyrical-easynav-playground-tiago-worlds
+easynav_bonxai_maps_manager:
+    ubuntu: ros-lyrical-easynav-bonxai-maps-manager
+easynav_costmap_common:
+    ubuntu: ros-lyrical-easynav-costmap-common
+easynav_costmap_localizer:
+    ubuntu: ros-lyrical-easynav-costmap-localizer
+easynav_costmap_maps_manager:
+    ubuntu: ros-lyrical-easynav-costmap-maps-manager
+easynav_costmap_planner:
+    ubuntu: ros-lyrical-easynav-costmap-planner
+easynav_diagnostic_recovery:
+    ubuntu: ros-lyrical-easynav-diagnostic-recovery
+easynav_fusion_localizer:
+    ubuntu: ros-lyrical-easynav-fusion-localizer
+easynav_mhamcl_localizer:
+    ubuntu: ros-lyrical-easynav-mhamcl-localizer
+easynav_mpc_controller:
+    ubuntu: ros-lyrical-easynav-mpc-controller
+easynav_mppi_controller:
+    ubuntu: ros-lyrical-easynav-mppi-controller
+easynav_navmap_localizer:
+    ubuntu: ros-lyrical-easynav-navmap-localizer
+easynav_navmap_maps_manager:
+    ubuntu: ros-lyrical-easynav-navmap-maps-manager
+easynav_navmap_planner:
+    ubuntu: ros-lyrical-easynav-navmap-planner
+easynav_octomap_maps_manager:
+    ubuntu: ros-lyrical-easynav-octomap-maps-manager
+easynav_regulated_pp_controller:
+    ubuntu: ros-lyrical-easynav-regulated-pp-controller
+easynav_routes_maps_manager:
+    ubuntu: ros-lyrical-easynav-routes-maps-manager
+easynav_serest_controller:
+    ubuntu: ros-lyrical-easynav-serest-controller
+easynav_simple_common:
+    ubuntu: ros-lyrical-easynav-simple-common
+easynav_simple_controller:
+    ubuntu: ros-lyrical-easynav-simple-controller
+easynav_simple_localizer:
+    ubuntu: ros-lyrical-easynav-simple-localizer
+easynav_simple_maps_manager:
+    ubuntu: ros-lyrical-easynav-simple-maps-manager
+easynav_simple_planner:
+    ubuntu: ros-lyrical-easynav-simple-planner
+easynav_simple_recovery:
+    ubuntu: ros-lyrical-easynav-simple-recovery
+easynav_vff_controller:
+    ubuntu: ros-lyrical-easynav-vff-controller
+ehukai:
+    ubuntu: ros-lyrical-ehukai
+eigen3_cmake_module:
+    ubuntu: ros-lyrical-eigen3-cmake-module
+eigen_stl_containers:
+    ubuntu: ros-lyrical-eigen-stl-containers
+eigenpy:
+    ubuntu: ros-lyrical-eigenpy
+eiquadprog:
+    ubuntu: ros-lyrical-eiquadprog
+event_camera_codecs:
+    ubuntu: ros-lyrical-event-camera-codecs
+event_camera_msgs:
+    ubuntu: ros-lyrical-event-camera-msgs
+event_camera_py:
+    ubuntu: ros-lyrical-event-camera-py
+event_camera_renderer:
+    ubuntu: ros-lyrical-event-camera-renderer
+event_camera_tools:
+    ubuntu: ros-lyrical-event-camera-tools
+event_image_reconstruction_fibar:
+    ubuntu: ros-lyrical-event-image-reconstruction-fibar
+example_interfaces:
+    ubuntu: ros-lyrical-example-interfaces
+examples_rclcpp_async_client:
+    ubuntu: ros-lyrical-examples-rclcpp-async-client
+examples_rclcpp_cbg_executor:
+    ubuntu: ros-lyrical-examples-rclcpp-cbg-executor
+examples_rclcpp_minimal_action_client:
+    ubuntu: ros-lyrical-examples-rclcpp-minimal-action-client
+examples_rclcpp_minimal_action_server:
+    ubuntu: ros-lyrical-examples-rclcpp-minimal-action-server
+examples_rclcpp_minimal_client:
+    ubuntu: ros-lyrical-examples-rclcpp-minimal-client
+examples_rclcpp_minimal_composition:
+    ubuntu: ros-lyrical-examples-rclcpp-minimal-composition
+examples_rclcpp_minimal_publisher:
+    ubuntu: ros-lyrical-examples-rclcpp-minimal-publisher
+examples_rclcpp_minimal_service:
+    ubuntu: ros-lyrical-examples-rclcpp-minimal-service
+examples_rclcpp_minimal_subscriber:
+    ubuntu: ros-lyrical-examples-rclcpp-minimal-subscriber
+examples_rclcpp_minimal_timer:
+    ubuntu: ros-lyrical-examples-rclcpp-minimal-timer
+examples_rclcpp_multithreaded_executor:
+    ubuntu: ros-lyrical-examples-rclcpp-multithreaded-executor
+examples_rclcpp_wait_set:
+    ubuntu: ros-lyrical-examples-rclcpp-wait-set
+examples_rclpy_executors:
+    ubuntu: ros-lyrical-examples-rclpy-executors
+examples_rclpy_guard_conditions:
+    ubuntu: ros-lyrical-examples-rclpy-guard-conditions
+examples_rclpy_minimal_action_client:
+    ubuntu: ros-lyrical-examples-rclpy-minimal-action-client
+examples_rclpy_minimal_action_server:
+    ubuntu: ros-lyrical-examples-rclpy-minimal-action-server
+examples_rclpy_minimal_client:
+    ubuntu: ros-lyrical-examples-rclpy-minimal-client
+examples_rclpy_minimal_publisher:
+    ubuntu: ros-lyrical-examples-rclpy-minimal-publisher
+examples_rclpy_minimal_service:
+    ubuntu: ros-lyrical-examples-rclpy-minimal-service
+examples_rclpy_minimal_subscriber:
+    ubuntu: ros-lyrical-examples-rclpy-minimal-subscriber
+examples_rclpy_pointcloud_publisher:
+    ubuntu: ros-lyrical-examples-rclpy-pointcloud-publisher
+launch_testing_examples:
+    ubuntu: ros-lyrical-launch-testing-examples
+fadecandy_driver:
+    ubuntu: ros-lyrical-fadecandy-driver
+fadecandy_msgs:
+    ubuntu: ros-lyrical-fadecandy-msgs
+fastcdr:
+    ubuntu: ros-lyrical-fastcdr
+fastdds:
+    ubuntu: ros-lyrical-fastdds
+feetech_ros2_driver:
+    ubuntu: ros-lyrical-feetech-ros2-driver
+ffmpeg_encoder_decoder:
+    ubuntu: ros-lyrical-ffmpeg-encoder-decoder
+ffmpeg_image_transport:
+    ubuntu: ros-lyrical-ffmpeg-image-transport
+ffmpeg_image_transport_msgs:
+    ubuntu: ros-lyrical-ffmpeg-image-transport-msgs
+ffmpeg_image_transport_tools:
+    ubuntu: ros-lyrical-ffmpeg-image-transport-tools
+fibar_lib:
+    ubuntu: ros-lyrical-fibar-lib
+fields2cover:
+    ubuntu: ros-lyrical-fields2cover
+filters:
+    ubuntu: ros-lyrical-filters
+find_object_2d:
+    ubuntu: ros-lyrical-find-object-2d
+fkie_message_filters:
+    ubuntu: ros-lyrical-fkie-message-filters
+flex_sync:
+    ubuntu: ros-lyrical-flex-sync
+flexbe_behavior_engine:
+    ubuntu: ros-lyrical-flexbe-behavior-engine
+flexbe_core:
+    ubuntu: ros-lyrical-flexbe-core
+flexbe_input:
+    ubuntu: ros-lyrical-flexbe-input
+flexbe_mirror:
+    ubuntu: ros-lyrical-flexbe-mirror
+flexbe_msgs:
+    ubuntu: ros-lyrical-flexbe-msgs
+flexbe_onboard:
+    ubuntu: ros-lyrical-flexbe-onboard
+flexbe_states:
+    ubuntu: ros-lyrical-flexbe-states
+flexbe_testing:
+    ubuntu: ros-lyrical-flexbe-testing
+flexbe_widget:
+    ubuntu: ros-lyrical-flexbe-widget
+flir_camera_description:
+    ubuntu: ros-lyrical-flir-camera-description
+flir_camera_msgs:
+    ubuntu: ros-lyrical-flir-camera-msgs
+spinnaker_camera_driver:
+    ubuntu: ros-lyrical-spinnaker-camera-driver
+spinnaker_synchronized_camera_driver:
+    ubuntu: ros-lyrical-spinnaker-synchronized-camera-driver
+fluent_rviz:
+    ubuntu: ros-lyrical-fluent-rviz
+foonathan_memory_vendor:
+    ubuntu: ros-lyrical-foonathan-memory-vendor
+four_wheel_steering_msgs:
+    ubuntu: ros-lyrical-four-wheel-steering-msgs
+foxglove_bridge:
+    ubuntu: ros-lyrical-foxglove-bridge
+foxglove_msgs:
+    ubuntu: ros-lyrical-foxglove-msgs
+foxglove_compressed_video_transport:
+    ubuntu: ros-lyrical-foxglove-compressed-video-transport
+foxglove_sdk_vendor:
+    ubuntu: ros-lyrical-foxglove-sdk-vendor
+frequency_cam:
+    ubuntu: ros-lyrical-frequency-cam
+fsm_localisation:
+    ubuntu: ros-lyrical-fsm-localisation
+fuse:
+    ubuntu: ros-lyrical-fuse
+fuse_constraints:
+    ubuntu: ros-lyrical-fuse-constraints
+fuse_core:
+    ubuntu: ros-lyrical-fuse-core
+fuse_doc:
+    ubuntu: ros-lyrical-fuse-doc
+fuse_graphs:
+    ubuntu: ros-lyrical-fuse-graphs
+fuse_loss:
+    ubuntu: ros-lyrical-fuse-loss
+fuse_models:
+    ubuntu: ros-lyrical-fuse-models
+fuse_msgs:
+    ubuntu: ros-lyrical-fuse-msgs
+fuse_optimizers:
+    ubuntu: ros-lyrical-fuse-optimizers
+fuse_publishers:
+    ubuntu: ros-lyrical-fuse-publishers
+fuse_tutorials:
+    ubuntu: ros-lyrical-fuse-tutorials
+fuse_variables:
+    ubuntu: ros-lyrical-fuse-variables
+fuse_viz:
+    ubuntu: ros-lyrical-fuse-viz
+game_controller_spl:
+    ubuntu: ros-lyrical-game-controller-spl
+game_controller_spl_interfaces:
+    ubuntu: ros-lyrical-game-controller-spl-interfaces
+generate_parameter_library:
+    ubuntu: ros-lyrical-generate-parameter-library
+generate_parameter_library_py:
+    ubuntu: ros-lyrical-generate-parameter-library-py
+geodesy:
+    ubuntu: ros-lyrical-geodesy
+geographic_info:
+    ubuntu: ros-lyrical-geographic-info
+geographic_msgs:
+    ubuntu: ros-lyrical-geographic-msgs
+geometric_shapes:
+    ubuntu: ros-lyrical-geometric-shapes
+examples_tf2_py:
+    ubuntu: ros-lyrical-examples-tf2-py
+geometry2:
+    ubuntu: ros-lyrical-geometry2
+tf2:
+    ubuntu: ros-lyrical-tf2
+tf2_bullet:
+    ubuntu: ros-lyrical-tf2-bullet
+tf2_eigen:
+    ubuntu: ros-lyrical-tf2-eigen
+tf2_eigen_kdl:
+    ubuntu: ros-lyrical-tf2-eigen-kdl
+tf2_geometry_msgs:
+    ubuntu: ros-lyrical-tf2-geometry-msgs
+tf2_kdl:
+    ubuntu: ros-lyrical-tf2-kdl
+tf2_msgs:
+    ubuntu: ros-lyrical-tf2-msgs
+tf2_py:
+    ubuntu: ros-lyrical-tf2-py
+tf2_ros:
+    ubuntu: ros-lyrical-tf2-ros
+tf2_ros_py:
+    ubuntu: ros-lyrical-tf2-ros-py
+tf2_sensor_msgs:
+    ubuntu: ros-lyrical-tf2-sensor-msgs
+tf2_tools:
+    ubuntu: ros-lyrical-tf2-tools
+geometry_tutorials:
+    ubuntu: ros-lyrical-geometry-tutorials
+turtle_tf2_cpp:
+    ubuntu: ros-lyrical-turtle-tf2-cpp
+turtle_tf2_py:
+    ubuntu: ros-lyrical-turtle-tf2-py
+google_benchmark_vendor:
+    ubuntu: ros-lyrical-google-benchmark-vendor
+gmock_vendor:
+    ubuntu: ros-lyrical-gmock-vendor
+gtest_vendor:
+    ubuntu: ros-lyrical-gtest-vendor
+gps_msgs:
+    ubuntu: ros-lyrical-gps-msgs
+gps_tools:
+    ubuntu: ros-lyrical-gps-tools
+gps_umd:
+    ubuntu: ros-lyrical-gps-umd
+gpsd_client:
+    ubuntu: ros-lyrical-gpsd-client
+rmw_stats_shim:
+    ubuntu: ros-lyrical-rmw-stats-shim
+rosgraph_monitor:
+    ubuntu: ros-lyrical-rosgraph-monitor
+rosgraph_monitor_msgs:
+    ubuntu: ros-lyrical-rosgraph-monitor-msgs
+graph_msgs:
+    ubuntu: ros-lyrical-graph-msgs
+grasping_msgs:
+    ubuntu: ros-lyrical-grasping-msgs
+grbl_msgs:
+    ubuntu: ros-lyrical-grbl-msgs
+grbl_ros:
+    ubuntu: ros-lyrical-grbl-ros
+greenwave_monitor:
+    ubuntu: ros-lyrical-greenwave-monitor
+greenwave_monitor_interfaces:
+    ubuntu: ros-lyrical-greenwave-monitor-interfaces
+gscam:
+    ubuntu: ros-lyrical-gscam
+gstreamer_ros_babel_fish:
+    ubuntu: ros-lyrical-gstreamer-ros-babel-fish
+gtsam:
+    ubuntu: ros-lyrical-gtsam
+gtsam2mrpt_serial:
+    ubuntu: ros-lyrical-gtsam2mrpt-serial
+gz_cmake_vendor:
+    ubuntu: ros-lyrical-gz-cmake-vendor
+gz_common_vendor:
+    ubuntu: ros-lyrical-gz-common-vendor
+gz_dartsim_vendor:
+    ubuntu: ros-lyrical-gz-dartsim-vendor
+gz_fuel_tools_vendor:
+    ubuntu: ros-lyrical-gz-fuel-tools-vendor
+gz_gui_vendor:
+    ubuntu: ros-lyrical-gz-gui-vendor
+gz_launch_vendor:
+    ubuntu: ros-lyrical-gz-launch-vendor
+gz_math_vendor:
+    ubuntu: ros-lyrical-gz-math-vendor
+gz_msgs_vendor:
+    ubuntu: ros-lyrical-gz-msgs-vendor
+gz_ogre_next_vendor:
+    ubuntu: ros-lyrical-gz-ogre-next-vendor
+gz_physics_vendor:
+    ubuntu: ros-lyrical-gz-physics-vendor
+gz_plugin_vendor:
+    ubuntu: ros-lyrical-gz-plugin-vendor
+gz_rendering_vendor:
+    ubuntu: ros-lyrical-gz-rendering-vendor
+gz_ros2_control:
+    ubuntu: ros-lyrical-gz-ros2-control
+gz_ros2_control_demos:
+    ubuntu: ros-lyrical-gz-ros2-control-demos
+gz_sensors_vendor:
+    ubuntu: ros-lyrical-gz-sensors-vendor
+gz_sim_vendor:
+    ubuntu: ros-lyrical-gz-sim-vendor
+gz_tools_vendor:
+    ubuntu: ros-lyrical-gz-tools-vendor
+gz_transport_vendor:
+    ubuntu: ros-lyrical-gz-transport-vendor
+gz_utils_vendor:
+    ubuntu: ros-lyrical-gz-utils-vendor
+hash_library_vendor:
+    ubuntu: ros-lyrical-hash-library-vendor
+hatchbed_common:
+    ubuntu: ros-lyrical-hatchbed-common
+heaphook:
+    ubuntu: ros-lyrical-heaphook
+hebi_cpp_api:
+    ubuntu: ros-lyrical-hebi-cpp-api
+hitch_estimation_apriltag_array:
+    ubuntu: ros-lyrical-hitch-estimation-apriltag-array
+hls_lfcd_lds_driver:
+    ubuntu: ros-lyrical-hls-lfcd-lds-driver
+hri:
+    ubuntu: ros-lyrical-hri
+pyhri:
+    ubuntu: ros-lyrical-pyhri
+hri_actions_msgs:
+    ubuntu: ros-lyrical-hri-actions-msgs
+hri_msgs:
+    ubuntu: ros-lyrical-hri-msgs
+hri_rviz:
+    ubuntu: ros-lyrical-hri-rviz
+human_description:
+    ubuntu: ros-lyrical-human-description
+iceoryx_binding_c:
+    ubuntu: ros-lyrical-iceoryx-binding-c
+iceoryx_hoofs:
+    ubuntu: ros-lyrical-iceoryx-hoofs
+iceoryx_introspection:
+    ubuntu: ros-lyrical-iceoryx-introspection
+iceoryx_posh:
+    ubuntu: ros-lyrical-iceoryx-posh
+ifm3d_core:
+    ubuntu: ros-lyrical-ifm3d-core
+camera_calibration_parsers:
+    ubuntu: ros-lyrical-camera-calibration-parsers
+camera_info_manager:
+    ubuntu: ros-lyrical-camera-info-manager
+camera_info_manager_py:
+    ubuntu: ros-lyrical-camera-info-manager-py
+image_common:
+    ubuntu: ros-lyrical-image-common
+image_transport:
+    ubuntu: ros-lyrical-image-transport
+image_transport_py:
+    ubuntu: ros-lyrical-image-transport-py
+camera_calibration:
+    ubuntu: ros-lyrical-camera-calibration
+depth_image_proc:
+    ubuntu: ros-lyrical-depth-image-proc
+image_pipeline:
+    ubuntu: ros-lyrical-image-pipeline
+image_proc:
+    ubuntu: ros-lyrical-image-proc
+image_publisher:
+    ubuntu: ros-lyrical-image-publisher
+image_rotate:
+    ubuntu: ros-lyrical-image-rotate
+image_view:
+    ubuntu: ros-lyrical-image-view
+stereo_image_proc:
+    ubuntu: ros-lyrical-stereo-image-proc
+tracetools_image_pipeline:
+    ubuntu: ros-lyrical-tracetools-image-pipeline
+compressed_depth_image_transport:
+    ubuntu: ros-lyrical-compressed-depth-image-transport
+compressed_image_transport:
+    ubuntu: ros-lyrical-compressed-image-transport
+image_transport_plugins:
+    ubuntu: ros-lyrical-image-transport-plugins
+theora_image_transport:
+    ubuntu: ros-lyrical-theora-image-transport
+zstd_image_transport:
+    ubuntu: ros-lyrical-zstd-image-transport
+imu_pipeline:
+    ubuntu: ros-lyrical-imu-pipeline
+imu_processors:
+    ubuntu: ros-lyrical-imu-processors
+imu_transformer:
+    ubuntu: ros-lyrical-imu-transformer
+imu_complementary_filter:
+    ubuntu: ros-lyrical-imu-complementary-filter
+imu_filter_madgwick:
+    ubuntu: ros-lyrical-imu-filter-madgwick
+imu_tools:
+    ubuntu: ros-lyrical-imu-tools
+rviz_imu_plugin:
+    ubuntu: ros-lyrical-rviz-imu-plugin
+interactive_marker_twist_server:
+    ubuntu: ros-lyrical-interactive-marker-twist-server
+interactive_markers:
+    ubuntu: ros-lyrical-interactive-markers
+franka_inria_inverse_dynamics_solver:
+    ubuntu: ros-lyrical-franka-inria-inverse-dynamics-solver
+inverse_dynamics_solver:
+    ubuntu: ros-lyrical-inverse-dynamics-solver
+kdl_inverse_dynamics_solver:
+    ubuntu: ros-lyrical-kdl-inverse-dynamics-solver
+ur10_inverse_dynamics_solver:
+    ubuntu: ros-lyrical-ur10-inverse-dynamics-solver
+irobot_create_msgs:
+    ubuntu: ros-lyrical-irobot-create-msgs
+jacro:
+    ubuntu: ros-lyrical-jacro
+joint_state_publisher:
+    ubuntu: ros-lyrical-joint-state-publisher
+joint_state_publisher_gui:
+    ubuntu: ros-lyrical-joint-state-publisher-gui
+joy_tester:
+    ubuntu: ros-lyrical-joy-tester
+joy:
+    ubuntu: ros-lyrical-joy
+joy_linux:
+    ubuntu: ros-lyrical-joy-linux
+sdl2_vendor:
+    ubuntu: ros-lyrical-sdl2-vendor
+spacenav:
+    ubuntu: ros-lyrical-spacenav
+wiimote:
+    ubuntu: ros-lyrical-wiimote
+wiimote_msgs:
+    ubuntu: ros-lyrical-wiimote-msgs
+jrl_cmakemodules:
+    ubuntu: ros-lyrical-jrl-cmakemodules
+audio_video_recorder:
+    ubuntu: ros-lyrical-audio-video-recorder
+dynamic_tf_publisher:
+    ubuntu: ros-lyrical-dynamic-tf-publisher
+image_view2:
+    ubuntu: ros-lyrical-image-view2
+jsk_common:
+    ubuntu: ros-lyrical-jsk-common
+jsk_data:
+    ubuntu: ros-lyrical-jsk-data
+jsk_ros1_ros2_compat:
+    ubuntu: ros-lyrical-jsk-ros1-ros2-compat
+jsk_rosbag_tools:
+    ubuntu: ros-lyrical-jsk-rosbag-tools
+jsk_tools:
+    ubuntu: ros-lyrical-jsk-tools
+jsk_topic_tools:
+    ubuntu: ros-lyrical-jsk-topic-tools
+jsk_common_msgs:
+    ubuntu: ros-lyrical-jsk-common-msgs
+jsk_footstep_msgs:
+    ubuntu: ros-lyrical-jsk-footstep-msgs
+jsk_gui_msgs:
+    ubuntu: ros-lyrical-jsk-gui-msgs
+jsk_hark_msgs:
+    ubuntu: ros-lyrical-jsk-hark-msgs
+posedetection_msgs:
+    ubuntu: ros-lyrical-posedetection-msgs
+speech_recognition_msgs:
+    ubuntu: ros-lyrical-speech-recognition-msgs
+kairos:
+    ubuntu: ros-lyrical-kairos
+kdl_parser:
+    ubuntu: ros-lyrical-kdl-parser
+kdl_parser_py:
+    ubuntu: ros-lyrical-kdl-parser-py
+keyboard_handler:
+    ubuntu: ros-lyrical-keyboard-handler
+kinematics_interface:
+    ubuntu: ros-lyrical-kinematics-interface
+kinematics_interface_kdl:
+    ubuntu: ros-lyrical-kinematics-interface-kdl
+kinematics_interface_pinocchio:
+    ubuntu: ros-lyrical-kinematics-interface-pinocchio
+kobuki_ros_interfaces:
+    ubuntu: ros-lyrical-kobuki-ros-interfaces
+kompass:
+    ubuntu: ros-lyrical-kompass
+kompass_interfaces:
+    ubuntu: ros-lyrical-kompass-interfaces
+lanelet2:
+    ubuntu: ros-lyrical-lanelet2
+lanelet2_core:
+    ubuntu: ros-lyrical-lanelet2-core
+lanelet2_examples:
+    ubuntu: ros-lyrical-lanelet2-examples
+lanelet2_io:
+    ubuntu: ros-lyrical-lanelet2-io
+lanelet2_maps:
+    ubuntu: ros-lyrical-lanelet2-maps
+lanelet2_matching:
+    ubuntu: ros-lyrical-lanelet2-matching
+lanelet2_projection:
+    ubuntu: ros-lyrical-lanelet2-projection
+lanelet2_python:
+    ubuntu: ros-lyrical-lanelet2-python
+lanelet2_routing:
+    ubuntu: ros-lyrical-lanelet2-routing
+lanelet2_traffic_rules:
+    ubuntu: ros-lyrical-lanelet2-traffic-rules
+lanelet2_validation:
+    ubuntu: ros-lyrical-lanelet2-validation
+laser_filters:
+    ubuntu: ros-lyrical-laser-filters
+laser_geometry:
+    ubuntu: ros-lyrical-laser-geometry
+laser_proc:
+    ubuntu: ros-lyrical-laser-proc
+laser_segmentation:
+    ubuntu: ros-lyrical-laser-segmentation
+launch:
+    ubuntu: ros-lyrical-launch
+launch_pytest:
+    ubuntu: ros-lyrical-launch-pytest
+launch_testing:
+    ubuntu: ros-lyrical-launch-testing
+launch_testing_ament_cmake:
+    ubuntu: ros-lyrical-launch-testing-ament-cmake
+launch_xml:
+    ubuntu: ros-lyrical-launch-xml
+launch_yaml:
+    ubuntu: ros-lyrical-launch-yaml
+launch_frontend_py:
+    ubuntu: ros-lyrical-launch-frontend-py
+launch_pal:
+    ubuntu: ros-lyrical-launch-pal
+launch_param_builder:
+    ubuntu: ros-lyrical-launch-param-builder
+launch_ros:
+    ubuntu: ros-lyrical-launch-ros
+launch_testing_ros:
+    ubuntu: ros-lyrical-launch-testing-ros
+ros2launch:
+    ubuntu: ros-lyrical-ros2launch
+ld08_driver:
+    ubuntu: ros-lyrical-ld08-driver
+leo:
+    ubuntu: ros-lyrical-leo
+leo_description:
+    ubuntu: ros-lyrical-leo-description
+leo_msgs:
+    ubuntu: ros-lyrical-leo-msgs
+leo_teleop:
+    ubuntu: ros-lyrical-leo-teleop
+leo_desktop:
+    ubuntu: ros-lyrical-leo-desktop
+leo_viz:
+    ubuntu: ros-lyrical-leo-viz
+leo_bringup:
+    ubuntu: ros-lyrical-leo-bringup
+leo_filters:
+    ubuntu: ros-lyrical-leo-filters
+leo_fw:
+    ubuntu: ros-lyrical-leo-fw
+leo_robot:
+    ubuntu: ros-lyrical-leo-robot
+leo_gz_bringup:
+    ubuntu: ros-lyrical-leo-gz-bringup
+leo_gz_plugins:
+    ubuntu: ros-lyrical-leo-gz-plugins
+leo_gz_worlds:
+    ubuntu: ros-lyrical-leo-gz-worlds
+leo_simulator:
+    ubuntu: ros-lyrical-leo-simulator
+lgdx_rplidar_c1:
+    ubuntu: ros-lyrical-lgdx-rplidar-c1
+lgsvl_msgs:
+    ubuntu: ros-lyrical-lgsvl-msgs
+libbno055_linux:
+    ubuntu: ros-lyrical-libbno055-linux
+libcaer_driver:
+    ubuntu: ros-lyrical-libcaer-driver
+libcaer_vendor:
+    ubuntu: ros-lyrical-libcaer-vendor
+libcamera:
+    ubuntu: ros-lyrical-libcamera
+libg2o:
+    ubuntu: ros-lyrical-libg2o
+librealsense2:
+    ubuntu: ros-lyrical-librealsense2
+libstatistics_collector:
+    ubuntu: ros-lyrical-libstatistics-collector
+libyaml_vendor:
+    ubuntu: ros-lyrical-libyaml-vendor
+linear_feedback_controller:
+    ubuntu: ros-lyrical-linear-feedback-controller
+linear_feedback_controller_msgs:
+    ubuntu: ros-lyrical-linear-feedback-controller-msgs
+linux_isolate_process:
+    ubuntu: ros-lyrical-linux-isolate-process
+live555_vendor:
+    ubuntu: ros-lyrical-live555-vendor
+localization_msgs_tools:
+    ubuntu: ros-lyrical-localization-msgs-tools
+log_view:
+    ubuntu: ros-lyrical-log-view
+lusb:
+    ubuntu: ros-lyrical-lusb
+magic_enum:
+    ubuntu: ros-lyrical-magic-enum
+mapviz:
+    ubuntu: ros-lyrical-mapviz
+mapviz_interfaces:
+    ubuntu: ros-lyrical-mapviz-interfaces
+mapviz_plugins:
+    ubuntu: ros-lyrical-mapviz-plugins
+multires_image:
+    ubuntu: ros-lyrical-multires-image
+tile_map:
+    ubuntu: ros-lyrical-tile-map
+marine_acoustic_msgs:
+    ubuntu: ros-lyrical-marine-acoustic-msgs
+marine_sensor_msgs:
+    ubuntu: ros-lyrical-marine-sensor-msgs
+marker_msgs:
+    ubuntu: ros-lyrical-marker-msgs
+swri_cli_tools:
+    ubuntu: ros-lyrical-swri-cli-tools
+swri_console_util:
+    ubuntu: ros-lyrical-swri-console-util
+swri_dbw_interface:
+    ubuntu: ros-lyrical-swri-dbw-interface
+swri_geometry_util:
+    ubuntu: ros-lyrical-swri-geometry-util
+swri_image_util:
+    ubuntu: ros-lyrical-swri-image-util
+swri_math_util:
+    ubuntu: ros-lyrical-swri-math-util
+swri_opencv_util:
+    ubuntu: ros-lyrical-swri-opencv-util
+swri_route_util:
+    ubuntu: ros-lyrical-swri-route-util
+swri_serial_util:
+    ubuntu: ros-lyrical-swri-serial-util
+swri_transform_util:
+    ubuntu: ros-lyrical-swri-transform-util
+marti_can_msgs:
+    ubuntu: ros-lyrical-marti-can-msgs
+marti_common_msgs:
+    ubuntu: ros-lyrical-marti-common-msgs
+marti_dbw_msgs:
+    ubuntu: ros-lyrical-marti-dbw-msgs
+marti_introspection_msgs:
+    ubuntu: ros-lyrical-marti-introspection-msgs
+marti_nav_msgs:
+    ubuntu: ros-lyrical-marti-nav-msgs
+marti_perception_msgs:
+    ubuntu: ros-lyrical-marti-perception-msgs
+marti_sensor_msgs:
+    ubuntu: ros-lyrical-marti-sensor-msgs
+marti_status_msgs:
+    ubuntu: ros-lyrical-marti-status-msgs
+marti_visualization_msgs:
+    ubuntu: ros-lyrical-marti-visualization-msgs
+mavlink:
+    ubuntu: ros-lyrical-mavlink
+libmavconn:
+    ubuntu: ros-lyrical-libmavconn
+mavros:
+    ubuntu: ros-lyrical-mavros
+mavros_examples:
+    ubuntu: ros-lyrical-mavros-examples
+mavros_extras:
+    ubuntu: ros-lyrical-mavros-extras
+mavros_msgs:
+    ubuntu: ros-lyrical-mavros-msgs
+menge_vendor:
+    ubuntu: ros-lyrical-menge-vendor
+message_filters:
+    ubuntu: ros-lyrical-message-filters
+message_tf_frame_transformer:
+    ubuntu: ros-lyrical-message-tf-frame-transformer
+metavision_driver:
+    ubuntu: ros-lyrical-metavision-driver
+micro_ros_diagnostic_bridge:
+    ubuntu: ros-lyrical-micro-ros-diagnostic-bridge
+micro_ros_diagnostic_msgs:
+    ubuntu: ros-lyrical-micro-ros-diagnostic-msgs
+micro_ros_msgs:
+    ubuntu: ros-lyrical-micro-ros-msgs
+microstrain_inertial_description:
+    ubuntu: ros-lyrical-microstrain-inertial-description
+microstrain_inertial_driver:
+    ubuntu: ros-lyrical-microstrain-inertial-driver
+microstrain_inertial_examples:
+    ubuntu: ros-lyrical-microstrain-inertial-examples
+microstrain_inertial_msgs:
+    ubuntu: ros-lyrical-microstrain-inertial-msgs
+microstrain_inertial_rqt:
+    ubuntu: ros-lyrical-microstrain-inertial-rqt
+mimick_vendor:
+    ubuntu: ros-lyrical-mimick-vendor
+mobile_robot_simulator:
+    ubuntu: ros-lyrical-mobile-robot-simulator
+mola:
+    ubuntu: ros-lyrical-mola
+mola_bridge_ros2:
+    ubuntu: ros-lyrical-mola-bridge-ros2
+mola_demos:
+    ubuntu: ros-lyrical-mola-demos
+mola_input_lidar_bin_dataset:
+    ubuntu: ros-lyrical-mola-input-lidar-bin-dataset
+mola_input_rawlog:
+    ubuntu: ros-lyrical-mola-input-rawlog
+mola_input_rosbag2:
+    ubuntu: ros-lyrical-mola-input-rosbag2
+mola_input_video:
+    ubuntu: ros-lyrical-mola-input-video
+mola_kernel:
+    ubuntu: ros-lyrical-mola-kernel
+mola_launcher:
+    ubuntu: ros-lyrical-mola-launcher
+mola_metric_maps:
+    ubuntu: ros-lyrical-mola-metric-maps
+mola_msgs:
+    ubuntu: ros-lyrical-mola-msgs
+mola_pose_list:
+    ubuntu: ros-lyrical-mola-pose-list
+mola_relocalization:
+    ubuntu: ros-lyrical-mola-relocalization
+mola_traj_tools:
+    ubuntu: ros-lyrical-mola-traj-tools
+mola_viz:
+    ubuntu: ros-lyrical-mola-viz
+mola_viz_imgui:
+    ubuntu: ros-lyrical-mola-viz-imgui
+mola_yaml:
+    ubuntu: ros-lyrical-mola-yaml
+kitti_metrics_eval:
+    ubuntu: ros-lyrical-kitti-metrics-eval
+mola_academic_datasets:
+    ubuntu: ros-lyrical-mola-academic-datasets
+mola_input_euroc_dataset:
+    ubuntu: ros-lyrical-mola-input-euroc-dataset
+mola_input_kitti360_dataset:
+    ubuntu: ros-lyrical-mola-input-kitti360-dataset
+mola_input_kitti_dataset:
+    ubuntu: ros-lyrical-mola-input-kitti-dataset
+mola_input_mulran_dataset:
+    ubuntu: ros-lyrical-mola-input-mulran-dataset
+mola_input_paris_luco_dataset:
+    ubuntu: ros-lyrical-mola-input-paris-luco-dataset
+mola_common:
+    ubuntu: ros-lyrical-mola-common
+mola_gnss_to_markers:
+    ubuntu: ros-lyrical-mola-gnss-to-markers
+mola_imu_preintegration:
+    ubuntu: ros-lyrical-mola-imu-preintegration
+mola_input_ouster:
+    ubuntu: ros-lyrical-mola-input-ouster
+mola_input_rosbag1:
+    ubuntu: ros-lyrical-mola-input-rosbag1
+mola_lidar_odometry:
+    ubuntu: ros-lyrical-mola-lidar-odometry
+mola_sm_loop_closure:
+    ubuntu: ros-lyrical-mola-sm-loop-closure
+mola_georeferencing:
+    ubuntu: ros-lyrical-mola-georeferencing
+mola_gtsam_factors:
+    ubuntu: ros-lyrical-mola-gtsam-factors
+mola_state_estimation:
+    ubuntu: ros-lyrical-mola-state-estimation
+mola_state_estimation_simple:
+    ubuntu: ros-lyrical-mola-state-estimation-simple
+mola_state_estimation_smoother:
+    ubuntu: ros-lyrical-mola-state-estimation-smoother
+mola_test_datasets:
+    ubuntu: ros-lyrical-mola-test-datasets
+motion_capture_tracking:
+    ubuntu: ros-lyrical-motion-capture-tracking
+motion_capture_tracking_interfaces:
+    ubuntu: ros-lyrical-motion-capture-tracking-interfaces
+mbf_abstract_core:
+    ubuntu: ros-lyrical-mbf-abstract-core
+mbf_abstract_nav:
+    ubuntu: ros-lyrical-mbf-abstract-nav
+mbf_msgs:
+    ubuntu: ros-lyrical-mbf-msgs
+mbf_simple_core:
+    ubuntu: ros-lyrical-mbf-simple-core
+mbf_simple_nav:
+    ubuntu: ros-lyrical-mbf-simple-nav
+mbf_test_utility:
+    ubuntu: ros-lyrical-mbf-test-utility
+mbf_utility:
+    ubuntu: ros-lyrical-mbf-utility
+move_base_flex:
+    ubuntu: ros-lyrical-move-base-flex
+rviz_mbf_plugins:
+    ubuntu: ros-lyrical-rviz-mbf-plugins
+chomp_motion_planner:
+    ubuntu: ros-lyrical-chomp-motion-planner
+moveit:
+    ubuntu: ros-lyrical-moveit
+moveit_common:
+    ubuntu: ros-lyrical-moveit-common
+moveit_configs_utils:
+    ubuntu: ros-lyrical-moveit-configs-utils
+moveit_core:
+    ubuntu: ros-lyrical-moveit-core
+moveit_hybrid_planning:
+    ubuntu: ros-lyrical-moveit-hybrid-planning
+moveit_kinematics:
+    ubuntu: ros-lyrical-moveit-kinematics
+moveit_planners:
+    ubuntu: ros-lyrical-moveit-planners
+moveit_planners_chomp:
+    ubuntu: ros-lyrical-moveit-planners-chomp
+moveit_planners_ompl:
+    ubuntu: ros-lyrical-moveit-planners-ompl
+moveit_planners_stomp:
+    ubuntu: ros-lyrical-moveit-planners-stomp
+moveit_plugins:
+    ubuntu: ros-lyrical-moveit-plugins
+moveit_py:
+    ubuntu: ros-lyrical-moveit-py
+moveit_resources_prbt_ikfast_manipulator_plugin:
+    ubuntu: ros-lyrical-moveit-resources-prbt-ikfast-manipulator-plugin
+moveit_resources_prbt_moveit_config:
+    ubuntu: ros-lyrical-moveit-resources-prbt-moveit-config
+moveit_resources_prbt_pg70_support:
+    ubuntu: ros-lyrical-moveit-resources-prbt-pg70-support
+moveit_resources_prbt_support:
+    ubuntu: ros-lyrical-moveit-resources-prbt-support
+moveit_ros:
+    ubuntu: ros-lyrical-moveit-ros
+moveit_ros_benchmarks:
+    ubuntu: ros-lyrical-moveit-ros-benchmarks
+moveit_ros_control_interface:
+    ubuntu: ros-lyrical-moveit-ros-control-interface
+moveit_ros_move_group:
+    ubuntu: ros-lyrical-moveit-ros-move-group
+moveit_ros_occupancy_map_monitor:
+    ubuntu: ros-lyrical-moveit-ros-occupancy-map-monitor
+moveit_ros_perception:
+    ubuntu: ros-lyrical-moveit-ros-perception
+moveit_ros_planning:
+    ubuntu: ros-lyrical-moveit-ros-planning
+moveit_ros_planning_interface:
+    ubuntu: ros-lyrical-moveit-ros-planning-interface
+moveit_ros_robot_interaction:
+    ubuntu: ros-lyrical-moveit-ros-robot-interaction
+moveit_ros_tests:
+    ubuntu: ros-lyrical-moveit-ros-tests
+moveit_ros_trajectory_cache:
+    ubuntu: ros-lyrical-moveit-ros-trajectory-cache
+moveit_ros_visualization:
+    ubuntu: ros-lyrical-moveit-ros-visualization
+moveit_ros_warehouse:
+    ubuntu: ros-lyrical-moveit-ros-warehouse
+moveit_runtime:
+    ubuntu: ros-lyrical-moveit-runtime
+moveit_servo:
+    ubuntu: ros-lyrical-moveit-servo
+moveit_setup_app_plugins:
+    ubuntu: ros-lyrical-moveit-setup-app-plugins
+moveit_setup_assistant:
+    ubuntu: ros-lyrical-moveit-setup-assistant
+moveit_setup_controllers:
+    ubuntu: ros-lyrical-moveit-setup-controllers
+moveit_setup_core_plugins:
+    ubuntu: ros-lyrical-moveit-setup-core-plugins
+moveit_setup_framework:
+    ubuntu: ros-lyrical-moveit-setup-framework
+moveit_setup_srdf_plugins:
+    ubuntu: ros-lyrical-moveit-setup-srdf-plugins
+moveit_simple_controller_manager:
+    ubuntu: ros-lyrical-moveit-simple-controller-manager
+pilz_industrial_motion_planner:
+    ubuntu: ros-lyrical-pilz-industrial-motion-planner
+pilz_industrial_motion_planner_testutils:
+    ubuntu: ros-lyrical-pilz-industrial-motion-planner-testutils
+moveit_msgs:
+    ubuntu: ros-lyrical-moveit-msgs
+dual_arm_panda_moveit_config:
+    ubuntu: ros-lyrical-dual-arm-panda-moveit-config
+moveit_resources:
+    ubuntu: ros-lyrical-moveit-resources
+moveit_resources_fanuc_description:
+    ubuntu: ros-lyrical-moveit-resources-fanuc-description
+moveit_resources_fanuc_moveit_config:
+    ubuntu: ros-lyrical-moveit-resources-fanuc-moveit-config
+moveit_resources_panda_description:
+    ubuntu: ros-lyrical-moveit-resources-panda-description
+moveit_resources_panda_moveit_config:
+    ubuntu: ros-lyrical-moveit-resources-panda-moveit-config
+moveit_resources_pr2_description:
+    ubuntu: ros-lyrical-moveit-resources-pr2-description
+moveit_task_constructor_capabilities:
+    ubuntu: ros-lyrical-moveit-task-constructor-capabilities
+moveit_task_constructor_core:
+    ubuntu: ros-lyrical-moveit-task-constructor-core
+moveit_task_constructor_demo:
+    ubuntu: ros-lyrical-moveit-task-constructor-demo
+moveit_task_constructor_msgs:
+    ubuntu: ros-lyrical-moveit-task-constructor-msgs
+moveit_task_constructor_visualization:
+    ubuntu: ros-lyrical-moveit-task-constructor-visualization
+rviz_marker_tools:
+    ubuntu: ros-lyrical-rviz-marker-tools
+moveit_visual_tools:
+    ubuntu: ros-lyrical-moveit-visual-tools
+mp2p_icp:
+    ubuntu: ros-lyrical-mp2p-icp
+mp2p_icp_core:
+    ubuntu: ros-lyrical-mp2p-icp-core
+mp2p_icp_viz:
+    ubuntu: ros-lyrical-mp2p-icp-viz
+mp_units_vendor:
+    ubuntu: ros-lyrical-mp-units-vendor
+mqtt_client:
+    ubuntu: ros-lyrical-mqtt-client
+mqtt_client_interfaces:
+    ubuntu: ros-lyrical-mqtt-client-interfaces
+mrpt_apps_cli:
+    ubuntu: ros-lyrical-mrpt-apps-cli
+mrpt_apps_gui:
+    ubuntu: ros-lyrical-mrpt-apps-gui
+mrpt_bayes:
+    ubuntu: ros-lyrical-mrpt-bayes
+mrpt_common:
+    ubuntu: ros-lyrical-mrpt-common
+mrpt_comms:
+    ubuntu: ros-lyrical-mrpt-comms
+mrpt_config:
+    ubuntu: ros-lyrical-mrpt-config
+mrpt_containers:
+    ubuntu: ros-lyrical-mrpt-containers
+mrpt_core:
+    ubuntu: ros-lyrical-mrpt-core
+mrpt_data:
+    ubuntu: ros-lyrical-mrpt-data
+mrpt_examples_cpp:
+    ubuntu: ros-lyrical-mrpt-examples-cpp
+mrpt_expr:
+    ubuntu: ros-lyrical-mrpt-expr
+mrpt_graphs:
+    ubuntu: ros-lyrical-mrpt-graphs
+mrpt_graphslam:
+    ubuntu: ros-lyrical-mrpt-graphslam
+mrpt_gui:
+    ubuntu: ros-lyrical-mrpt-gui
+mrpt_hwdrivers:
+    ubuntu: ros-lyrical-mrpt-hwdrivers
+mrpt_img:
+    ubuntu: ros-lyrical-mrpt-img
+mrpt_imgui:
+    ubuntu: ros-lyrical-mrpt-imgui
+mrpt_imgui_vendor:
+    ubuntu: ros-lyrical-mrpt-imgui-vendor
+mrpt_io:
+    ubuntu: ros-lyrical-mrpt-io
+mrpt_kinematics:
+    ubuntu: ros-lyrical-mrpt-kinematics
+mrpt_libapps_cli:
+    ubuntu: ros-lyrical-mrpt-libapps-cli
+mrpt_libapps_gui:
+    ubuntu: ros-lyrical-mrpt-libapps-gui
+mrpt_maps:
+    ubuntu: ros-lyrical-mrpt-maps
+mrpt_math:
+    ubuntu: ros-lyrical-mrpt-math
+mrpt_nav:
+    ubuntu: ros-lyrical-mrpt-nav
+mrpt_obs:
+    ubuntu: ros-lyrical-mrpt-obs
+mrpt_opengl:
+    ubuntu: ros-lyrical-mrpt-opengl
+mrpt_poses:
+    ubuntu: ros-lyrical-mrpt-poses
+mrpt_random:
+    ubuntu: ros-lyrical-mrpt-random
+mrpt_rtti:
+    ubuntu: ros-lyrical-mrpt-rtti
+mrpt_serialization:
+    ubuntu: ros-lyrical-mrpt-serialization
+mrpt_slam:
+    ubuntu: ros-lyrical-mrpt-slam
+mrpt_system:
+    ubuntu: ros-lyrical-mrpt-system
+mrpt_tfest:
+    ubuntu: ros-lyrical-mrpt-tfest
+mrpt_topography:
+    ubuntu: ros-lyrical-mrpt-topography
+mrpt_typemeta:
+    ubuntu: ros-lyrical-mrpt-typemeta
+mrpt_viz:
+    ubuntu: ros-lyrical-mrpt-viz
+mrpt_msgs:
+    ubuntu: ros-lyrical-mrpt-msgs
+mrpt_map_server:
+    ubuntu: ros-lyrical-mrpt-map-server
+mrpt_msgs_bridge:
+    ubuntu: ros-lyrical-mrpt-msgs-bridge
+mrpt_nav_interfaces:
+    ubuntu: ros-lyrical-mrpt-nav-interfaces
+mrpt_navigation:
+    ubuntu: ros-lyrical-mrpt-navigation
+mrpt_pf_localization:
+    ubuntu: ros-lyrical-mrpt-pf-localization
+mrpt_pointcloud_pipeline:
+    ubuntu: ros-lyrical-mrpt-pointcloud-pipeline
+mrpt_reactivenav2d:
+    ubuntu: ros-lyrical-mrpt-reactivenav2d
+mrpt_tps_astar_planner:
+    ubuntu: ros-lyrical-mrpt-tps-astar-planner
+mrpt_trajectory_follower:
+    ubuntu: ros-lyrical-mrpt-trajectory-follower
+mrpt_tutorials:
+    ubuntu: ros-lyrical-mrpt-tutorials
+mrpt_path_planning:
+    ubuntu: ros-lyrical-mrpt-path-planning
+mrpt_path_planning_apps:
+    ubuntu: ros-lyrical-mrpt-path-planning-apps
+mrpt_path_planning_core:
+    ubuntu: ros-lyrical-mrpt-path-planning-core
+mrpt_apps:
+    ubuntu: ros-lyrical-mrpt-apps
+mrpt_libapps:
+    ubuntu: ros-lyrical-mrpt-libapps
+mrpt_libbase:
+    ubuntu: ros-lyrical-mrpt-libbase
+mrpt_libgui:
+    ubuntu: ros-lyrical-mrpt-libgui
+mrpt_libhwdrivers:
+    ubuntu: ros-lyrical-mrpt-libhwdrivers
+mrpt_libmaps:
+    ubuntu: ros-lyrical-mrpt-libmaps
+mrpt_libmath:
+    ubuntu: ros-lyrical-mrpt-libmath
+mrpt_libnav:
+    ubuntu: ros-lyrical-mrpt-libnav
+mrpt_libobs:
+    ubuntu: ros-lyrical-mrpt-libobs
+mrpt_libopengl:
+    ubuntu: ros-lyrical-mrpt-libopengl
+mrpt_libposes:
+    ubuntu: ros-lyrical-mrpt-libposes
+mrpt_libslam:
+    ubuntu: ros-lyrical-mrpt-libslam
+mrpt_libtclap:
+    ubuntu: ros-lyrical-mrpt-libtclap
+mrpt_libros_bridge:
+    ubuntu: ros-lyrical-mrpt-libros-bridge
+rosbag2rawlog:
+    ubuntu: ros-lyrical-rosbag2rawlog
+mrpt_generic_sensor:
+    ubuntu: ros-lyrical-mrpt-generic-sensor
+mrpt_sensor_bumblebee_stereo:
+    ubuntu: ros-lyrical-mrpt-sensor-bumblebee-stereo
+mrpt_sensor_gnss_nmea:
+    ubuntu: ros-lyrical-mrpt-sensor-gnss-nmea
+mrpt_sensor_gnss_novatel:
+    ubuntu: ros-lyrical-mrpt-sensor-gnss-novatel
+mrpt_sensor_imu_taobotics:
+    ubuntu: ros-lyrical-mrpt-sensor-imu-taobotics
+mrpt_sensorlib:
+    ubuntu: ros-lyrical-mrpt-sensorlib
+mrpt_sensors:
+    ubuntu: ros-lyrical-mrpt-sensors
+novatel_oem6_msgs:
+    ubuntu: ros-lyrical-novatel-oem6-msgs
+mrt_cmake_modules:
+    ubuntu: ros-lyrical-mrt-cmake-modules
+mujoco_3d_lidar:
+    ubuntu: ros-lyrical-mujoco-3d-lidar
+mujoco_ros2_control:
+    ubuntu: ros-lyrical-mujoco-ros2-control
+mujoco_ros2_control_demos:
+    ubuntu: ros-lyrical-mujoco-ros2-control-demos
+mujoco_ros2_control_msgs:
+    ubuntu: ros-lyrical-mujoco-ros2-control-msgs
+mujoco_ros2_control_plugins:
+    ubuntu: ros-lyrical-mujoco-ros2-control-plugins
+mujoco_vendor:
+    ubuntu: ros-lyrical-mujoco-vendor
+mvsim:
+    ubuntu: ros-lyrical-mvsim
+nanoeigenpy:
+    ubuntu: ros-lyrical-nanoeigenpy
+nanoflann_vendor:
+    ubuntu: ros-lyrical-nanoflann-vendor
+nao_button_sim:
+    ubuntu: ros-lyrical-nao-button-sim
+nao_command_msgs:
+    ubuntu: ros-lyrical-nao-command-msgs
+nao_sensor_msgs:
+    ubuntu: ros-lyrical-nao-sensor-msgs
+nao_lola:
+    ubuntu: ros-lyrical-nao-lola
+nao_lola_client:
+    ubuntu: ros-lyrical-nao-lola-client
+nao_lola_command_msgs:
+    ubuntu: ros-lyrical-nao-lola-command-msgs
+nao_lola_sensor_msgs:
+    ubuntu: ros-lyrical-nao-lola-sensor-msgs
+nav2_minimal_tb3_sim:
+    ubuntu: ros-lyrical-nav2-minimal-tb3-sim
+nav2_minimal_tb4_description:
+    ubuntu: ros-lyrical-nav2-minimal-tb4-description
+nav2_minimal_tb4_sim:
+    ubuntu: ros-lyrical-nav2-minimal-tb4-sim
+costmap_queue:
+    ubuntu: ros-lyrical-costmap-queue
+dwb_core:
+    ubuntu: ros-lyrical-dwb-core
+dwb_critics:
+    ubuntu: ros-lyrical-dwb-critics
+dwb_msgs:
+    ubuntu: ros-lyrical-dwb-msgs
+dwb_plugins:
+    ubuntu: ros-lyrical-dwb-plugins
+nav2_amcl:
+    ubuntu: ros-lyrical-nav2-amcl
+nav2_behavior_tree:
+    ubuntu: ros-lyrical-nav2-behavior-tree
+nav2_behaviors:
+    ubuntu: ros-lyrical-nav2-behaviors
+nav2_bringup:
+    ubuntu: ros-lyrical-nav2-bringup
+nav2_bt_navigator:
+    ubuntu: ros-lyrical-nav2-bt-navigator
+nav2_collision_monitor:
+    ubuntu: ros-lyrical-nav2-collision-monitor
+nav2_common:
+    ubuntu: ros-lyrical-nav2-common
+nav2_constrained_smoother:
+    ubuntu: ros-lyrical-nav2-constrained-smoother
+nav2_controller:
+    ubuntu: ros-lyrical-nav2-controller
+nav2_core:
+    ubuntu: ros-lyrical-nav2-core
+nav2_costmap_2d:
+    ubuntu: ros-lyrical-nav2-costmap-2d
+nav2_dwb_controller:
+    ubuntu: ros-lyrical-nav2-dwb-controller
+nav2_graceful_controller:
+    ubuntu: ros-lyrical-nav2-graceful-controller
+nav2_lifecycle_manager:
+    ubuntu: ros-lyrical-nav2-lifecycle-manager
+nav2_loopback_sim:
+    ubuntu: ros-lyrical-nav2-loopback-sim
+nav2_map_server:
+    ubuntu: ros-lyrical-nav2-map-server
+nav2_mppi_controller:
+    ubuntu: ros-lyrical-nav2-mppi-controller
+nav2_msgs:
+    ubuntu: ros-lyrical-nav2-msgs
+nav2_navfn_planner:
+    ubuntu: ros-lyrical-nav2-navfn-planner
+nav2_planner:
+    ubuntu: ros-lyrical-nav2-planner
+nav2_regulated_pure_pursuit_controller:
+    ubuntu: ros-lyrical-nav2-regulated-pure-pursuit-controller
+nav2_ros_common:
+    ubuntu: ros-lyrical-nav2-ros-common
+nav2_rotation_shim_controller:
+    ubuntu: ros-lyrical-nav2-rotation-shim-controller
+nav2_route:
+    ubuntu: ros-lyrical-nav2-route
+nav2_rviz_plugins:
+    ubuntu: ros-lyrical-nav2-rviz-plugins
+nav2_simple_commander:
+    ubuntu: ros-lyrical-nav2-simple-commander
+nav2_smac_planner:
+    ubuntu: ros-lyrical-nav2-smac-planner
+nav2_smoother:
+    ubuntu: ros-lyrical-nav2-smoother
+nav2_system_tests:
+    ubuntu: ros-lyrical-nav2-system-tests
+nav2_theta_star_planner:
+    ubuntu: ros-lyrical-nav2-theta-star-planner
+nav2_util:
+    ubuntu: ros-lyrical-nav2-util
+nav2_velocity_smoother:
+    ubuntu: ros-lyrical-nav2-velocity-smoother
+nav2_voxel_grid:
+    ubuntu: ros-lyrical-nav2-voxel-grid
+nav2_waypoint_follower:
+    ubuntu: ros-lyrical-nav2-waypoint-follower
+nav_2d_msgs:
+    ubuntu: ros-lyrical-nav-2d-msgs
+nav_2d_utils:
+    ubuntu: ros-lyrical-nav-2d-utils
+navigation2:
+    ubuntu: ros-lyrical-navigation2
+opennav_docking:
+    ubuntu: ros-lyrical-opennav-docking
+opennav_docking_bt:
+    ubuntu: ros-lyrical-opennav-docking-bt
+opennav_docking_core:
+    ubuntu: ros-lyrical-opennav-docking-core
+opennav_following:
+    ubuntu: ros-lyrical-opennav-following
+map_msgs:
+    ubuntu: ros-lyrical-map-msgs
+ndcurves:
+    ubuntu: ros-lyrical-ndcurves
+network_bridge:
+    ubuntu: ros-lyrical-network-bridge
+nlohmann_json_schema_validator_vendor:
+    ubuntu: ros-lyrical-nlohmann-json-schema-validator-vendor
+nmea_msgs:
+    ubuntu: ros-lyrical-nmea-msgs
+nmea_navsat_driver:
+    ubuntu: ros-lyrical-nmea-navsat-driver
+nobleo_socketcan_bridge:
+    ubuntu: ros-lyrical-nobleo-socketcan-bridge
+ament_nodl:
+    ubuntu: ros-lyrical-ament-nodl
+nodl:
+    ubuntu: ros-lyrical-nodl
+nodl_common_interfaces:
+    ubuntu: ros-lyrical-nodl-common-interfaces
+nodl_conformance:
+    ubuntu: ros-lyrical-nodl-conformance
+nodl_docgen:
+    ubuntu: ros-lyrical-nodl-docgen
+nodl_generator_cpp:
+    ubuntu: ros-lyrical-nodl-generator-cpp
+nodl_observe:
+    ubuntu: ros-lyrical-nodl-observe
+nodl_schema:
+    ubuntu: ros-lyrical-nodl-schema
+ros2nodl:
+    ubuntu: ros-lyrical-ros2nodl
+nodl_to_policy:
+    ubuntu: ros-lyrical-nodl-to-policy
+nonpersistent_voxel_layer:
+    ubuntu: ros-lyrical-nonpersistent-voxel-layer
+novatel_gps_driver:
+    ubuntu: ros-lyrical-novatel-gps-driver
+novatel_gps_msgs:
+    ubuntu: ros-lyrical-novatel-gps-msgs
+ntpd_driver:
+    ubuntu: ros-lyrical-ntpd-driver
+ntrip_client:
+    ubuntu: ros-lyrical-ntrip-client
+object_recognition_msgs:
+    ubuntu: ros-lyrical-object-recognition-msgs
+octomap_mapping:
+    ubuntu: ros-lyrical-octomap-mapping
+octomap_server:
+    ubuntu: ros-lyrical-octomap-server
+octomap_msgs:
+    ubuntu: ros-lyrical-octomap-msgs
+octomap_ros:
+    ubuntu: ros-lyrical-octomap-ros
+octomap_rviz_plugins:
+    ubuntu: ros-lyrical-octomap-rviz-plugins
+odom_to_tf_ros2:
+    ubuntu: ros-lyrical-odom-to-tf-ros2
+odri_master_board_sdk:
+    ubuntu: ros-lyrical-odri-master-board-sdk
+off_highway_can:
+    ubuntu: ros-lyrical-off-highway-can
+off_highway_general_purpose_radar:
+    ubuntu: ros-lyrical-off-highway-general-purpose-radar
+off_highway_general_purpose_radar_msgs:
+    ubuntu: ros-lyrical-off-highway-general-purpose-radar-msgs
+off_highway_mm7p10:
+    ubuntu: ros-lyrical-off-highway-mm7p10
+off_highway_mm7p10_msgs:
+    ubuntu: ros-lyrical-off-highway-mm7p10-msgs
+off_highway_premium_radar:
+    ubuntu: ros-lyrical-off-highway-premium-radar
+off_highway_premium_radar_msgs:
+    ubuntu: ros-lyrical-off-highway-premium-radar-msgs
+off_highway_premium_radar_sample:
+    ubuntu: ros-lyrical-off-highway-premium-radar-sample
+off_highway_premium_radar_sample_msgs:
+    ubuntu: ros-lyrical-off-highway-premium-radar-sample-msgs
+off_highway_radar:
+    ubuntu: ros-lyrical-off-highway-radar
+off_highway_radar_msgs:
+    ubuntu: ros-lyrical-off-highway-radar-msgs
+off_highway_sensor_drivers:
+    ubuntu: ros-lyrical-off-highway-sensor-drivers
+off_highway_sensor_drivers_examples:
+    ubuntu: ros-lyrical-off-highway-sensor-drivers-examples
+off_highway_uss:
+    ubuntu: ros-lyrical-off-highway-uss
+off_highway_uss_msgs:
+    ubuntu: ros-lyrical-off-highway-uss-msgs
+ompl:
+    ubuntu: ros-lyrical-ompl
+onnxruntime_vendor:
+    ubuntu: ros-lyrical-onnxruntime-vendor
+open3d_vendor:
+    ubuntu: ros-lyrical-open3d-vendor
+om_gravity_compensation_controller:
+    ubuntu: ros-lyrical-om-gravity-compensation-controller
+om_joint_trajectory_command_broadcaster:
+    ubuntu: ros-lyrical-om-joint-trajectory-command-broadcaster
+om_spring_actuator_controller:
+    ubuntu: ros-lyrical-om-spring-actuator-controller
+open_manipulator:
+    ubuntu: ros-lyrical-open-manipulator
+open_manipulator_bringup:
+    ubuntu: ros-lyrical-open-manipulator-bringup
+open_manipulator_collision:
+    ubuntu: ros-lyrical-open-manipulator-collision
+open_manipulator_description:
+    ubuntu: ros-lyrical-open-manipulator-description
+open_manipulator_gui:
+    ubuntu: ros-lyrical-open-manipulator-gui
+open_manipulator_moveit_config:
+    ubuntu: ros-lyrical-open-manipulator-moveit-config
+open_manipulator_playground:
+    ubuntu: ros-lyrical-open-manipulator-playground
+open_manipulator_teleop:
+    ubuntu: ros-lyrical-open-manipulator-teleop
+openeb_vendor:
+    ubuntu: ros-lyrical-openeb-vendor
+openni2_camera:
+    ubuntu: ros-lyrical-openni2-camera
+orbbec_camera:
+    ubuntu: ros-lyrical-orbbec-camera
+orbbec_camera_msgs:
+    ubuntu: ros-lyrical-orbbec-camera-msgs
+orbbec_description:
+    ubuntu: ros-lyrical-orbbec-description
+orocos_kdl_vendor:
+    ubuntu: ros-lyrical-orocos-kdl-vendor
+python_orocos_kdl_vendor:
+    ubuntu: ros-lyrical-python-orocos-kdl-vendor
+ortools_vendor:
+    ubuntu: ros-lyrical-ortools-vendor
+osqp_vendor:
+    ubuntu: ros-lyrical-osqp-vendor
+osrf_pycommon:
+    ubuntu: ros-lyrical-osrf-pycommon
+osrf_testing_tools_cpp:
+    ubuntu: ros-lyrical-osrf-testing-tools-cpp
+ouster_ros:
+    ubuntu: ros-lyrical-ouster-ros
+ouster_sensor_msgs:
+    ubuntu: ros-lyrical-ouster-sensor-msgs
+ouxt_common:
+    ubuntu: ros-lyrical-ouxt-common
+ouxt_lint_common:
+    ubuntu: ros-lyrical-ouxt-lint-common
+pal_statistics:
+    ubuntu: ros-lyrical-pal-statistics
+pal_statistics_msgs:
+    ubuntu: ros-lyrical-pal-statistics-msgs
+pal_urdf_utils:
+    ubuntu: ros-lyrical-pal-urdf-utils
+pangolin:
+    ubuntu: ros-lyrical-pangolin
+parameter_expression:
+    ubuntu: ros-lyrical-parameter-expression
+pcl_msgs:
+    ubuntu: ros-lyrical-pcl-msgs
+pcl_conversions:
+    ubuntu: ros-lyrical-pcl-conversions
+pcl_ros:
+    ubuntu: ros-lyrical-pcl-ros
+perception_pcl:
+    ubuntu: ros-lyrical-perception-pcl
+performance_test:
+    ubuntu: ros-lyrical-performance-test
+performance_test_fixture:
+    ubuntu: ros-lyrical-performance-test-fixture
+persist_parameter_server:
+    ubuntu: ros-lyrical-persist-parameter-server
+pfs:
+    ubuntu: ros-lyrical-pfs
+libphidget22:
+    ubuntu: ros-lyrical-libphidget22
+phidgets_accelerometer:
+    ubuntu: ros-lyrical-phidgets-accelerometer
+phidgets_analog_inputs:
+    ubuntu: ros-lyrical-phidgets-analog-inputs
+phidgets_analog_outputs:
+    ubuntu: ros-lyrical-phidgets-analog-outputs
+phidgets_api:
+    ubuntu: ros-lyrical-phidgets-api
+phidgets_digital_inputs:
+    ubuntu: ros-lyrical-phidgets-digital-inputs
+phidgets_digital_outputs:
+    ubuntu: ros-lyrical-phidgets-digital-outputs
+phidgets_drivers:
+    ubuntu: ros-lyrical-phidgets-drivers
+phidgets_gyroscope:
+    ubuntu: ros-lyrical-phidgets-gyroscope
+phidgets_high_speed_encoder:
+    ubuntu: ros-lyrical-phidgets-high-speed-encoder
+phidgets_ik:
+    ubuntu: ros-lyrical-phidgets-ik
+phidgets_magnetometer:
+    ubuntu: ros-lyrical-phidgets-magnetometer
+phidgets_motors:
+    ubuntu: ros-lyrical-phidgets-motors
+phidgets_msgs:
+    ubuntu: ros-lyrical-phidgets-msgs
+phidgets_spatial:
+    ubuntu: ros-lyrical-phidgets-spatial
+phidgets_stepper:
+    ubuntu: ros-lyrical-phidgets-stepper
+phidgets_temperature:
+    ubuntu: ros-lyrical-phidgets-temperature
+pick_ik:
+    ubuntu: ros-lyrical-pick-ik
+picknik_ament_copyright:
+    ubuntu: ros-lyrical-picknik-ament-copyright
+picknik_reset_fault_controller:
+    ubuntu: ros-lyrical-picknik-reset-fault-controller
+picknik_twist_controller:
+    ubuntu: ros-lyrical-picknik-twist-controller
+pinocchio:
+    ubuntu: ros-lyrical-pinocchio
+play_motion2:
+    ubuntu: ros-lyrical-play-motion2
+play_motion2_cli:
+    ubuntu: ros-lyrical-play-motion2-cli
+play_motion2_msgs:
+    ubuntu: ros-lyrical-play-motion2-msgs
+play_motion_builder:
+    ubuntu: ros-lyrical-play-motion-builder
+play_motion_builder_msgs:
+    ubuntu: ros-lyrical-play-motion-builder-msgs
+rqt_play_motion_builder:
+    ubuntu: ros-lyrical-rqt-play-motion-builder
+plotjuggler:
+    ubuntu: ros-lyrical-plotjuggler
+plotjuggler_msgs:
+    ubuntu: ros-lyrical-plotjuggler-msgs
+plotjuggler_ros:
+    ubuntu: ros-lyrical-plotjuggler-ros
+pluginlib:
+    ubuntu: ros-lyrical-pluginlib
+ros2plugin:
+    ubuntu: ros-lyrical-ros2plugin
+point_cloud_msg_wrapper:
+    ubuntu: ros-lyrical-point-cloud-msg-wrapper
+point_cloud_transport:
+    ubuntu: ros-lyrical-point-cloud-transport
+point_cloud_transport_py:
+    ubuntu: ros-lyrical-point-cloud-transport-py
+draco_point_cloud_transport:
+    ubuntu: ros-lyrical-draco-point-cloud-transport
+point_cloud_interfaces:
+    ubuntu: ros-lyrical-point-cloud-interfaces
+point_cloud_transport_plugins:
+    ubuntu: ros-lyrical-point-cloud-transport-plugins
+zlib_point_cloud_transport:
+    ubuntu: ros-lyrical-zlib-point-cloud-transport
+zstd_point_cloud_transport:
+    ubuntu: ros-lyrical-zstd-point-cloud-transport
+point_cloud_transport_tutorial:
+    ubuntu: ros-lyrical-point-cloud-transport-tutorial
+pointcloud_conversions:
+    ubuntu: ros-lyrical-pointcloud-conversions
+pointcloud_to_laserscan:
+    ubuntu: ros-lyrical-pointcloud-to-laserscan
+polygon_demos:
+    ubuntu: ros-lyrical-polygon-demos
+polygon_msgs:
+    ubuntu: ros-lyrical-polygon-msgs
+polygon_rviz_plugins:
+    ubuntu: ros-lyrical-polygon-rviz-plugins
+polygon_utils:
+    ubuntu: ros-lyrical-polygon-utils
+popf:
+    ubuntu: ros-lyrical-popf
+pose_cov_ops:
+    ubuntu: ros-lyrical-pose-cov-ops
+protobuf_comm:
+    ubuntu: ros-lyrical-protobuf-comm
+proxsuite:
+    ubuntu: ros-lyrical-proxsuite
+py_binding_tools:
+    ubuntu: ros-lyrical-py-binding-tools
+py_trees:
+    ubuntu: ros-lyrical-py-trees
+py_trees_js:
+    ubuntu: ros-lyrical-py-trees-js
+py_trees_ros:
+    ubuntu: ros-lyrical-py-trees-ros
+py_trees_ros_interfaces:
+    ubuntu: ros-lyrical-py-trees-ros-interfaces
+py_trees_ros_tutorials:
+    ubuntu: ros-lyrical-py-trees-ros-tutorials
+py_trees_ros_viewer:
+    ubuntu: ros-lyrical-py-trees-ros-viewer
+pybind11_json_vendor:
+    ubuntu: ros-lyrical-pybind11-json-vendor
+pybind11_vendor:
+    ubuntu: ros-lyrical-pybind11-vendor
+pymoveit2:
+    ubuntu: ros-lyrical-pymoveit2
+python_cmake_module:
+    ubuntu: ros-lyrical-python-cmake-module
+python_mrpt:
+    ubuntu: ros-lyrical-python-mrpt
+python_qt_binding:
+    ubuntu: ros-lyrical-python-qt-binding
+qml6_ros2_plugin:
+    ubuntu: ros-lyrical-qml6-ros2-plugin
+qml_ros2_plugin:
+    ubuntu: ros-lyrical-qml-ros2-plugin
+qpoases_vendor:
+    ubuntu: ros-lyrical-qpoases-vendor
+qt_dotgraph:
+    ubuntu: ros-lyrical-qt-dotgraph
+qt_gui:
+    ubuntu: ros-lyrical-qt-gui
+qt_gui_app:
+    ubuntu: ros-lyrical-qt-gui-app
+qt_gui_core:
+    ubuntu: ros-lyrical-qt-gui-core
+qt_gui_cpp:
+    ubuntu: ros-lyrical-qt-gui-cpp
+qt_gui_py_common:
+    ubuntu: ros-lyrical-qt-gui-py-common
+r2r_spl_7:
+    ubuntu: ros-lyrical-r2r-spl-7
+splsm_7:
+    ubuntu: ros-lyrical-splsm-7
+splsm_7_conversion:
+    ubuntu: ros-lyrical-splsm-7-conversion
+radar_msgs:
+    ubuntu: ros-lyrical-radar-msgs
+random_numbers:
+    ubuntu: ros-lyrical-random-numbers
+raspimouse:
+    ubuntu: ros-lyrical-raspimouse
+raspimouse_msgs:
+    ubuntu: ros-lyrical-raspimouse-msgs
+rc_common_msgs:
+    ubuntu: ros-lyrical-rc-common-msgs
+rc_dynamics_api:
+    ubuntu: ros-lyrical-rc-dynamics-api
+rc_genicam_api:
+    ubuntu: ros-lyrical-rc-genicam-api
+rc_genicam_driver:
+    ubuntu: ros-lyrical-rc-genicam-driver
+rc_reason_clients:
+    ubuntu: ros-lyrical-rc-reason-clients
+rc_reason_msgs:
+    ubuntu: ros-lyrical-rc-reason-msgs
+rcdiscover:
+    ubuntu: ros-lyrical-rcdiscover
+rcl:
+    ubuntu: ros-lyrical-rcl
+rcl_action:
+    ubuntu: ros-lyrical-rcl-action
+rcl_lifecycle:
+    ubuntu: ros-lyrical-rcl-lifecycle
+rcl_yaml_param_parser:
+    ubuntu: ros-lyrical-rcl-yaml-param-parser
+action_msgs:
+    ubuntu: ros-lyrical-action-msgs
+builtin_interfaces:
+    ubuntu: ros-lyrical-builtin-interfaces
+composition_interfaces:
+    ubuntu: ros-lyrical-composition-interfaces
+lifecycle_msgs:
+    ubuntu: ros-lyrical-lifecycle-msgs
+rcl_interfaces:
+    ubuntu: ros-lyrical-rcl-interfaces
+rosgraph_msgs:
+    ubuntu: ros-lyrical-rosgraph-msgs
+service_msgs:
+    ubuntu: ros-lyrical-service-msgs
+statistics_msgs:
+    ubuntu: ros-lyrical-statistics-msgs
+test_msgs:
+    ubuntu: ros-lyrical-test-msgs
+type_description_interfaces:
+    ubuntu: ros-lyrical-type-description-interfaces
+rcl_logging_implementation:
+    ubuntu: ros-lyrical-rcl-logging-implementation
+rcl_logging_interface:
+    ubuntu: ros-lyrical-rcl-logging-interface
+rcl_logging_noop:
+    ubuntu: ros-lyrical-rcl-logging-noop
+rcl_logging_spdlog:
+    ubuntu: ros-lyrical-rcl-logging-spdlog
+rcl_logging_syslog:
+    ubuntu: ros-lyrical-rcl-logging-syslog
+rclc:
+    ubuntu: ros-lyrical-rclc
+rclc_examples:
+    ubuntu: ros-lyrical-rclc-examples
+rclc_lifecycle:
+    ubuntu: ros-lyrical-rclc-lifecycle
+rclc_parameter:
+    ubuntu: ros-lyrical-rclc-parameter
+rclcpp:
+    ubuntu: ros-lyrical-rclcpp
+rclcpp_action:
+    ubuntu: ros-lyrical-rclcpp-action
+rclcpp_components:
+    ubuntu: ros-lyrical-rclcpp-components
+rclcpp_lifecycle:
+    ubuntu: ros-lyrical-rclcpp-lifecycle
+rclpy:
+    ubuntu: ros-lyrical-rclpy
+rcpputils:
+    ubuntu: ros-lyrical-rcpputils
+rcss3d_agent:
+    ubuntu: ros-lyrical-rcss3d-agent
+rcss3d_agent_basic:
+    ubuntu: ros-lyrical-rcss3d-agent-basic
+rcss3d_agent_msgs:
+    ubuntu: ros-lyrical-rcss3d-agent-msgs
+rcss3d_agent_msgs_to_soccer_interfaces:
+    ubuntu: ros-lyrical-rcss3d-agent-msgs-to-soccer-interfaces
+rcss3d_nao:
+    ubuntu: ros-lyrical-rcss3d-nao
+rcutils:
+    ubuntu: ros-lyrical-rcutils
+realsense2_camera:
+    ubuntu: ros-lyrical-realsense2-camera
+realsense2_camera_msgs:
+    ubuntu: ros-lyrical-realsense2-camera-msgs
+realsense2_description:
+    ubuntu: ros-lyrical-realsense2-description
+rttest:
+    ubuntu: ros-lyrical-rttest
+tlsf_cpp:
+    ubuntu: ros-lyrical-tlsf-cpp
+realtime_tools:
+    ubuntu: ros-lyrical-realtime-tools
+reduct_bridge:
+    ubuntu: ros-lyrical-reduct-bridge
+reductstore_agent:
+    ubuntu: ros-lyrical-reductstore-agent
+replay_testing:
+    ubuntu: ros-lyrical-replay-testing
+resource_retriever:
+    ubuntu: ros-lyrical-resource-retriever
+resource_retriever_interfaces:
+    ubuntu: ros-lyrical-resource-retriever-interfaces
+resource_retriever_service:
+    ubuntu: ros-lyrical-resource-retriever-service
+resource_retriever_service_plugin:
+    ubuntu: ros-lyrical-resource-retriever-service-plugin
+rig_reconfigure:
+    ubuntu: ros-lyrical-rig-reconfigure
+rko_lio:
+    ubuntu: ros-lyrical-rko-lio
+rko_slam:
+    ubuntu: ros-lyrical-rko-slam
+rmf_api_msgs:
+    ubuntu: ros-lyrical-rmf-api-msgs
+rmf_battery:
+    ubuntu: ros-lyrical-rmf-battery
+rmf_building_map_msgs:
+    ubuntu: ros-lyrical-rmf-building-map-msgs
+rmf_cmake_uncrustify:
+    ubuntu: ros-lyrical-rmf-cmake-uncrustify
+rmf_demos:
+    ubuntu: ros-lyrical-rmf-demos
+rmf_demos_assets:
+    ubuntu: ros-lyrical-rmf-demos-assets
+rmf_demos_bridges:
+    ubuntu: ros-lyrical-rmf-demos-bridges
+rmf_demos_fleet_adapter:
+    ubuntu: ros-lyrical-rmf-demos-fleet-adapter
+rmf_demos_gz:
+    ubuntu: ros-lyrical-rmf-demos-gz
+rmf_demos_maps:
+    ubuntu: ros-lyrical-rmf-demos-maps
+rmf_demos_tasks:
+    ubuntu: ros-lyrical-rmf-demos-tasks
+rmf_charger_msgs:
+    ubuntu: ros-lyrical-rmf-charger-msgs
+rmf_dispenser_msgs:
+    ubuntu: ros-lyrical-rmf-dispenser-msgs
+rmf_door_msgs:
+    ubuntu: ros-lyrical-rmf-door-msgs
+rmf_fleet_msgs:
+    ubuntu: ros-lyrical-rmf-fleet-msgs
+rmf_ingestor_msgs:
+    ubuntu: ros-lyrical-rmf-ingestor-msgs
+rmf_lift_msgs:
+    ubuntu: ros-lyrical-rmf-lift-msgs
+rmf_obstacle_msgs:
+    ubuntu: ros-lyrical-rmf-obstacle-msgs
+rmf_reservation_msgs:
+    ubuntu: ros-lyrical-rmf-reservation-msgs
+rmf_scheduler_msgs:
+    ubuntu: ros-lyrical-rmf-scheduler-msgs
+rmf_site_map_msgs:
+    ubuntu: ros-lyrical-rmf-site-map-msgs
+rmf_task_msgs:
+    ubuntu: ros-lyrical-rmf-task-msgs
+rmf_traffic_msgs:
+    ubuntu: ros-lyrical-rmf-traffic-msgs
+rmf_workcell_msgs:
+    ubuntu: ros-lyrical-rmf-workcell-msgs
+rmf_charging_schedule:
+    ubuntu: ros-lyrical-rmf-charging-schedule
+rmf_fleet_adapter:
+    ubuntu: ros-lyrical-rmf-fleet-adapter
+rmf_fleet_adapter_python:
+    ubuntu: ros-lyrical-rmf-fleet-adapter-python
+rmf_reservation_node:
+    ubuntu: ros-lyrical-rmf-reservation-node
+rmf_task_ros2:
+    ubuntu: ros-lyrical-rmf-task-ros2
+rmf_traffic_ros2:
+    ubuntu: ros-lyrical-rmf-traffic-ros2
+rmf_websocket:
+    ubuntu: ros-lyrical-rmf-websocket
+rmf_building_sim_gz_plugins:
+    ubuntu: ros-lyrical-rmf-building-sim-gz-plugins
+rmf_robot_sim_common:
+    ubuntu: ros-lyrical-rmf-robot-sim-common
+rmf_robot_sim_gz_plugins:
+    ubuntu: ros-lyrical-rmf-robot-sim-gz-plugins
+rmf_task:
+    ubuntu: ros-lyrical-rmf-task
+rmf_task_sequence:
+    ubuntu: ros-lyrical-rmf-task-sequence
+rmf_traffic:
+    ubuntu: ros-lyrical-rmf-traffic
+rmf_traffic_examples:
+    ubuntu: ros-lyrical-rmf-traffic-examples
+rmf_building_map_tools:
+    ubuntu: ros-lyrical-rmf-building-map-tools
+rmf_traffic_editor:
+    ubuntu: ros-lyrical-rmf-traffic-editor
+rmf_traffic_editor_assets:
+    ubuntu: ros-lyrical-rmf-traffic-editor-assets
+rmf_traffic_editor_test_maps:
+    ubuntu: ros-lyrical-rmf-traffic-editor-test-maps
+rmf_utils:
+    ubuntu: ros-lyrical-rmf-utils
+rmf_visualization:
+    ubuntu: ros-lyrical-rmf-visualization
+rmf_visualization_building_systems:
+    ubuntu: ros-lyrical-rmf-visualization-building-systems
+rmf_visualization_fleet_states:
+    ubuntu: ros-lyrical-rmf-visualization-fleet-states
+rmf_visualization_floorplans:
+    ubuntu: ros-lyrical-rmf-visualization-floorplans
+rmf_visualization_navgraphs:
+    ubuntu: ros-lyrical-rmf-visualization-navgraphs
+rmf_visualization_obstacles:
+    ubuntu: ros-lyrical-rmf-visualization-obstacles
+rmf_visualization_rviz2_plugins:
+    ubuntu: ros-lyrical-rmf-visualization-rviz2-plugins
+rmf_visualization_schedule:
+    ubuntu: ros-lyrical-rmf-visualization-schedule
+rmf_visualization_msgs:
+    ubuntu: ros-lyrical-rmf-visualization-msgs
+rmw:
+    ubuntu: ros-lyrical-rmw
+rmw_implementation_cmake:
+    ubuntu: ros-lyrical-rmw-implementation-cmake
+rmw_security_common:
+    ubuntu: ros-lyrical-rmw-security-common
+rmw_connextdds:
+    ubuntu: ros-lyrical-rmw-connextdds
+rmw_connextdds_common:
+    ubuntu: ros-lyrical-rmw-connextdds-common
+rti_connext_dds_cmake_module:
+    ubuntu: ros-lyrical-rti-connext-dds-cmake-module
+rmw_cyclonedds_cpp:
+    ubuntu: ros-lyrical-rmw-cyclonedds-cpp
+rmw_dds_common:
+    ubuntu: ros-lyrical-rmw-dds-common
+rmw_desert:
+    ubuntu: ros-lyrical-rmw-desert
+rmw_fastrtps_cpp:
+    ubuntu: ros-lyrical-rmw-fastrtps-cpp
+rmw_fastrtps_dynamic_cpp:
+    ubuntu: ros-lyrical-rmw-fastrtps-dynamic-cpp
+rmw_fastrtps_shared_cpp:
+    ubuntu: ros-lyrical-rmw-fastrtps-shared-cpp
+gurumdds_cmake_module:
+    ubuntu: ros-lyrical-gurumdds-cmake-module
+rmw_gurumdds_cpp:
+    ubuntu: ros-lyrical-rmw-gurumdds-cpp
+rmw_implementation:
+    ubuntu: ros-lyrical-rmw-implementation
+int2dds_ffi_vendor:
+    ubuntu: ros-lyrical-int2dds-ffi-vendor
+rmw_int2dds_cpp:
+    ubuntu: ros-lyrical-rmw-int2dds-cpp
+rmw_zenoh_cpp:
+    ubuntu: ros-lyrical-rmw-zenoh-cpp
+zenoh_cpp_vendor:
+    ubuntu: ros-lyrical-zenoh-cpp-vendor
+zenoh_security_tools:
+    ubuntu: ros-lyrical-zenoh-security-tools
+roboplan:
+    ubuntu: ros-lyrical-roboplan
+roboplan_cartesian_planning:
+    ubuntu: ros-lyrical-roboplan-cartesian-planning
+roboplan_common:
+    ubuntu: ros-lyrical-roboplan-common
+roboplan_core:
+    ubuntu: ros-lyrical-roboplan-core
+roboplan_example_models:
+    ubuntu: ros-lyrical-roboplan-example-models
+roboplan_examples:
+    ubuntu: ros-lyrical-roboplan-examples
+roboplan_oink:
+    ubuntu: ros-lyrical-roboplan-oink
+roboplan_rrt:
+    ubuntu: ros-lyrical-roboplan-rrt
+roboplan_simple_ik:
+    ubuntu: ros-lyrical-roboplan-simple-ik
+roboplan_toppra:
+    ubuntu: ros-lyrical-roboplan-toppra
+roboplan_ros_cpp:
+    ubuntu: ros-lyrical-roboplan-ros-cpp
+roboplan_ros_examples:
+    ubuntu: ros-lyrical-roboplan-ros-examples
+roboplan_ros_franka:
+    ubuntu: ros-lyrical-roboplan-ros-franka
+roboplan_ros_py:
+    ubuntu: ros-lyrical-roboplan-ros-py
+roboplan_ros_visualization:
+    ubuntu: ros-lyrical-roboplan-ros-visualization
+robot_calibration:
+    ubuntu: ros-lyrical-robot-calibration
+robot_calibration_msgs:
+    ubuntu: ros-lyrical-robot-calibration-msgs
+robot_localization:
+    ubuntu: ros-lyrical-robot-localization
+robot_state_publisher:
+    ubuntu: ros-lyrical-robot-state-publisher
+robotis_interfaces:
+    ubuntu: ros-lyrical-robotis-interfaces
+robotraconteur:
+    ubuntu: ros-lyrical-robotraconteur
+robotraconteur_companion:
+    ubuntu: ros-lyrical-robotraconteur-companion
+robstride_driver:
+    ubuntu: ros-lyrical-robstride-driver
+robstride_examples:
+    ubuntu: ros-lyrical-robstride-examples
+robstride_ros2:
+    ubuntu: ros-lyrical-robstride-ros2
+robstride_ros2_control:
+    ubuntu: ros-lyrical-robstride-ros2-control
+canopen:
+    ubuntu: ros-lyrical-canopen
+canopen_402_driver:
+    ubuntu: ros-lyrical-canopen-402-driver
+canopen_base_driver:
+    ubuntu: ros-lyrical-canopen-base-driver
+canopen_core:
+    ubuntu: ros-lyrical-canopen-core
+canopen_fake_slaves:
+    ubuntu: ros-lyrical-canopen-fake-slaves
+canopen_interfaces:
+    ubuntu: ros-lyrical-canopen-interfaces
+canopen_master_driver:
+    ubuntu: ros-lyrical-canopen-master-driver
+canopen_proxy_driver:
+    ubuntu: ros-lyrical-canopen-proxy-driver
+canopen_ros2_control:
+    ubuntu: ros-lyrical-canopen-ros2-control
+canopen_ros2_controllers:
+    ubuntu: ros-lyrical-canopen-ros2-controllers
+canopen_tests:
+    ubuntu: ros-lyrical-canopen-tests
+canopen_utils:
+    ubuntu: ros-lyrical-canopen-utils
+lely_core_libraries:
+    ubuntu: ros-lyrical-lely-core-libraries
+controller_interface:
+    ubuntu: ros-lyrical-controller-interface
+controller_manager:
+    ubuntu: ros-lyrical-controller-manager
+controller_manager_msgs:
+    ubuntu: ros-lyrical-controller-manager-msgs
+hardware_interface:
+    ubuntu: ros-lyrical-hardware-interface
+hardware_interface_testing:
+    ubuntu: ros-lyrical-hardware-interface-testing
+joint_limits:
+    ubuntu: ros-lyrical-joint-limits
+ros2_control:
+    ubuntu: ros-lyrical-ros2-control
+ros2_control_test_assets:
+    ubuntu: ros-lyrical-ros2-control-test-assets
+ros2controlcli:
+    ubuntu: ros-lyrical-ros2controlcli
+rqt_controller_manager:
+    ubuntu: ros-lyrical-rqt-controller-manager
+transmission_interface:
+    ubuntu: ros-lyrical-transmission-interface
+ros2_control_cmake:
+    ubuntu: ros-lyrical-ros2-control-cmake
+ackermann_steering_controller:
+    ubuntu: ros-lyrical-ackermann-steering-controller
+admittance_controller:
+    ubuntu: ros-lyrical-admittance-controller
+battery_state_broadcaster:
+    ubuntu: ros-lyrical-battery-state-broadcaster
+bicycle_steering_controller:
+    ubuntu: ros-lyrical-bicycle-steering-controller
+chained_filter_controller:
+    ubuntu: ros-lyrical-chained-filter-controller
+diff_drive_controller:
+    ubuntu: ros-lyrical-diff-drive-controller
+force_torque_sensor_broadcaster:
+    ubuntu: ros-lyrical-force-torque-sensor-broadcaster
+forward_command_controller:
+    ubuntu: ros-lyrical-forward-command-controller
+gpio_controllers:
+    ubuntu: ros-lyrical-gpio-controllers
+gps_sensor_broadcaster:
+    ubuntu: ros-lyrical-gps-sensor-broadcaster
+imu_sensor_broadcaster:
+    ubuntu: ros-lyrical-imu-sensor-broadcaster
+joint_state_broadcaster:
+    ubuntu: ros-lyrical-joint-state-broadcaster
+joint_trajectory_controller:
+    ubuntu: ros-lyrical-joint-trajectory-controller
+magnetometer_broadcaster:
+    ubuntu: ros-lyrical-magnetometer-broadcaster
+mecanum_drive_controller:
+    ubuntu: ros-lyrical-mecanum-drive-controller
+motion_primitives_controllers:
+    ubuntu: ros-lyrical-motion-primitives-controllers
+omni_wheel_drive_controller:
+    ubuntu: ros-lyrical-omni-wheel-drive-controller
+parallel_gripper_controller:
+    ubuntu: ros-lyrical-parallel-gripper-controller
+pid_controller:
+    ubuntu: ros-lyrical-pid-controller
+pose_broadcaster:
+    ubuntu: ros-lyrical-pose-broadcaster
+range_sensor_broadcaster:
+    ubuntu: ros-lyrical-range-sensor-broadcaster
+ros2_controllers:
+    ubuntu: ros-lyrical-ros2-controllers
+ros2_controllers_test_nodes:
+    ubuntu: ros-lyrical-ros2-controllers-test-nodes
+rqt_joint_trajectory_controller:
+    ubuntu: ros-lyrical-rqt-joint-trajectory-controller
+state_interfaces_broadcaster:
+    ubuntu: ros-lyrical-state-interfaces-broadcaster
+steering_controllers_library:
+    ubuntu: ros-lyrical-steering-controllers-library
+tricycle_controller:
+    ubuntu: ros-lyrical-tricycle-controller
+tricycle_steering_controller:
+    ubuntu: ros-lyrical-tricycle-steering-controller
+ros2_fmt_logger:
+    ubuntu: ros-lyrical-ros2-fmt-logger
+kinova_gen3_6dof_robotiq_2f_85_moveit_config:
+    ubuntu: ros-lyrical-kinova-gen3-6dof-robotiq-2f-85-moveit-config
+kinova_gen3_7dof_robotiq_2f_85_moveit_config:
+    ubuntu: ros-lyrical-kinova-gen3-7dof-robotiq-2f-85-moveit-config
+kinova_gen3_lite_moveit_config:
+    ubuntu: ros-lyrical-kinova-gen3-lite-moveit-config
+kortex_api:
+    ubuntu: ros-lyrical-kortex-api
+kortex_bringup:
+    ubuntu: ros-lyrical-kortex-bringup
+kortex_description:
+    ubuntu: ros-lyrical-kortex-description
+kortex_driver:
+    ubuntu: ros-lyrical-kortex-driver
+ros2_medkit_action_status_bridge:
+    ubuntu: ros-lyrical-ros2-medkit-action-status-bridge
+ros2_medkit_beacon_common:
+    ubuntu: ros-lyrical-ros2-medkit-beacon-common
+ros2_medkit_cmake:
+    ubuntu: ros-lyrical-ros2-medkit-cmake
+ros2_medkit_diagnostic_bridge:
+    ubuntu: ros-lyrical-ros2-medkit-diagnostic-bridge
+ros2_medkit_fault_manager:
+    ubuntu: ros-lyrical-ros2-medkit-fault-manager
+ros2_medkit_fault_reporter:
+    ubuntu: ros-lyrical-ros2-medkit-fault-reporter
+ros2_medkit_gateway:
+    ubuntu: ros-lyrical-ros2-medkit-gateway
+ros2_medkit_graph_provider:
+    ubuntu: ros-lyrical-ros2-medkit-graph-provider
+ros2_medkit_integration_tests:
+    ubuntu: ros-lyrical-ros2-medkit-integration-tests
+ros2_medkit_linux_introspection:
+    ubuntu: ros-lyrical-ros2-medkit-linux-introspection
+ros2_medkit_log_bridge:
+    ubuntu: ros-lyrical-ros2-medkit-log-bridge
+ros2_medkit_msgs:
+    ubuntu: ros-lyrical-ros2-medkit-msgs
+ros2_medkit_param_beacon:
+    ubuntu: ros-lyrical-ros2-medkit-param-beacon
+ros2_medkit_serialization:
+    ubuntu: ros-lyrical-ros2-medkit-serialization
+ros2_medkit_sovd_service_interface:
+    ubuntu: ros-lyrical-ros2-medkit-sovd-service-interface
+ros2_medkit_topic_beacon:
+    ubuntu: ros-lyrical-ros2-medkit-topic-beacon
+plansys2:
+    ubuntu: ros-lyrical-plansys2
+plansys2_bringup:
+    ubuntu: ros-lyrical-plansys2-bringup
+plansys2_bt_actions:
+    ubuntu: ros-lyrical-plansys2-bt-actions
+plansys2_core:
+    ubuntu: ros-lyrical-plansys2-core
+plansys2_domain_expert:
+    ubuntu: ros-lyrical-plansys2-domain-expert
+plansys2_executor:
+    ubuntu: ros-lyrical-plansys2-executor
+plansys2_kairos_plan_solver:
+    ubuntu: ros-lyrical-plansys2-kairos-plan-solver
+plansys2_lifecycle_manager:
+    ubuntu: ros-lyrical-plansys2-lifecycle-manager
+plansys2_msgs:
+    ubuntu: ros-lyrical-plansys2-msgs
+plansys2_pddl_parser:
+    ubuntu: ros-lyrical-plansys2-pddl-parser
+plansys2_planner:
+    ubuntu: ros-lyrical-plansys2-planner
+plansys2_popf_plan_solver:
+    ubuntu: ros-lyrical-plansys2-popf-plan-solver
+plansys2_problem_expert:
+    ubuntu: ros-lyrical-plansys2-problem-expert
+plansys2_support_py:
+    ubuntu: ros-lyrical-plansys2-support-py
+plansys2_terminal:
+    ubuntu: ros-lyrical-plansys2-terminal
+plansys2_tools:
+    ubuntu: ros-lyrical-plansys2-tools
+plansys2_tui_cli:
+    ubuntu: ros-lyrical-plansys2-tui-cli
+ros2_pulse:
+    ubuntu: ros-lyrical-ros2-pulse
+robotiq_controllers:
+    ubuntu: ros-lyrical-robotiq-controllers
+robotiq_description:
+    ubuntu: ros-lyrical-robotiq-description
+ros2_snapshot:
+    ubuntu: ros-lyrical-ros2-snapshot
+ros2_socketcan:
+    ubuntu: ros-lyrical-ros2-socketcan
+ros2_socketcan_msgs:
+    ubuntu: ros-lyrical-ros2-socketcan-msgs
+lttngpy:
+    ubuntu: ros-lyrical-lttngpy
+ros2trace:
+    ubuntu: ros-lyrical-ros2trace
+tracetools:
+    ubuntu: ros-lyrical-tracetools
+tracetools_launch:
+    ubuntu: ros-lyrical-tracetools-launch
+tracetools_read:
+    ubuntu: ros-lyrical-tracetools-read
+tracetools_test:
+    ubuntu: ros-lyrical-tracetools-test
+tracetools_trace:
+    ubuntu: ros-lyrical-tracetools-trace
+ros2acceleration:
+    ubuntu: ros-lyrical-ros2acceleration
+ros2ai:
+    ubuntu: ros-lyrical-ros2ai
+ros2action:
+    ubuntu: ros-lyrical-ros2action
+ros2cli:
+    ubuntu: ros-lyrical-ros2cli
+ros2cli_test_interfaces:
+    ubuntu: ros-lyrical-ros2cli-test-interfaces
+ros2component:
+    ubuntu: ros-lyrical-ros2component
+ros2doctor:
+    ubuntu: ros-lyrical-ros2doctor
+ros2interface:
+    ubuntu: ros-lyrical-ros2interface
+ros2lifecycle:
+    ubuntu: ros-lyrical-ros2lifecycle
+ros2lifecycle_test_fixtures:
+    ubuntu: ros-lyrical-ros2lifecycle-test-fixtures
+ros2multicast:
+    ubuntu: ros-lyrical-ros2multicast
+ros2node:
+    ubuntu: ros-lyrical-ros2node
+ros2param:
+    ubuntu: ros-lyrical-ros2param
+ros2pkg:
+    ubuntu: ros-lyrical-ros2pkg
+ros2run:
+    ubuntu: ros-lyrical-ros2run
+ros2service:
+    ubuntu: ros-lyrical-ros2service
+ros2topic:
+    ubuntu: ros-lyrical-ros2topic
+ros2cli_common_extensions:
+    ubuntu: ros-lyrical-ros2cli-common-extensions
+ros2launch_security:
+    ubuntu: ros-lyrical-ros2launch-security
+ros2launch_security_examples:
+    ubuntu: ros-lyrical-ros2launch-security-examples
+ros_babel_fish:
+    ubuntu: ros-lyrical-ros-babel-fish
+ros_babel_fish_test_msgs:
+    ubuntu: ros-lyrical-ros-babel-fish-test-msgs
+ros_babel_fish_tools:
+    ubuntu: ros-lyrical-ros-babel-fish-tools
+battery_state_rviz_overlay:
+    ubuntu: ros-lyrical-battery-state-rviz-overlay
+can_msgs:
+    ubuntu: ros-lyrical-can-msgs
+ros_environment:
+    ubuntu: ros-lyrical-ros-environment
+ros_gz:
+    ubuntu: ros-lyrical-ros-gz
+ros_gz_bridge:
+    ubuntu: ros-lyrical-ros-gz-bridge
+ros_gz_image:
+    ubuntu: ros-lyrical-ros-gz-image
+ros_gz_interfaces:
+    ubuntu: ros-lyrical-ros-gz-interfaces
+ros_gz_sim:
+    ubuntu: ros-lyrical-ros-gz-sim
+ros_gz_sim_demos:
+    ubuntu: ros-lyrical-ros-gz-sim-demos
+ros_image_to_qimage:
+    ubuntu: ros-lyrical-ros-image-to-qimage
+ros_industrial_cmake_boilerplate:
+    ubuntu: ros-lyrical-ros-industrial-cmake-boilerplate
+ros_snapd_interfaces:
+    ubuntu: ros-lyrical-ros-snapd-interfaces
+ros2test:
+    ubuntu: ros-lyrical-ros2test
+ros_testing:
+    ubuntu: ros-lyrical-ros-testing
+turtlesim:
+    ubuntu: ros-lyrical-turtlesim
+turtlesim_msgs:
+    ubuntu: ros-lyrical-turtlesim-msgs
+ros_workspace:
+    ubuntu: ros-lyrical-ros-workspace
+lz4_cmake_module:
+    ubuntu: ros-lyrical-lz4-cmake-module
+mcap_vendor:
+    ubuntu: ros-lyrical-mcap-vendor
+ros2bag:
+    ubuntu: ros-lyrical-ros2bag
+rosbag2:
+    ubuntu: ros-lyrical-rosbag2
+rosbag2_compression:
+    ubuntu: ros-lyrical-rosbag2-compression
+rosbag2_compression_zstd:
+    ubuntu: ros-lyrical-rosbag2-compression-zstd
+rosbag2_cpp:
+    ubuntu: ros-lyrical-rosbag2-cpp
+rosbag2_examples_cpp:
+    ubuntu: ros-lyrical-rosbag2-examples-cpp
+rosbag2_examples_py:
+    ubuntu: ros-lyrical-rosbag2-examples-py
+rosbag2_interfaces:
+    ubuntu: ros-lyrical-rosbag2-interfaces
+rosbag2_performance_benchmarking:
+    ubuntu: ros-lyrical-rosbag2-performance-benchmarking
+rosbag2_performance_benchmarking_msgs:
+    ubuntu: ros-lyrical-rosbag2-performance-benchmarking-msgs
+rosbag2_py:
+    ubuntu: ros-lyrical-rosbag2-py
+rosbag2_storage:
+    ubuntu: ros-lyrical-rosbag2-storage
+rosbag2_storage_default_plugins:
+    ubuntu: ros-lyrical-rosbag2-storage-default-plugins
+rosbag2_storage_mcap:
+    ubuntu: ros-lyrical-rosbag2-storage-mcap
+rosbag2_storage_sqlite3:
+    ubuntu: ros-lyrical-rosbag2-storage-sqlite3
+rosbag2_test_common:
+    ubuntu: ros-lyrical-rosbag2-test-common
+rosbag2_test_msgdefs:
+    ubuntu: ros-lyrical-rosbag2-test-msgdefs
+rosbag2_tests:
+    ubuntu: ros-lyrical-rosbag2-tests
+rosbag2_transport:
+    ubuntu: ros-lyrical-rosbag2-transport
+zstd_cmake_module:
+    ubuntu: ros-lyrical-zstd-cmake-module
+broll:
+    ubuntu: ros-lyrical-broll
+rosbag2_storage_broll:
+    ubuntu: ros-lyrical-rosbag2-storage-broll
+rosbag2_to_video:
+    ubuntu: ros-lyrical-rosbag2-to-video
+rosbag_timing_inspector:
+    ubuntu: ros-lyrical-rosbag-timing-inspector
+rosapi:
+    ubuntu: ros-lyrical-rosapi
+rosapi_msgs:
+    ubuntu: ros-lyrical-rosapi-msgs
+rosbridge_library:
+    ubuntu: ros-lyrical-rosbridge-library
+rosbridge_msgs:
+    ubuntu: ros-lyrical-rosbridge-msgs
+rosbridge_server:
+    ubuntu: ros-lyrical-rosbridge-server
+rosbridge_suite:
+    ubuntu: ros-lyrical-rosbridge-suite
+rosbridge_test_msgs:
+    ubuntu: ros-lyrical-rosbridge-test-msgs
+rosidl_adapter:
+    ubuntu: ros-lyrical-rosidl-adapter
+rosidl_buffer:
+    ubuntu: ros-lyrical-rosidl-buffer
+rosidl_buffer_backend:
+    ubuntu: ros-lyrical-rosidl-buffer-backend
+rosidl_buffer_backend_registry:
+    ubuntu: ros-lyrical-rosidl-buffer-backend-registry
+rosidl_buffer_py:
+    ubuntu: ros-lyrical-rosidl-buffer-py
+rosidl_cli:
+    ubuntu: ros-lyrical-rosidl-cli
+rosidl_cmake:
+    ubuntu: ros-lyrical-rosidl-cmake
+rosidl_generator_c:
+    ubuntu: ros-lyrical-rosidl-generator-c
+rosidl_generator_cpp:
+    ubuntu: ros-lyrical-rosidl-generator-cpp
+rosidl_generator_type_description:
+    ubuntu: ros-lyrical-rosidl-generator-type-description
+rosidl_parser:
+    ubuntu: ros-lyrical-rosidl-parser
+rosidl_pycommon:
+    ubuntu: ros-lyrical-rosidl-pycommon
+rosidl_runtime_c:
+    ubuntu: ros-lyrical-rosidl-runtime-c
+rosidl_runtime_cpp:
+    ubuntu: ros-lyrical-rosidl-runtime-cpp
+rosidl_typesupport_interface:
+    ubuntu: ros-lyrical-rosidl-typesupport-interface
+rosidl_typesupport_introspection_c:
+    ubuntu: ros-lyrical-rosidl-typesupport-introspection-c
+rosidl_typesupport_introspection_cpp:
+    ubuntu: ros-lyrical-rosidl-typesupport-introspection-cpp
+cuda_buffer:
+    ubuntu: ros-lyrical-cuda-buffer
+cuda_buffer_backend:
+    ubuntu: ros-lyrical-cuda-buffer-backend
+cuda_buffer_backend_msgs:
+    ubuntu: ros-lyrical-cuda-buffer-backend-msgs
+libtorch_vendor:
+    ubuntu: ros-lyrical-libtorch-vendor
+tensor_msgs:
+    ubuntu: ros-lyrical-tensor-msgs
+torch_conversions:
+    ubuntu: ros-lyrical-torch-conversions
+robot_arm_demo:
+    ubuntu: ros-lyrical-robot-arm-demo
+rosidl_core_generators:
+    ubuntu: ros-lyrical-rosidl-core-generators
+rosidl_core_runtime:
+    ubuntu: ros-lyrical-rosidl-core-runtime
+rosidl_generator_dds_idl:
+    ubuntu: ros-lyrical-rosidl-generator-dds-idl
+rosidl_default_generators:
+    ubuntu: ros-lyrical-rosidl-default-generators
+rosidl_default_runtime:
+    ubuntu: ros-lyrical-rosidl-default-runtime
+rosidl_dynamic_typesupport:
+    ubuntu: ros-lyrical-rosidl-dynamic-typesupport
+rosidl_dynamic_typesupport_fastrtps:
+    ubuntu: ros-lyrical-rosidl-dynamic-typesupport-fastrtps
+rosidl_generator_py:
+    ubuntu: ros-lyrical-rosidl-generator-py
+rosidl_runtime_py:
+    ubuntu: ros-lyrical-rosidl-runtime-py
+rosidl_generator_rs:
+    ubuntu: ros-lyrical-rosidl-generator-rs
+rosidl_typesupport_c:
+    ubuntu: ros-lyrical-rosidl-typesupport-c
+rosidl_typesupport_cpp:
+    ubuntu: ros-lyrical-rosidl-typesupport-cpp
+rosidl_typesupport_fastrtps_c:
+    ubuntu: ros-lyrical-rosidl-typesupport-fastrtps-c
+rosidl_typesupport_fastrtps_cpp:
+    ubuntu: ros-lyrical-rosidl-typesupport-fastrtps-cpp
+rosidlcpp:
+    ubuntu: ros-lyrical-rosidlcpp
+rosidlcpp_generator_c:
+    ubuntu: ros-lyrical-rosidlcpp-generator-c
+rosidlcpp_generator_core:
+    ubuntu: ros-lyrical-rosidlcpp-generator-core
+rosidlcpp_generator_cpp:
+    ubuntu: ros-lyrical-rosidlcpp-generator-cpp
+rosidlcpp_generator_py:
+    ubuntu: ros-lyrical-rosidlcpp-generator-py
+rosidlcpp_generator_type_description:
+    ubuntu: ros-lyrical-rosidlcpp-generator-type-description
+rosidlcpp_parser:
+    ubuntu: ros-lyrical-rosidlcpp-parser
+rosidlcpp_typesupport_c:
+    ubuntu: ros-lyrical-rosidlcpp-typesupport-c
+rosidlcpp_typesupport_cpp:
+    ubuntu: ros-lyrical-rosidlcpp-typesupport-cpp
+rosidlcpp_typesupport_fastrtps_c:
+    ubuntu: ros-lyrical-rosidlcpp-typesupport-fastrtps-c
+rosidlcpp_typesupport_fastrtps_cpp:
+    ubuntu: ros-lyrical-rosidlcpp-typesupport-fastrtps-cpp
+rosidlcpp_typesupport_introspection_c:
+    ubuntu: ros-lyrical-rosidlcpp-typesupport-introspection-c
+rosidlcpp_typesupport_introspection_cpp:
+    ubuntu: ros-lyrical-rosidlcpp-typesupport-introspection-cpp
+rclpy_message_converter:
+    ubuntu: ros-lyrical-rclpy-message-converter
+rclpy_message_converter_msgs:
+    ubuntu: ros-lyrical-rclpy-message-converter-msgs
+rosx_introspection:
+    ubuntu: ros-lyrical-rosx-introspection
+rot_conv:
+    ubuntu: ros-lyrical-rot-conv
+rplidar_driver:
+    ubuntu: ros-lyrical-rplidar-driver
+rplidar_ros:
+    ubuntu: ros-lyrical-rplidar-ros
+rpyutils:
+    ubuntu: ros-lyrical-rpyutils
+rqml:
+    ubuntu: ros-lyrical-rqml
+rqml_core:
+    ubuntu: ros-lyrical-rqml-core
+rqml_default_plugins:
+    ubuntu: ros-lyrical-rqml-default-plugins
+rqml_plugin_example:
+    ubuntu: ros-lyrical-rqml-plugin-example
+rqt:
+    ubuntu: ros-lyrical-rqt
+rqt_gui:
+    ubuntu: ros-lyrical-rqt-gui
+rqt_gui_cpp:
+    ubuntu: ros-lyrical-rqt-gui-cpp
+rqt_gui_py:
+    ubuntu: ros-lyrical-rqt-gui-py
+rqt_py_common:
+    ubuntu: ros-lyrical-rqt-py-common
+rqt_action:
+    ubuntu: ros-lyrical-rqt-action
+rqt_bag:
+    ubuntu: ros-lyrical-rqt-bag
+rqt_bag_plugins:
+    ubuntu: ros-lyrical-rqt-bag-plugins
+rqt_common_plugins:
+    ubuntu: ros-lyrical-rqt-common-plugins
+rqt_console:
+    ubuntu: ros-lyrical-rqt-console
+rqt_dotgraph:
+    ubuntu: ros-lyrical-rqt-dotgraph
+rqt_gauges:
+    ubuntu: ros-lyrical-rqt-gauges
+rqt_graph:
+    ubuntu: ros-lyrical-rqt-graph
+rqt_image_overlay:
+    ubuntu: ros-lyrical-rqt-image-overlay
+rqt_image_overlay_layer:
+    ubuntu: ros-lyrical-rqt-image-overlay-layer
+rqt_image_view:
+    ubuntu: ros-lyrical-rqt-image-view
+rqt_moveit:
+    ubuntu: ros-lyrical-rqt-moveit
+rqt_msg:
+    ubuntu: ros-lyrical-rqt-msg
+rqt_multiplot:
+    ubuntu: ros-lyrical-rqt-multiplot
+rqt_plot:
+    ubuntu: ros-lyrical-rqt-plot
+rqt_publisher:
+    ubuntu: ros-lyrical-rqt-publisher
+rqt_py_console:
+    ubuntu: ros-lyrical-rqt-py-console
+rqt_reconfigure:
+    ubuntu: ros-lyrical-rqt-reconfigure
+rqt_robot_dashboard:
+    ubuntu: ros-lyrical-rqt-robot-dashboard
+rqt_robot_monitor:
+    ubuntu: ros-lyrical-rqt-robot-monitor
+rqt_robot_steering:
+    ubuntu: ros-lyrical-rqt-robot-steering
+rqt_runtime_monitor:
+    ubuntu: ros-lyrical-rqt-runtime-monitor
+rqt_service_caller:
+    ubuntu: ros-lyrical-rqt-service-caller
+rqt_shell:
+    ubuntu: ros-lyrical-rqt-shell
+rqt_srv:
+    ubuntu: ros-lyrical-rqt-srv
+rqt_tf_tree:
+    ubuntu: ros-lyrical-rqt-tf-tree
+rqt_topic:
+    ubuntu: ros-lyrical-rqt-topic
+rsl:
+    ubuntu: ros-lyrical-rsl
+rslidar_msg:
+    ubuntu: ros-lyrical-rslidar-msg
+rt_manipulators_cpp:
+    ubuntu: ros-lyrical-rt-manipulators-cpp
+rt_manipulators_examples:
+    ubuntu: ros-lyrical-rt-manipulators-examples
+rt_usb_9axisimu_driver:
+    ubuntu: ros-lyrical-rt-usb-9axisimu-driver
+rtabmap:
+    ubuntu: ros-lyrical-rtabmap
+rtabmap_conversions:
+    ubuntu: ros-lyrical-rtabmap-conversions
+rtabmap_costmap_plugins:
+    ubuntu: ros-lyrical-rtabmap-costmap-plugins
+rtabmap_demos:
+    ubuntu: ros-lyrical-rtabmap-demos
+rtabmap_examples:
+    ubuntu: ros-lyrical-rtabmap-examples
+rtabmap_launch:
+    ubuntu: ros-lyrical-rtabmap-launch
+rtabmap_msgs:
+    ubuntu: ros-lyrical-rtabmap-msgs
+rtabmap_odom:
+    ubuntu: ros-lyrical-rtabmap-odom
+rtabmap_python:
+    ubuntu: ros-lyrical-rtabmap-python
+rtabmap_ros:
+    ubuntu: ros-lyrical-rtabmap-ros
+rtabmap_rviz_plugins:
+    ubuntu: ros-lyrical-rtabmap-rviz-plugins
+rtabmap_slam:
+    ubuntu: ros-lyrical-rtabmap-slam
+rtabmap_sync:
+    ubuntu: ros-lyrical-rtabmap-sync
+rtabmap_util:
+    ubuntu: ros-lyrical-rtabmap-util
+rtabmap_viz:
+    ubuntu: ros-lyrical-rtabmap-viz
+rtcm_msgs:
+    ubuntu: ros-lyrical-rtcm-msgs
+rtest:
+    ubuntu: ros-lyrical-rtest
+rtsp_image_transport:
+    ubuntu: ros-lyrical-rtsp-image-transport
+ruckig:
+    ubuntu: ros-lyrical-ruckig
+rviz2:
+    ubuntu: ros-lyrical-rviz2
+rviz_common:
+    ubuntu: ros-lyrical-rviz-common
+rviz_default_plugins:
+    ubuntu: ros-lyrical-rviz-default-plugins
+rviz_ogre_vendor:
+    ubuntu: ros-lyrical-rviz-ogre-vendor
+rviz_rendering:
+    ubuntu: ros-lyrical-rviz-rendering
+rviz_rendering_tests:
+    ubuntu: ros-lyrical-rviz-rendering-tests
+rviz_visual_testing_framework:
+    ubuntu: ros-lyrical-rviz-visual-testing-framework
+rviz_2d_overlay_msgs:
+    ubuntu: ros-lyrical-rviz-2d-overlay-msgs
+rviz_2d_overlay_plugins:
+    ubuntu: ros-lyrical-rviz-2d-overlay-plugins
+rviz_satellite:
+    ubuntu: ros-lyrical-rviz-satellite
+rviz_visual_tools:
+    ubuntu: ros-lyrical-rviz-visual-tools
+sbg_driver:
+    ubuntu: ros-lyrical-sbg-driver
+scenario_execution:
+    ubuntu: ros-lyrical-scenario-execution
+scenario_execution_control:
+    ubuntu: ros-lyrical-scenario-execution-control
+scenario_execution_coverage:
+    ubuntu: ros-lyrical-scenario-execution-coverage
+scenario_execution_dataops:
+    ubuntu: ros-lyrical-scenario-execution-dataops
+scenario_execution_gazebo:
+    ubuntu: ros-lyrical-scenario-execution-gazebo
+scenario_execution_interfaces:
+    ubuntu: ros-lyrical-scenario-execution-interfaces
+scenario_execution_nav2:
+    ubuntu: ros-lyrical-scenario-execution-nav2
+scenario_execution_network:
+    ubuntu: ros-lyrical-scenario-execution-network
+scenario_execution_os:
+    ubuntu: ros-lyrical-scenario-execution-os
+scenario_execution_ros:
+    ubuntu: ros-lyrical-scenario-execution-ros
+scenario_execution_rviz:
+    ubuntu: ros-lyrical-scenario-execution-rviz
+scenario_execution_sim:
+    ubuntu: ros-lyrical-scenario-execution-sim
+scenario_execution_x11:
+    ubuntu: ros-lyrical-scenario-execution-x11
+sdformat_test_files:
+    ubuntu: ros-lyrical-sdformat-test-files
+sdformat_urdf:
+    ubuntu: ros-lyrical-sdformat-urdf
+sdformat_vendor:
+    ubuntu: ros-lyrical-sdformat-vendor
+septentrio_gnss_driver:
+    ubuntu: ros-lyrical-septentrio-gnss-driver
+service_load_balancing:
+    ubuntu: ros-lyrical-service-load-balancing
+sick_safetyscanners2:
+    ubuntu: ros-lyrical-sick-safetyscanners2
+sick_safetyscanners2_interfaces:
+    ubuntu: ros-lyrical-sick-safetyscanners2-interfaces
+sick_safetyscanners_base:
+    ubuntu: ros-lyrical-sick-safetyscanners-base
+sick_safevisionary_base:
+    ubuntu: ros-lyrical-sick-safevisionary-base
+sick_safevisionary_driver:
+    ubuntu: ros-lyrical-sick-safevisionary-driver
+sick_safevisionary_interfaces:
+    ubuntu: ros-lyrical-sick-safevisionary-interfaces
+sick_safevisionary_tests:
+    ubuntu: ros-lyrical-sick-safevisionary-tests
+sick_scan_xd:
+    ubuntu: ros-lyrical-sick-scan-xd
+sicks300_ros2:
+    ubuntu: ros-lyrical-sicks300-ros2
+simple_actions:
+    ubuntu: ros-lyrical-simple-actions
+simple_grasping:
+    ubuntu: ros-lyrical-simple-grasping
+simple_launch:
+    ubuntu: ros-lyrical-simple-launch
+simple_term_menu_vendor:
+    ubuntu: ros-lyrical-simple-term-menu-vendor
+simulation_interfaces:
+    ubuntu: ros-lyrical-simulation-interfaces
+slam_toolbox:
+    ubuntu: ros-lyrical-slam-toolbox
+slg_msgs:
+    ubuntu: ros-lyrical-slg-msgs
+slider_publisher:
+    ubuntu: ros-lyrical-slider-publisher
+executive_smach:
+    ubuntu: ros-lyrical-executive-smach
+smach:
+    ubuntu: ros-lyrical-smach
+smach_msgs:
+    ubuntu: ros-lyrical-smach-msgs
+smach_ros:
+    ubuntu: ros-lyrical-smach-ros
+snowbot_operating_system:
+    ubuntu: ros-lyrical-snowbot-operating-system
+soccer_geometry_msgs:
+    ubuntu: ros-lyrical-soccer-geometry-msgs
+soccer_interfaces:
+    ubuntu: ros-lyrical-soccer-interfaces
+soccer_model_msgs:
+    ubuntu: ros-lyrical-soccer-model-msgs
+soccer_vision_2d_msgs:
+    ubuntu: ros-lyrical-soccer-vision-2d-msgs
+soccer_vision_3d_msgs:
+    ubuntu: ros-lyrical-soccer-vision-3d-msgs
+soccer_vision_attribute_msgs:
+    ubuntu: ros-lyrical-soccer-vision-attribute-msgs
+soccer_vision_3d_rviz_markers:
+    ubuntu: ros-lyrical-soccer-vision-3d-rviz-markers
+sol_vendor:
+    ubuntu: ros-lyrical-sol-vendor
+sophus:
+    ubuntu: ros-lyrical-sophus
+openvdb_vendor:
+    ubuntu: ros-lyrical-openvdb-vendor
+spatio_temporal_voxel_layer:
+    ubuntu: ros-lyrical-spatio-temporal-voxel-layer
+spdlog_vendor:
+    ubuntu: ros-lyrical-spdlog-vendor
+srdfdom:
+    ubuntu: ros-lyrical-srdfdom
+sros2:
+    ubuntu: ros-lyrical-sros2
+sros2_cmake:
+    ubuntu: ros-lyrical-sros2-cmake
+steering_functions:
+    ubuntu: ros-lyrical-steering-functions
+stomp:
+    ubuntu: ros-lyrical-stomp
+swri_console:
+    ubuntu: ros-lyrical-swri-console
+sync_tooling_msgs:
+    ubuntu: ros-lyrical-sync-tooling-msgs
+system_fingerprint:
+    ubuntu: ros-lyrical-system-fingerprint
+launch_system_modes:
+    ubuntu: ros-lyrical-launch-system-modes
+system_modes:
+    ubuntu: ros-lyrical-system-modes
+system_modes_examples:
+    ubuntu: ros-lyrical-system-modes-examples
+system_modes_msgs:
+    ubuntu: ros-lyrical-system-modes-msgs
+system_webview:
+    ubuntu: ros-lyrical-system-webview
+tango_icons_vendor:
+    ubuntu: ros-lyrical-tango-icons-vendor
+joy_teleop:
+    ubuntu: ros-lyrical-joy-teleop
+key_teleop:
+    ubuntu: ros-lyrical-key-teleop
+mouse_teleop:
+    ubuntu: ros-lyrical-mouse-teleop
+teleop_tools:
+    ubuntu: ros-lyrical-teleop-tools
+teleop_tools_msgs:
+    ubuntu: ros-lyrical-teleop-tools-msgs
+teleop_twist_joy:
+    ubuntu: ros-lyrical-teleop-twist-joy
+teleop_twist_keyboard:
+    ubuntu: ros-lyrical-teleop-twist-keyboard
+tensorrt_cmake_module:
+    ubuntu: ros-lyrical-tensorrt-cmake-module
+test_interface_files:
+    ubuntu: ros-lyrical-test-interface-files
+tf2_2d:
+    ubuntu: ros-lyrical-tf2-2d
+tf2_web_republisher:
+    ubuntu: ros-lyrical-tf2-web-republisher
+tf2_web_republisher_interfaces:
+    ubuntu: ros-lyrical-tf2-web-republisher-interfaces
+tf_transformations:
+    ubuntu: ros-lyrical-tf-transformations
+tf_tree_terminal:
+    ubuntu: ros-lyrical-tf-tree-terminal
+tinyspline_vendor:
+    ubuntu: ros-lyrical-tinyspline-vendor
+tinyxml2_vendor:
+    ubuntu: ros-lyrical-tinyxml2-vendor
+tinyxml_vendor:
+    ubuntu: ros-lyrical-tinyxml-vendor
+tlsf:
+    ubuntu: ros-lyrical-tlsf
+cm_topic_hardware_component:
+    ubuntu: ros-lyrical-cm-topic-hardware-component
+joint_command_topic_hardware_interface:
+    ubuntu: ros-lyrical-joint-command-topic-hardware-interface
+joint_state_topic_hardware_interface:
+    ubuntu: ros-lyrical-joint-state-topic-hardware-interface
+topic_tools:
+    ubuntu: ros-lyrical-topic-tools
+topic_tools_interfaces:
+    ubuntu: ros-lyrical-topic-tools-interfaces
+toppra:
+    ubuntu: ros-lyrical-toppra
+trac_ik:
+    ubuntu: ros-lyrical-trac-ik
+trac_ik_kinematics_plugin:
+    ubuntu: ros-lyrical-trac-ik-kinematics-plugin
+trac_ik_lib:
+    ubuntu: ros-lyrical-trac-ik-lib
+tracetools_acceleration:
+    ubuntu: ros-lyrical-tracetools-acceleration
+ros2trace_analysis:
+    ubuntu: ros-lyrical-ros2trace-analysis
+tracetools_analysis:
+    ubuntu: ros-lyrical-tracetools-analysis
+asio_cmake_module:
+    ubuntu: ros-lyrical-asio-cmake-module
+io_context:
+    ubuntu: ros-lyrical-io-context
+serial_driver:
+    ubuntu: ros-lyrical-serial-driver
+udp_driver:
+    ubuntu: ros-lyrical-udp-driver
+trimble_driver:
+    ubuntu: ros-lyrical-trimble-driver
+trimble_gsof_msgs:
+    ubuntu: ros-lyrical-trimble-gsof-msgs
+trimble_interfaces:
+    ubuntu: ros-lyrical-trimble-interfaces
+tsid:
+    ubuntu: ros-lyrical-tsid
+turbojpeg_compressed_image_transport:
+    ubuntu: ros-lyrical-turbojpeg-compressed-image-transport
+turtle_nest:
+    ubuntu: ros-lyrical-turtle-nest
+turtlebot3_applications_msgs:
+    ubuntu: ros-lyrical-turtlebot3-applications-msgs
+turtlebot3_autorace:
+    ubuntu: ros-lyrical-turtlebot3-autorace
+turtlebot3_autorace_camera:
+    ubuntu: ros-lyrical-turtlebot3-autorace-camera
+turtlebot3_autorace_detect:
+    ubuntu: ros-lyrical-turtlebot3-autorace-detect
+turtlebot3_autorace_mission:
+    ubuntu: ros-lyrical-turtlebot3-autorace-mission
+turtlebot3_msgs:
+    ubuntu: ros-lyrical-turtlebot3-msgs
+turtlebot3_fake_node:
+    ubuntu: ros-lyrical-turtlebot3-fake-node
+turtlebot3_gazebo:
+    ubuntu: ros-lyrical-turtlebot3-gazebo
+turtlebot3_simulations:
+    ubuntu: ros-lyrical-turtlebot3-simulations
+tuw_geometry:
+    ubuntu: ros-lyrical-tuw-geometry
+tuw_airskin_msgs:
+    ubuntu: ros-lyrical-tuw-airskin-msgs
+tuw_geo_msgs:
+    ubuntu: ros-lyrical-tuw-geo-msgs
+tuw_geometry_msgs:
+    ubuntu: ros-lyrical-tuw-geometry-msgs
+tuw_graph_msgs:
+    ubuntu: ros-lyrical-tuw-graph-msgs
+tuw_msgs:
+    ubuntu: ros-lyrical-tuw-msgs
+tuw_multi_robot_msgs:
+    ubuntu: ros-lyrical-tuw-multi-robot-msgs
+tuw_nav_msgs:
+    ubuntu: ros-lyrical-tuw-nav-msgs
+tuw_object_map_msgs:
+    ubuntu: ros-lyrical-tuw-object-map-msgs
+tuw_object_msgs:
+    ubuntu: ros-lyrical-tuw-object-msgs
+tuw_std_msgs:
+    ubuntu: ros-lyrical-tuw-std-msgs
+tvm_vendor:
+    ubuntu: ros-lyrical-tvm-vendor
+twist_mux:
+    ubuntu: ros-lyrical-twist-mux
+twist_mux_msgs:
+    ubuntu: ros-lyrical-twist-mux-msgs
+twist_stamper:
+    ubuntu: ros-lyrical-twist-stamper
+ublox:
+    ubuntu: ros-lyrical-ublox
+ublox_gps:
+    ubuntu: ros-lyrical-ublox-gps
+ublox_msgs:
+    ubuntu: ros-lyrical-ublox-msgs
+ublox_serialization:
+    ubuntu: ros-lyrical-ublox-serialization
+ntrip_client_node:
+    ubuntu: ros-lyrical-ntrip-client-node
+ublox_dgnss:
+    ubuntu: ros-lyrical-ublox-dgnss
+ublox_dgnss_node:
+    ubuntu: ros-lyrical-ublox-dgnss-node
+ublox_nav_sat_fix_hp_node:
+    ubuntu: ros-lyrical-ublox-nav-sat-fix-hp-node
+ublox_ubx_interfaces:
+    ubuntu: ros-lyrical-ublox-ubx-interfaces
+ublox_ubx_msgs:
+    ubuntu: ros-lyrical-ublox-ubx-msgs
+udp_msgs:
+    ubuntu: ros-lyrical-udp-msgs
+unbag:
+    ubuntu: ros-lyrical-unbag
+uncrustify_vendor:
+    ubuntu: ros-lyrical-uncrustify-vendor
+unique_identifier_msgs:
+    ubuntu: ros-lyrical-unique-identifier-msgs
+ur_client_library:
+    ubuntu: ros-lyrical-ur-client-library
+ur_description:
+    ubuntu: ros-lyrical-ur-description
+ur_msgs:
+    ubuntu: ros-lyrical-ur-msgs
+ur:
+    ubuntu: ros-lyrical-ur
+ur_calibration:
+    ubuntu: ros-lyrical-ur-calibration
+ur_controllers:
+    ubuntu: ros-lyrical-ur-controllers
+ur_dashboard_msgs:
+    ubuntu: ros-lyrical-ur-dashboard-msgs
+ur_moveit_config:
+    ubuntu: ros-lyrical-ur-moveit-config
+ur_robot_driver:
+    ubuntu: ros-lyrical-ur-robot-driver
+ur_simulation_gz:
+    ubuntu: ros-lyrical-ur-simulation-gz
+urdf:
+    ubuntu: ros-lyrical-urdf
+urdf_parser_plugin:
+    ubuntu: ros-lyrical-urdf-parser-plugin
+urdf_launch:
+    ubuntu: ros-lyrical-urdf-launch
+urdfdom_py:
+    ubuntu: ros-lyrical-urdfdom-py
+urdf_test:
+    ubuntu: ros-lyrical-urdf-test
+urdf_tutorial:
+    ubuntu: ros-lyrical-urdf-tutorial
+urdfdom:
+    ubuntu: ros-lyrical-urdfdom
+urdfdom_headers:
+    ubuntu: ros-lyrical-urdfdom-headers
+urg_c:
+    ubuntu: ros-lyrical-urg-c
+urg_node:
+    ubuntu: ros-lyrical-urg-node
+urg_node_msgs:
+    ubuntu: ros-lyrical-urg-node-msgs
+usb_cam:
+    ubuntu: ros-lyrical-usb-cam
+v4l2_camera:
+    ubuntu: ros-lyrical-v4l2-camera
+desktop:
+    ubuntu: ros-lyrical-desktop
+desktop_full:
+    ubuntu: ros-lyrical-desktop-full
+perception:
+    ubuntu: ros-lyrical-perception
+ros_base:
+    ubuntu: ros-lyrical-ros-base
+ros_core:
+    ubuntu: ros-lyrical-ros-core
+simulation:
+    ubuntu: ros-lyrical-simulation
+velodyne:
+    ubuntu: ros-lyrical-velodyne
+velodyne_driver:
+    ubuntu: ros-lyrical-velodyne-driver
+velodyne_laserscan:
+    ubuntu: ros-lyrical-velodyne-laserscan
+velodyne_msgs:
+    ubuntu: ros-lyrical-velodyne-msgs
+velodyne_pointcloud:
+    ubuntu: ros-lyrical-velodyne-pointcloud
+video_to_image_msg_publisher:
+    ubuntu: ros-lyrical-video-to-image-msg-publisher
+vision_msgs:
+    ubuntu: ros-lyrical-vision-msgs
+vision_msgs_rviz_plugins:
+    ubuntu: ros-lyrical-vision-msgs-rviz-plugins
+vision_msgs_layers:
+    ubuntu: ros-lyrical-vision-msgs-layers
+cv_bridge:
+    ubuntu: ros-lyrical-cv-bridge
+image_geometry:
+    ubuntu: ros-lyrical-image-geometry
+vision_opencv:
+    ubuntu: ros-lyrical-vision-opencv
+visp:
+    ubuntu: ros-lyrical-visp
+vitis_common:
+    ubuntu: ros-lyrical-vitis-common
+vrpn:
+    ubuntu: ros-lyrical-vrpn
+vrpn_mocap:
+    ubuntu: ros-lyrical-vrpn-mocap
+warehouse_ros:
+    ubuntu: ros-lyrical-warehouse-ros
+warehouse_ros_sqlite:
+    ubuntu: ros-lyrical-warehouse-ros-sqlite
+web_video_server:
+    ubuntu: ros-lyrical-web-video-server
+webots_ros2:
+    ubuntu: ros-lyrical-webots-ros2
+webots_ros2_control:
+    ubuntu: ros-lyrical-webots-ros2-control
+webots_ros2_crazyflie:
+    ubuntu: ros-lyrical-webots-ros2-crazyflie
+webots_ros2_driver:
+    ubuntu: ros-lyrical-webots-ros2-driver
+webots_ros2_epuck:
+    ubuntu: ros-lyrical-webots-ros2-epuck
+webots_ros2_husarion:
+    ubuntu: ros-lyrical-webots-ros2-husarion
+webots_ros2_importer:
+    ubuntu: ros-lyrical-webots-ros2-importer
+webots_ros2_mavic:
+    ubuntu: ros-lyrical-webots-ros2-mavic
+webots_ros2_msgs:
+    ubuntu: ros-lyrical-webots-ros2-msgs
+webots_ros2_tesla:
+    ubuntu: ros-lyrical-webots-ros2-tesla
+webots_ros2_tests:
+    ubuntu: ros-lyrical-webots-ros2-tests
+webots_ros2_tiago:
+    ubuntu: ros-lyrical-webots-ros2-tiago
+webots_ros2_turtlebot:
+    ubuntu: ros-lyrical-webots-ros2-turtlebot
+webots_ros2_universal_robot:
+    ubuntu: ros-lyrical-webots-ros2-universal-robot
+wireless_msgs:
+    ubuntu: ros-lyrical-wireless-msgs
+wireless_watcher:
+    ubuntu: ros-lyrical-wireless-watcher
+wuji_hand2_1_description:
+    ubuntu: ros-lyrical-wuji-hand2-1-description
+wuji_hand2_2_description:
+    ubuntu: ros-lyrical-wuji-hand2-2-description
+wuji_bringup:
+    ubuntu: ros-lyrical-wuji-bringup
+wuji_glove_driver:
+    ubuntu: ros-lyrical-wuji-glove-driver
+wuji_hand2_driver:
+    ubuntu: ros-lyrical-wuji-hand2-driver
+wuji_msgs:
+    ubuntu: ros-lyrical-wuji-msgs
+wuji_sdk_vendor:
+    ubuntu: ros-lyrical-wuji-sdk-vendor
+wuji_tools:
+    ubuntu: ros-lyrical-wuji-tools
+xacro:
+    ubuntu: ros-lyrical-xacro
+yaets:
+    ubuntu: ros-lyrical-yaets
+yaml_cpp_vendor:
+    ubuntu: ros-lyrical-yaml-cpp-vendor
+yasmin:
+    ubuntu: ros-lyrical-yasmin
+yasmin_cli:
+    ubuntu: ros-lyrical-yasmin-cli
+yasmin_demos:
+    ubuntu: ros-lyrical-yasmin-demos
+yasmin_editor:
+    ubuntu: ros-lyrical-yasmin-editor
+yasmin_factory:
+    ubuntu: ros-lyrical-yasmin-factory
+yasmin_msgs:
+    ubuntu: ros-lyrical-yasmin-msgs
+yasmin_pcl:
+    ubuntu: ros-lyrical-yasmin-pcl
+yasmin_plugins_manager:
+    ubuntu: ros-lyrical-yasmin-plugins-manager
+yasmin_ros:
+    ubuntu: ros-lyrical-yasmin-ros
+yasmin_viewer:
+    ubuntu: ros-lyrical-yasmin-viewer
+zbar_ros:
+    ubuntu: ros-lyrical-zbar-ros
+zbar_ros_interfaces:
+    ubuntu: ros-lyrical-zbar-ros-interfaces
+zed_description:
+    ubuntu: ros-lyrical-zed-description
+zed_msgs:
+    ubuntu: ros-lyrical-zed-msgs
+zenoh_bridge_dds:
+    ubuntu: ros-lyrical-zenoh-bridge-dds
+zmqpp_vendor:
+    ubuntu: ros-lyrical-zmqpp-vendor
